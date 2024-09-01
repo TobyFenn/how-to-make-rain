@@ -1,5 +1,4 @@
 site_name: How to Make Rain
-# site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
 theme:
   favicon: img/favicon.ico
   name: material
@@ -27,3 +26,10 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: lime
+
+nav:
+  - Home: index.md
+  - Seeding: seeding.md
+  - Meteorology: meteorology.md
+  - Scientific Canon: scientific_canon.md
+  - Impact: impact.md
