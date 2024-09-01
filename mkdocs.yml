@@ -1,6 +1,7 @@
 site_name: How to Make Rain
 # site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
 theme:
+  favicon: img/favicon.ico
   name: material
   features:
     - navigation.tabs
