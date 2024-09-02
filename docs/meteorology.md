@@ -1,5 +1,117 @@
 # Meteorology 
 
+94.9% of the quantity of water of various forms on Earth is found in the oceans. 0.001% of Earth's total water can be found in the atmosphere in the form of water vapor. However, in absolute terms, this is still a huge amount -- this entitles each person to several thousand tons of their own water. This atmosopheric vapor has the potential to be harnessed.
+
+Nuclei are important and are the reason clouds form.
+
+Supersaturation of water vapor occurs when the relative humidity exceeds 100%.
+
+Nuclei provide surfaces for water vapor to condense upon, facilitating droplet formation in supersaturated conditions.
+
+Natural nuclei include sea salt, dust, and organic particles. Anthropogenic nuclei are human-made particles such as industrial emissions or smoke.
+
+A cloud is a visible aggregate of minute water droplets or ice crystals suspended in the atmosphere.
+
+Cloud drops and raindrops differ primarily in size, with larger radii correlating to faster fall speeds and longer survival before evaporation.
+
+Condensation is the process by which water vapor molecules aggregate to form liquid water.
+
+Relative humidity increases as air cools. At 100%, saturation occurs, establishing an equilibrium between evaporation and condensation rates.
+
+At saturation, the pressure is called the saturation vapor pressure. The vapor pressure of air saturated with water vapor depends only on the temperature of the air. As the temperature rises, the saturation vapor pressure increases.
+
+The point in the cooling process at whivh condensation begins is called the dew point. It occurs when the relative humidity reaches 100%. The temperature of the air at which condensation begins is called the dew point temperature.
+
+In the atmosphere, relative humidities rarely exceed 101%, and even those 1% supersaturations occur only in very strong updrafts in thunderstorms. So how then can cloud droplets form?
+
+Because the tendency of very tiny droplets to evaporate is counteracted by the affinity of certain substances for water molecules -- for example, a particle of sea salt is very hygroscopic, so condensation can occur with relative humiidties of only 50-60%.
+
+Relative humidity = (Actual water pressure \ Saturation water pressure) * 100
+
+#### Fog formation through radiative cooling:
+1. Lower atmosphere radiates heat
+2. Earth's surface cools
+3. Moist air near surface cools to dew point
+4. Water vapor condenses into tiny droplets
+5. Suspended droplets form fog layer
+6. Upper dry air limits vertical extent
+
+This process typically occurs on clear nights with calm winds, creating a shallow fog layer near the ground.
+
+The Growth of a Cloud:
+
+Pressure decreases with height -- when a body of air rises, it moves from higher pressure ot lower pressure, and expands as its temperature is reduced. If the air is dry and no heat is added or taken away as the air ascends, it cools at the rate of 1C per 100 meters.
+
+The rate at which air cools as it rises is called the lapse rate. The dry adiabatic lapse rate is the rate at which air cools as it rises in the atmosphere.
+
+As air rises and its temperature decreases, the relative humidity of thehair increases until saturation ocurs and condensation begins. 
+
+When you step out of the pool into dry air, the cooling effects of water evaporating from your skin causes a cooling effect. This is called evaporative cooling. The opposite is true as the water vapor condenses in clouds; heat is added. The quantity of head transferred for each gram is known as the latent heat of vaporizatio and is equal to about 600 calories per gram.
+
+The clouds we see every day are indications of regions of rising air in which condensation has occured on small condensation nuclei.  The forms of the clouds depend on the character of hte field of vertical motion.
+
+Freezing Ice:
+
+If you had a quantity of absolutely pure water, and sealed it in an absolutely clean bottle, and brought the temperature to 32F, the water would not freeze. It may not even freeze at 20F or 0F. It can in fact be supercooled by great amounts, especially if the quantity of water is small -- like a droplet in a cloud. It can fall to -40F before they are certainly frozen into ice.
+
+Big idea: The saturation vapor pressure of water is higher than that of ice at the same subfreezing temperature. A cloud of supercooled water droplets may have air that is saturated with respect to water, but supersaturated with respect to ice.
+
+It's been proposed that the relationship between smaller volumes of water and the amount of energy required to freeze them is a function of the probability that the water has a special particle on which the ice can begin to grow at modest degrees of supercooling. This particle is called an ice-crystal nucleus.
+
+Without an ice-crystal nucleus, ice may form only by the accidental grouping of a large number of water molecules into an aggregation resembling ice. -40F is the temperature at which the molecules are cool enough, and therefore move slowly enough, that there is suddenly a strong enough possibility that the hydrogen and oxygen atoms spontaneously arrange themselves into a crystal structure that forms an ice nucleus.
+
+One raindrop has a volume approximately one million times larger than a cloud droplet. However, a raindrop is not just a cloud droplet that has continued to grow in size to become large enough to fall to Earth.
+
+The process of condensation does not go on indefinitely. Let's say water vapor condenses on fine particle of sea salt, when they air is supersaturated with respect to the growing droplet. The sea salt particle will attract water molecules even when the relative humidity is less than 100% because the equilibrium humidity over a salt solution is lower than that over pure water.
+
+As the drop grows, the relative amount of salt that makes up the solution decreases and it gets closer and closer to a pure water solution. Now, the droplet may only continue to grow if the surrounding air is supersaturated with respect to pure water -- i.e, a relative humidity greater than 100%. 
+
+Therefore: The larger the drop, the slower it grows. And, the higher the supersaturation, the greater the number of cloud droplets. Therefore, condensation alone cannot lead to rainfall. Instead, rainfall occurs in one of two ways. 
+
+1) Formation via the ice-crystal process
+
+Recall that a cloud of supercooled water droplets may have air that is saturated with respect to water, but supersaturated with respect to ice. If some ice-crystal nuclei are suddenly introduced into the cloud, the cloud system becomes unstable. 
+
+Water vapor molecules deposit on the ice crystals, and immediately the air is no longer saturated with respect to water. Consequently, some water evaporates from the cloud droplets to make up for hte losses to the crystals. This evaporation again leads to supersaturation with respect to the ice -- the crystal grows larger -- water molecules deposit on the larger ice crystals -- the cycles continues. 
+
+```mermaid
+graph TD
+    A[Mixed-Phase Cloud] --> B{Temperature < 0°C?}
+    B -->|No| C[Remain Liquid Droplets]
+    B -->|Yes| D[Supercooled Liquid Water]
+    D --> E{Ice Nuclei Present?}
+    E -->|No| F[Remain Supercooled]
+    E -->|Yes| G[Ice Crystal Formation]
+    G --> H[Water Vapor Deposits on Ice]
+    H --> I[Ice Crystals Grow]
+    I --> J[Supercooled Droplets Evaporate]
+    J --> K[Water Vapor Transfers to Ice]
+    K --> L{Ice Crystals Large Enough?}
+    L -->|No| H
+    L -->|Yes| M[Ice Crystals Fall as Precipitation]
+    
+    subgraph Supersaturation
+    N[Air Saturated w.r.t Water]
+    O[Air Supersaturated w.r.t Ice]
+    end
+    
+    N --> D
+    O --> H
+```
+
+2) Formation via the coalescence process
+
+What about in the tropics, where it is clear that clouds much above freezing will create rain without the presence of ice nuclei?
+
+The coalescence process is the process by which cloud droplets grow by colliding with other droplets and merging.
+
+A droplet of 10-micron radius falls at a speed of 1cm/sec, while droplets of 50-micron radius fall at a speed of 26cm/sec. The larger drops overtake smaller ones and collide with them. 
+
+Two colliding drops do not necessarily coalesce -- they may bounce off eachother. But still, as they fall, the larger droplets grow at the expense of the smaller ones. The fraction of the droplets within the vertical path of the falling droplet that actually hit the large drop is called the collision efficiency. 
+
+pg70
+
+
 ## 1. Conditions for Cloud Seeding
 
 ### 1.1 Supercooled Liquid Water (SLW)

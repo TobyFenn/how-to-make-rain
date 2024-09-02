@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This guide provides a comprehensive overview of cloud seeding, its processes, meteorological conditions, and scientific studies. I am writing this to use as a reference to help me at my job. But it is designed for anyone interested in weather modification techniques.
+This guide provides a comprehensive overview of cloud seeding, its processes, meteorological conditions, and scientific studies. I am writing this to use as a reference to build upon as I learn more about the field. But it is designed for anyone interested in weather modification techniques.
 
 This site is a living document, continuously updated with information as I learn more. For suggestions, corrections, or contributions, please contact me (toby@makerain.com).
 
