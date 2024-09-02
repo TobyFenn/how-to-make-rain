@@ -297,7 +297,7 @@ Ground-based AgI generators rely on vertical dispersion of seeding material caus
 
 It can be almost impossible to beenfit from a ground generator during periods of atmospheric stability, meaning you may have less opportunities than seeding in flight. It is also more difficult to target specific cloud regions with ground generators.
 
-**Key Features:**
+#### **Ground generators::**
 - Use a solution of seeding material (usually silver iodide) dissolved in acetone or other organic solvents
 - Burn the solution in a propane flame to produce microscopic particles
 - Can be operated remotely via satellite or cellular connections
@@ -340,7 +340,7 @@ It can be almost impossible to beenfit from a ground generator during periods of
 
 Uses rockets to deliver seeding materials to specific altitudes or cloud layers.
 
-**Key Features:**
+#### **Rockets:**
 -  Can reach very high altitudes
 -  Useful for seeding specific cloud layers
 -  Potentially cost-effective for remote areas

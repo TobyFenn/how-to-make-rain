@@ -2,10 +2,25 @@
 
 ## Introduction
 
-This guide provides a comprehensive overview of cloud seeding, its processes, meteorological conditions, and scientific studies. I am writing this as a reference to help me at my job. But it is designed for anyone interested in weather modification techniques.
+This guide provides a comprehensive overview of cloud seeding, its processes, meteorological conditions, and scientific studies. I am writing this to use as a reference to help me at my job. But it is designed for anyone interested in weather modification techniques.
 
 This site is a living document, continuously updated with information as I learn more. For suggestions, corrections, or contributions, please contact me (toby@makerain.com).
 
+## Overview
+
+Cloud seeding is a weather modification technique that aims to enhance precipitation by introducing particles into clouds.
+
+Cloud seeding has applications in drought mitigation, snowpack enhancement, and hail suppression, but faces challenges in attribution and environmental concerns.
+
+Hygroscopic seeding uses salt particles to accelerate droplet growth, while glaciogenic seeding uses ice-nucleating agents to stimulate ice crystal formation.
+
+Common seeding agents include silver iodide, potassium iodide, dry ice, and hygroscopic salts.
+
+Seeding agents are dispersed using aircraft, ground-based generators, or rockets to target specific cloud areas.
+
+Cloud seeding is most effective in regions with suitable cloud types and atmospheric conditions, typically requiring supercooled liquid water and specific temperature ranges.
+
+Measuring cloud seeding effectiveness involves complex statistical analysis and physical evidence, with results often showing modest increases in precipitation.
 <!-- ## Table of Contents -->
 <!-- 
 1. [Seeding](seeding.md)
