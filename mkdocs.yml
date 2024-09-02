@@ -1,6 +1,7 @@
 site_name: How to Make Rain
 theme:
   favicon: img/favicon.ico
+  logo: img/drop.png
   name: material
   features:
     - navigation.tabs

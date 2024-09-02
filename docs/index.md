@@ -6,9 +6,15 @@ This guide provides a comprehensive overview of cloud seeding, its processes, me
 
 This site is a living document, continuously updated with information as I learn more. For suggestions, corrections, or contributions, please contact me (toby@makerain.com).
 
-## Overview
+## Cloud seeding, as fast as possible
 
-Cloud seeding is a weather modification technique that aims to enhance precipitation by introducing particles into clouds.
+Cloud seeding is a weather modification technique that enhances precipitation by introducing particles into clouds. 
+
+It works by dispersing substances like silver iodide, which act as nuclei for water vapor condensation. 
+
+These particles are typically dispersed using aircraft, ground generators, or drones, facilitating the formation of rain or snow.
+
+## Summary
 
 Cloud seeding has applications in drought mitigation, snowpack enhancement, and hail suppression, but faces challenges in attribution and environmental concerns.
 

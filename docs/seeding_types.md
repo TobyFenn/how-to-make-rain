@@ -2,7 +2,7 @@
 
 ## Glaciogenic Seeding
 
-'Glaciogenic agents are mostly ice nuclei, although some glaciogenic agents are effectively hhydrophilic nuclei' (ASCE).
+'Glaciogenic agents are mostly ice nuclei, although some glaciogenic agents are effectively hydrophilic nuclei' (ASCE).
 
  **Target:** Cold clouds (below freezing) or mixed-phase clouds
 
