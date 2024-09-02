@@ -6,10 +6,10 @@
 
 Aggregation is the process by which ice particles collide and stick together to form larger particles:
 
--  Ice crystals or snowflakes collide in the cloud
--  They adhere to each other, forming larger aggregates
--  This process is particularly important in the formation of snowflakes
--  Aggregation efficiency depends on factors like:
+1. Ice crystals or snowflakes collide in the cloud
+2. They adhere to each other, forming larger aggregates
+
+##### Aggregation efficiency depends on factors like:
   - Temperature
   - Crystal shape
   - Relative humidity
@@ -26,22 +26,73 @@ Aggregation is the process by which ice particles collide and stick together to 
 
 #### Types of CCN:
 
-1. Sea salt particles from ocean spray
-2. Sulfate particles from volcanic activity or oxidation of sulfur dioxide
-3. Organic particles from oxidation of volatile organic compounds
-4. Soot/black carbon from combustion (e.g., forest fires, engines)
-5. Dust particles
-6. Clay particles
-7. Sodium chloride (NaCl)
-8. Ammonium sulfate ((NH4)2SO4)
+- Sea salt particles from ocean spray
+- Sulfate particles from volcanic activity or oxidation of sulfur dioxide
+- Organic particles from oxidation of volatile organic compounds
+- Soot/black carbon from combustion (e.g., forest fires, engines)
+- Dust particles
+- Clay particles
+- Sodium chloride (NaCl)
+- Ammonium sulfate ((NH4)2SO4)
 
-**Key Points:**
+##### **Key Points:**
 - CCN concentrations range from about 100-1000 per cm in the atmosphere
 - Hygroscopic particles like sulfates and sea salt make better CCN than hydrophobic particles like some dust or soot
 
 ### 1.3 Ice Nucleating Particles (INP)
 
-Types of INP include:
+Ice nucleating particles (INPs) initiate ice crystal formation in supercooled water through a process called heterogeneous ice nucleation. 
+
+How does this work? And what makes good INPs?
+
+#### Heterogeneous Ice Nucleation Process:
+
+1. Contact with supercooled water: INPs come into contact with supercooled water droplets in clouds.
+
+2. Lowering energy barrier: INPs provide a surface that lowers the energy barrier required for ice crystal formation.
+
+3. Molecular arrangement: The surface structure of the INP helps orient water molecules into an ice-like lattice.
+
+4. Critical embryo formation: This leads to the formation of a critical ice embryo on the INP surface.
+
+5. Growth: Once the critical embryo forms, it grows rapidly into a full ice crystal.
+
+### Characteristics of Good INPs:
+
+##### Crystal structure similarity
+   - Effective INPs often have a crystal structure similar to that of ice.
+   - Silver iodide (AgI) is a prime example, with a hexagonal crystal structure very close to that of ice.
+
+##### Surface properties
+   - Hydrophilic (water-loving) surfaces can be effective, as they attract water molecules.
+   - However, some hydrophobic surfaces with the right structure can also be good INPs.
+
+##### Size
+   - Larger particles (typically >0.1 μm) are generally more effective INPs.
+   - This is because they provide a larger surface area for ice nucleation.
+
+##### Chemical composition
+   - Certain minerals like feldspar and kaolinite are known to be good natural INPs.
+   - Some biological particles, such as certain bacteria and pollen, can be extremely effective INPs.
+
+##### Surface defects and irregularities
+   - Cracks, steps, or pits on the particle surface can enhance ice nucleation.
+   - These features can help anchor water molecules and promote ice-like structuring.
+
+##### Insolubility
+   - Good INPs are typically insoluble in water.
+   - This allows them to maintain their structure when in contact with water droplets.
+
+##### Temperature dependence
+   - Different INPs become active at different temperatures.
+   - The best INPs can nucleate ice at relatively warm subzero temperatures (e.g., -5°C to -10°C).
+
+##### Nucleation modes
+   - Effective INPs can operate in various nucleation modes (e.g., immersion, deposition, contact).
+   - The ability to nucleate ice in multiple modes increases their overall effectiveness.
+
+
+#### Types of INP
 
 -  Mineral dust (e.g., clay minerals like kaolinite)
 -  Biological particles (e.g., bacteria, pollen, fungal spores)
@@ -49,14 +100,21 @@ Types of INP include:
 -  Volcanic ash
 -  Some organic particles
 
-**Important characteristics:**
+#### Important characteristics
 - IN are generally larger particles than CCN
 - IN are much less abundant than CCN, typically less than 1 per liter of air
 - IN are active at higher temperatures than homogeneous ice nucleation
 
+#### Why AgI?
+- It has a crystal structure very similar to ice.
+- It's insoluble in water.
+- It can nucleate ice at relatively warm temperatures (around -5°C).
+- It's effective in multiple nucleation modes.
+
+
 ### 1.4 Particle Sizes and Distribution
 
-The effectiveness of particles as CCN or IN depends on:
+#### The effectiveness of particles as CCN or IN depends on:
 1. Size
 2. Chemical composition
 3. Surface properties
@@ -68,22 +126,22 @@ The effectiveness of particles as CCN or IN depends on:
 | 1-10 microns | Ideal balance of size and suspension ability |
 | 2-5 microns | Considered optimal for some experiments |
 
-**Why this size range is optimal:**
+##### **Why this size range is optimal:**
 -  Large enough to serve as effective CCN
 -  Small enough to remain suspended in the cloud
 -  Promotes rapid growth through collision-coalescence
 
 ### 1.5 Over-seeding and Competition Effect
 
-> Over-seeding can lead to unintended consequences in cloud formation and precipitation.
+Over-seeding can lead to unintended consequences in cloud formation and precipitation.
 
-**Consequences of introducing too many hygroscopic particles:**
+##### **Consequences of introducing too many hygroscopic particles:**
 1. Increased competition for available water vapor
 2. Narrower droplet spectrum with many small droplets rather than fewer large ones
 
-***Example:*** A study by Cooper et al. (1997) found that seeding with numerous 1 m particles produced high concentrations of drizzle drops rather than fewer larger raindrops.
+> A study by Cooper et al. (1997) found that seeding with numerous 1 m particles produced high concentrations of drizzle drops rather than fewer larger raindrops.
 
-**The Competition Effect:**
+##### **The Competition Effect:**
 - Too many CCN or ice nuclei result in numerous small droplets/crystals
 - Small particles may not grow large enough to fall as precipitation
 - Available moisture is spread too thinly among too many particles
@@ -93,6 +151,8 @@ The effectiveness of particles as CCN or IN depends on:
 ## 2. Types of Seeding
 
 ### 2.1 Glaciogenic Seeding
+
+'Glaciogenic agents are mostly ice nuclei, although some glaciogenic agents are effectively hhydrophilic nuclei' (ASCE).
 
  **Target:** Cold clouds (below freezing) or mixed-phase clouds
 
@@ -110,12 +170,12 @@ The effectiveness of particles as CCN or IN depends on:
 - Dry ice (solid CO2)
 - Liquid propane
 
-> AgI is typically dispersed via acetone burners or pyrotechnic flares
+> AgI is typically dispersed via acetone burners or pyrotechnic flares.
 
 #### Objectives:
-- Increases ice crystal concentration in clouds lacking natural ice nuclei
-- Can potentially increase snowfall in winter orographic clouds
-- May accelerate precipitation in convective clouds
+- Increase ice crystal concentration in clouds lacking natural ice nuclei
+- Increase snowfall in winter orographic clouds
+- Accelerate precipitation in convective clouds
 
 #### Scientific Backing:
 -  Strong evidence of microphysical effects (increased ice crystals)
@@ -123,6 +183,8 @@ The effectiveness of particles as CCN or IN depends on:
 -  Recent field campaigns (e.g., SNOWIE) provided detailed observations
 
 ### 2.2 Hygroscopic Seeding
+
+Hygroscopic agents deliquesce (dissolve into their aqueous components), becoming a solution droplet by absorbing water vapor from the air (at relative humidities significantly less than 100%).
 
  **Target:** Warm clouds (above freezing) or mixed-phase clouds
 
@@ -164,13 +226,19 @@ The effectiveness of particles as CCN or IN depends on:
 
 > The most common seeding agent for cold-cloud seeding
 
-**Chemical Properties:**
+AgI has been used as a glaciogenic agent for more than half a century. It nucleates the ice phase of pure water, regardless of the specific ice-forming mechanism.
+
+It is relatively insoluble, it is stable enough at high temps to permit vaporization and recondensation to form large numbers of nuclei, and may be dispensed using acetone generators or pyrotechnics from the ground or in the air.
+
+AgI consumption can range from hundreds to thousands of grams per hour during a dynamic cloud seeding operation.
+
+##### **Chemical Properties:**
 - Formula: AgI
 - Appearance: Bright yellow solid (often appears greyish due to silver impurities)
 - Molecular weight: 234.77 g/mol
 - Composition: 45.95% silver, 54.05% iodine
 
-**Preparation:**
+##### **Preparation:**
 1. Mix a solution of silver ions (e.g., from silver nitrate) with a solution containing iodide ions (e.g., from potassium iodide)
 2. Silver iodide precipitates as a yellowish solid
 3. The reaction can be represented as: 
@@ -196,12 +264,10 @@ Used for warm-cloud seeding:
 
 ### 3.4 Biodegradable Alternatives
 
-Emerging alternatives to traditional seeding agents:
+Emerging alternatives to traditional seeding agents aim to reduce environmental impact of cloud seeding operations.
 
 -  Pseudomonas syringae (bacteria)
 -  Certain organic compounds
-
-> Aim to reduce environmental impact of cloud seeding operations
 
 ---
 
@@ -223,6 +289,14 @@ Used to disperse liquid or solid particles into the air for cloud seeding.
 
 > Stationary devices placed on the ground, typically in mountainous regions
 
+Ground generators are routinely used in wintertime cloud seeding projects in the western US and other mountainous regions as a result of more than 60 years of development. Most ground generators have relied on the generation of AgI freezing nuclei. The most common type of ground generator consists of a solution tank that holds an acetone sollution with a given concentration (1% - 5% ish) of AgI. 
+
+Ground-based sustems are operated manually or by remote control. Silver iodaide containing pyrotechnics may also be used at surface sites, where theyre arrange in a rack/tree structure on the ground. 
+
+Ground-based AgI generators rely on vertical dispersion of seeding material caused by atmospheric instability and turbulence associated with naturally occuring storm sustems and the tarfted mountain barrier. Output rates are frequently lower than seeding operations conducted aerially. They typically tun on the order of 5g to 35g of AgI consumed per hour.
+
+It can be almost impossible to beenfit from a ground generator during periods of atmospheric stability, meaning you may have less opportunities than seeding in flight. It is also more difficult to target specific cloud regions with ground generators.
+
 **Key Features:**
 - Use a solution of seeding material (usually silver iodide) dissolved in acetone or other organic solvents
 - Burn the solution in a propane flame to produce microscopic particles
@@ -241,6 +315,8 @@ Used to disperse liquid or solid particles into the air for cloud seeding.
 #### 4.3.1 Burn-in-place Flares
 - Mounted on aircraft wings
 - Ignited to release seeding material continuously along flight path
+- Typically burn from several secoonds to several minutes
+- Can be burned near the trailing edge of the wing or can be dropped from the underside and fall for up to 2km
 
 #### 4.3.2 Ejectable Flares
 - Dropped from aircraft

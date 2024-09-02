@@ -41,6 +41,55 @@ Aggregation is the process by which ice particles collide and stick together to 
 
 ### 1.3 Ice Nucleating Particles (INP)
 
+Ice nucleating particles (INPs) initiate ice crystal formation in supercooled water through a process called heterogeneous ice nucleation. Here's a more detailed explanation of how this works and what makes good INPs:
+
+Heterogeneous Ice Nucleation Process:
+
+1. Contact with supercooled water: INPs come into contact with supercooled water droplets in clouds.
+
+2. Lowering energy barrier: INPs provide a surface that lowers the energy barrier required for ice crystal formation.
+
+3. Molecular arrangement: The surface structure of the INP helps orient water molecules into an ice-like lattice.
+
+4. Critical embryo formation: This leads to the formation of a critical ice embryo on the INP surface.
+
+5. Growth: Once the critical embryo forms, it grows rapidly into a full ice crystal.
+
+Characteristics of Good INPs:
+
+1. Crystal structure similarity:
+   - Effective INPs often have a crystal structure similar to that of ice.
+   - Silver iodide (AgI) is a prime example, with a hexagonal crystal structure very close to that of ice.
+
+2. Surface properties:
+   - Hydrophilic (water-loving) surfaces can be effective, as they attract water molecules.
+   - However, some hydrophobic surfaces with the right structure can also be good INPs.
+
+3. Size:
+   - Larger particles (typically >0.1 μm) are generally more effective INPs.
+   - This is because they provide a larger surface area for ice nucleation.
+
+4. Chemical composition:
+   - Certain minerals like feldspar and kaolinite are known to be good natural INPs.
+   - Some biological particles, such as certain bacteria and pollen, can be extremely effective INPs.
+
+5. Surface defects and irregularities:
+   - Cracks, steps, or pits on the particle surface can enhance ice nucleation.
+   - These features can help anchor water molecules and promote ice-like structuring.
+
+6. Insolubility:
+   - Good INPs are typically insoluble in water.
+   - This allows them to maintain their structure when in contact with water droplets.
+
+7. Temperature dependence:
+   - Different INPs become active at different temperatures.
+   - The best INPs can nucleate ice at relatively warm subzero temperatures (e.g., -5°C to -10°C).
+
+8. Nucleation modes:
+   - Effective INPs can operate in various nucleation modes (e.g., immersion, deposition, contact).
+   - The ability to nucleate ice in multiple modes increases their overall effectiveness.
+
+
 Types of INP include:
 
 -  Mineral dust (e.g., clay minerals like kaolinite)
@@ -53,6 +102,15 @@ Types of INP include:
 - IN are generally larger particles than CCN
 - IN are much less abundant than CCN, typically less than 1 per liter of air
 - IN are active at higher temperatures than homogeneous ice nucleation
+
+
+
+In cloud seeding applications, silver iodide is often used because it combines many of these characteristics:
+- It has a crystal structure very similar to ice.
+- It's insoluble in water.
+- It can nucleate ice at relatively warm temperatures (around -5°C).
+- It's effective in multiple nucleation modes.
+
 
 ### 1.4 Particle Sizes and Distribution
 
@@ -94,6 +152,8 @@ The effectiveness of particles as CCN or IN depends on:
 
 ### 2.1 Glaciogenic Seeding
 
+'Glaciogenic agents are mostly ice nuclei, although some glaciogenic agents are effectively hhydrophilic nuclei.'. 
+
  **Target:** Cold clouds (below freezing) or mixed-phase clouds
 
  **Typical Locations:** Mid-latitude or mountainous regions
@@ -123,6 +183,8 @@ The effectiveness of particles as CCN or IN depends on:
 -  Recent field campaigns (e.g., SNOWIE) provided detailed observations
 
 ### 2.2 Hygroscopic Seeding
+
+Hygroscopic agents deliquesce (dissolve into their aqueous components), becoming a solution droplet by absorbing water vapor from the air (at relative humidities significantly less than 100%).
 
  **Target:** Warm clouds (above freezing) or mixed-phase clouds
 
@@ -163,6 +225,10 @@ The effectiveness of particles as CCN or IN depends on:
 ### 3.1 Silver Iodide (AgI)
 
 > The most common seeding agent for cold-cloud seeding
+
+AgI has been used as a glaciogenic agent for more than half a century. It nucleates the ice phase of pure water, regardless of the specific ice-froming mechanicsm; it is relatively insoluble, it is stable enough at high temps to permit vaporization and recondensation to form large numbers of nuclei, and may be dispensed using acetone generators or pyrotechnics from the ground or in the air.
+
+AgI consumption can range from hundreds to thousands of grams per hour during a dynamic cloud seeding operation.
 
 **Chemical Properties:**
 - Formula: AgI
@@ -223,6 +289,14 @@ Used to disperse liquid or solid particles into the air for cloud seeding.
 
 > Stationary devices placed on the ground, typically in mountainous regions
 
+Ground generators are routinely used in wintertime cloud seeding projects in the western US and other mountainous regions as a result of more than 60 years of development. Most ground generators have relied on the generation of AgI freezing nuclei. The most common type of ground generator consists of a solution tank that holds an acetone sollution with a given concentration (1% - 5% ish) of AgI. 
+
+Ground-based sustems are operated manually or by remote control. Silver iodaide containing pyrotechnics may also be used at surface sites, where theyre arrange in a rack/tree structure on the ground. 
+
+Ground-based AgI generators rely on vertical dispersion of seeding material caused by atmospheric instability and turbulence associated with naturally occuring storm sustems and the tarfted mountain barrier. Output rates are frequently lower than seeding operations conducted aerially. They typically tun on the order of 5g to 35g of AgI consumed per hour.
+
+It can be almost impossible to beenfit from a ground generator during periods of atmospheric stability, meaning you may have less opportunities than seeding in flight. It is also more difficult to target specific cloud regions with ground generators.
+
 **Key Features:**
 - Use a solution of seeding material (usually silver iodide) dissolved in acetone or other organic solvents
 - Burn the solution in a propane flame to produce microscopic particles
@@ -241,6 +315,8 @@ Used to disperse liquid or solid particles into the air for cloud seeding.
 #### 4.3.1 Burn-in-place Flares
 - Mounted on aircraft wings
 - Ignited to release seeding material continuously along flight path
+- Typically burn from several secoonds to several minutes
+- Can be burned near the trailing edge of the wing or can be dropped from the underside and fall for up to 2km
 
 #### 4.3.2 Ejectable Flares
 - Dropped from aircraft

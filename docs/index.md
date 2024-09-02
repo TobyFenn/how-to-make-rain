@@ -2,10 +2,12 @@
 
 ## Introduction
 
-This guide provides a comprehensive overview of cloud seeding, its processes, meteorological conditions, scientific studies, and impacts. It is designed for researchers, policymakers, and anyone interested in weather modification techniques.
+This guide provides a comprehensive overview of cloud seeding, its processes, meteorological conditions, and cientific studies. It is designed for anyone interested in weather modification techniques.
 
-## Table of Contents
+This guide is a living document, continuously updated with information as I learn more. For suggestions, corrections, or contributions, please contact me (toby@makerain.com).
 
+<!-- ## Table of Contents -->
+<!-- 
 1. [Seeding](seeding.md)
     - [Seeding Process](seeding.md#1-seeding-process)
         - [Aggregation](seeding.md#11-aggregation)
@@ -88,7 +90,7 @@ This guide provides a comprehensive overview of cloud seeding, its processes, me
         - [Cost-Benefit Analysis](impact.md#41-cost-benefit-analysis)
         - [Social Perceptions and Acceptance](impact.md#42-social-perceptions-and-acceptance)
         - [Policy and Legal Considerations](impact.md#43-policy-and-legal-considerations)
-        - [International Implications](impact.md#44-international-implications)
+        - [International Implications](impact.md#44-international-implications) -->
 
 ## How to Use This Guide
 
@@ -99,6 +101,3 @@ Each section of this guide is organized to provide both overview and detailed in
 - Highlights of significant research findings
 - Discussion of challenges and ongoing debates in the field
 
-## Contributing
-
-This guide is a living document, continuously updated with information as I learn more. For suggestions, corrections, or contributions, please contact me (toby@makerain.com).

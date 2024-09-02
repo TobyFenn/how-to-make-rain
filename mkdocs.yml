@@ -31,7 +31,8 @@ nav:
   - Home: index.md
   - Seeding: seeding.md
   - Meteorology: meteorology.md
-  - Scientific Canon: scientific_canon.md
+  # - Scientific Canon: scientific_canon.md
   - Impact: impact.md
   - SNOWIE: SNOWIE.md
   - WWMPP: WWMPP.md
+  - POPEYE: POPEYE.md
