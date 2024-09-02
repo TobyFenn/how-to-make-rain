@@ -172,10 +172,3 @@ The SNOWIE project provided unprecedented quantitative evidence of snowfall gene
 4. Tessendorf, S. A. et al. (2019). A transformational approach to winter orographic weather modification research: The SNOWIE Project. Bull. Am. Meteorol. Soc. 100, 71-92.
 
 [Full list of references available in the original paper]
-
----
-
-*For more information, visit the [SNOWIE data archive website](https://data.eol.ucar.edu/project/SNOWIE) and the [SNOWIE radar data archive](https://www.eol.ucar.edu/field_projects/snowie).*
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/30238939/874cd5a9-653b-41da-a45d-e71302951ae8/SNOWIE.pdf
