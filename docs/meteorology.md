@@ -1,4 +1,4 @@
-# Meteorology and Cloud Physics
+# Intro to Cloud Physics
 
 ## 1. Water Distribution on Earth
 

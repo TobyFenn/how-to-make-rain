@@ -30,9 +30,9 @@ theme:
 
 nav:
   - Index: index.md
-  - Intro to Meteorology: meteorology.md
-  - Cloud Seeding: seeding.md
-  - Seeding Conditions: seeding_conditions.md
+  - Intro to Cloud Physics: meteorology.md
+  - Seeding Process: seeding.md
+  - Conditions: seeding_conditions.md
   - Seeding Types: seeding_types.md
   - Anthropogenic Impact: impact.md
   - Project SNOWIE: SNOWIE.md
