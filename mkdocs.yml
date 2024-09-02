@@ -28,14 +28,14 @@ theme:
       accent: lime
 
 nav:
-  - Home: index.md
-  - Seeding: seeding.md
-  - Meteorology: meteorology.md
-  # - Scientific Canon: scientific_canon.md
-  - Impact: impact.md
-  - SNOWIE: SNOWIE.md
+  - Index: index.md
+  - Intro to Meteorology: meteorology.md
+  - Cloud Seeding: seeding.md
+  - Seeding Conditions: seeding_conditions.md
+  - Seeding Types: seeding_types.md
+  - Anthropogenic Impact: impact.md
+  - Project SNOWIE: SNOWIE.md
   - WWMPP: WWMPP.md
-  # - POPEYE: POPEYE.md
 
 markdown_extensions:
   - pymdownx.superfences:
