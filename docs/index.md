@@ -1,10 +1,10 @@
-# Rainmaking documentation
+# Documentation
 
 ## Introduction
 
-This guide provides a comprehensive overview of cloud seeding, its processes, meteorological conditions, and cientific studies. It is designed for anyone interested in weather modification techniques.
+This guide provides a comprehensive overview of cloud seeding, its processes, meteorological conditions, and scientific studies. I am writing this as a reference to help me at my job. But it is designed for anyone interested in weather modification techniques.
 
-This guide is a living document, continuously updated with information as I learn more. For suggestions, corrections, or contributions, please contact me (toby@makerain.com).
+This site is a living document, continuously updated with information as I learn more. For suggestions, corrections, or contributions, please contact me (toby@makerain.com).
 
 <!-- ## Table of Contents -->
 <!-- 
@@ -96,8 +96,10 @@ This guide is a living document, continuously updated with information as I lear
 
 Each section of this guide is organized to provide both overview and detailed information. Use the links above to navigate to specific topics of interest. Within each section, you'll find:
 
+- Photos and diagrams to illustrate concepts
 - Detailed explanations of key concepts
 - Tables summarizing important data
 - Highlights of significant research findings
 - Discussion of challenges and ongoing debates in the field
 
+You can search with the bar at the top right corner.

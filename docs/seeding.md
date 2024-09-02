@@ -150,6 +150,8 @@ Over-seeding can lead to unintended consequences in cloud formation and precipit
 
 ## 2. Types of Seeding
 
+![Diagram](https://letstalkscience.ca/sites/default/files/styles/width_800px/public/2019-11/ways_to_seed_clouds-EN-FR_0.png?itok=SEnpM7IY)
+
 ### 2.1 Glaciogenic Seeding
 
 'Glaciogenic agents are mostly ice nuclei, although some glaciogenic agents are effectively hhydrophilic nuclei' (ASCE).
@@ -312,11 +314,15 @@ It can be almost impossible to beenfit from a ground generator during periods of
 
 ### 4.3 Aircraft-based Methods
 
+![Plane](https://services.meteored.com/img/article/origenes-y-fundamento-de-la-siembre-de-nubes-1644137128763_1280.jpg)
+
 #### 4.3.1 Burn-in-place Flares
 - Mounted on aircraft wings
 - Ignited to release seeding material continuously along flight path
 - Typically burn from several secoonds to several minutes
 - Can be burned near the trailing edge of the wing or can be dropped from the underside and fall for up to 2km
+
+![Plane](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Cloud_seeding_at_Corryong%2C_Victoria_-_Cessna_410_-_Athol_Hodgson%2C_1966.jpg/1280px-Cloud_seeding_at_Corryong%2C_Victoria_-_Cessna_410_-_Athol_Hodgson%2C_1966.jpg)
 
 #### 4.3.2 Ejectable Flares
 - Dropped from aircraft

@@ -66,6 +66,8 @@ For glaciogenic seeding:
 
 > Clouds that form as a result of air being forced to rise over topographical features like mountains or hills
 
+[!Cloud](https://i0.wp.com/coyotegulch.blog/wp-content/uploads/2021/03/simplemodelofwintorographiccloudseedingcires.png?ssl=1)
+
 Shallow widespread winter orographic cloud systems provided the best potential for precipitation augmentation through cloud seeding operations because their supercooled liquid water is long lasting and distributed over a large area'. (ASCE)
 
 #### Orographic clouds are targeted for cloud seeding for several reasons.
@@ -125,9 +127,11 @@ Even though seeding at temperatures farther below freezing is associated with a 
 #### Energy and heat
 The rapid conversion of supercooled water droplets to ice particles adds heat (latent heat of fusion) to the cloud w.r.t. the surrounding air, which increases bouyancy. This heated air is less dense than the surrounding air, and thus rises, leading to even greater cloud development. So seeding idividual convective clouds results in more updrafts -> increased condensation -> increased precipitation.
 
+![Diagram](https://www.aoml.noaa.gov/hrd/hrd_sub/cseed.gif)
+
 It's generally understood that there is a short window of opportunity for most effective seeding: generally, when the top of the growing tower passes from 0C to -10C to -12C. 
 
-Hygroscopic Seeding usually occurs just below cloud base in the area of maximum upgradt to ensure that thr cloud ingestred the seeding agent and early in the warm convective cloud's lifetime before the warm rain process is firmyl established. 
+Hygroscopic Seeding usually occurs just below cloud base in the area of maximum updraft to ensure that the cloud ingested the seeding agent early in the warm convective cloud's lifetime before the warm rain process is firmly established. 
 
 Because the effects of seeding are not instantaneous, seeding agents must be applied to moving cloud systems sufficiently in advance of their entering the target area. The width of this buffer zone clearly is depndent on the speed at which the system is moving. 
 
