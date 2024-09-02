@@ -1,0 +1,1211 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../impact/">
+      
+      
+        <link rel="next" href="../WWMPP/">
+      
+      
+      <link rel="icon" href="../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>Project SNOWIE - How to Make Rain</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#snowie-seeded-and-natural-orographic-wintertime-clouds-the-idaho-experiment" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="How to Make Rain" class="md-header__button md-logo" aria-label="How to Make Rain" data-md-component="logo">
+      
+  <img src="../img/drop.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            How to Make Rain
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Project SNOWIE
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Index
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../meteorology/" class="md-tabs__link">
+        
+  
+    
+  
+  Intro to Cloud Physics
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../seeding/" class="md-tabs__link">
+        
+  
+    
+  
+  Seeding Process
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../seeding_conditions/" class="md-tabs__link">
+        
+  
+    
+  
+  Conditions
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../seeding_types/" class="md-tabs__link">
+        
+  
+    
+  
+  Seeding Types
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../impact/" class="md-tabs__link">
+        
+  
+    
+  
+  Anthropogenic Impact
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Project SNOWIE
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../WWMPP/" class="md-tabs__link">
+        
+  
+    
+  
+  WWMPP
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="How to Make Rain" class="md-nav__button md-logo" aria-label="How to Make Rain" data-md-component="logo">
+      
+  <img src="../img/drop.png" alt="logo">
+
+    </a>
+    How to Make Rain
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../meteorology/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Intro to Cloud Physics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../seeding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seeding Process
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../seeding_conditions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conditions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../seeding_types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seeding Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../impact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anthropogenic Impact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Project SNOWIE
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Project SNOWIE
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      Background
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#innovations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Innovations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Innovations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-high-resolution-mobile-radar" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. High-Resolution Mobile Radar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-perpendicular-flight-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Perpendicular Flight Path
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-novel-approach-to-isolate-seeding-induced-precipitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Novel Approach to Isolate Seeding-Induced Precipitation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Methods
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Collection
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results-and-discussion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results and Discussion
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Results and Discussion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#january-19-2017-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      January 19, 2017 Event
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="January 19, 2017 Event">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seeding-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seeding Operations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gauge-measurements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gauge Measurements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#total-accumulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Total Accumulation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uncertainty-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uncertainty Analysis
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#january-20-2017-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      January 20, 2017 Event
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="January 20, 2017 Event">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seeding-operations_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seeding Operations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gauge-measurements_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gauge Measurements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#total-accumulation_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Total Accumulation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uncertainty-analysis_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uncertainty Analysis
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#january-31-2017-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      January 31, 2017 Event
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="January 31, 2017 Event">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seeding-operations_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seeding Operations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gauge-measurements_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gauge Measurements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#total-accumulation_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Total Accumulation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uncertainty-analysis_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uncertainty Analysis
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-findings-and-significance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Findings and Significance
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Findings and Significance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quantitative-evidence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quantitative Evidence
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#factors-influencing-seeding-efficacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Factors Influencing Seeding Efficacy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uncertainty-in-estimates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uncertainty in Estimates
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#significance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Significance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impact-on-the-industry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impact on the Industry
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historical-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      Historical Context
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Future Work
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Future Work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#research-directions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research Directions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../WWMPP/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WWMPP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="snowie-seeded-and-natural-orographic-wintertime-clouds-the-idaho-experiment">SNOWIE (Seeded and Natural Orographic Wintertime Clouds: The Idaho Experiment)</h1>
+<h2 id="introduction">Introduction</h2>
+<p>SNOWIE marked a turning point in cloud seeding technology. Conducted from 2017 to 2021 in Idaho's Payette Mountains, this experiment introduced groundbreaking innovations that addressed longstanding challenges in the field.</p>
+<h3 id="background">Background</h3>
+<ul>
+<li>Climate change and population growth have increased water demand in arid regions</li>
+<li>Cloud seeding has been evaluated as a potential technology to increase water supply</li>
+<li>Previous studies relied on statistical comparisons, often with inconclusive results</li>
+</ul>
+<p>For decades, cloud seeding suffered from "the attribution problem." Despite 70 years of practice, the industry struggled to definitively prove its effectiveness. This lack of clear evidence led to skepticism and diminished commercial interest.</p>
+<h2 id="innovations">Innovations</h2>
+<h3 id="1-high-resolution-mobile-radar">1. High-Resolution Mobile Radar</h3>
+<p>SNOWIE developed portable, high-resolution radar systems that could be deployed directly in seeding areas, offering unprecedented detail in cloud analysis. These radars allowed researchers to:</p>
+<ul>
+<li>Measure precise cloud conditions before and after seeding</li>
+<li>Detect clear signatures of water-to-ice phase changes</li>
+<li>Attribute rainfall to seeding efforts with remarkable accuracy</li>
+</ul>
+<h3 id="2-perpendicular-flight-path">2. Perpendicular Flight Path</h3>
+<p>SNOWIE aircraft flew perpendicular to the crosswind direction, creating a distinctive "zebra pattern" of precipitation. This uniform spacing made it far easier to distinguish seeded rainfall from natural precipitation.</p>
+<h3 id="3-novel-approach-to-isolate-seeding-induced-precipitation">3. Novel Approach to Isolate Seeding-Induced Precipitation</h3>
+<ul>
+<li>Identified areas with light or no natural precipitation (&lt;1 mm/h)</li>
+<li>Used radar observations to track spatial and temporal evolution</li>
+<li>Quantified snowfall accumulation using radar data and snow gauge measurements</li>
+<li>Developed relationships between radar reflectivity (Ze) and liquid equivalent snowfall rate (S)</li>
+</ul>
+<h2 id="methods">Methods</h2>
+<h3 id="data-collection">Data Collection</h3>
+<ul>
+<li><strong>Precipitation Gauges</strong>: Network deployed in the study area</li>
+<li><strong>Radars</strong>: Two ground-based Doppler on Wheels (DOW) radars</li>
+<li><strong>Airborne Observations</strong>: Radar and seeding operations</li>
+</ul>
+<blockquote>
+<p>All data are publicly available through the SNOWIE data archive website and the SNOWIE radar data archive.</p>
+</blockquote>
+<h2 id="results-and-discussion">Results and Discussion</h2>
+<p>SNOWIE's advancements enabled researchers to measure seeding-induced rainfall with extraordinary precision - within an accuracy of 100,000 gallons. In some cases, a single day's operation produced 100-121 acre-feet of water, equivalent to hundreds of millions of gallons.</p>
+<h3 id="january-19-2017-event">January 19, 2017 Event</h3>
+<h4 id="seeding-operations">Seeding Operations</h4>
+<ul>
+<li>Two seeding lines passed over multiple gauge sites</li>
+<li>Airborne cloud seeding began at 1619 UTC</li>
+</ul>
+<h4 id="gauge-measurements">Gauge Measurements</h4>
+<ul>
+<li><strong>Five Corners</strong>: Increase of ~0.1 mm (1.2 mm/h) over 5 minutes</li>
+<li><strong>Banner</strong>: Increase of ~0.1 mm over 14 minutes</li>
+</ul>
+<h4 id="total-accumulation">Total Accumulation</h4>
+<ul>
+<li><strong>Best-match estimate</strong>: 123,220 m³ (100 acre-feet) over 67 minutes</li>
+<li><strong>Area covered</strong>: 2,327 km²</li>
+</ul>
+<h4 id="uncertainty-analysis">Uncertainty Analysis</h4>
+<table>
+<thead>
+<tr>
+<th>Percentile</th>
+<th>Accumulation (m³)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>25th</td>
+<td>95,776</td>
+</tr>
+<tr>
+<td>75th</td>
+<td>144,994</td>
+</tr>
+<tr>
+<td>5th</td>
+<td>78,582</td>
+</tr>
+<tr>
+<td>95th</td>
+<td>194,261</td>
+</tr>
+</tbody>
+</table>
+<h3 id="january-20-2017-event">January 20, 2017 Event</h3>
+<h4 id="seeding-operations_1">Seeding Operations</h4>
+<ul>
+<li>Eight seeding lines observed</li>
+<li>Two lines passed over the Silver Creek gauge site</li>
+</ul>
+<h4 id="gauge-measurements_1">Gauge Measurements</h4>
+<ul>
+<li><strong>Silver Creek</strong>: Increase of 0.28 mm over 38 minutes</li>
+</ul>
+<h4 id="total-accumulation_1">Total Accumulation</h4>
+<ul>
+<li><strong>Best-match estimate</strong>: 241,260 m³ (196 acre-feet) over 160 minutes</li>
+<li><strong>Area covered</strong>: 1,838 km²</li>
+</ul>
+<h4 id="uncertainty-analysis_1">Uncertainty Analysis</h4>
+<table>
+<thead>
+<tr>
+<th>Percentile</th>
+<th>Accumulation (m³)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>25th</td>
+<td>196,319</td>
+</tr>
+<tr>
+<td>75th</td>
+<td>312,521</td>
+</tr>
+<tr>
+<td>5th</td>
+<td>179,986</td>
+</tr>
+<tr>
+<td>95th</td>
+<td>437,125</td>
+</tr>
+</tbody>
+</table>
+<h3 id="january-31-2017-event">January 31, 2017 Event</h3>
+<h4 id="seeding-operations_2">Seeding Operations</h4>
+<ul>
+<li>Two seeding lines with enhanced radar reflectivity detected</li>
+<li>Strong vertical wind shear observed</li>
+</ul>
+<h4 id="gauge-measurements_2">Gauge Measurements</h4>
+<ul>
+<li><strong>Silver Creek</strong>: Increase of 0.25 mm over 25 minutes</li>
+</ul>
+<h4 id="total-accumulation_2">Total Accumulation</h4>
+<ul>
+<li><strong>Best-match estimate</strong>: 339,540 m³ (275 acre-feet) over 25 minutes</li>
+<li><strong>Area covered</strong>: 2,410 km²</li>
+</ul>
+<h4 id="uncertainty-analysis_2">Uncertainty Analysis</h4>
+<table>
+<thead>
+<tr>
+<th>Percentile</th>
+<th>Accumulation (m³)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>25th</td>
+<td>222,051</td>
+</tr>
+<tr>
+<td>75th</td>
+<td>335,863</td>
+</tr>
+<tr>
+<td>5th</td>
+<td>187,004</td>
+</tr>
+<tr>
+<td>95th</td>
+<td>480,420</td>
+</tr>
+</tbody>
+</table>
+<h2 id="key-findings-and-significance">Key Findings and Significance</h2>
+<h3 id="quantitative-evidence">Quantitative Evidence</h3>
+<ol>
+<li><strong>Snow Accumulations</strong>: </li>
+<li>Range: 0.05 to 0.28 mm at gauge sites</li>
+<li><strong>Precipitation Rates</strong>: </li>
+<li>Range: 0.4 to 1.2 mm/h</li>
+<li><strong>Total Liquid Equivalent Snowfall</strong>:</li>
+<li>January 19: 123,220 m³ from 20 minutes of seeding</li>
+<li>January 20: 241,260 m³ from 86 minutes of seeding</li>
+<li>January 31: 339,540 m³ from 24 minutes of seeding</li>
+</ol>
+<h3 id="factors-influencing-seeding-efficacy">Factors Influencing Seeding Efficacy</h3>
+<ul>
+<li>Wind conditions</li>
+<li>Terrain</li>
+<li>Atmospheric variables</li>
+</ul>
+<h3 id="uncertainty-in-estimates">Uncertainty in Estimates</h3>
+<ul>
+<li>Range: 20% to 47% due to variability in Ze-S relationships</li>
+</ul>
+<h3 id="significance">Significance</h3>
+<ol>
+<li><strong>Fundamental Step</strong>: Provides quantitative evidence of snowfall generated by cloud seeding</li>
+<li><strong>Methodology</strong>: Introduces a physically-based approach to isolate seeding-induced precipitation</li>
+<li><strong>Future Applications</strong>: Sets the stage for validating numerical models and improving interpretation of precipitation observations</li>
+</ol>
+<h2 id="impact-on-the-industry">Impact on the Industry</h2>
+<p>SNOWIE's success was a catalyst. Rainmaker now aims to replicate and build upon these measurement techniques, bringing cloud seeding into the realm of data-driven, scientifically-validated technology.</p>
+<p>By solving the attribution problem, SNOWIE has potentially opened the door for a renaissance in weather modification.</p>
+<h2 id="historical-context">Historical Context</h2>
+<p>Prior to SNOWIE, cloud seeding relied on less precise methods:
+- Planes dispersing agents with limited control
+- Ground-based "bonfires" spewing chemicals skyward
+- Rudimentary rain gauges for measurement</p>
+<p>These methods often resulted in immeasurable or statistically insignificant increases in precipitation, making it difficult to justify the cost and effort involved.</p>
+<h2 id="future-work">Future Work</h2>
+<h3 id="research-directions">Research Directions</h3>
+<ol>
+<li>Quantifying ice and snow production in seeded clouds</li>
+<li>Studying environmental conditions and cloud dynamic/microphysical processes</li>
+<li>Validating numerical models that simulate microphysical impacts of cloud seeding</li>
+<li>Improving interpretation of precipitation observations during cloud seeding operations</li>
+<li>Quantifying AgI seeding effects over target areas at different time scales using ensemble approaches</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>

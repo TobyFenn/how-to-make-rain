@@ -1,0 +1,1020 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../seeding/">
+      
+      
+      <link rel="icon" href="../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>Intro to Cloud Physics - How to Make Rain</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#intro-to-cloud-physics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="How to Make Rain" class="md-header__button md-logo" aria-label="How to Make Rain" data-md-component="logo">
+      
+  <img src="../img/drop.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            How to Make Rain
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Intro to Cloud Physics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Index
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Intro to Cloud Physics
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../seeding/" class="md-tabs__link">
+        
+  
+    
+  
+  Seeding Process
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../seeding_conditions/" class="md-tabs__link">
+        
+  
+    
+  
+  Conditions
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../seeding_types/" class="md-tabs__link">
+        
+  
+    
+  
+  Seeding Types
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../impact/" class="md-tabs__link">
+        
+  
+    
+  
+  Anthropogenic Impact
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../SNOWIE/" class="md-tabs__link">
+        
+  
+    
+  
+  Project SNOWIE
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../WWMPP/" class="md-tabs__link">
+        
+  
+    
+  
+  WWMPP
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="How to Make Rain" class="md-nav__button md-logo" aria-label="How to Make Rain" data-md-component="logo">
+      
+  <img src="../img/drop.png" alt="logo">
+
+    </a>
+    How to Make Rain
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Intro to Cloud Physics
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Intro to Cloud Physics
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-water-distribution-on-earth" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Water Distribution on Earth
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-atmospheric-water-and-cloud-formation" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atmospheric Water and Cloud Formation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Atmospheric Water and Cloud Formation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-nuclei-and-cloud-formation" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Nuclei and Cloud Formation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-supersaturation-and-condensation" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Supersaturation and Condensation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-vapor-pressure-and-dew-point" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 Vapor Pressure and Dew Point
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-cloud-droplet-formation" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 Cloud Droplet Formation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-cloud-growth-and-precipitation-processes" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Cloud Growth and Precipitation Processes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Cloud Growth and Precipitation Processes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-the-growth-of-a-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 The Growth of a Cloud
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-cloud-types-and-vertical-motion" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Cloud Types and Vertical Motion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-cloud-growth-processes" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Cloud Growth Processes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.3 Cloud Growth Processes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#331-natural-precipitation-processes" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3.1 Natural Precipitation Processes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#332-cloud-seeding" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3.2 Cloud Seeding
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#333-ice-crystal-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3.3 Ice Crystal Process
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#334-coalescence-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3.4 Coalescence Process
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-atmospheric-processes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Atmospheric Processes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Atmospheric Processes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-fog-formation-through-radiative-cooling" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Fog Formation through Radiative Cooling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-evaporative-cooling" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Evaporative Cooling
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-water-states-and-phase-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Water States and Phase Changes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Water States and Phase Changes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-supercooled-water" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 Supercooled Water
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-ice-crystal-formation" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 Ice Crystal Formation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-saturation-vapor-pressure-differences" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3 Saturation Vapor Pressure Differences
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-hydrometeors" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Hydrometeors
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-droplet-growth-and-raindrop-formation" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Droplet Growth and Raindrop Formation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../seeding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seeding Process
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../seeding_conditions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conditions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../seeding_types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seeding Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../impact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anthropogenic Impact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SNOWIE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project SNOWIE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../WWMPP/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WWMPP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="intro-to-cloud-physics">Intro to Cloud Physics</h1>
+<h2 id="1-water-distribution-on-earth">1. Water Distribution on Earth</h2>
+<ul>
+<li>94.9% of Earth's water is found in the oceans.</li>
+<li>0.001% of Earth's total water is in the atmosphere as water vapor.</li>
+<li>This amounts to several thousand tons per person.</li>
+<li>This atmospheric vapor has the potential to be harnessed.</li>
+</ul>
+<h2 id="2-atmospheric-water-and-cloud-formation">2. Atmospheric Water and Cloud Formation</h2>
+<h3 id="21-nuclei-and-cloud-formation">2.1 Nuclei and Cloud Formation</h3>
+<ul>
+<li>Nuclei are crucial for cloud formation.</li>
+<li>Types of nuclei:</li>
+<li>Natural: sea salt, dust, and organic particles.</li>
+<li>Anthropogenic: industrial emissions, smoke.</li>
+<li>Nuclei provide surfaces for water vapor condensation in supersaturated conditions.</li>
+</ul>
+<h3 id="22-supersaturation-and-condensation">2.2 Supersaturation and Condensation</h3>
+<ul>
+<li>Supersaturation occurs when relative humidity exceeds 100%.</li>
+<li>Condensation is the process of water vapor molecules aggregating to form liquid water.</li>
+<li>Relative humidity increases as air cools.</li>
+<li>At 100% relative humidity, saturation occurs, establishing an equilibrium between evaporation and condensation rates.</li>
+</ul>
+<h3 id="23-vapor-pressure-and-dew-point">2.3 Vapor Pressure and Dew Point</h3>
+<ul>
+<li>Saturation vapor pressure: The pressure at saturation, dependent only on air temperature.</li>
+<li>As temperature rises, saturation vapor pressure increases.</li>
+<li>Dew point: The point in the cooling process where condensation begins (at 100% relative humidity).</li>
+<li>Dew point temperature: The air temperature at which condensation begins.</li>
+</ul>
+<h3 id="24-cloud-droplet-formation">2.4 Cloud Droplet Formation</h3>
+<ul>
+<li>Atmospheric relative humidities rarely exceed 101%.</li>
+<li>Cloud droplets can form at lower relative humidities due to hygroscopic particles (e.g., sea salt).</li>
+<li>Relative humidity = (Actual water pressure / Saturation water pressure) * 100</li>
+</ul>
+<h2 id="3-cloud-growth-and-precipitation-processes">3. Cloud Growth and Precipitation Processes</h2>
+<h3 id="31-the-growth-of-a-cloud">3.1 The Growth of a Cloud</h3>
+<ul>
+<li>As air rises, pressure decreases and temperature reduces.</li>
+<li>Dry adiabatic lapse rate: 1°C cooling per 100 meters of ascent.</li>
+<li>As air rises and cools, relative humidity increases until saturation and condensation occur.</li>
+<li>Latent heat of vaporization: ~600 calories per gram, released during condensation.</li>
+</ul>
+<h3 id="32-cloud-types-and-vertical-motion">3.2 Cloud Types and Vertical Motion</h3>
+<ul>
+<li>Visible clouds indicate regions of rising air where condensation has occurred on condensation nuclei.</li>
+<li>Cloud forms depend on the character of the vertical motion field.</li>
+</ul>
+<h3 id="33-cloud-growth-processes">3.3 Cloud Growth Processes</h3>
+<h4 id="331-natural-precipitation-processes">3.3.1 Natural Precipitation Processes</h4>
+<ol>
+<li>Collision-coalescence process</li>
+<li>Wegener-Bergeron-Findeisen process</li>
+</ol>
+<h4 id="332-cloud-seeding">3.3.2 Cloud Seeding</h4>
+<ul>
+<li>Introduces nucleation agents (e.g., silver iodide) to increase precipitation efficiency.</li>
+</ul>
+<h4 id="333-ice-crystal-process">3.3.3 Ice Crystal Process</h4>
+<pre class="mermaid"><code>graph TD
+    A[Mixed-Phase Cloud] --&gt; B{Temperature &lt; 0°C?}
+    B --&gt;|No| C[Remain Liquid Droplets]
+    B --&gt;|Yes| D[Supercooled Liquid Water]
+    D --&gt; E{Ice Nuclei Present?}
+    E --&gt;|No| F[Remain Supercooled]
+    E --&gt;|Yes| G[Ice Crystal Formation]
+    G --&gt; H[Water Vapor Deposits on Ice]
+    H --&gt; I[Ice Crystals Grow]
+    I --&gt; J[Supercooled Droplets Evaporate]
+    J --&gt; K[Water Vapor Transfers to Ice]
+    K --&gt; L{Ice Crystals Large Enough?}
+    L --&gt;|No| H
+    L --&gt;|Yes| M[Ice Crystals Fall as Precipitation]
+
+    subgraph Supersaturation
+    N[Air Saturated w.r.t Water]
+    O[Air Supersaturated w.r.t Ice]
+    end
+
+    N --&gt; D
+    O --&gt; H</code></pre>
+<h4 id="334-coalescence-process">3.3.4 Coalescence Process</h4>
+<ul>
+<li>Cloud droplets grow by colliding and merging with other droplets.</li>
+<li>Larger drops fall faster, overtaking and colliding with smaller ones.</li>
+<li>Collision efficiency: The fraction of droplets in the vertical path that actually hit the large drop.</li>
+</ul>
+<h2 id="4-atmospheric-processes">4. Atmospheric Processes</h2>
+<h3 id="41-fog-formation-through-radiative-cooling">4.1 Fog Formation through Radiative Cooling</h3>
+<ol>
+<li>Lower atmosphere radiates heat</li>
+<li>Earth's surface cools</li>
+<li>Moist air near surface cools to dew point</li>
+<li>Water vapor condenses into tiny droplets</li>
+<li>Suspended droplets form fog layer</li>
+<li>
+<p>Upper dry air limits vertical extent</p>
+</li>
+<li>
+<p>Typically occurs on clear nights with calm winds, creating a shallow fog layer near the ground.</p>
+</li>
+</ol>
+<h3 id="42-evaporative-cooling">4.2 Evaporative Cooling</h3>
+<ul>
+<li>Cooling effect caused by water evaporating from surfaces (e.g., skin after swimming).</li>
+</ul>
+<h2 id="5-water-states-and-phase-changes">5. Water States and Phase Changes</h2>
+<h3 id="51-supercooled-water">5.1 Supercooled Water</h3>
+<ul>
+<li>Pure water can remain liquid below 32°F, especially in small quantities like cloud droplets.</li>
+<li>Cloud droplets can remain liquid down to -40°F before certainly freezing into ice.</li>
+</ul>
+<h3 id="52-ice-crystal-formation">5.2 Ice Crystal Formation</h3>
+<ul>
+<li>Ice-crystal nuclei facilitate ice formation at modest degrees of supercooling.</li>
+<li>Without nuclei, ice forms through spontaneous arrangement of water molecules at very low temperatures (around -40°F).</li>
+</ul>
+<h3 id="53-saturation-vapor-pressure-differences">5.3 Saturation Vapor Pressure Differences</h3>
+<ul>
+<li>Saturation vapor pressure of water is higher than that of ice at the same subfreezing temperature.</li>
+<li>A cloud of supercooled water droplets may have air saturated with respect to water but supersaturated with respect to ice.</li>
+</ul>
+<h2 id="6-hydrometeors">6. Hydrometeors</h2>
+<ul>
+<li>Definition: Water or ice particles in the atmosphere.</li>
+<li>Examples: clouds, fog, rain, snow, hail, dew, rime, glaze, blowing snow, and blowing spray.</li>
+</ul>
+<h2 id="7-droplet-growth-and-raindrop-formation">7. Droplet Growth and Raindrop Formation</h2>
+<ul>
+<li>A raindrop's volume is approximately one million times larger than a cloud droplet.</li>
+<li>Condensation alone cannot lead to rainfall due to decreasing growth rate with droplet size.</li>
+<li>Higher supersaturation leads to a greater number of cloud droplets, not larger droplets.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>

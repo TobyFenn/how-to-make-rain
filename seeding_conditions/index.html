@@ -1,0 +1,1280 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../seeding/">
+      
+      
+        <link rel="next" href="../seeding_types/">
+      
+      
+      <link rel="icon" href="../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>Conditions - How to Make Rain</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cloud-seeding-conditions-processes-and-challenges" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="How to Make Rain" class="md-header__button md-logo" aria-label="How to Make Rain" data-md-component="logo">
+      
+  <img src="../img/drop.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            How to Make Rain
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Conditions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Index
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../meteorology/" class="md-tabs__link">
+        
+  
+    
+  
+  Intro to Cloud Physics
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../seeding/" class="md-tabs__link">
+        
+  
+    
+  
+  Seeding Process
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Conditions
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../seeding_types/" class="md-tabs__link">
+        
+  
+    
+  
+  Seeding Types
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../impact/" class="md-tabs__link">
+        
+  
+    
+  
+  Anthropogenic Impact
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../SNOWIE/" class="md-tabs__link">
+        
+  
+    
+  
+  Project SNOWIE
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../WWMPP/" class="md-tabs__link">
+        
+  
+    
+  
+  WWMPP
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="How to Make Rain" class="md-nav__button md-logo" aria-label="How to Make Rain" data-md-component="logo">
+      
+  <img src="../img/drop.png" alt="logo">
+
+    </a>
+    How to Make Rain
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../meteorology/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Intro to Cloud Physics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../seeding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seeding Process
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Conditions
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Conditions
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction-to-cloud-seeding" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introduction to Cloud Seeding
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-cloud-types-and-processes" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Cloud Types and Processes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Cloud Types and Processes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-convective-vs-stratiform-clouds" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Convective vs. Stratiform Clouds
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-orographic-clouds" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Orographic Clouds
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2 Orographic Clouds">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#orographic-clouds-are-targeted-for-cloud-seeding-for-several-reasons" class="md-nav__link">
+    <span class="md-ellipsis">
+      Orographic clouds are targeted for cloud seeding for several reasons.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formation-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formation Process:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Characteristics:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-conditions-for-cloud-seeding" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Conditions for Cloud Seeding
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Conditions for Cloud Seeding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-supercooled-liquid-water-slw" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Supercooled Liquid Water (SLW)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-temperature-and-humidity-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Temperature and Humidity Requirements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-atmospheric-stability" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Atmospheric Stability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-background-aerosol-concentrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Background Aerosol Concentrations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.4 Background Aerosol Concentrations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#natural-vs-anthropogenic-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Natural vs. Anthropogenic Sources
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impact-on-cloud-microphysics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impact on Cloud Microphysics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Impact on Cloud Microphysics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#this-can-affect" class="md-nav__link">
+    <span class="md-ellipsis">
+      This can affect:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#role-in-cloud-seeding-effectiveness" class="md-nav__link">
+    <span class="md-ellipsis">
+      Role in Cloud Seeding Effectiveness
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimal-seeding-conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Optimal Seeding Conditions:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-cloud-seeding-processes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Cloud Seeding Processes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Cloud Seeding Processes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-vapor-deposition" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Vapor Deposition
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1 Vapor Deposition">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#process" class="md-nav__link">
+    <span class="md-ellipsis">
+      Process:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-epitaxial-riming" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Epitaxial Riming
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-collision-coalescence" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 Collision-coalescence
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3 Collision-coalescence">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Steps:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Steps:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in-hygroscopic-seeding" class="md-nav__link">
+    <span class="md-ellipsis">
+      In Hygroscopic Seeding:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-optimal-seeding-strategies" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Optimal Seeding Strategies
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Optimal Seeding Strategies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-cloud-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 Cloud Selection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-timing-and-location" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 Timing and Location
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-energy-and-heat-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3 Energy and Heat Considerations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-challenges-in-cloud-seeding" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Challenges in Cloud Seeding
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Challenges in Cloud Seeding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-distinguishing-seeded-vs-natural-precipitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1 Distinguishing Seeded vs. Natural Precipitation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-variability-in-cloud-microphysics" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2 Variability in Cloud Microphysics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-environmental-and-regulatory-concerns" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.3 Environmental and Regulatory Concerns
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../seeding_types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seeding Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../impact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anthropogenic Impact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SNOWIE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project SNOWIE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../WWMPP/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WWMPP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="cloud-seeding-conditions-processes-and-challenges">Cloud Seeding: Conditions, Processes, and Challenges</h1>
+<h2 id="1-introduction-to-cloud-seeding">1. Introduction to Cloud Seeding</h2>
+<p>'The underlying concept is to treat those storms or portions of storms that are naturally inefficient to make them more efficient through cloud seeding'. (ASCE)</p>
+<h2 id="2-cloud-types-and-processes">2. Cloud Types and Processes</h2>
+<h3 id="21-convective-vs-stratiform-clouds">2.1 Convective vs. Stratiform Clouds</h3>
+<table>
+<thead>
+<tr>
+<th>Convective Clouds</th>
+<th>Stratiform Clouds</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formed by rising air currents</td>
+<td>Form in horizontal layers</td>
+</tr>
+<tr>
+<td>Puffy, cauliflower-like appearance</td>
+<td>Generally produce lighter, widespread precipitation</td>
+</tr>
+<tr>
+<td>Range from small fair-weather cumulus to large cumulonimbus</td>
+<td>Examples: stratus and altostratus clouds</td>
+</tr>
+<tr>
+<td>Often associated with intense, localized precipitation</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>'The effects of convective cloud seeding have been mixed and often inconclusive since the discovery of the effects of dry ice on supercooled stratiform cloud precipitation process efficiency'... but 'results indicated that rainfall was increased downwind of the seeding activity'. (ASCE) Randomized hygroscopic seeding in South Africa and Thailand reached statistical significance and increased rainfall up to 30-60%.</p>
+<h3 id="22-orographic-clouds">2.2 Orographic Clouds</h3>
+<blockquote>
+<p>Clouds that form as a result of air being forced to rise over topographical features like mountains or hills</p>
+</blockquote>
+<p>'Shallow widespread winter orographic cloud systems provided the best potential for precipitation augmentation through cloud seeding operations because their supercooled liquid water is long lasting and distributed over a large area'. (ASCE)</p>
+<h4 id="orographic-clouds-are-targeted-for-cloud-seeding-for-several-reasons">Orographic clouds are targeted for cloud seeding for several reasons.</h4>
+<ul>
+<li>Predictable formation: Orographic clouds form reliably when moist air is forced up over mountains, making them easier to target.</li>
+<li>Supercooled liquid water: These clouds often contain supercooled liquid water, which is essential for glaciogenic seeding.</li>
+<li>Natural precipitation enhancement: Mountains already enhance precipitation naturally, so seeding can potentially augment this effect.</li>
+<li>Water resource management: Many regions rely on mountain snowpack for water supplies, making orographic cloud seeding attractive for water resource management.</li>
+</ul>
+<h4 id="formation-process">Formation Process:</h4>
+<ol>
+<li>Moist air encounters a topographical barrier (e.g., mountain)</li>
+<li>Air is forced to rise up the windward side</li>
+<li>As air rises, it cools and expands</li>
+<li>If air cools to its saturation point, water vapor condenses into cloud droplets</li>
+</ol>
+<h4 id="characteristics">Characteristics:</h4>
+<ul>
+<li>Typically form on the windward side of mountains</li>
+<li>Can appear as a "cap" over mountain peaks or a "collar" around them</li>
+<li>May dissipate on the leeward side due to descending air motion (rain shadow effect)</li>
+<li>Common cloud types: Altocumulus, Stratocumulus, Cumulus</li>
+</ul>
+<h2 id="3-conditions-for-cloud-seeding">3. Conditions for Cloud Seeding</h2>
+<h3 id="31-supercooled-liquid-water-slw">3.1 Supercooled Liquid Water (SLW)</h3>
+<blockquote>
+<p>SLW refers to water droplets that remain liquid below the freezing point</p>
+</blockquote>
+<p>SLW is a necessary but not sufficient condition for initiating glaciogenic cloud seeding (atmospheric stability and vertical wind profiles need to be examined to determine if seeding is feasible). </p>
+<p>SLW:</p>
+<table>
+<thead>
+<tr>
+<th>Characteristic</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vertical thickness</td>
+<td>100-500 m (typical), up to 1-2 km</td>
+</tr>
+<tr>
+<td>Horizontal extent</td>
+<td>Few hundred meters to over 100 km</td>
+</tr>
+</tbody>
+</table>
+<h3 id="32-temperature-and-humidity-requirements">3.2 Temperature and Humidity Requirements</h3>
+<p>For glaciogenic seeding:</p>
+<table>
+<thead>
+<tr>
+<th>Temperature Range</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Above -10C</td>
+<td>Seeding materials less effective at nucleating ice</td>
+</tr>
+<tr>
+<td>-10C to -25C</td>
+<td><strong>Optimal range</strong> for seeding</td>
+</tr>
+<tr>
+<td>Below -25C</td>
+<td>Natural ice crystal concentrations may already be high</td>
+</tr>
+</tbody>
+</table>
+<h3 id="33-atmospheric-stability">3.3 Atmospheric Stability</h3>
+<blockquote>
+<p>Atmospheric stability plays a crucial role in the effectiveness of cloud seeding operations</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Condition</th>
+<th>Effect on Seeding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stable</td>
+<td>May limit vertical mixing of seeding agents</td>
+</tr>
+<tr>
+<td>Unstable</td>
+<td>Can enhance vertical transport but may lead to rapid dispersal</td>
+</tr>
+</tbody>
+</table>
+<h3 id="34-background-aerosol-concentrations">3.4 Background Aerosol Concentrations</h3>
+<h4 id="natural-vs-anthropogenic-sources">Natural vs. Anthropogenic Sources</h4>
+<table>
+<thead>
+<tr>
+<th>Natural Sources</th>
+<th>Anthropogenic Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sea spray (ocean aerosols)</td>
+<td>Industrial emissions</td>
+</tr>
+<tr>
+<td>Dust from arid regions</td>
+<td>Vehicle exhaust</td>
+</tr>
+<tr>
+<td>Volcanic emissions</td>
+<td>Biomass burning</td>
+</tr>
+<tr>
+<td>Biological particles (pollen, spores, etc.)</td>
+<td>Agricultural activities</td>
+</tr>
+</tbody>
+</table>
+<h4 id="impact-on-cloud-microphysics">Impact on Cloud Microphysics</h4>
+<ul>
+<li>Aerosols serve as cloud condensation nuclei (CCN) and ice nuclei (IN)</li>
+<li>Higher aerosol concentrations can lead to more numerous but smaller cloud droplets</li>
+</ul>
+<h5 id="this-can-affect">This can affect:</h5>
+<ul>
+<li>Cloud lifetime</li>
+<li>Precipitation efficiency</li>
+<li>Radiative properties</li>
+</ul>
+<h4 id="role-in-cloud-seeding-effectiveness">Role in Cloud Seeding Effectiveness</h4>
+<blockquote>
+<p>Background aerosol concentrations can significantly impact the effectiveness of cloud seeding</p>
+</blockquote>
+<p><strong>Effects on Seeding:</strong></p>
+<table>
+<thead>
+<tr>
+<th>High Concentrations</th>
+<th>Low Concentrations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Can reduce seeding effectiveness</td>
+<td>May allow seeding particles to have a more significant impact</td>
+</tr>
+<tr>
+<td>Compete with seeding particles for available water vapor</td>
+<td></td>
+</tr>
+<tr>
+<td>Potentially overwhelm the impact of added seeding material</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>The composition of background aerosols (e.g., their hygroscopicity) also affects seeding outcomes</p>
+</blockquote>
+<h4 id="optimal-seeding-conditions"><strong>Optimal Seeding Conditions:</strong></h4>
+<ul>
+<li>Generally, moderate background aerosol concentrations are ideal for seeding</li>
+<li>Too clean environments may lack sufficient CCN for initial cloud formation</li>
+<li>Too polluted environments may reduce the relative impact of seeding particles</li>
+</ul>
+<h2 id="4-cloud-seeding-processes">4. Cloud Seeding Processes</h2>
+<h3 id="41-vapor-deposition">4.1 Vapor Deposition</h3>
+<blockquote>
+<p>The process by which water vapor directly transforms into ice on a surface, without going through the liquid phase</p>
+</blockquote>
+<h4 id="process"><strong>Process:</strong></h4>
+<ol>
+<li>Water vapor molecules in supersaturated air diffuse towards ice particles or droplets</li>
+<li>Molecules adhere to the surface, growing the particle</li>
+<li>Growth rate depends on factors like temperature, pressure, and particle size</li>
+<li>As particles grow, they release latent heat, affecting further growth</li>
+</ol>
+<h3 id="42-epitaxial-riming">4.2 Epitaxial Riming</h3>
+<blockquote>
+<p>Growth of small ice particles on the surface of larger ice particles along the same crystal axis</p>
+</blockquote>
+<ul>
+<li>Results in faceted particles</li>
+<li>Small particles inherit the same lattice structure as the underlying ice crystal</li>
+<li>More common at higher temperatures (near 0C)</li>
+<li>Tends to occur on larger ice particles</li>
+</ul>
+<h3 id="43-collision-coalescence">4.3 Collision-coalescence</h3>
+<blockquote>
+<p>Process by which cloud droplets collide and merge to form larger droplets</p>
+</blockquote>
+<h4 id="key-steps"><strong>Key Steps:</strong></h4>
+<ol>
+<li>Cloud droplets of different sizes fall at different speeds</li>
+<li>Larger droplets fall faster and collide with smaller droplets</li>
+<li>Upon collision, droplets merge to form even larger droplets</li>
+<li>Process continues until droplets are large enough to fall as rain</li>
+</ol>
+<h5 id="in-hygroscopic-seeding"><strong>In Hygroscopic Seeding:</strong></h5>
+<ul>
+<li>Hygroscopic particles released at cloud base rise in updrafts</li>
+<li>As they ascend, they grow by vapor deposition, becoming larger cloud droplets</li>
+<li>Larger droplets have higher collection efficiency and fall speed than natural droplets</li>
+<li>As they fall relative to smaller droplets, they collide and coalesce, growing larger</li>
+<li>Process initiates earlier and faster than in unseeded clouds</li>
+<li>Larger droplets continue growing as they fall, potentially becoming raindrops</li>
+</ul>
+<h2 id="5-optimal-seeding-strategies">5. Optimal Seeding Strategies</h2>
+<h3 id="51-cloud-selection">5.1 Cloud Selection</h3>
+<p>What makes a cloud a good candidate for precipitation / cloud seeding?</p>
+<p>Clouds that have significant cloud condensate but lack an appropriate mechanism for hydrometeor growth to a precipitation-sized hydrometeor within their lifetime (i.e. are naturally inefficient / colloidally stable).</p>
+<h3 id="52-timing-and-location">5.2 Timing and Location</h3>
+<p>Where and when is it most efficient to seed?</p>
+<p>If we have a cloud that is 32F at its base and 25F at the top, we want to seed at the bottom of the cloud, where the temperature is closest to 32F.</p>
+<p>Even though seeding at temperatures farther below freezing is associated with a higher ice nucleation rate and growth rates, it's actually worse due to a nucleation delay -- seeding at this level leads to fewer activated ice nuclei. You miss out on opportunities to form precipitation that may have been present had you seeded closer to freezing.</p>
+<p>It's generally understood that there is a short window of opportunity for most effective seeding: generally, when the top of the growing tower passes from 0C to -10C to -12C. </p>
+<p>Hygroscopic Seeding usually occurs just below cloud base in the area of maximum updraft to ensure that the cloud ingested the seeding agent early in the warm convective cloud's lifetime before the warm rain process is firmly established. </p>
+<p>Because the effects of seeding are not instantaneous, seeding agents must be applied to moving cloud systems sufficiently in advance of their entering the target area. The width of this buffer zone clearly is dependent on the speed at which the system is moving. </p>
+<h3 id="53-energy-and-heat-considerations">5.3 Energy and Heat Considerations</h3>
+<p>The rapid conversion of supercooled water droplets to ice particles adds heat (latent heat of fusion) to the cloud w.r.t. the surrounding air, which increases buoyancy. This heated air is less dense than the surrounding air, and thus rises, leading to even greater cloud development. So seeding individual convective clouds results in more updrafts -&gt; increased condensation -&gt; increased precipitation.</p>
+<h2 id="6-challenges-in-cloud-seeding">6. Challenges in Cloud Seeding</h2>
+<h3 id="61-distinguishing-seeded-vs-natural-precipitation">6.1 Distinguishing Seeded vs. Natural Precipitation</h3>
+<ul>
+<li>One of the primary challenges in cloud seeding research</li>
+<li>Requires sophisticated measurement techniques and statistical analysis</li>
+<li>Recent advances include Improved radar technology and Tracer studies</li>
+</ul>
+<h3 id="62-variability-in-cloud-microphysics">6.2 Variability in Cloud Microphysics</h3>
+<ul>
+<li>Cloud properties can vary significantly even within a single cloud system</li>
+<li>Makes it difficult to predict and quantify seeding effects</li>
+<li>Requires careful monitoring and adaptable seeding strategies</li>
+</ul>
+<h3 id="63-environmental-and-regulatory-concerns">6.3 Environmental and Regulatory Concerns</h3>
+<ol>
+<li>Potential long-term impacts of seeding agents on ecosystems</li>
+<li>Regulatory frameworks vary by region and country</li>
+<li>Ongoing research into more environmentally friendly seeding materials</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>
