@@ -27,9 +27,13 @@ The WWMPP established cloud-seeding research programs in three Wyoming mountain 
 > Orographic cloud seeding is designed to enhance precipitation in winter storms with inefficient precipitation processes due to a lack of natural ice nuclei.
 
 Key points:
+
 - Uses ground-based generators to produce silver iodide plumes
+  
 - Plumes are transported by ambient winds into orographic clouds
+  
 - Aims to increase precipitation by creating additional ice crystals
+  
 
 ### 1.4 Project Structure
 
