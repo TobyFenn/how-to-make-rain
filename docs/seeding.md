@@ -207,14 +207,15 @@ Does seeding in one area steal rain from another ('robbing Peter to pay Paul')?
 
 | Study | Project / Region | Down-Wind Finding |
 |-------|------------------|-------------------|
-| DeFelice *et al.* (2014) | Meta-analysis of five winter & summer projects (U.S., Thailand) | Precipitation **+5 – 15 %** up to a few hundred km from the target zone |
+| DeFelice *et al.* (2014) | Meta-analysis of five winter & summer projects (U.S., Thailand) | Precipitation increased **+5 – 15 %** up to a few hundred km from the target zone |
 | Yorty (2019) – update of Solak *et al.* (2003) | 41-season Utah orographic program | **+12 %** in the target area and similar gains out to ≈ 160 km east; **no decreases observed** |
-| Hobbs & Radke (1973) | Cascade Mountains, WA | Snowfall plume shifted ≈ 20 km leeward, increasing totals east of the crest while the crest itself fell slightly |
-| Friedrich *et al.* (2020) – SNOWIE | Payette Basin, ID | Radar-gauge network showed seeded snow spreading over a broad swath down-wind, adding measurable water |
+| Friedrich *et al.* (2020) – SNOWIE | Payette Basin, ID | Radar-gauge network showed seeded snow spreading over a broad swath down-wind |
 
 ---
 
 ### 3.2 Why the Extra Water?
+
+In short, there is a lot water vapor available. The target area starts out with far more vapor than it can ever rain out. Most of that moisture is lost as the air warms and dries while descending the lee slope. Routine silver-iodide seeding nudges a small share of this “would-have-evaporated” vapor into ice sooner, so the ridge gains a bit of extra snow while the newly formed crystals keep drifting and often snow out tens of kilometres down-wind. 
 
 1. **Ice-multiplier effect** – Seeded ice crystals continue to grow and aggregate while drifting leeward, adding mass outside the target box.  
 2. **Dynamic feedbacks** – Latent-heat release from early precipitation invigorates uplift, sustaining cloud depth farther down-wind.  
