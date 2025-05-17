@@ -2,13 +2,13 @@
 
 ## Introduction
 
-This guide provides a comprehensive overview of cloud seeding, its processes, meteorological conditions, and scientific studies. I am writing this to use as a reference to build upon as I learn more about the field. But it is designed for anyone interested in weather modification techniques.
+This guide provides a comprehensive overview of precipitation enhancement technology, its processes, meteorological conditions, and scientific studies. I am writing this to use as a reference to build upon as I learn more about the field. But it is designed for anyone interested in weather modification techniques.
 
 This site is a living document, continuously updated with information as I learn more. For suggestions, corrections, or contributions, please contact me (tfenner@usc.edu).
 
-## Cloud seeding, as fast as possible
+## Precipitation enhancement fast as possible
 
-Cloud seeding is a weather modification technique that enhances precipitation by introducing particles into clouds. 
+Precipitation enhancement technology is a weather modification technique that enhances precipitation by introducing particles into clouds. 
 
 It works by dispersing substances like silver iodide, which act as nuclei for water vapor condensation. 
 
@@ -16,13 +16,14 @@ These particles are typically dispersed using aircraft, ground generators, or dr
 
 ## A little more detail
 
-Cloud seeding has applications in drought mitigation, snowpack enhancement, and hail suppression, but faces challenges in attribution and environmental concerns.
+Precipitation enhancement has applications in drought mitigation, snowpack enhancement, and hail suppression, but has historically faced challenges in attribution and environmental concerns.
 
 Hygroscopic seeding uses salt particles to accelerate droplet growth, while glaciogenic seeding uses ice-nucleating agents to stimulate ice crystal formation. Common seeding agents include silver iodide, potassium iodide, dry ice, and hygroscopic salts. Seeding agents are dispersed using aircraft, ground-based generators, or rockets to target specific cloud areas.
 
-Cloud seeding is most effective in regions with suitable cloud types and atmospheric conditions, typically requiring supercooled liquid water and specific temperature ranges. Measuring cloud seeding effectiveness involves complex statistical analysis and physical evidence, with results often showing increases in precipitation.
+Precipitation enhancement is most effective in regions with suitable cloud types and atmospheric conditions, typically requiring supercooled liquid water and specific temperature ranges. Measuring effectiveness involves complex statistical analysis and physical evidence, with results often showing increases in precipitation.
 
-Rainmaker is pioneering a modern cloud seeding system. We develop and incorporate radar validation, weather resistant drones, numerical weather modeling, and sustainable cloud seeds into an effective precipitation enhancement solution.
+Rainmaker is pioneering modern precipitation enhancement technology. We develop and incorporate radar validation, weather resistant drones, numerical weather modeling, and sustainable cloud seeds into an effective precipitation enhancement solution.
+
 <!-- ## Table of Contents -->
 <!-- 
 1. [Seeding](seeding.md)
