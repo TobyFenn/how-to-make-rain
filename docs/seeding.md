@@ -199,30 +199,30 @@ Emerging alternatives to traditional seeding agents aim to reduce environmental 
 
 
 ## 3. A Positive Sum Game?
+Does seeding in one area steal rain from another ('robbing Peter to pay Paul')?
 
-3. Extra-Area (Down-Wind) Effects
+### 3.1 Extra-Area (Down-Wind) Effects
 
-Does Seeding “Rob Peter to Pay Paul”?
+> **Take-away:** Decades of peer-reviewed work show that well-designed cloud-seeding programs do **not** reduce precipitation in neighbouring regions; most studies find neutral or modestly positive down-wind gains.
 
-Take-away: Decades of peer-reviewed work show that well-designed cloud-seeding programs do not reduce precipitation in neighbouring regions; most studies find neutral or modestly positive down-wind gains.
+| Study | Project / Region | Down-Wind Finding |
+|-------|------------------|-------------------|
+| DeFelice *et al.* (2014) | Meta-analysis of five winter & summer projects (U.S., Thailand) | Precipitation **+5 – 15 %** up to a few hundred km from the target zone |
+| Yorty (2019) – update of Solak *et al.* (2003) | 41-season Utah orographic program | **+12 %** in the target area and similar gains out to ≈ 160 km east; **no decreases observed** |
+| Hobbs & Radke (1973) | Cascade Mountains, WA | Snowfall plume shifted ≈ 20 km leeward, increasing totals east of the crest while the crest itself fell slightly |
+| Friedrich *et al.* (2020) – SNOWIE | Payette Basin, ID | Radar-gauge network showed seeded snow spreading over a broad swath down-wind, adding measurable water |
 
-Study	Project / Region	Down-wind Finding
-DeFelice et al. (2014)	Meta-analysis of five winter & summer projects (U.S., Thailand)	Precipitation +5 – 15 % up to a few hundred km from the target zone
-Yorty (2019) – update of Solak et al. (2003)	41-season Utah orographic program	+12 % in the target area and similar gains out to ≈160 km east; no decreases observed
-Hobbs & Radke (1973)	Cascade Mountains, WA	Snowfall plume shifted ≈20 km leeward, increasing totals east of the crest while the crest itself fell slightly
-Friedrich et al. (2020) – SNOWIE	Payette Basin, ID	Radar-gauge network showed seeded snow spreading over a broad swath down-wind, adding measurable water
+---
 
+### 3.2 Why the Extra Water?
 
-⸻
+1. **Ice-multiplier effect** – Seeded ice crystals continue to grow and aggregate while drifting leeward, adding mass outside the target box.  
+2. **Dynamic feedbacks** – Latent-heat release from early precipitation invigorates uplift, sustaining cloud depth farther down-wind.  
+3. **Moisture recycling** – Accelerating ice formation higher in the column leaves ample residual vapour for subsequent clouds rather than depleting it.
 
-3.2 Why the Extra Water?
-	1.	Ice-multiplier effect – Seeded ice crystals continue to grow and aggregate while drifting leeward, adding mass outside the target box.
-	2.	Dynamic feedbacks – Latent-heat release from early precipitation invigorates uplift, sustaining cloud depth farther down-wind.
-	3.	Moisture recycling – Accelerating ice formation higher in the column leaves ample residual vapour for subsequent clouds, rather than depleting it.
+---
 
-⸻
+### 3.3 Bottom Line
 
-3.3 Bottom Line
-
-Across controlled experiments, long-term operational evaluations, and modern radar-tracer campaigns, no credible evidence supports the notion that cloud seeding “steals” precipitation from adjacent areas. Instead, the practice is consistently neutral-to-positive for regions beyond the target, making it a genuinely positive-sum tool within the hydrologic cycle.
+Across controlled experiments, long-term operational evaluations, and modern radar-tracer campaigns, **no credible evidence** supports the notion that cloud seeding *steals* precipitation from adjacent areas. Instead, the practice is consistently **neutral-to-positive for down-wind regions**, making it a genuinely positive-sum tool within the hydrologic cycle.
 
