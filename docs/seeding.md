@@ -213,9 +213,7 @@ Does seeding in one area steal rain from another ('robbing Peter to pay Paul')?
 
 ---
 
-### 3.2 Why the Extra Water?
-
-In short, there is a lot water vapor available. The target area starts out with far more vapor than it can ever rain out. Most of that moisture is lost as the air warms and dries while descending the lee slope. Routine silver-iodide seeding nudges a small share of this “would-have-evaporated” vapor into ice sooner, so the ridge gains a bit of extra snow while the newly formed crystals keep drifting and often snow out tens of kilometres down-wind. 
+Basically, there is just a lot of water vapor available. The target area starts out with far more vapor than it can ever rain out. Routine silver-iodide seeding nudges a small share of this “would-have-evaporated” vapor into ice sooner, so the ridge gains a bit of extra snow while the newly formed crystals keep drifting and will even snow out tens of kilometres down-wind. 
 
 1. **Ice-multiplier effect** – Seeded ice crystals continue to grow and aggregate while drifting leeward, adding mass outside the target box.  
 2. **Dynamic feedbacks** – Latent-heat release from early precipitation invigorates uplift, sustaining cloud depth farther down-wind.  
@@ -225,5 +223,5 @@ In short, there is a lot water vapor available. The target area starts out with 
 
 ### 3.3 Bottom Line
 
-Across controlled experiments, long-term operational evaluations, and modern radar-tracer campaigns, **no credible evidence** supports the notion that cloud seeding *steals* precipitation from adjacent areas. Instead, the practice is consistently **neutral-to-positive for down-wind regions**, making it a genuinely positive-sum tool within the hydrologic cycle.
+Across controlled experiments, long-term operational evaluations, and modern radar-tracer campaigns, no credible evidence supports the notion that cloud seeding steals precipitation from adjacent areas. Instead, the practice is consistently neutral-to-positive for down-wind regions.
 
