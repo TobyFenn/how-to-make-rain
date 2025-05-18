@@ -140,11 +140,7 @@ SNOWIE's advancements enabled researchers to measure seeding-induced rainfall wi
 2. **Methodology**: Introduces a physically-based approach to isolate seeding-induced precipitation
 3. **Future Applications**: Sets the stage for validating numerical models and improving interpretation of precipitation observations
 
-## Impact on the Industry
-
-SNOWIE's success was a catalyst. Rainmaker now aims to replicate and build upon these measurement techniques, bringing cloud seeding into the realm of data-driven, scientifically-validated technology.
-
-By solving the attribution problem, SNOWIE has potentially opened the door for a renaissance in weather modification.
+SNOWIE's success was a catalyst. By solving the attribution problem, SNOWIE has potentially opened the door for a renaissance in weather modification.
 
 ## Historical Context
 
