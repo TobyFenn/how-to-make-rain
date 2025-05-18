@@ -22,8 +22,6 @@ Hygroscopic seeding uses salt particles to accelerate droplet growth, while glac
 
 Precipitation enhancement is most effective in regions with suitable cloud types and atmospheric conditions, typically requiring supercooled liquid water and specific temperature ranges. Measuring effectiveness involves complex statistical analysis and physical evidence, with results often showing increases in precipitation.
 
-Rainmaker is pioneering modern precipitation enhancement technology. We develop and incorporate radar validation, weather resistant drones, numerical weather modeling, and sustainable cloud seeds into an effective precipitation enhancement solution.
-
 <!-- ## Table of Contents -->
 <!-- 
 1. [Seeding](seeding.md)
