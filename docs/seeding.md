@@ -213,7 +213,9 @@ Does seeding in one area steal rain from another ('robbing Peter to pay Paul')?
 
 ---
 
-Basically, there is just a lot of water vapor available. The target area starts out with far more vapor than it can ever rain out. Routine silver-iodide seeding nudges a small share of this “would-have-evaporated” vapor into ice sooner, so the ridge gains a bit of extra snow while the newly formed crystals keep drifting and will even snow out tens of kilometres down-wind. 
+Basically, there is just a lot of water vapor available. Only 9 % of the moisture passing over Texas actually falls as precipitation.
+
+The target area starts out with far more vapor than it can ever rain out. Routine silver-iodide seeding nudges a small share of this “would-have-evaporated” vapor into ice sooner, so the ridge gains a bit of extra snow while the newly formed crystals keep drifting and will even snow out tens of kilometres down-wind. 
 
 1. **Ice-multiplier effect** – Seeded ice crystals continue to grow and aggregate while drifting leeward, adding mass outside the target box.  
 2. **Dynamic feedbacks** – Latent-heat release from early precipitation invigorates uplift, sustaining cloud depth farther down-wind.  
