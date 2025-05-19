@@ -8,7 +8,7 @@ This site is a living document, continuously updated with information as I learn
 
 ## Precipitation enhancement fast as possible
 
-Precipitation enhancement technology is a weather modification technique that enhances precipitation by introducing particles into clouds. 
+Precipitation enhancement is a weather modification technique that enhances precipitation by introducing particles into clouds. 
 
 It works by dispersing substances like silver iodide, which act as nuclei for water vapor condensation. 
 
