@@ -151,6 +151,11 @@ Prior to SNOWIE, cloud seeding relied on less precise methods:
 
 These methods often resulted in immeasurable or statistically insignificant increases in precipitation, making it difficult to justify the cost and effort involved.
 
+## NOTE
+
+Many of the acre-feet estimations used here are not from the SNOWIE paper directly, but from following research that examined the same events.
+Friedrich et al., 2020, “Quantifying snowfall from orographic cloud seeding,” PNAS: the first study that actually calculated domain-wide snowfall from SNOWIE seeding.
+
 ## Future Work
 
 ### Research Directions

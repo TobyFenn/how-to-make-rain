@@ -43,6 +43,8 @@ There are 3 basic approaches to evaluate a cloud seeding project. Each has advan
 | January 20, 2017 | 8 | 241,260 m³ (196 acre-feet) | 160 minutes |
 | January 31, 2017 | 2 | 339,540 m³ (275 acre-feet) | 25 minutes |
 
+Source for acre-feet values: Friedrich et al., 2020, “Quantifying snowfall from orographic cloud seeding,” PNAS
+
 ### 2.3 Wind Effects on Particle Dispersion
 
 - Wind speed and direction significantly affect transport and dispersion of seeding agents
