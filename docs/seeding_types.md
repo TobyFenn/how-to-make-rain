@@ -20,8 +20,6 @@
 - Dry ice (solid CO2)
 - Liquid propane
 
-> AgI is typically dispersed via acetone burners or pyrotechnic flares.
-
 #### Objectives:
 - Increase ice crystal concentration in clouds lacking natural ice nuclei
 - Increase snowfall in winter orographic clouds
@@ -43,13 +41,12 @@ Hygroscopic agents deliquesce (dissolve into their aqueous components), becoming
  **Environment:** Can be effective in continental or maritime environments
 
 ### Process:
-1. Large hygroscopic particles (e.g., salt powders, flares) are injected into cloud base
+1. Large hygroscopic particles (e.g., salt powders) are injected into cloud base
 2. Particles act as cloud condensation nuclei (CCN) to form large cloud droplets
 3. Promotes collision-coalescence process to form raindrops
 
 ### Materials:
 - Salt powders (NaCl, KCl, CaCl2)
-- Hygroscopic flares containing salts and burning agents
 - Optimal particle size: 2-5 microns
 
 #### Objectives:
