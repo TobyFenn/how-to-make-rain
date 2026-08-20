@@ -1,0 +1,134 @@
+/* ================INSTRUCTIONS=================*/ 
+/* By changing the classes below, you can add your own custom styles for various areas of the header. 
+   In order for your changes to work though, you MUST include a reference in your HTML pages to both 
+   the common CSS file and custom CSS file in that order.
+
+Instructions are provided below for customizing these classes. */
+
+/* ================BANNER=======================*/  
+/* TO DISPLAY A CUSTOM BANNER IMAGE: 
+If you want to display a custom banner, change the "background: url" to point to a local banner, 
+or external, image location.
+
+TO DISPLAY A CUSTOM BANNER COLOR (NO IMAGE): 
+If you would rather display a color instead of a banner image, change the "background: url" portion to point to "" 
+and set the background color (#006633) to whatever color you wish to display.
+NOTE: You can use either hexadecimal color codes (i.e. - #006633, #063) or HTML color names (i.e. - "black"). */ 
+
+#usgscolorband { 
+	background: #0061A3 url(hazards.jpg) 100% auto no-repeat; 
+} 
+
+
+/* ================SITE TITLE===================*/ 
+/* TO DISPLAY A CUSTOM SITE TITLE BAR: 
+The #usgstitle class is specific to the colored site title bar that lies beneath the USGS identifier. 
+To change the color of this bar, set the "background-color" attribute below to the color you wish to 
+display and change the "color" attribute to set the text color.
+NOTE: You can use either hexadecimal color codes (i.e. - #000000) or HTML color names (i.e. - "black"). */ 
+
+/*
+#usgstitle { 
+    background-color: #000080; 
+    color: #ffffff; 
+}*/
+
+#usgstitle { 
+    background-color: #0061A3; 
+    color: #ffffff; 
+} 
+
+#usgstitle p { 
+	font: bold 1.2em Verdana, Arial, Helvetica, sans-serif; 
+	padding: 5px; 
+	margin: 0px; 
+}
+
+#usgstitle a:link, #usgstitle a:visited {
+	margin-right: 40px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#usgstitle a:hover {
+	margin-right: 40px;
+	color: #ffffff;
+	text-decoration: underline;
+}
+#usgstitle a:active {
+	margin-right: 40px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* =============Sub Title with Program and State nav dropdowns===============*/ 
+
+#navbar { 
+	background-color: #0061A3; 
+	color: #ffffff;
+	font: Verdana, Arial, Helvetica, sans-serif;
+	width: 100%; 
+	height: 42px;
+} 
+
+#subtitle { 
+	background-color: #0061A3; 
+	color: #ffffff;
+	font-size: .75em;
+	font: Verdana, Arial, Helvetica, sans-serif;
+	padding: .4em; 
+	float: left;
+} 
+#subtitle a:link, #subtitle a:visited {
+	color: #ffffff;
+}
+
+#navdropdowns { 
+	background-color: #0061A3; 
+	font: Verdana, Arial, Helvetica, sans-serif;
+	display: inline-block;
+        float: right;
+} 
+#programlist { 
+	padding: .2em;
+	font-size: .6em;
+	display: inline-block;
+} 
+#statelist { 
+	padding: .2em;
+	font-size: .6em;
+	display: inline-block;
+} 
+#maingobutton { 
+	padding: .2em;
+	display: inline-block;
+} 
+
+
+/* =============STANDARD CONTENT===============*/ 
+/* TO CHANGE THE TEXT SIZE OF THE CONTENT:
+By default, USGS has set the font size to "small" in order to provide a consistent size for content across all pages. 
+If you would prefer not to have a pre-defined font size for your pages, change the "font-size" attributes below to 
+"font-size: 100%;". */
+body {
+	font-size: 100%; 
+}
+th, td {
+	font-size: 100%;
+}
+
+		/* =============================================================================*/
+		/* === OLD TEMPLATES Version: FY 2006 (Deprecated but supported until further notice. ===*/
+		/* =====These styles are only here to support older templates. DO NOT EDIT =====*/
+			.banner { 
+					background: url("hazards.jpg") 178px 0px no-repeat; 
+			} 
+			DIV.bannerColorBand, DIV.banner { 
+					background-color: #006633; 
+			} 
+			Div.siteTitle, #pTitle { 
+				 background-color: #006633; 
+				 color: #ffffff; 
+			} 
+		/* === End OLD TEMPLATES: FY 2006 ===*/
+		/* ===============================================================*/

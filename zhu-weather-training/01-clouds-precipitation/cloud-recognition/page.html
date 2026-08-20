@@ -1,0 +1,1102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="utf-8"/>
+        <link href="http://purl.org/dc/elements/1.1/" rel="schema.DC"/>
+<title>Cloud Classification</title>
+<meta content="Cloud Classification" name="DC.title"/>
+<meta content="Cloud Classification" name="DC.description"/>
+<meta content="US Department of Commerce, NOAA, National Weather Service" name="DC.creator"/>
+<meta content="May 30th 2020 2:24 PM" name="DC.date.created" scheme="ISO8601"/>
+<meta content="EN-US" name="DC.language" scheme="DCTERMS.RFC1766"/>
+<meta content="Cloud Classification" name="DC.keywords"/>
+<meta content="NOAA's National Weather Service" name="DC.publisher"/>
+<meta content="National Weather Service" name="DC.contributor"/>
+<meta content="/disclaimer.php" name="DC.rights"/>
+<meta content="General" name="rating"/>
+<meta content="index,follow" name="robots"/>
+
+
+        <link href="assets/weatherstyle_59e96f.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/template.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/myfcst_42751f.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/ForecastSearch.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/pointforecast.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/jquery-ui-1.10.3.custom.min_32c442.css" rel="stylesheet" type="text/css"/>
+
+                                                        
+
+
+        <link href="assets/widgets_364516.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/colorbox_66d0ee.css" rel="stylesheet" type="text/css"/>
+        
+        
+        
+        
+        
+        
+
+
+
+
+    </head>
+    <body><div style="font:12px/1.4 -apple-system,Helvetica,Arial;color:#444;border-bottom:1px solid #ccc;padding:6px 0;margin-bottom:10px">ZHU Training Page archive · Cloud Recognition · Source: https://www.weather.gov/lmk/cloud_classification · Captured 2026-08-19 06:00 UTC</div> 
+        
+
+        <div class="header">
+    <div class="header-content">
+        <a class="header-nws" href="https://www.weather.gov"><img alt="National Weather Service" src="assets/header.png"/></a>
+        <a class="header-doc" href="http://www.commerce.gov"><img alt="United States Department of Commerce" src="assets/header_doc.png"/></a>
+        <a class="header-noaa" href="http://www.noaa.gov" title="National Oceanic and Atmospheric Administration"></a>
+    </div>
+    <div style="clear:both"></div>
+</div>
+<div class="header-shadow">
+    <div class="header-shadow-content"></div>
+</div>
+
+
+
+        <div class="center">
+
+            <div class="content">
+    <div class="topnav">
+        <ul id="topnav">
+            <li>
+                
+                <div class="topMenuNavList home">
+                    <a href="#" onclick="goBack();">HOME</a>
+                </div>
+            </li>
+                            <li>
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/forecastmaps/">FORECAST</a>
+                    </div>
+                                                                        <div class="sub" style="opacity: 0;">
+                                <ul>
+                                                                            <li>
+                                            <a href="https://www.weather.gov">Local</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://digital.weather.gov">Graphical</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://aviationweather.gov">Aviation</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/marine/">Marine</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://water.noaa.gov">Rivers and Lakes</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.nhc.noaa.gov">Hurricanes</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.spc.noaa.gov">Severe Weather</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/fire/">Fire Weather</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://gml.noaa.gov/grad/solcalc/">Sunrise/Sunset</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.cpc.ncep.noaa.gov">Long Range Forecasts</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.cpc.ncep.noaa.gov">Climate Prediction</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.swpc.noaa.gov">Space Weather</a>
+                                        </li>
+                                                                    </ul>
+                            </div>
+                                                            </li>
+                            <li>
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/wrh/climate">PAST WEATHER</a>
+                    </div>
+                                                                        <div class="sub" style="opacity: 0;">
+                                <ul>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/wrh/climate">Past Weather</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://gml.noaa.gov/grad/solcalc/">Astronomical Data</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.climate.gov/maps-data/dataset/past-weather-zip-code-data-table">Certified Weather Data</a>
+                                        </li>
+                                                                    </ul>
+                            </div>
+                                                            </li>
+                            <li>
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/safety/">SAFETY</a>
+                    </div>
+                                                                                </li>
+                            <li>
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/informationcenter">INFORMATION</a>
+                    </div>
+                                                                        <div class="sub" style="opacity: 0;">
+                                <ul>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/wrn/wea">Wireless Emergency Alerts</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/wrn/">Weather-Ready Nation</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/owlie/publication_brochures">Brochures</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/coop/">Cooperative Observers</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/briefing/">Daily Briefing</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/hazstat">Damage/Fatality/Injury Statistics</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="http://mag.ncep.noaa.gov">Forecast Models</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/gis/">GIS Data Portal</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/nwr">NOAA Weather Radio</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/publications/">Publications</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/skywarn/">SKYWARN Storm Spotters</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/stormready">StormReady</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/tsunamiready/">TsunamiReady</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/notification/">Service Change Notices</a>
+                                        </li>
+                                                                    </ul>
+                            </div>
+                                                            </li>
+                            <li>
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/education/">EDUCATION</a>
+                    </div>
+                                                                                </li>
+                            <li>
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/news">NEWS</a>
+                    </div>
+                                                                                </li>
+                            <li>
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/search/">SEARCH</a>
+                    </div>
+                                            <div class="sub" style="opacity: 0;">
+                            <ul class="no-links">
+                            <li><!-- Begin search code -->
+                                <div id="site-search">
+                                    <form action="https://search.usa.gov/search" method="get" style="margin-bottom: 0; margin-top: 0;">
+                                        <input name="v:project" type="hidden" value="firstgov"/>
+                                        <label for="query">Search For</label>
+                                        <input id="query" name="query" size="12" type="text"/>
+                                        <input type="submit" value="Go"/>
+                                        <p>
+                                            <input checked="checked" id="nws" name="affiliate" type="radio" value="nws.noaa.gov"/>
+                                            <label class="search-scope" for="nws">NWS</label>
+                                            <input id="noaa" name="affiliate" type="radio" value="noaa.gov"/>
+                                            <label class="search-scope" for="noaa">All NOAA</label>
+                                        </p>
+                                    </form>
+                                </div>
+                            </li>
+                            </ul>
+                        </div>
+                                    </li>
+                            <li class="last">
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/about/">ABOUT</a>
+                    </div>
+                                                                        <div class="sub" style="opacity: 0;">
+                                <ul>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/about/">About NWS</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/organization">Organization</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://sites.google.com/a/noaa.gov/nws-insider/">For NWS Employees</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/ncep/">National Centers</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.noaa.gov/nws-careers">Careers</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/contact">Contact Us</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="../../15-weather-glossaries/national-weather-service-glossary/page.html">Glossary</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/socialmedia">Social Media</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.noaa.gov/NWStransformation">NWS Transformation</a>
+                                        </li>
+                                                                    </ul>
+                            </div>
+                                                            </li>
+                    </ul>
+    </div>
+</div>
+
+
+            <div class="center-content">
+                <div id="zipcity_news">
+                    <div class="one-sixth-first">
+    <div id="forecast-lookup">
+        <form action="https://forecast.weather.gov/zipcity.php" id="getForecast" method="get" name="getForecast">
+            <label for="inputstring">Local forecast by <br/>"City, St" or ZIP code</label>
+            <input id="inputstring" name="inputstring" onclick="this.value=''" type="text" value="Enter location ..."/>
+            <input id="btnSearch" name="btnSearch" type="submit" value="Go"/>
+            <div id="txtError">
+                <div id="errorNoResults" style="display:none;">Sorry, the location you searched for was not found. Please try another search.</div>
+                <div id="errorMultipleResults" style="display:none">Multiple locations were found. Please select one of the following:</div>
+                <div id="errorChoices" style="display:none"></div>
+                <input id="btnCloseError" style="display:none" type="button" value="Close"/>
+            </div>
+            <div id="txtHelp"><a href="javascript:void(window.open('https://www.weather.gov/ForecastSearchHelp.html','locsearchhelp','status=0,toolbar=0,location=0,menubar=0,directories=0,resizable=1,scrollbars=1,height=500,width=530').focus());" style="text-decoration: underline;">Location Help</a></div>
+        </form>
+    </div>
+</div>
+
+                        <div class="five-sixth-last">
+                    <style type="text/css">
+                #topnews.important {
+                    background-color: #d2d2d2;
+                    height: 100%;
+                    margin-bottom: 5px;
+                    position: relative;
+                }
+
+                #topnews .icon {
+                    display: none;
+                }
+
+                #topnews.important .icon {
+                    background-color: #135997;
+                    display: table-cell;
+                    height: 100%;
+                    text-align: center;
+                    vertical-align: middle;
+                    width: 80px;
+                }
+
+                #topnews.important .body {
+                    color: #141414;
+                    display: table-cell;
+                    padding: 10px;
+                }
+            </style>
+            <div id="topnews">
+                <div class="icon"><img src="assets/important.png"/></div>
+                <div class="body">
+                    <h1 style="font-size: 11pt;">Severe Thunderstorms in the Central Plains and Lower Missouri Valley; Heat Continues in the Southeast and Southwest</h1>
+                    <p>
+                        Severe thunderstorms capable of large hail and damaging wind gusts are forecast to impact the central Plains into the Lower Missouri Valley through this afternoon. Dangerous heat persists across the southern Plains, Southeast U.S. and Puerto Rico this week, and will return to the Southwest today. 
+                                                                            <a href="http://www.wpc.ncep.noaa.gov/discussions/hpcdiscussions.php?disc=pmdspd" target="_blank">Read More &gt;</a>
+                                            </p>
+                </div>
+            </div>
+            </div>
+
+                </div>
+                <div class="full-width-bordertop">
+                    <div class="div-full">
+
+                        <!-- area for the myforecast widget and wwamap data -->
+                        <div class="one-sixth-first" id="sidebar">
+                            
+
+<div id="myfcst-widget">
+    <div id="myfcst">
+        <form action="/widgets/MyForecastWidget.php" id="myfcst-form">
+            <span id="myfcst-title">Customize Your <strong>Weather.gov</strong></span>
+            <div id="myfcst-input-block">
+                <input id="myfcst-location-input" name="myfcst-location-input" type="text" value="City, ST"/>
+                <label for="myfcst-location-input">Enter Your City, ST or ZIP Code</label><br/>
+                <input id="myfcst-remember" name="myfcst-remember" type="checkbox"/>
+                <label for="myfcst-remember">Remember Me</label>
+            </div>
+            <div class="myfcst-footer">
+                <input id="myfcst-submit" type="submit" value="Get Weather"/>
+                <p class="myfcst-policy"><a href="https://www.weather.gov/privacy.php">Privacy Policy</a></p>
+            </div>
+        </form>
+        <div id="myfcst-fcst"></div>
+        <div id="myfcst-multi-result"></div>
+        <div id="myfcst-loading">LOADING...</div>
+    </div>
+</div>
+
+                            <div class="div-full cms-content" id="cms_page_badges">
+    
+
+</div>
+                        </div><!-- end of <div class="one-sixth-first"> -->
+
+                        <div class="five-sixth-first" id="pagebody">
+                            <div class="div-full breadcrumb">
+    <div class="sitename">
+        <p class="sitename-name">Louisville, KY</p>
+        <p class="sitename-class">Weather Forecast Office</p>
+    </div>
+    <div class="location">
+        <h1 class="location-pagetitle">Cloud Classification</h1>
+        <div class="location-breadcrumb">
+            <a href="https://www.weather.gov">Weather.gov</a>
+                                                &gt; <a href="https://www.weather.gov/lmk">Louisville, KY</a>
+                                &gt; Cloud Classification
+                    </div>
+    </div>
+</div>
+
+                            <div class="div-full">
+    <div class="subMenuNav">
+        <ul id="subMenuNav">
+                            <li>
+                    <div class="subMenuNavList section-link">
+                        <a href="https://forecast.weather.gov/product.php?site=NWS&amp;issuedby=LMK&amp;product=HWO">Current Hazards</a>
+                    </div>
+                                            <div class="sub">
+                            <ul>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/erh/ghwo?wfo=lmk"> Experimental Graphical Hazardous Weather Outlook</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://forecast.weather.gov/product.php?site=LMK&amp;issuedby=LMK&amp;product=LSR&amp;format=CI&amp;version=1&amp;glossary=1"> Storm and Precipitation Reports</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/crh/outlooks"> Outlooks</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/crh/stormreports?sid=lmk"> Submit a Storm Report</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </li>
+                            <li>
+                    <div class="subMenuNavList section-link">
+                        <a href="https://www.weather.gov/">Current Conditions</a>
+                    </div>
+                                            <div class="sub">
+                            <ul>
+                                                                    <li>
+                                        <a href="https://www.star.nesdis.noaa.gov/GOES/wfo.php?wfo=lmk"> Satellite</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/source/crh/snowmap.html?sid=lmk"> Local Snowfall Reports</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/source/crh/icemap.html?sid=lmk"> Local Ice Accumulation Reports</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://water.noaa.gov/precip/"> Observed Precipitation</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/crh/snowfall"> Snowfall Analysis</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/wrh/hazards?obs=true&amp;wfo=lmk"> Observations</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/source/crh/lsrmap.html?sid=lmk"> Local Storm Reports</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </li>
+                            <li>
+                    <div class="subMenuNavList section-link">
+                        <a href="https://radar.weather.gov">Radar</a>
+                    </div>
+                                            <div class="sub">
+                            <ul>
+                                                                    <li>
+                                        <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy04NS45NDQsMzcuOTc1XSwiem9vbSI6OC4xMjY4NzU3MjE4MDM4MiwiZmlsdGVyIjoiV1NSLTg4RCIsImxheWVyIjoiYnJlZl9yYXciLCJzdGF0aW9uIjoiS0xWWCIsInRyYW5zcGFyZW50Ijp0cnVlLCJhbGVydHNPdmVybGF5Ijp0cnVlLCJzdGF0aW9uSWNvbnNPdmVybGF5Ijp0cnVlfSwiYmFzZSI6InN0YW5kYXJkIiwiY291bnR5IjpmYWxzZSwiY3dhIjpmYWxzZSwic3RhdGUiOmZhbHNlLCJtZW51Ijp0cnVlLCJzaG9ydEZ1c2VkT25seSI6dHJ1ZX0%3D#/"> Local Enhanced Radar</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/radarliteloop?radarid=KLVX"> Local Standard Radar (low bandwidth)</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://radar.weather.gov/region/centgrlakes/standard"> Regional Standard Radar (low bandwidth) </a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </li>
+                            <li>
+                    <div class="subMenuNavList section-link">
+                        <a href="#">Forecasts</a>
+                    </div>
+                                            <div class="sub">
+                            <ul>
+                                                                    <li>
+                                        <a href="https://www.wpc.ncep.noaa.gov/heatrisk/?wfo=lmk"> Experimental Heat Risk</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/lmk/fire"> Fire Weather</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/crh/pqpf?sid=lmk"> Experimental Probabilistic Quantitative Precipitation Forecast</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/lmk/winter"> Winter Weather</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://forecast.weather.gov/product.php?site=LMK&amp;issuedby=LMK&amp;product=AFD&amp;format=CI&amp;version=1&amp;glossary=1"> Forecast Discussion</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://forecast.weather.gov/gridpoint.php?site=lmk&amp;TypeDefault=graphical"> Hourly Forecasts</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </li>
+                            <li>
+                    <div class="subMenuNavList section-link">
+                        <a href="https://water.noaa.gov/wfo/lmk">Rivers and Lakes</a>
+                    </div>
+                                            <div class="sub">
+                            <ul>
+                                                                    <li>
+                                        <a href="https://water.noaa.gov/wfo/lmk"> National Water Prediction Service (NWPS)</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </li>
+                            <li>
+                    <div class="subMenuNavList section-link">
+                        <a href="https://www.weather.gov/wrh/climate?wfo=lmk">Climate and Past Weather</a>
+                    </div>
+                                            <div class="sub">
+                            <ul>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/wrh/climate?wfo=lmk"> Local</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/lmk/events"> Event Summaries</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.climate.gov/"> NOAA Climate Service</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.drought.gov/drought/"> Drought</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/lmk/drought"> Drought Information Statement</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </li>
+                            <li>
+                    <div class="subMenuNavList section-link">
+                        <a href="https://www.weather.gov/lmk/">Local Programs</a>
+                    </div>
+                                            <div class="sub">
+                            <ul>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/crh/publications"> Publications</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/lmk/blog"> Blog</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/lmk/hourly_observations"> Observations</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/forecastpoints"> Point Forecast</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/ind/INwxbrief"> Decision Support - State of Indiana</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/lmk/KYWxBrief"> Decision Support - State of Kentucky</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/lmk/espanol"> Información en Español</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/lmk/DeafandHardofHearing"> Deaf and Hard of Hearing</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/crh/eventready?sid=lmk"> Event Ready</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/lmk/climate"> Local Climate</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.wrh.noaa.gov/map/?wfo=lmk&amp;obs=true&amp;obs_type=tempcur"> Weather Map</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/lmk/wxhistory"> Weather History</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/lmk/recreation"> Travel Forecasts</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/spot/"> Spot Fire Forecast Request</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.spc.noaa.gov/exper/reports/"> Storm Reports</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/lmk/enso_info"> El Nino/La Nina</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.aviationweather.gov/"> Aviation Forecasts</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/lmk/skywarn"> Spotter Training</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/lmk/scienceandtechnology"> Science and Tech</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/lmk/weather_radio-lmk"> Weather Radio</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/lmk/productguide"> Text Products</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/lmk/derby_oaks_thunder"> Past Kentucky Derby Weather</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/lmk/weathersafetyrules"> Weather Safety</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/lmk/tornado_climatology"> Tornado History</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/lmk/optional_links"> Items of Interest</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://weather.gov/lmk/students"> Student Programs</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </li>
+                    </ul>
+    </div>
+</div>
+
+
+                            
+                            
+                            <div class="div-full cms-content" id="front_page_content">
+    
+<link href="assets/wfo_style_e3f851.css" rel="stylesheet" type="text/css"/>
+
+
+</div>
+                            <div class="div-full">
+<div class="cms-content">
+<p><strong><font face="Comic Sans MS" size="5"><font color="#000000" size="6">Cloud Classification and Characteristics</font></font></strong></p>
+
+<p>                                         <strong><font face="Comic Sans MS" size="5"><font color="#ffff00" style="background-color: rgb(51,102,255)"><img alt="" height="167" src="assets/clouds4-24-05-bishop.jpg" width="669"/></font></font></strong></p>
+
+<p><font size="2"><font face="Calibri"> <span style="font-family: Calibri"><strong>Clouds</strong> are classified according to their height above and appearance (texture) from the ground. </span></font></font></p>
+
+<p><span style="font-family: Calibri"><font size="4"><font face="Calibri"><font size="2"> The following cloud <em>roots </em>and translations summarize the components of this <em><strong>classification system</strong>:</em></font> </font></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><font size="2"><font face="Calibri"><span style="font-family: Calibri"> 1) </span><font color="#0000ff"><span style="font-family: Calibri; font-weight: bold">Cirro-</span></font><span style="font-family: Calibri">: curl of hair, high.             3) <font color="#0000ff"><span style="font-family: Calibri; font-weight: bold">Strato</span></font><span style="font-family: Calibri"><font color="#0000ff">-</font>: layer.            </span><span style="font-family: Calibri"> </span>                      <span style="font-family: Calibri">5) </span><font color="#0000ff"><span style="font-family: Calibri; font-weight: bold">Cumulo-</span></font><span style="font-family: Calibri">: heap.</span> </span></font></font></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><font face="Calibri"><font size="2"><font face="Calibri"><span style="font-family: Calibri"> 2) </span><font color="#0000ff"><span style="font-family: Calibri; font-weight: bold">Alto-</span></font></font></font><span style="font-family: Calibri"><font size="2"><font face="Calibri">: mid.                                      <span style="font-family: Calibri">4) </span><font color="#0000ff"><span style="font-family: Calibri; font-weight: bold">Nimbo-</span></font><span style="font-family: Calibri">: rain, precipitation.</span></font></font>  </span><span style="font-family: Calibri"> </span><span style="font-family: Calibri"><strong><font color="#800000"><em>                                      </em></font></strong></span></font></p>
+
+<p> </p>
+
+<hr/>
+<p>        <img alt="" height="358" src="assets/CloudChart.jpg" width="686"/></p>
+
+<div class="MsoNormal" style="margin: 0in 0in 10pt"><span style="font-size: 10pt; font-family: 'Calibri','sans-serif'; line-height: 115%"><font size="1"><span style="font-size: 10pt; font-family: 'Calibri','sans-serif'; line-height: 115%"><font face="Calibri" size="1"><em>        Figure from: </em></font><font face="Calibri" size="1"><em>www.jason.org/digital_<wbr/>library/201.aspx (defunct)</em></font><em><font face="Calibri">   </font></em></span></font></span></div>
+
+<div class="MsoNormal" style="margin: 0in 0in 10pt"><span style="font-size: 10pt; font-family: 'Calibri','sans-serif'; line-height: 115%"><font size="1"><span style="font-size: 10pt; font-family: 'Calibri','sans-serif'; line-height: 115%"><font face="Calibri"><em>    <strong><font color="#800000">{ Refer to the chart below for examples of the various types of clouds. }</font></strong></em> </font></span></font></span></div>
+
+<p> </p>
+
+<hr/>
+<p>  <font color="#ff0000"><span style="font-family: Calibri; font-weight: bold; font-style: italic; line-height: 98%">High-level clouds:  </span></font></p>
+
+<p><font face="Calibri"><font size="2"><span style="font-family: Calibri">High-level clouds occur above about 20,000 feet and are given the prefix "cirro-".</span><span style="font-family: Calibri"> </span><span style="font-family: Calibri">Due to cold tropospheric temperatures at these levels, the clouds primarily are </span><span style="font-family: Calibri"> composed of ice crystals, </span><span style="font-family: Calibri"> and often appear thin, streaky, and white (although a </span><span style="font-family: Calibri">low sun angle, e.g., near sunset, can create an array  </span><span style="font-family: Calibri">of color on the clouds).</span></font></font></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><font face="Calibri"><font face="Calibri"><font size="2"><span style="font-family: Calibri">   The three main types of <em>high clouds</em> are </span><font color="#0000ff"><span style="font-family: Calibri; font-weight: bold">cirrus</span></font><span style="font-family: Calibri">, </span><font color="#0000ff"><span style="font-family: Calibri; font-weight: bold">cirrostratus</span></font><span style="font-family: Calibri">, and </span><font color="#0000ff"><span style="font-family: Calibri; font-weight: bold">cirrocumulus</span></font></font></font><span style="font-family: Calibri"><font face="Calibri" size="2">.</font> </span></font></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri"><span style="font-family: Calibri; font-weight: bold; font-style: italic; line-height: 98%"> </span></span><span style="font-family: Calibri"><span style="font-family: Calibri; font-weight: bold; font-style: italic; line-height: 98%"><span style="font-family: Calibri"><span style="font-family: Calibri; font-weight: bold; font-style: italic; line-height: 98%"><img alt="" height="140" src="assets/CirrusField-color.jpg" width="187"/>   </span></span></span></span><span style="font-family: Calibri"><span style="font-family: Calibri; font-weight: bold; font-style: italic; line-height: 98%"><span style="font-family: Calibri"><span style="font-family: Calibri; font-weight: bold; font-style: italic; line-height: 98%"><img alt="Cirrostratus" border="0" height="140" src="assets/cirrostratus.jpg" width="217"/>   <img alt="" height="140" src="assets/ben1.jpg" width="210"/></span></span></span></span></p>
+
+<div class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri">        Cirrus clouds over a field                                       cirrostratus                                       cirrocumulus Floyd County IN. </span></div>
+
+<div class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri">                                                                                                                                            <span style="font-style: italic">                      Ben Schott, NWS</span> </span></div>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri"><font face="Calibri"><font size="2"><strong>Cirrus clouds</strong> are wispy, feathery, and composed entirely of ice crystals. They often are the first sign of an approaching warm front or upper-level jet streak. </font></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri"><font face="Calibri" size="2">Unlike cirrus, <strong>cirrostratus clouds</strong> form more of a widespread, veil-like layer (similar to what stratus clouds do in low levels).  When sunlight or moonlight passes through the hexagonal-shaped ice crystals of cirrostratus clouds, the light is dispersed or refracted (similar to light passing through a prism) in such a way that a familiar ring or halo may form. As a warm front approaches, cirrus clouds tend to thicken into cirrostratus, which may, in turn, thicken and lower into altostratus, stratus, and even nimbostratus. </font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri"><font face="Calibri" size="2">Finally, <strong>cirrocumulus clouds</strong> are layered clouds permeated with small cumuliform lumpiness. They also may line up in streets or rows of clouds across the sky denoting localized areas of ascent (cloud axes) and descent (cloud-free channels). </font></span></p>
+
+<hr/>
+<p> <font color="#ff0000"><span style="font-family: Calibri; font-weight: bold; font-style: italic; line-height: 98%">Mid-level clouds:</span></font></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri"><font face="Calibri" size="2">The bases of clouds in the middle level of the troposphere, given the prefix "alto-", appear between 6,500 and 20,000 feet. Depending on the altitude, time of year, and vertical temperature structure of the troposphere, these clouds may be composed of liquid water droplets, ice crystals, or a combination of the two, including supercooled droplets (i.e., liquid droplets whose temperatures are below freezing).  </font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><font size="2"><font face="Calibri"><span style="font-family: Calibri">The two main type of <em>mid-level clouds</em> are </span><font color="#0000ff"><span style="font-family: Calibri; font-weight: bold">altostratus</span></font><span style="font-family: Calibri"><font color="#0000ff"> </font>and </span><font color="#0000ff"><span style="font-family: Calibri; font-weight: bold">altocumulus</span></font></font></font><span style="font-family: Calibri"><font face="Calibri" size="2">.</font> </span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri"> </span><span style="font-family: Calibri"><img alt="" height="150" src="assets/altostratus.jpg" width="200"/></span><span style="font-family: Calibri">       <img alt="" height="150" src="assets/Sunset23Nov2005_med.jpg" width="200"/><img alt="altocumulus" height="150" src="assets/altocumulus.jpg" width="200"/></span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri">     Altostratus clouds over Kentucky               Altocumulus (sunset 23 Nov. 2005) </span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri"><font size="2"><font face="Calibri"><strong>Altostratus clouds</strong> are "strato" type clouds (see below) that possess a flat and uniform type texture in the mid levels. They frequently indicate the approach of a warm front and may thicken and lower into stratus, then nimbostratus resulting in rain or snow. However, <u>altostratus clouds</u> themselves do not produce significant precipitation at the surface, although sprinkles or occasionally light showers may occur from a thick alto-stratus deck.  </font></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri"><font size="2"><font face="Calibri"><strong>Altocumulus clouds</strong> exhibit "cumulo" type characteristics (see below) in mid levels, i.e., heap-like clouds with convective elements.  Like <em>cirrocumulus</em>, altocumulus may align in rows or streets of clouds, with cloud axes indicating localized areas of ascending, moist air, and clear zones between rows suggesting locally descending, drier air. <u>Altocumulus clouds</u> with some vertical extent may denote the presence of elevated instability, especially in the morning, which could become boundary-layer based and be released into deep convection during the afternoon or evening.  </font></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><font face="Calibri" size="3"> </font></p>
+
+<hr/>
+<p>   <font color="#ff0000"><span style="font-family: Calibri; font-weight: bold; font-style: italic; line-height: 98%">Low-level clouds:</span></font></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri"><font size="2"><font face="Calibri"><em>Low-level clouds</em> are not given a prefix, although their names are derived from "strato-" or "cumulo-", depending on their characteristics. Low clouds occur below 6500 feet, and normally consist of liquid water droplets or even supercooled droplets, except during cold winter storms when ice crystals (and snow) comprise much of the clouds.</font></font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><font size="2"><font face="Calibri"><span style="font-family: Calibri">The two main types of low clouds include </span><font color="#0000ff"><span style="font-family: Calibri; font-weight: bold">stratus</span></font><span style="font-family: Calibri">, which develop horizontally, and </span><font color="#0000ff"><span style="font-family: Calibri; font-weight: bold">cumulus</span></font><span style="font-family: Calibri">, which develop vertically. </span></font></font></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><font size="2"><font face="Calibri"><span style="font-family: Calibri"><strong>Stratus clouds</strong> are uniform and flat, producing a gray layer of cloud cover which may be precipitation-free </span><span style="font-family: Calibri">or may cause periods of light precipitation or drizzle.  <em>Low stratus decks</em> are common in winter in the Ohio Valley, especially behind a storm system when cold, dismal, gray weather can linger for several hours or even a day or two. </span></font></font></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri">         </span><span style="font-family: Calibri"><img alt="" src="assets/stratocumulus.jpg" style="width: 179px; height: 125px;"/></span><span style="font-family: Calibri">            </span><span style="font-family: Calibri"><img alt="" height="150" src="assets/nimbostratus12.jpg" width="200"/></span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri">                       Stratocumulus                                                    NImbostratus </span><span style="font-family: Calibri">                       </span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><font size="2"><font face="Calibri"><font color="#0000ff"><span style="font-family: Calibri; font-weight: bold">Stratocumulus</span></font><span style="font-family: Calibri"> clouds are hybrids of layered stratus and cellular cumulus, i.e., individual cloud elements, characteristic of cumulo type clouds, clumped together in a continuous distribution, characteristic of strato type clouds. Stratocumulus also can be thought of as a layer of cloud clumps with thick and thin areas. These clouds appear frequently in the atmosphere, either ahead of or behind a frontal system.</span></font></font></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><font size="2"><font face="Calibri"><span style="font-family: Calibri"><span style="font-family: Calibri; font-weight: bold"><font color="#0000ff">Nimbostratus</font></span><span style="font-family: Calibri"> clouds are generally t</span>hick, dense stratus or stratocumulus clouds producing steady rain or snow </span><span style="font-family: Calibri">.  </span></font></font></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri"><font face="Calibri" size="2">In contrast to layered, <strong>horizontal stratus</strong>, cumulus clouds are more cellular (individual) in nature, have flat bottoms and rounded tops, and grow vertically. In fact, their name depends on the degree of vertical development. For instance, scattered cumulus clouds showing little vertical growth on an otherwise sunny day used to be termed "<em>cumulus humilis</em>" or "<em>fair weather cumulus</em>," although normally they simply are referred to just as cumulus or flat cumulus. </font></span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%">      <img alt="Mayfield, Kentucky" src="assets/mayfield_ky.jpg" style="width: 244px; height: 183px;"/>                  <img alt="" height="183" src="assets/june_2_09_glasgow_gary_bean_med.jpg" width="272"/></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%">        Mayfield, Ky - Approaching Cumulus                         Glasgow, Ky June 2, 2009 - Mature cumulus</p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><font face="Calibri"><font size="2"><span style="font-family: Calibri">A <strong>cumulus cloud</strong> that exhibits significant vertical development (but is not yet a thunderstorm) is called </span><span style="font-family: Calibri; font-weight: bold"><font color="#0000ff">cumulus congestus</font> </span><span style="font-family: Calibri">or </span><font color="#0000ff"><span style="font-family: Calibri; font-weight: bold">towering cumulus</span></font><span style="font-family: Calibri">. If enough atmospheric instability, moisture, and lift are present, then strong updrafts can develop in the cumulus cloud leading to a mature, deep </span><span style="font-family: Calibri; font-weight: bold"><font color="#0000ff">cumulonimbus</font> </span><span style="font-family: Calibri">cloud, i.e., a thunderstorm producing heavy rain. In addition, cloud electrification occurs within cumulonimbus clouds due to many collisions between charged water droplet, graupel (ice-water mix), and ice crystal particles, resulting in lightning and thunder.   </span></font></font></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"> </p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri"><strong><font color="#ff0000" face="Courier New" size="4">Cumulus clouds are all capable of producing some serious storms!!!</font></strong></span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"> <img align="bottom" alt="" height="530" src="assets/slide15.png" width="707"/></p>
+
+<p> </p>
+
+<hr/>
+<p> <font color="#ff0000"><span style="font-family: Calibri; font-weight: bold; font-style: italic; line-height: 98%">Other interesting clouds:</span></font></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><font face="Calibri"><font size="3"><span style="font-family: Calibri; font-weight: bold"><font color="#0000ff" size="2">Wall Cloud</font></span><span style="font-family: Calibri"><font size="2">:  A localized lowering from the rain-free base of a strong thunderstorm. The lowering denotes a storm's updraft where rapidly rising air causes lower pressure just below the main updraft, which enhances condensation and cloud formation just under the primary cloud base. Wall clouds take on many shapes and sizes. Some exhibit strong upward motion and cyclonic rotation, leading to tornado formation, while others do not rotate and essentially are harmless.</font>  </span></font></font></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%">     <img alt="" height="150" src="assets/wall_cloud_madison_co.jpg" width="200"/>          <img alt="" height="150" src="assets/taylor-wall-cloud.jpg" width="224"/>          </p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%">             Henderson County, Ky                                     Taylor County, Ky                                                 </p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><font face="Calibri"><font size="3"><span style="font-family: Calibri; font-weight: bold"><font color="#0000ff" size="2">Shelf Cloud</font></span><span style="font-family: Calibri"><font size="2">: A low, horizontal, sometimes wedge-shaped cloud associated with the leading edge of a thunderstorm?s outflow or gust front and potentially strong winds. Although often appearing ominous, shelf clouds normally do not produce tornadoes.</font>   </span></font></font></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%">      <img alt="" height="150" src="assets/june18thstormsohiorivery.jpg" width="255"/>                 <img alt="" height="150" src="assets/winchester_med.jpg" width="200"/>             </p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%">                          Paducah, Ky                                                               Winchester, Ky</p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><font size="2"><font face="Calibri"><span style="font-family: Calibri; font-weight: bold"><font color="#0000ff">Fractus</font></span><span style="font-family: Calibri">: Low, ragged stratiform or cumuliform cloud elements that normally are unattached to larger thunderstorm or cold frontal cloud bases. Also known as scud</span><span style="font-family: Calibri; font-style: italic">,</span></font></font><span style="font-family: Calibri"><font face="Calibri" size="2"> fractus clouds can look ominous, but by themselves are not dangerous.</font> </span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%">       <img alt="Berea, Kentucky" src="assets/frac_berea.jpg" style="width: 200px; height: 150px;"/>            <img alt="Bardstown, Kentucky" src="assets/scud_cloudl.jpg" style="width: 177px; height: 115px;"/></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%">                        Berea, Ky                                                  Elkhart, IN</p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"><span style="font-family: Calibri; font-weight: bold"><font color="#0000ff" face="Calibri" size="2">Mammatus</font></span><span style="font-family: Calibri"><font face="Calibri" size="2">: Drooping underside (pouch-like appearance) of a cumulonimbus cloud in its latter stage of development. Mammatus most often are seen hanging from the anvil of a severe thunderstorm, but do not produce severe weather. They can accompany non-severe storms as well.</font>   </span></p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%">       <img alt="Lexington, Kentucky" src="assets/mammatus_lex_ky.jpg" style="width: 200px; height: 150px;"/>               <img alt="" height="150" src="assets/Mammatus_Jeffersontown_KY.jpg" width="200"/>    </p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%">                     Lexington, Ky                                                 Jeffersontown, Ky</p>
+
+<p class="MsoNormal" style="text-align: justify; line-height: 98%"> <font face="Calibri"><font size="2"><span style="font-family: Calibri; font-weight: bold"><font color="#0000ff">Contrail</font></span><span style="font-family: Calibri">: Narrow, elongated cloud formed as jet aircraft exhaust condenses in cold air at high altitudes, indicative of upper level humidity and wind drift.</span></font></font></p>
+
+<p class="MsoNormal">       <img alt="KY 365" src="assets/contrails_over_365_South.jpg" style="width: 200px; height: 150px;"/>                  <img alt="Contrails" src="assets/Contrail_Bill_Radawec_1.jpg" style="width: 137px; height: 150px;"/></p>
+
+<p class="MsoNormal">                           Contrails                                    Contrails in the sky from jets</p>
+
+<p class="MsoNormal"><span style="font-family: Calibri; font-weight: bold"><font color="#0000ff" face="Calibri" size="2">Fog</font></span><span style="font-family: Calibri"><font face="Calibri" size="2">: Layer of stratus clouds on or near the ground. Different types include radiation fog (forms overnight and burns off in the morning) and advection fog.</font>  </span></p>
+
+<p class="MsoNormal"><span style="font-family: Calibri">        <img alt="" height="150" src="assets/downtown_louisville_fog_march_30_whas.jpg" width="200"/>               </span><span style="font-family: Calibri"><img alt="Kentucky River" src="assets/kentucky_river_fog.jpg" style="border-width: 0px; border-style: solid; width: 223px; height: 150px;"/></span></p>
+
+<p class="MsoNormal">             Downtown Louisville, Ky                                 Fog over Kentucky River</p>
+
+<p class="MsoNormal"><span style="font-family: Calibri; font-weight: bold"><font color="#0000ff"><font size="2"><font face="Calibri">Hole-Punch Clouds</font></font></font></span><span style="font-family: Calibri"><font face="Calibri" size="2">: Also known as a fallstreak hole, this type of cloud is usually formed when the water temperature in the cloud is below freezing but the water has not frozen.  When sections of the water starts to freeze, the surrounding water vapor will also freeze and begin to descend. This leaves a rounded hole in the cloud.</font></span></p>
+
+<p class="MsoNormal"><span style="font-family: Calibri"><font face="Calibri" size="2">The theory on its creation is that a disruption of the cloud layer stability, which can be caused by a passing jet aircraft, creates a descending motion that can lead to the stimulation of evaporation, producing a hole.</font></span></p>
+
+<p class="MsoNormal"><span style="font-family: Calibri"><font face="Calibri" size="2">        <img alt="hole punch" src="assets/Clouds2_28feb2006.jpg" style="width: 200px; height: 150px;"/>               </font></span><a href="https://www.wrh.noaa.gov/otx/photo_gallery/hole_punch_clouds.php"><img alt="" src="assets/Hole_Punch_Cloud_Wentachee_WA.jpg" style="width: 200px; height: 133px;"/></a></p>
+
+<p class="MsoNormal">                       Louisville, KY                                          Wenatchee, WA</p>
+
+<p class="MsoNormal"> </p>
+
+<hr/>
+<p> </p>
+
+<p><font color="#ff0000"><strong>Other Interesting pictures:</strong></font></p>
+
+<p>          <img alt="dust devil" height="267" src="assets/dustdevil_LEX1.jpg" width="200"/>            <img alt="whirlwind" height="267" src="assets/wirlwind_glendale_med.jpg" width="179"/></p>
+
+<p>                Dust devil in Lexington, KY                     Dust devil in Glendale, KY</p>
+
+<p> </p>
+
+<hr/>
+<p> </p>
+
+<p>                                <strong><font face="Comic Sans MS" size="6">STANDARD CLOUD TYPE CHART</font></strong></p>
+
+<div align="left">
+<table border="2" bordercolor="#0000ff" cellpadding="0" cellspacing="0" height="682" id="AutoNumber1" style="border-collapse: collapse" width="75%">
+	<tbody>
+		<tr>
+			<td align="center" height="116" width="33%"><img alt="Cirrus" border="0" height="116" src="assets/cirrus.jpg" width="180"/></td>
+			<td align="center" height="116" width="33%"><img alt="Cirrostratus" border="0" height="116" src="assets/cirrostratus.jpg" width="180"/></td>
+			<td align="center" height="116" width="34%"><img alt="Cirrocumulus" border="0" height="116" src="assets/Cirrocumulus.jpg" width="180"/></td>
+			<td align="center" height="116" width="34%"><img alt="Altostratus" border="0" height="116" src="assets/altostratus2.jpg" width="180"/></td>
+		</tr>
+		<tr>
+			<td height="19" width="33%">
+			<p align="center"><strong><font face="Calibri" size="2">Cirrus (above)</font></strong></p>
+			</td>
+			<td height="19" width="33%">
+			<p align="center"><strong><font face="Calibri" size="2">Cirrostratus (above)</font></strong></p>
+			</td>
+			<td height="19" width="34%">
+			<p align="center"><strong><font face="Calibri" size="2">Cirrocumulus (above)</font></strong></p>
+			</td>
+			<td height="19" width="34%">
+			<p align="center"><strong><font face="Calibri" size="2">Altostratus (above)</font></strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" height="116" width="33%"><img alt="Altocumulus" border="0" height="116" src="assets/altocumulus.jpg" width="180"/></td>
+			<td align="center" height="116" width="33%"><img alt="Stratus" border="0" height="116" src="assets/stratus.jpg" width="180"/></td>
+			<td align="center" height="116" width="34%"><img alt="Stratocumulus" border="0" height="116" src="assets/stratocumulus.jpg" width="180"/></td>
+			<td align="center" height="116" width="34%"><img alt="Nimbostratus" border="0" height="116" src="assets/nimbostratus.jpg" width="180"/></td>
+		</tr>
+		<tr>
+			<td height="19" width="33%">
+			<p align="center"><strong><font face="Calibri" size="2">Altocumulus (above)</font></strong></p>
+			</td>
+			<td height="19" width="33%">
+			<p align="center"><strong><font face="Calibri" size="2">Stratus (above)</font></strong></p>
+			</td>
+			<td height="19" width="34%">
+			<p align="center"><strong><font face="Calibri" size="2">Stratocumulus (above)</font></strong></p>
+			</td>
+			<td height="19" width="34%">
+			<p align="center"><strong><font face="Calibri" size="2">Nimbostratus (above)</font></strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" height="116" width="33%"><img alt="Cumulus" border="0" height="116" src="assets/cumulus.jpg" width="180"/></td>
+			<td align="center" height="116" width="33%"><img alt="Cumulus congestus (towering cumulus)" border="0" height="116" src="assets/toweringcumulus2.jpg" width="180"/></td>
+			<td align="center" height="116" width="34%"><img alt="Cumulonimbus" border="0" height="116" src="assets/cumulonimbus2.jpg" width="180"/></td>
+			<td align="center" height="116" width="34%"><img alt="Wall cloud" border="0" height="116" src="assets/WallCloud1.jpg" width="180"/></td>
+		</tr>
+		<tr>
+			<td height="19" width="33%">
+			<p align="center"><font face="Calibri" size="2"><strong>Cumulus (above)</strong></font></p>
+			</td>
+			<td height="19" width="33%">
+			<p align="center"><font face="Calibri" size="2"><strong>Cumulus congestus (above)</strong></font></p>
+			</td>
+			<td height="19" width="34%">
+			<p align="center"><font face="Calibri" size="2"><strong>Cumulonimbus (above)</strong></font></p>
+			</td>
+			<td height="19" width="34%">
+			<p align="center"><font face="Calibri" size="2"><strong>Wall cloud (above)</strong></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td align="right" height="116" width="33%">
+			<p align="center"><img alt="Shelf cloud" border="0" height="116" src="assets/ShelfCloud1.jpg" width="180"/></p>
+			</td>
+			<td align="center" height="116" width="33%"><img alt="Fractus (scud)" border="0" height="116" src="assets/scud_cloudl.jpg" width="180"/></td>
+			<td align="center" height="116" width="33%"><img alt="Mammatus" border="0" height="116" src="assets/mammatus.jpg" width="180"/></td>
+			<td align="center" height="116" width="34%"><img alt="Contrails" border="0" height="116" src="assets/contrail.jpg" width="180"/></td>
+		</tr>
+		<tr>
+			<td align="center" height="19" width="33%"><font face="Calibri" size="2"><strong>Shelf cloud (above)</strong></font></td>
+			<td align="center" height="19" width="33%"><font face="Calibri" size="2"><strong>Fractus (scud) (above)</strong></font></td>
+			<td align="center" height="19" width="34%"><font face="Calibri" size="2"><strong>Mammatus (above)</strong></font></td>
+			<td align="center" height="19" width="34%"><font face="Calibri" size="2"><strong>Contrails (above)</strong></font></td>
+		</tr>
+		<tr>
+			<td align="center" height="116" width="33%"><img alt="Fog" border="0" height="116" src="assets/fog.jpg" width="180"/></td>
+			<td colspan="3" height="134" rowspan="2" width="100%">
+			<p align="center"><strong><font face="Calibri">Cloud chart showing the different types of high, mid, and<br/>
+			low-level clouds, as well as a number of other interesting<br/>
+			cloud types and formations. </font></strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td height="17" width="33%">
+			<p align="center"><strong><font face="Calibri" size="2">Fog (above)</font></strong></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<p> </p>
+
+<hr style="height: 2px; width: 100%"/>
+<p><a href="https://www.weather.gov/lmk/trainingdoc"><img alt="" src="https://www.weather.gov/images/lmk/soo/left_arrow.gif" style="width: 57px; height: 35px;"/> Back to Training Documents</a></p>
+
+<p>  </p>
+
+<hr/>
+<p> </p>
+
+<p> </p>
+
+<div class="MsoNormal" style="text-align: justify; line-height: 98%"> </div>
+
+</div>
+</div>
+<div style="clear:both"></div>
+                        </div>
+
+                    </div><!-- end of <div class="partial-width-borderbottom"> -->
+   
+                </div><!-- <div class="full-width-border"> -->
+           
+                <!-- area for features, frontpage thumbs, and custom page -->
+                
+                
+                <!-- end of <div class="partial-width-borderbottom feature-block"> -->
+                <link href="assets/mod-image-tiles.css" rel="stylesheet" type="text/css"/>
+<div id="image_tiles">
+    <div class="div-full mod-image-tiles">
+                    <div class="one-sixth-first">
+                <a href="https://www.weather.gov/lmk/weatherstory"><img alt="Graphical Weather Depiction" src="assets/Tab2FileL.png"/>Weather Story</a>
+            </div>
+                    <div class="one-sixth-first">
+                <a href="https://www.wpc.ncep.noaa.gov/national_forecast/natfcst.php"><img alt="Weather Map" src="assets/noaad1_ae1fb6.gif"/>Weather Map</a>
+            </div>
+                    <div class="one-sixth-first">
+                <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy04NS45NDQsMzcuOTc1XSwibG9jYXRpb24iOm51bGwsInpvb20iOjguMTI2ODc1NzIxODAzODIsImZpbHRlciI6IldTUi04OEQiLCJsYXllciI6InNyX2JyZWYiLCJzdGF0aW9uIjoiS0xWWCJ9LCJhbmltYXRpbmciOmZhbHNlLCJiYXNlIjoic3RhbmRhcmQiLCJhcnRjYyI6ZmFsc2UsImNvdW50eSI6ZmFsc2UsImN3YSI6ZmFsc2UsInJmYyI6ZmFsc2UsInN0YXRlIjpmYWxzZSwibWVudSI6dHJ1ZSwic2hvcnRGdXNlZE9ubHkiOnRydWUsIm9wYWNpdHkiOnsiYWxlcnRzIjowLjgsImxvY2FsIjowLjYsImxvY2FsU3RhdGlvbnMiOjAuOCwibmF0aW9uYWwiOjAuNn19#/"><img alt="Local Radar Image" src="assets/KLVX_loop_aae4e3.gif"/>Local Radar</a>
+            </div>
+            </div>
+</div>
+
+                <div class="full-width-bordertop">
+                    <div class="full-width-first communication-links">
+        <div class="one-sixth-first divs">
+        <div class="myforecast-current">
+            <a href="https://www.twitter.com/NWSLouisville" style="text-decoration:none;" target="_blank">
+                <img alt="Follow us on X" height="16" src="assets/x.png" width="16"/>  Follow us on X
+            </a>
+        </div>
+    </div>
+        <div class="one-sixth-first divs">
+        <div class="myforecast-current">
+            <a href="https://www.facebook.com/NWSLouisville" style="text-decoration:none;" target="_blank">
+                <img alt="Follow us on Facebook" height="16" src="assets/facebook.png" width="16"/>  Follow us on Facebook
+            </a>
+        </div>
+    </div>
+        <div class="one-sixth-first divs">
+        <div class="myforecast-current">
+            <a href="https://www.youtube.com/user/NWSLouisville" style="text-decoration:none;" target="_blank">
+                <img alt="Follow us on YouTube" height="16" src="assets/youtube.png" width="16"/>  Follow us on YouTube
+            </a>
+        </div>
+    </div>
+    <div class="one-half-last nopad">
+        <span class="txt-rt myforecast-current">
+            <div class="myforecast-current">
+                <a href="https://www.weather.gov/rss_page.php?site_name=lmk" style="text-decoration:none;font-size:11px;" target="_blank">
+                    <img alt="LMK RSS Feed" height="16" src="assets/rss.png" width="16"/>  LMK RSS Feed
+                </a>
+            </div>
+        </span>
+    </div>
+</div>
+<div style="clear:both;"></div>
+
+
+                </div>
+
+
+                <div style="clear:both;"></div>
+
+            </div><!-- <div class="center-content"> -->
+
+        </div><!-- end of <div class="center"> -->
+
+        <!-- sitemap area -->
+        <div class="footer">
+            <style type="text/css">
+    .footer-column-head a:link, .footer-column-head a:visited {
+        color: #ED7A08;
+    }
+</style>
+<div class="footer-content">
+            <div class="footer-column" style="padding:10px 10px;">
+                                                            <p>
+                        <span class="footer-column-head">
+                            <a href="http://forecast.weather.gov/hazards/?wfo=lmk">Current Hazards</a>
+                        </span><br/>
+                                                    <a href="http://forecast.weather.gov/product.php?site=lmk&amp;product=HWO&amp;issuedby=LMK">Hazardous Weather Outlook</a><br/>
+                                                    <a href="http://www.spc.noaa.gov/">Storm Prediction Center</a><br/>
+                                                    <a href="https://www.weather.gov/crh/stormreports?sid=lmk">Submit a Storm Report</a><br/>
+                                                    <a href="https://www.weather.gov/media/lmk/pdf/LMK_Warning_and_Advisory_Criteria_2025.pdf">Advisory/Warning Criteria</a><br/>
+                                            </p>
+                                    <p>
+                        <span class="footer-column-head">
+                            <a href="http://radar.weather.gov/">Radar</a>
+                        </span><br/>
+                                                    <a href="http://radar.weather.gov/radar.php?rid=LVX">Fort Knox</a><br/>
+                                                    <a href="http://radar.weather.gov/radar.php?rid=VWX">Evansville</a><br/>
+                                                    <a href="http://radar.weather.gov/radar.php?rid=HPX">Fort Campbell</a><br/>
+                                                    <a href="http://radar.weather.gov/radar.php?rid=OHX">Nashville</a><br/>
+                                                    <a href="http://radar.weather.gov/radar.php?rid=JKL">Jackson</a><br/>
+                                                    <a href="http://radar.weather.gov/radar.php?rid=ILN">Wilmington</a><br/>
+                                            </p>
+                                    </div>
+            <div class="footer-column" style="padding:10px 10px;">
+                                                            <p>
+                        <span class="footer-column-head">
+                            <a href="http://w2.weather.gov/lmk/currentweather">Current Conditions</a>
+                        </span><br/>
+                                                    <a href="http://www.weather.gov/lmk/hourly_observations">Hourly Observations</a><br/>
+                                                    <a href="http://www.weather.gov/nwsexit.php?site=nws&amp;url=http://www.kymesonet.org/">KY Mesonet</a><br/>
+                                            </p>
+                                    </div>
+            <div class="footer-column" style="padding:10px 10px;">
+                                                            <p>
+                        <span class="footer-column-head">
+                            <a href="http://w2.weather.gov/lmk/#">Latest Forecasts</a>
+                        </span><br/>
+                                                    <a href="http://www.weather.gov/lmk/enso_info">El Nino and La Nina</a><br/>
+                                                    <a href="http://www.cpc.ncep.noaa.gov/">Climate Prediction</a><br/>
+                                                    <a href="http://www.weather.gov/crh/wxstorygrid">Central U.S. Weather Stories</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/dss">1-Stop Winter Forecast</a><br/>
+                                                    <a href="http://www.aviationweather.gov/">Aviation</a><br/>
+                                                    <a href="https://www.weather.gov/forecastpoints">IDSS Forecast Points</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/aqi">Air Quality</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/fire">Fire Weather</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/recreation">Recreation Forecasts</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/drought">1-Stop Drought</a><br/>
+                                                    <a href="https://www.weather.gov/crh/eventready?sid=lmk">Event Ready</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/DSS_Severe">1-Stop Severe Forecast</a><br/>
+                                            </p>
+                                    </div>
+            <div class="footer-column" style="padding:10px 10px;">
+                                                            <p>
+                        <span class="footer-column-head">
+                            <a href="https://www.weather.gov/lmk/climate">Past Weather</a>
+                        </span><br/>
+                                                    <a href="https://www.weather.gov/lmk/climate_graphs">Climate Graphs</a><br/>
+                                                    <a href="https://www.weather.gov/lmk/one-stop-climate">1-Stop Climate</a><br/>
+                                                    <a href="http://www.cocorahs.org">CoCoRaHS</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/climate">Local Climate Pages</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/tornado_climatology">Tornado History</a><br/>
+                                                    <a href="https://www.weather.gov/lmk/derby_oaks_thunder">Past Derby/Oaks/Thunder Weather</a><br/>
+                                                    <a href="https://www.weather.gov/lmk/football_weather">Football Weather</a><br/>
+                                            </p>
+                                    </div>
+            <div class="footer-column" style="padding:10px 10px;">
+                                                            <p>
+                        <span class="footer-column-head">
+                            <a href="https://www.weather.gov/lmk/optional_links">Local Information</a>
+                        </span><br/>
+                                                    <a href="https://www.weather.gov/jetstream/nws_intro">About the NWS</a><br/>
+                                                    <a href="http://forecast.weather.gov/product.php?site=lmk&amp;product=AFD&amp;issuedby=LMK">Forecast Discussion</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/optional_links">Items of Interest</a><br/>
+                                                    <a href="https://www.weather.gov/lmk/skywarn">Spotter Training</a><br/>
+                                                    <a href="http://www.wrh.noaa.gov/map/?wfo=lmk&amp;obs=true&amp;obs_type=tempcur">Regional Weather Map</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/dss">Decision Support Page</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/productguide">Text Products</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/scienceandtechnology">Science and Technology</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/outreach">Outreach</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/lmkwarningarea">LMK Warning Area</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/about_us">About Our Office</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/lmk_history">Station History</a><br/>
+                                                    <a href="http://forecast.weather.gov/product.php?site=lmk&amp;product=HWO&amp;issuedby=LMK">Hazardous Weather Outlook</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/climate">Local Climate Page</a><br/>
+                                                    <a href="https://www.weather.gov/media/lmk/LMKtornadomachine.pdf">Tornado Machine Plans</a><br/>
+                                                    <a href="https://www.weather.gov/enterprise/">Weather Enterprise Resources</a><br/>
+                                            </p>
+                                    </div>
+            <div class="footer-column" style="padding:10px 10px;">
+                                                            <p>
+                        <span class="footer-column-head">
+                            <a href="https://www.weather.gov/lmk/preparedness">Weather Safety</a>
+                        </span><br/>
+                                                    <a href="https://www.weather.gov/safety/">Weather Safety Rules</a><br/>
+                                                    <a href="https://www.heat.gov/">HEAT.gov</a><br/>
+                                                    <a href="http://www.weather.gov/lmk/weather_radio-lmk">Weather Radio</a><br/>
+                                                    <a href="https://www.weather.gov/lmk/skywarn">SKYWARN</a><br/>
+                                            </p>
+                                    </div>
+    </div>
+
+        </div><!-- end of <div class="footer"> -->
+
+        <!-- legal footer area -->
+        <div class="footer-legal">
+            <div class="footer-legal">
+    <div class="footer-legal-content">
+
+        <div class="one-sixth-first" id="footer_legal_gov">
+            <a href="http://www.usa.gov"><img alt="usa.gov" height="30" src="assets/usa_gov.png" width="110"/></a>
+        </div>
+
+        <div class="one-half-first" id="footer_legal_info">
+            <p>
+                <a href="http://www.commerce.gov">US Dept of Commerce</a><br/>
+                <a href="http://www.noaa.gov">National Oceanic and Atmospheric Administration</a><br/>
+                <a href="https://www.weather.gov">National Weather Service</a><br/>
+                Louisville, KY<br/>                6201 Theiler Lane<br/>
+                                Louisville, KY 40229-1476
+                <br/>502-969-8842<br/>
+                <br/><a href="mailto:nws.louisville@noaa.gov">Comments? Questions? Please Contact Us.</a>
+            </p>
+        </div>
+
+        <div class="one-third-last" id="footer_required_links">
+            <div class="div-half">
+                <a href="https://www.weather.gov/disclaimer">Disclaimer</a><br/>
+                <a href="http://www.cio.noaa.gov/services_programs/info_quality.html">Information Quality</a><br/>
+                <a href="https://www.weather.gov/help">Help</a><br/>
+                <a href="https://www.weather.gov/glossary">Glossary</a>
+            </div>
+
+            <div class="div-half">
+                <a href="https://www.weather.gov/privacy">Privacy Policy</a><br/>
+                <a href="https://www.noaa.gov/foia-freedom-of-information-act">Freedom of Information Act (FOIA)</a><br/>
+                <a href="https://www.weather.gov/about">About Us</a><br/>
+                <a href="https://www.weather.gov/careers">Career Opportunities</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div><!-- end of <div class="footer-legal"> -->
+
+        
+    
+</body></html>

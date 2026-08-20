@@ -1,0 +1,46 @@
+        H1 { color: #6633cc; 
+	     font-family: lucida;
+	     border-style: solid; 
+             text-align: center;
+	     padding: 6px;
+	     background-color: #ffff99}
+	H2 { color: #006666}
+	H3 { color: #006666}
+
+	TH { color: #006666;
+             border-style: solid; border-color: #ff0066}
+	B { color: #000099}
+
+	BODY { background-color: #ffffff}
+
+	TABLE { background-color: #ffccff;
+                align: center;
+	        padding: 6px; 
+	        margin: 6px;
+                border-style: solid; border-color: #ff0066}
+
+	TABLE.white { background-color: #ffffff;
+                align: center;
+	        padding: 6px; 
+	        margin: 6px;
+                border-style: solid; border-color: #ff0066}
+
+	CAPTION { color: #ff0066 ; font-weight: bold; 
+	          padding: 6px; font-size:large;}
+
+	P.first { text-indent: 2em }
+
+	UL { list-style-type: square;
+	     margin-bottom: 12px; }
+
+	LI { padding: 6px; margin-left: 12px;}
+
+	DIV {color: #6633cc;
+	     font-size:x-small; 
+             text-align: left;
+	     padding: 6px;
+	     border-style: solid; 
+	     background-color: #ffff99}
+
+	DT {color: red; margin-top: 12px; 
+	    font-weight: bold;}

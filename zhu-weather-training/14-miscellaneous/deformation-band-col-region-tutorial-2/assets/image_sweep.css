@@ -1,0 +1,30 @@
+.beforeafter { 
+  position: relative; 
+  overflow: hidden; 
+  margin-bottom:20px;
+}
+.before, .after {
+  position: absolute;
+  top: 0; left: 0;
+}
+.before { 
+  border-right: 1px solid #FFF;
+  -moz-box-shadow: 1px 0 10px #222;
+  -webkit-box-shadow: 1px 0 20px #222;
+  box-shadow: 1px 0 10px #222;
+}
+.help { 
+  position: relative;
+  top: 60%;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  background-color:#D3D1D1;
+  opacity:0.8;
+  filter:alpha(opacity=80); /* For IE8 and earlier */
+  border-radius: 5px;
+  border: 1px solid #000;
+  font: 14px Arial, sans-serif;
+  text-align: center;
+  color: #000;
+}

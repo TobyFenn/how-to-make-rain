@@ -1,0 +1,92 @@
+#official-government-site,
+#official-government-site details,
+#official-government-site summary {
+	display: flex;
+	float: none;
+}
+#official-government-site {
+  margin: 0 auto;
+  font-size: 80%;
+  background-color: #EAEAEA;
+  color: #050505;
+}
+#official-government-site details {
+  max-width: 43%;
+  margin: 0 auto;
+}
+#official-government-site .collapsible-region {
+	display: block;
+}
+#official-government-site summary {
+	display: list-item;
+	cursor: pointer;
+	padding: 0;
+	border: none;
+	outline: none;
+	text-align: center;
+}
+#official-government-site summary::marker {
+	top: 1px;
+}
+#official-government-site .underline {
+	text-decoration: underline;
+}
+#official-government-site .panel {
+  float: left;
+  max-width: 50%;
+  padding: 0;
+}
+#official-government-site p,
+#official-government-site h5 {
+  padding: 0 0.8em;
+}
+#official-government-site h5 {
+  text-transform: uppercase;
+  margin: 0;
+}
+/* style collapsible regions */
+#taxonomy-term-about summary,
+#taxonomy-term summary {
+	display: list-item;
+	cursor: pointer;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+#taxonomy-term-about h3,
+#taxonomy-term h3 {
+	display: inline-block;
+}
+/* changes for manually coded accordion regions */
+.ctools-collapsible-container .ctools-toggle {
+    float: left;
+	position: relative;
+	top: 8px;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+    background: url(../images/collapsible-expanded.png) no-repeat 7px 7px;
+}
+.ctools-collapsible-container .ctools-toggle-collapsed {
+    background-image: url(../images/collapsible-collapsed.png);
+}
+#taxonomy-term-manual-collapsible {
+	background-color: #e0e0e0;
+	padding: 15px;
+}
+#taxonomy-term-manual-collapsible h2 {
+	margin: 0;
+}
+#taxonomy-term-manual-collapsible .ctools-collapsible-handle {
+	float: left;
+	width: 98%;
+	padding-left: 6px;
+}
+#taxonomy-term-manual-collapsible .ctools-collapsible-content {
+
+}
+#taxonomy-term-manual-collapsible div.ctools-collapsible-handle:hover,
+#taxonomy-term-manual-collapsible span.ctools-toggle:hover {
+	background-color: #f8f9fa;
+	cursor: pointer;
+}

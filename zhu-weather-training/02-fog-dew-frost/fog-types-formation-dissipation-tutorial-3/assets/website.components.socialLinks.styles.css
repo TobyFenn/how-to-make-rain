@@ -1,0 +1,314 @@
+.sqs-block[data-definition-name="website.components.socialLinks"] {
+  /* stylelint-disable less/no-duplicate-variables */
+  /* stylelint-disable no-duplicate-selectors */
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .sqs-block-socialaccountlinks-content {
+  --social-links-solid-icon-dark: #222222;
+  --social-links-solid-icon-light: #ffffff;
+  --social-links-solid-icon-dark-faded: rgba(34, 34, 34, 0.4);
+  --social-links-solid-icon-light-faded: rgba(255, 255, 255, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .sqs-use--icon,
+.sqs-block[data-definition-name="website.components.socialLinks"] .sqs-use--mask {
+  fill: transparent;
+  transition: fill 170ms ease-in-out;
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .sqs-svg-icon--wrapper {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 170ms ease-in-out, opacity 170ms ease-in-out;
+  z-index: 0;
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .sqs-svg-icon--wrapper > div,
+.sqs-block[data-definition-name="website.components.socialLinks"] .sqs-svg-icon--wrapper svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .sqs-svg-icon--wrapper:hover {
+  opacity: 0.8;
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .sqs-svg-icon--list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-black,
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-white {
+  --si-primary: var(--social-links-block-main-icon-color, var(--social-icons-color));
+  --si-primary-faded: var(--social-links-block-main-icon-color, var(--social-icons-color-faded));
+  --si-contrast: var(--social-links-block-secondary-icon-color, var(--social-icons-solid-icon-color));
+  --si-contrast-faded: var(--social-links-block-secondary-icon-color, var(--social-icons-solid-icon-color-faded));
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-black {
+  --social-icons-color: #222222;
+  --social-icons-color-faded: rgba(34, 34, 34, 0.4);
+  --social-icons-solid-icon-color: var(--social-links-solid-icon-light);
+  --social-icons-solid-icon-color-faded: var(--social-links-solid-icon-light-faded);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-white {
+  --social-icons-color: #ffffff;
+  --social-icons-color-faded: rgba(255, 255, 255, 0.4);
+  --social-icons-solid-icon-color: var(--social-links-solid-icon-dark);
+  --social-icons-solid-icon-color-faded: var(--social-links-solid-icon-dark-faded);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .sqs-svg-icon--wrapper {
+  --si-primary: var(--social-icon-color);
+  --si-primary-faded: var(--social-icon-color-faded);
+  --si-contrast: var(--social-links-solid-icon-light);
+  --si-contrast-faded: var(--social-links-solid-icon-light-faded);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .applepodcast {
+  --social-icon-color: #000000;
+  --social-icon-color-faded: rgba(0, 0, 0, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .bandsintown {
+  --social-icon-color: #00b4b3;
+  --social-icon-color-faded: rgba(0, 180, 179, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .behance {
+  --social-icon-color: #1769ff;
+  --social-icon-color-faded: rgba(23, 105, 255, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .chownow {
+  --social-icon-color: #dc5d54;
+  --social-icon-color-faded: rgba(220, 93, 84, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .codepen {
+  --social-icon-color: #222222;
+  --social-icon-color-faded: rgba(34, 34, 34, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .dribbble {
+  --social-icon-color: #ea4c89;
+  --social-icon-color-faded: rgba(234, 76, 137, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .dropbox {
+  --social-icon-color: #007ee5;
+  --social-icon-color-faded: rgba(0, 126, 229, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .email {
+  --social-icon-color: #222222;
+  --social-icon-color-faded: rgba(34, 34, 34, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .facebook {
+  --social-icon-color: #3b5998;
+  --social-icon-color-faded: rgba(59, 89, 152, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .facebook-unauth {
+  --social-icon-color: #3b5998;
+  --social-icon-color-faded: rgba(59, 89, 152, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .fivehundredpix {
+  --social-icon-color: #0099e5;
+  --social-icon-color-faded: rgba(0, 153, 229, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .fivehundredpix-unauth {
+  --social-icon-color: #0099e5;
+  --social-icon-color-faded: rgba(0, 153, 229, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .flickr {
+  --social-icon-color: #0063dc;
+  --social-icon-color-faded: rgba(0, 99, 220, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .flickr-unauth {
+  --social-icon-color: #0063dc;
+  --social-icon-color-faded: rgba(0, 99, 220, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .foursquare {
+  --social-icon-color: #f94877;
+  --social-icon-color-faded: rgba(249, 72, 119, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .foursquare-unauth {
+  --social-icon-color: #f94877;
+  --social-icon-color-faded: rgba(249, 72, 119, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .github {
+  --social-icon-color: #4183c4;
+  --social-icon-color-faded: rgba(65, 131, 196, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .github-unauth {
+  --social-icon-color: #4183c4;
+  --social-icon-color-faded: rgba(65, 131, 196, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .goodreads {
+  --social-icon-color: #382110;
+  --social-icon-color-faded: rgba(56, 33, 16, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .googleplay {
+  --social-icon-color: #5adfcb;
+  --social-icon-color-faded: rgba(90, 223, 203, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .google {
+  --social-icon-color: #dc4e41;
+  --social-icon-color-faded: rgba(220, 78, 65, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .houzz {
+  --social-icon-color: #7ac143;
+  --social-icon-color-faded: rgba(122, 193, 67, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .imdb {
+  --social-icon-color: #e6b91e;
+  --social-icon-color-faded: rgba(230, 185, 30, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .instagram {
+  --social-icon-color: #e4405f;
+  --social-icon-color-faded: rgba(228, 64, 95, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .instagram-unauth {
+  --social-icon-color: #e4405f;
+  --social-icon-color-faded: rgba(228, 64, 95, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .itunes {
+  --social-icon-color: #ec4652;
+  --social-icon-color-faded: rgba(236, 70, 82, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .linkedin {
+  --social-icon-color: #0976b4;
+  --social-icon-color-faded: rgba(9, 118, 180, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .linkedin-unauth {
+  --social-icon-color: #0976b4;
+  --social-icon-color-faded: rgba(9, 118, 180, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .medium {
+  --social-icon-color: #00ab6c;
+  --social-icon-color-faded: rgba(0, 171, 108, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .meetup {
+  --social-icon-color: #e0393e;
+  --social-icon-color-faded: rgba(224, 57, 62, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .pinterest {
+  --social-icon-color: #cc2127;
+  --social-icon-color-faded: rgba(204, 33, 39, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .pinterest-unauth {
+  --social-icon-color: #cc2127;
+  --social-icon-color-faded: rgba(204, 33, 39, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .rdio {
+  --social-icon-color: #006ed2;
+  --social-icon-color-faded: rgba(0, 110, 210, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .reddit {
+  --social-icon-color: #ff4500;
+  --social-icon-color-faded: rgba(255, 69, 0, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .rss {
+  --social-icon-color: #222222;
+  --social-icon-color-faded: rgba(34, 34, 34, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .smugmug {
+  --social-icon-color: #7dbb00;
+  --social-icon-color-faded: rgba(125, 187, 0, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .smugmug-unauth {
+  --social-icon-color: #7dbb00;
+  --social-icon-color-faded: rgba(125, 187, 0, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .snapchat {
+  --social-icon-color: #222222;
+  --social-icon-color-faded: rgba(34, 34, 34, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .soundcloud {
+  --social-icon-color: #ff6600;
+  --social-icon-color-faded: rgba(255, 102, 0, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .soundcloud-unauth {
+  --social-icon-color: #ff6600;
+  --social-icon-color-faded: rgba(255, 102, 0, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .spotify {
+  --social-icon-color: #84bd00;
+  --social-icon-color-faded: rgba(132, 189, 0, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .spotify-unauth {
+  --social-icon-color: #84bd00;
+  --social-icon-color-faded: rgba(132, 189, 0, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .squarespace {
+  --social-icon-color: #222222;
+  --social-icon-color-faded: rgba(34, 34, 34, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .stitcher {
+  --social-icon-color: #1ea9e1;
+  --social-icon-color-faded: rgba(30, 169, 225, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .stumbleupon {
+  --social-icon-color: #eb4924;
+  --social-icon-color-faded: rgba(235, 73, 36, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .thedots {
+  --social-icon-color: #8c8070;
+  --social-icon-color-faded: rgba(140, 128, 112, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .tidal {
+  --social-icon-color: #222222;
+  --social-icon-color-faded: rgba(34, 34, 34, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .tripadvisor {
+  --social-icon-color: #00b087;
+  --social-icon-color-faded: rgba(0, 176, 135, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .tumblr {
+  --social-icon-color: #35465d;
+  --social-icon-color-faded: rgba(53, 70, 93, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .tumblr-unauth {
+  --social-icon-color: #35465d;
+  --social-icon-color-faded: rgba(53, 70, 93, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .twitch {
+  --social-icon-color: #6441a5;
+  --social-icon-color-faded: rgba(100, 65, 165, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .twitter {
+  --social-icon-color: #55acee;
+  --social-icon-color-faded: rgba(85, 172, 238, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .twitter-unauth {
+  --social-icon-color: #55acee;
+  --social-icon-color-faded: rgba(85, 172, 238, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .url {
+  --social-icon-color: #000000;
+  --social-icon-color-faded: rgba(0, 0, 0, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .vevo {
+  --social-icon-color: #ff0031;
+  --social-icon-color-faded: rgba(255, 0, 49, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .vimeo {
+  --social-icon-color: #1ab7ea;
+  --social-icon-color-faded: rgba(26, 183, 234, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .vimeo-unauth {
+  --social-icon-color: #1ab7ea;
+  --social-icon-color-faded: rgba(26, 183, 234, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .vine {
+  --social-icon-color: #00b488;
+  --social-icon-color-faded: rgba(0, 180, 136, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .vsco {
+  --social-icon-color: #ae995a;
+  --social-icon-color-faded: rgba(174, 153, 90, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .yelp {
+  --social-icon-color: #c41200;
+  --social-icon-color-faded: rgba(196, 18, 0, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .youtube {
+  --social-icon-color: #e52d27;
+  --social-icon-color-faded: rgba(229, 45, 39, 0.4);
+}
+.sqs-block[data-definition-name="website.components.socialLinks"] .social-icons-color-standard .youtube-unauth {
+  --social-icon-color: #e52d27;
+  --social-icon-color-faded: rgba(229, 45, 39, 0.4);
+}
+

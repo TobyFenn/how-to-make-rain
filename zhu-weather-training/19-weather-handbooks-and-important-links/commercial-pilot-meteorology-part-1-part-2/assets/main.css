@@ -1,0 +1,56 @@
+body {
+    background: #131313;
+}
+
+div#content {
+    background: #E5E5E5;
+}
+
+img.pull-right {
+    margin-left: 20px;
+}
+
+img.pull-left {
+    margin-right: 20px;
+}
+
+h1 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #000;
+}
+
+h1:first-child {
+    margin-top: 0;
+}
+
+h2 {
+    padding-top: 20px;
+    color: #000;
+}
+
+p, img {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+#summary ul, #summary li {
+    list-style: none;
+}
+
+ul#summary {
+    border-bottom: 1px solid #000;
+    margin: 0 0 30px 0;
+    padding: 0 0 20px 0;
+}
+
+.control-group.error select {
+    color: #888888;
+}
+
+.cke_dialog input,
+textarea.cke_source {
+    color: #333333;
+}

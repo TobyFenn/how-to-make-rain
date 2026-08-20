@@ -1,0 +1,203 @@
+/* ========================================================== */
+/* === LATEST CORE 2.0 PRINT STYLES ========================= */
+* {
+    text-shadow: none !important;
+    box-shadow: none !important;
+	font-family: sans-serif !important;
+}
+body {
+	font-size: 12px;
+}
+a,a:visited {
+    text-decoration: underline;
+}
+
+/* Include Link Paths for Images
+a[href]:after {
+    content: " (" attr(href) ")";
+}
+abbr[title]:after {
+    content: " (" attr(title) ")";
+}
+a[href^="javascript:"]:after,a[href^="#"]:after {
+    content: "";
+}
+*/
+
+pre,blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+}
+
+thead {
+    display: table-header-group;
+}
+
+tr,img {
+    page-break-inside: avoid;
+}
+
+img {
+	height: auto;
+	width: auto;
+    max-width: 960px !important;
+}
+
+p,h2,h3 {
+    orphans: 3;
+    widows: 3;
+}
+
+h2,h3 {
+    page-break-after: avoid;
+}
+
+select {
+    background: #fff !important;
+}
+
+/*.page h3 {
+	page-break-before: always !important;
+}*/
+.lc-docs-sidenav li.divider{
+	list-style: none;
+	border-top: 1px solid #ccc;
+	margin: 10px 0px;
+	max-width: 190px;
+}
+.navbar {
+    display: none;
+}
+
+.table td,.table th {
+    background-color: #fff !important;
+}
+
+.btn>.caret,.dropup>.btn>.caret {
+    border-top-color: #000 !important;
+}
+
+.label {
+    border: 1px solid #000;
+}
+
+.table {
+    border-collapse: collapse !important;
+}
+
+.table-bordered th,.table-bordered td {
+    border: 1px solid #ddd !important;
+}
+
+.visible-print {
+    display: block !important;
+}
+
+table.visible-print {
+    display: table;
+}
+
+tr.visible-print {
+    display: table-row !important;
+}
+
+th.visible-print,td.visible-print {
+    display: table-cell !important;
+}
+
+.visible-print-block {
+    display: none !important;
+}
+
+.visible-print-block {
+    display: block !important;
+}
+
+.visible-print-inline {
+    display: none !important;
+}
+
+.visible-print-inline {
+    display: inline !important;
+}
+
+.visible-print-inline-block {
+    display: none !important;
+}
+
+.visible-print-inline-block {
+    display: inline-block !important;
+}
+
+.hidden-print {
+    display: none !important;
+}
+
+.page h2:first-child, .page h3:first-child {
+	border-bottom:1px solid #333;
+}
+
+iframe {
+	width: 800px;
+	min-height: 640px;
+}
+
+iframe .answers p {
+	display:inline-block !important;
+}
+
+.btn, .btn-group {
+	background-color: transparent !important;
+	border: 1px solid #ccc;
+}
+.close {
+	display:none !important;
+}
+/* Collapsible panels print fix */
+.panel-collapse.collapse.in {
+	display:block;
+}
+.panel-collapse.collapse,
+.panel-collapse.collapsing {
+	display:none;
+}
+
+/* Latest Core 2.0 - Print Fixed Components */
+#module-wrapper {
+	max-width:1200px;
+	margin:0px auto;
+	padding:0px 20px;
+}	
+
+#module-content {
+	background-color:#fff !important;
+}
+#module-title {
+	font-size:28px !important;
+	font-weight:bold;
+}
+#module-credit {
+	font-size:11px;
+	font-weight:bold;
+	font-style:italic;
+	margin:0;
+}
+.chapter_title {
+	font-size:18px;
+}
+.show-after {
+	display: block !important;
+}
+
+/* Latest Core 2.0 - Print Hidden Components */
+.module-nav, .print_hide, .drawtool-controls, .drag_controls_holder,
+.answer, .response, .message, .message-incorrect, .message-correct, .explanation,
+.unit-dropdown, .footer-links, .submit-button,
+.modal-content, .zoomContainer, .zoom-instructions {
+	display: none !important;
+}
+
+/* HTML5 Media Player */
+.mejs-audio, .mejs-video {
+	display: none !important;
+}

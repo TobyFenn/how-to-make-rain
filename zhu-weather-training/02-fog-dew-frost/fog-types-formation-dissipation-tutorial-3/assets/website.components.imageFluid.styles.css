@@ -1,0 +1,74 @@
+.sqs-block[data-definition-name="website.components.imageFluid"] {
+  /* Reusing  "design-layout-fluid" class to match legacy implementation */
+}
+.sqs-block[data-definition-name="website.components.imageFluid"] .sqs-block-content,
+.sqs-block[data-definition-name="website.components.imageFluid"] .image-block-outer-wrapper,
+.sqs-block[data-definition-name="website.components.imageFluid"] .sqs-image {
+  width: 100%;
+  height: 100%;
+}
+.sqs-block[data-definition-name="website.components.imageFluid"] .sqs-image-content {
+  position: relative;
+  width: var(--image-component-container-width, 100%);
+  height: var(--image-component-container-height, 100%);
+}
+.sqs-block[data-definition-name="website.components.imageFluid"] .design-layout-fluid img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.sqs-block[data-definition-name="website.components.imageFluid"] .design-layout-fluid .sqs-image {
+  display: flex;
+}
+.sqs-block[data-definition-name="website.components.imageFluid"] .design-layout-fluid.image-position-left .sqs-image {
+  justify-content: flex-start;
+}
+.sqs-block[data-definition-name="website.components.imageFluid"] .design-layout-fluid.image-position-center .sqs-image {
+  justify-content: center;
+}
+.sqs-block[data-definition-name="website.components.imageFluid"] .design-layout-fluid.image-position-right .sqs-image {
+  justify-content: flex-end;
+}
+.sqs-block[data-definition-name="website.components.imageFluid"] .fluidImageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: var(--image-component-overlay-blend-mode);
+  opacity: var(--image-component-overlay-opacity);
+  background-color: var(--image-block-overlay-color);
+}
+.sqs-block[data-definition-name="website.components.imageFluid"] .imageEffectContainer {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  pointer-events: none;
+}
+.sqs-block[data-definition-name="website.components.imageFluid"] .sqs-block-image-button {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 0;
+  background: none;
+}
+.sqs-block[data-definition-name="website.components.imageFluid"] .design-layout-fluid .fluid-image-container .content-fill {
+  display: block;
+}
+.sqs-block[data-definition-name="website.components.imageFluid"] .design-layout-fluid .fluid-image-container .content-fill,
+.sqs-block[data-definition-name="website.components.imageFluid"] .design-layout-fluid .fluid-image-container .content-fill img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.fe-block .fe-block .sqs-block[data-definition-name="website.components.imageFluid"] .design-layout-fluid.image-component-container-fit .fluid-image-container {
+  --image-component-container-width: initial;
+  --image-component-container-height: initial;
+}
+.fe-block .fe-block .sqs-block[data-definition-name="website.components.imageFluid"] .design-layout-fluid.image-component-container-fit .fluid-image-container .content-fit img {
+  position: static;
+  aspect-ratio: var(--image-component-native-aspect-ratio);
+}
+

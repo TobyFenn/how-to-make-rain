@@ -1,0 +1,5 @@
+@media print {
+  #fba-button.usa-button {
+    display: none;
+  }
+}

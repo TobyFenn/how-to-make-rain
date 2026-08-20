@@ -1,0 +1,186 @@
+/* ========================================================== */
+/* === LATEST CORE 2.O CUSTOM STYLES ======================== */
+/* ========================================================== */
+/* ========================================================== */
+/* === 1.0 OVERALL HTML ELEMENTS ============================ */
+body {
+  background-color: #333; }
+
+/* WebFont Stack 1 - Normal Weight */
+@font-face {
+  font-family: "futurapro-normal";
+  src: url("fonts/futurapro/futurapro-normal.eot");
+  src: url("fonts/futurapro/futurapro-normal.eot?#iefix") format("embedded-opentype"), url("fonts/futurapro/futurapro-normal.woff") format("woff"), url("fonts/futurapro/futurapro-normal.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* WebFont Stack 2 - Bold, Black, or Heavy */
+@font-face {
+  font-family: "futurapro-bold";
+  src: url("fonts/futurapro/futurapro-bold.eot");
+  src: url("fonts/futurapro/futurapro-bold.eot?#iefix") format("embedded-opentype"), url("fonts/futurapro/futurapro-bold.woff") format("woff"), url("fonts/futurapro/futurapro-bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold; }
+/* Links */
+a {
+  color: #482485;
+  text-decoration: underline; }
+
+a:hover,
+a:focus {
+  color: #8E54C5;
+  text-decoration: underline; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "futurapro-bold", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* Text Selection */
+::-moz-selection {
+  color: #fff;
+  background: #300CD2; }
+
+::selection {
+  color: #fff;
+  background: #300CD2; }
+
+/* ========================================================== */
+/* === 2.0 BOOTSTRAP COMPONENTS ============================= */
+/* === PAGE NAVIGATOR (pager) =============================== */
+.pager li > a,
+.pager li > span {
+  color: #321938;
+  background-color: transparent;
+  border: 2px solid #321938; }
+
+.pager li > a:hover,
+.pager li > a:focus {
+  background-color: #321938;
+  color: #fff; }
+
+/* === DROPDOWN MENUS ======================================= */
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-color: #321938; }
+
+/* === PILLS ================================================ */
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: #3D7367; }
+
+/* === PRIMARY BUTTON ========================================
+.btn-primary {
+  background-color: $module-color1;
+  background-image: -webkit-linear-gradient(top, $module-color1 0%, $module-color4 100%);
+  background-image: -o-linear-gradient(top, $module-color1 0%, $module-color4 100%);
+  background-image: linear-gradient(to bottom, $module-color1 0%, $module-color4 100%);
+  background-repeat: repeat-x;
+  border-color: $module-color1;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: $module-color4;
+  background-position: 0 -15px;
+}
+.btn-primary:active,
+.btn-primary.active {
+  background-color: $module-color4;
+  border-color: $module-color3;
+}
+.btn-primary:disabled,
+.btn-primary[disabled] {
+  background-color: #B9B287;
+  background-image: none;
+  border-color: $module-color4;
+} */
+/* ========================================================== */
+/* === 3.0 LATEST CORE 2 COMPONENTS ========================= */
+/* === MODULE HEADER ======================================== */
+#module-title {
+  color: #fff;
+  font-family: "futurapro-bold";
+  font-size: 35px;
+  line-height: 35px;
+  text-shadow: 1px 1px 0px #000, 2px 2px 0px #000;
+  padding-top: 25px; }
+
+#module-title small, .module-title small {
+  color: #3D7367;
+  font-weight: normal !important; }
+
+/* Module Title Media Queries */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #module-title {
+    font-size: 41px;
+    line-height: 41px; } }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #module-title {
+    font-size: 43px;
+    line-height: 43px; } }
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #module-title {
+    font-size: 47px;
+    line-height: 47px;
+    /* text-align:left;
+    padding-left:16px; */ } }
+#module-credit {
+  color: #fff;
+  font-family: "futurapro-bold";
+  text-shadow: 1px 1px 0px #000, 2px 2px 0px #000;
+  font-size: 12px; }
+
+/* === MODULE NAVIGATION MENU =============================== */
+.module-nav li.active a,
+.module-nav li.active a:focus,
+.module-nav li.active a:hover {
+  background-color: #321938; }
+
+/* === MODULE UNIT/CHAPTER DROPDOWN MENU ==================== */
+.unit-header {
+  background: #321938;
+  color: #fff; }
+
+#collapsible-toc .panel-default .panel-heading {
+  background: #321938;
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important; }
+
+#collapsible-toc .panel-default .panel-heading a,
+#collapsible-toc .panel-default .panel-heading a:hover,
+#collapsible-toc .panel-default .panel-heading a:active {
+  color: #fff !important; }
+
+/* === BACK TO TOP BUTTON =================================== */
+.back-top a {
+  color: #ccc;
+  text-decoration: none; }
+
+.back-top a:hover {
+  color: #609C97;
+  text-decoration: none; }
+
+/* === IMAGE AND TEXT CAPTIONS ============================== */
+.image-caption, .text-caption {
+  background: #d7d7d7; }
+
+/* ========================================================== */
+/* === 4.0 MODULE-SPECIFIC COMPONENTS ======================= */
+body#splash-page {
+  background-color: #333; }
+
+#splash-page .footer-text a {
+  color: #988ACE; }
+
+#module-topbanner {
+  background-image: url("module-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 1168px 170px;
+  background-position: top center; }
+
+img {
+	padding-bottom:10px;
+}

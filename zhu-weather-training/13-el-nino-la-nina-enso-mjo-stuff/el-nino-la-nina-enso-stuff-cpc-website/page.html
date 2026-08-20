@@ -1,0 +1,727 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta charset="utf-8"/>
+  <title>CPC - Climate Weather Linkage: El Niño Southern Oscillation</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="NCEP Web Team" name="GENERATOR"/>
+  <link href="assets/main.css" rel="STYLESHEET" type="text/css"/>
+  
+  <style>
+    .survey-modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content/Box */
+    .survey-popup {
+      background-color: #fefefe;
+      font-size: 14px;
+      margin: 15% auto; /* 15% from the top and centered */
+      padding: 25px 30px;
+      border: 1px solid #888;
+      text-align: left;
+      width: 50%; /* Could be more or less, depending on screen size */
+    }
+
+    /* The Close Button */
+    .survey-popup .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .survey-popup .close:hover,
+    .survey-popup .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .survey-popup .survey-btn {
+      background-color: #4caf50;
+      color: white;
+      padding: .5em 1.5em;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1.1em;
+      margin: 4px 0 10px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .survey-popup .survey-btn:hover { background-color: #46a049; }
+		.survey-popup .survey-btn:active { background-color: #3e8e41; }
+  </style>
+
+  <!-- Required Digital Analytics Program (DAP) code -->
+  
+</head>
+
+<body background="assets/background.gif" leftmargin="0" marginheight="0" marginwidth="0" rightmargin="0" topmargin="0"><div style="font:12px/1.4 -apple-system,Helvetica,Arial;color:#444;border-bottom:1px solid #ccc;padding:6px 0;margin-bottom:10px">ZHU Training Page archive · El Niño/La Niña/ENSO Stuff ***CPC website*** · Source: https://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/enso.shtml#forecast · Captured 2026-08-19 06:00 UTC</div>
+
+<table background="assets/topbanner.jpg" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td align="right" height="19">
+				<a href="#contents"><img alt="Skip Navigation Links" border="0" height="1" src="assets/skipgraphic.gif" width="1"/></a>
+				<a class="homepagelinks" href="https://www.weather.gov/"><span class="nwslink">www.weather.gov</span></a> 
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td rowspan="2"><a href="https://www.noaa.gov/">
+			<img alt="NOAA logo - Click to go to the NOAA home page" border="0" height="78" src="assets/noaaleft.jpg" width="85"/></a></td>
+			<td align="left"><img alt="National Weather Service" border="0" height="20" src="assets/nws_title.jpg" width="500"/></td>
+			<td background="assets/ncep_bkgrnd.jpg" rowspan="2" width="100%"> </td>
+			<td align="right" rowspan="2"><a href="https://www.weather.gov/">
+			<img alt="NWS logo - Click to go to the NWS home page" border="0" height="78" src="assets/nwsright.jpg" width="85"/></a></td>
+		</tr>
+		<tr>
+			<td><img alt="Climate Prediction Center" border="0" height="58" src="assets/cpc.jpg" width="500"/></td>
+		</tr>
+	</tbody>
+</table>
+<!-- -->
+<table background="assets/navbkgrnd.gif" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td align="left" width="135"><img alt="" border="0" height="23" src="assets/navbarleft.jpg" width="94"/></td>
+			<td align="center" class="nav" width="10%">
+				<a class="menu" href="https://www.cpc.ncep.noaa.gov/" title="to the climate prediction center home page">home</a>
+			</td>
+			<td align="center" class="nav" width="10%">
+				<a class="menu" href="https://www.cpc.ncep.noaa.gov/products/site_index.shtml" title="to Climate Prediction Center site map">Site Map</a>
+			</td>
+			<td align="right" class="nav" width="10%">
+				<a class="menu" href="https://www.weather.gov/news/" title="to National Weather Service news page">News</a>
+			</td>
+			<td align="right" class="nav" width="19%">
+				<a class="menu" href="https://www.weather.gov/organization/">Organization</a>
+			</td>
+			<td align="right" class="searchinput" width="30%">
+				<form action="https://search.usa.gov/search" method="get" style="margin-bottom:0; margin-top:0;">
+				<label for="Search"><span class="yellow">Search</span>  </label>
+				<input name="affiliate" type="hidden" value="weather.gov"/>
+				<input name="v:project" type="hidden" value="firstgov"/>
+				<input id="Search" maxlength="256" name="query" size="20" type="text" value=""/>
+				<input type="submit" value="Go"/>
+				</form>
+			</td>
+			<td align="right"><img alt="" border="0" height="23" src="assets/navbarendcap.jpg" width="24"/></td>
+		</tr>
+	</tbody>
+</table>       <!-- Use virtual include, because this should be in a common place within your DocumentRoot. -->
+<table border="0" cellpadding="0" cellspacing="0" width="670">
+  <tbody><tr valign="top">
+    <td width="137"><br/>
+            <table border="0" cellpadding="0" cellspacing="0" width="137">
+        <!-- Do not remove this section. You will need this when the City,St/zip search is implemented nationwide.-->
+        <!-- <tr align="left" valign="top">
+                <td class="searchinput">
+                  <div id="Layer2" style="position:absolute; width:200px; height:115px; z-index:2; visibility: hidden">Search by city or zip code. Press enter or select the go button to submit request</div>
+                  <form method="POST" action="http://www.srh.noaa.gov/zipcity.php">
+                  <span class="yellow">Local forecast by<br>&quot;City, St&quot; or Zip Code</span><br>
+                  <input type="text" name="inputstring" size="9" value="City, St">
+                  <input type="submit" name="Go2" value="Go"></form></td>
+        </tr> -->
+<!--
+         <tr>
+          <td class="searchinput" align="left">
+           <form method="get" action="http://firstgovsearch.gov/search"
+                 style="margin-bottom:0; margin-top:0;">
+            <label for="Search">
+            <span class="yellow">Search&nbsp;the CPC</span></label>
+            <input type="hidden" name="affiliate" value="ncep.noaa.gov" />
+            <input type="hidden" name="v:sources"
+                  value="firstgov-affiliates-search" />
+            <input type="hidden" name="v:project" value="firstgov" />
+            <input type="hidden" name="query"
+                  value="site:www.cpc.ncep.noaa.gov" />
+            <input name="query" type="text" value="All CPC" size="10" maxlength="256"
+                  id="Search"/>
+            <input type="submit" value="Go"  />
+           </form>
+          </td>
+         </tr>
+-->
+
+         <tbody><tr>
+          <td align="left" class="searchinput">
+
+           <form action="https://search.usa.gov/search" method="get" style="margin-bottom:0; margin-top:0;">
+            <label for="Search">
+            <span class="yellow">Search</span></label>
+            <input name="affiliate" type="hidden" value="ncep.noaa.gov"/>
+            <input name="v:sources" type="hidden" value="firstgov-affiliates-search"/>
+            <input name="v:project" type="hidden" value="firstgov"/>
+            <input name="query" type="hidden" value="site:www.cpc.ncep.noaa.gov"/>
+            <input id="Search" maxlength="256" name="query" size="10" type="text" value=""/>
+            <input type="submit" value="Go"/>
+           </form>
+
+          </td>
+         </tr>
+
+
+
+        <tr>
+          <td class="white" id="menuitem">
+
+            <a class="menu" href="https://www.cpc.ncep.noaa.gov/products/forecasts/"><font color="#F0E68C">Climate Outlooks</font></a><br/><br/>
+
+            <a class="menu" href="https://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/climwx.shtml"><span class="yellow">Climate &amp; Weather Link</span></a><br/>
+               <a class="menu" href="page.html">El Niño/La Niña</a><br/>
+               <a class="menu" href="https://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/mjo.shtml">MJO</a><br/>
+               <a class="menu" href="https://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ao_index/teleconnections.shtml">Teleconnections</a><br/>
+                   <a class="menu" href="https://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ao_index/ao.shtml">AO</a><br/>
+                   <a class="menu" href="https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/nao.shtml">NAO</a><br/>
+                   <a class="menu" href="https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/pna.shtml">PNA</a><br/>
+                   <a class="menu" href="https://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ao_index/aao/aao.shtml">AAO</a><br/>
+               <a class="menu" href="https://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/block.shtml">Blocking</a><br/>
+               <a class="menu" href="https://www.cpc.ncep.noaa.gov/products/precip/CWlink/stormtracks/mstrack.shtml">Storm Tracks</a><br/><br/>
+
+<!--  
+            <a href="" class="menu"><font color="#F0E68C">Current Conditions</font></a><br><br>
+            <a href="" class="menu"><font color="#F0E68C">Climatology</font></a><br><br>
+            <a href="" class="menu"><font color="#F0E68C">Global Climate</font></a><br><br> 
+-->
+            <a class="menu" href="https://www.cpc.ncep.noaa.gov/products/outreach/glossary.shtml"><font color="#F0E68C">Climate Glossary</font></a><br/><br/>
+<!--            
+            <a href="" class="menu"><font color="#F0E68C">Education</font></a><br><br>          
+-->
+            <a class="menu" href="https://www.cpc.ncep.noaa.gov/products/outreach/"><font color="#F0E68C">Outreach</font></a><br/><br/>
+
+            <span class="yellow">About Us</span><br/>
+               <a href="https://www.cpc.ncep.noaa.gov/information/who_we_are/mission.shtml">Our Mission</a><br/>
+               <a href="https://www.cpc.ncep.noaa.gov/information/who_we_are/index.shtml">Who We Are</a><br/><br/>
+
+            <span class="yellow">Contact Us</span><br/>
+               <a href="https://www.cpc.ncep.noaa.gov/comment-form.php">Web Team</a><br/><br/>
+            
+          </td>
+        </tr>
+         <tr><td> </td></tr>
+         <tr>
+          <td class="white" id="menuitem">
+           <a href="https://www.usa.gov/"><img alt="USA.gov is the U.S. Government's official Web portal to all Federal, state and local government Web resources and services." border="0" height="30" src="assets/usagov_logo_color_110wb.gif" width="110"/></a>
+          </td>
+         </tr>
+      </tbody></table>
+   <!-- Use virtual include, because this should be in a common place within your DocumentRoot. -->
+    </td>
+    <td align="center" valign="top" width="533"><a name="contents"></a>
+      <!-- Content area -->
+<table border="0" cellpadding="2" cellspacing="0" width="537">
+ <tbody><tr>
+  <td>
+   <font color="#000000" face="verdana,arial,serif" size="1"><a class="homepagelinks" href="https://www.cpc.ncep.noaa.gov/"><strong>HOME</strong></a> &gt;   <a class="homepagelinks" href="https://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/climwx.shtml">Climate &amp; Weather Linkage</a> &gt; El Niño / Southern Oscillation (ENSO)</font>
+  </td>
+ </tr>
+ <tr><td> </td></tr>
+ <tr>
+  <td align="center" valign="top">
+   <img alt="" height="75" src="assets/ENSO_banner.gif" width="450"/>
+  </td>
+ </tr>
+ <tr>
+  <td valign="top"><a name="list"> </a>
+   <table border="0" cellpadding="2" cellspacing="2" width="537">
+    <tbody><tr>
+     <td>
+      <ul>
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#current"><strong>Current Conditions</strong></a></font></li>
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#history"><strong>Historical Information</strong></a></font></li>
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#forecast"><strong>Outlooks</strong></a></font></li>
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#discussion"><strong>Expert Discussions/Assessments</strong></a></font></li>
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#composite"><strong>Diagnostic and Attribution Tools</strong></a></font></li>
+<!--       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#link"><strong>Linkage to Weather</strong></a></font></li>   -->
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#educational material"><strong>Educational Materials</strong></a></font></li>
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#references"><strong>References</strong></a></font></li>
+      </ul>
+      <hr/>
+     </td>
+    </tr>
+    <tr><td> </td></tr>
+    <tr>
+     <td><a name="current"></a>
+      <ul>
+       <li type="square"><font face="verdana,arial,serif" size="3"><strong>Current Conditions</strong></font></li>
+      </ul>
+
+ <table style="border-color: black; border-style: solid; border-width: thin;">
+  <tbody><tr>
+   <td align="center">
+    <font face="verdana,arial,serif" size="2"><strong>Note:</strong> Move cursor over product name to display the graphic.</font>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <table border="1" cellpadding="0" cellspacing="0" width="540">
+     <tbody><tr>
+      <td align="center" bgcolor="#0A2390" class="nav" colspan="4" id="menuitem"><font color="#F0E68C">Animations</font></td>
+     </tr>
+     <tr>
+      <td>
+       <table align="center" border="0" cellpadding="0" cellspacing="1" name="Tabs" width="540">
+        <tbody><tr>
+         <td align="center" bgcolor="#0A2390" class="nav" id="menuitem" width="33%">
+          <a class="homepagelinks" href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/sstanim.shtml" onmouseover="show_tab('TABTPSST')" title="Tropical Pacific Sea Surface Temperatures Animation">Sea Surface Temperatures (SST)</a>
+         </td>
+         <td align="center" bgcolor="#0A2390" class="nav" id="menuitem" width="33%">
+          <a class="homepagelinks" href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/sstanim.shtml" onmouseover="show_tab('TABSSTANOMS')" title="Tropical Pacific Sea Surface Temperatures Anomalies Animation">SST Anomalies - Tropical Pacific</a>
+         </td>
+         <td align="center" bgcolor="#0A2390" class="nav" id="menuitem" width="33%">
+          <a class="homepagelinks" href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/wkxzteq.shtml" onmouseover="show_tab('TABEPTDEP')" title="Equatorial Pacific Temperature Depth Anomalies Animation">T-Depth Anomalies - Equatorial Pacific</a>
+         </td>
+        </tr>
+       </tbody></table>
+      </td>
+     </tr>
+     <tr><td> </td></tr>
+     <tr>
+      <td align="center" bgcolor="#0A2390" class="nav" colspan="4" id="menuitem"><font color="#F0E68C">Tropical Outgoing Longwave Radiation (OLR) &amp; Winds (Last 30 Days)</font></td>
+     </tr>
+     <tr>
+      <td>
+       <table align="center" border="0" cellpadding="0" cellspacing="1" name="Tabs" width="540">
+        <tbody><tr>
+         <td align="center" bgcolor="#0A2390" class="nav" id="menuitem" width="33%">
+          <a class="homepagelinks" href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/olra-30d.gif" onmouseover="show_tab('TABOLRANOM')" title="Time longitude section of Anomalous OLR">OLR Anomalies</a>
+         </td>
+         <td align="center" bgcolor="#0A2390" class="nav" id="menuitem" width="33%">
+          <a class="homepagelinks" href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/uv850-30d.gif" onmouseover="show_tab('TAB850WANOM')" title="850hPa Wind Anomalies">850hPa Wind Anomalies</a>
+         </td>
+         <td align="center" bgcolor="#0A2390" class="nav" id="menuitem" width="33%">
+          <a class="homepagelinks" href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/uv200-30d.gif" onmouseover="show_tab('TAB200WANOM')" title="2000hPa Wind Anomalies">200hPa Wind Anomalies</a>
+         </td>
+        </tr>
+       </tbody></table>
+      </td>
+     </tr>
+     <tr><td> </td></tr>
+     <tr>
+      <td align="center" bgcolor="#0A2390" class="nav" colspan="4" id="menuitem"><font color="#F0E68C">Sea Surface Temperatures (SST)</font></td>
+     </tr>
+     <tr>
+      <td>
+       <table align="center" border="0" cellpadding="0" cellspacing="1" name="Tabs" width="540">
+        <tbody><tr>
+         <td align="center" bgcolor="#0A2390" class="nav" id="menuitem" width="33%">
+          <a class="homepagelinks" href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/sstweek_c.gif" onmouseover="show_tab('TABSSTANOM')" title="Weekly Sea Surface Temperatures anomalies">Weekly Anomalies</a>
+         </td>
+         <td align="center" bgcolor="#0A2390" class="nav" id="menuitem" width="33%">
+          <a class="homepagelinks" href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/ssta_c.gif" onmouseover="show_tab('TABSSTNINOANOM')" title="Time series of weekly sea surface temperatures anomalies for the 4 Niño regions">Niño Regions Anomalies</a>
+         </td>
+         <td align="center" bgcolor="#0A2390" class="nav" id="menuitem" width="33%">
+          <a class="homepagelinks" href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/ssttlon5_c.gif" onmouseover="show_tab('TABSSTANOM5N5S')" title="Time longitude section of Sea Surface Temperatures Anomalies (5 degrees North to 5 degrees South)">Anomalies (5<sup>o</sup>N-5<sup>o</sup>S)</a>
+         </td>
+        </tr>
+       </tbody></table>
+      </td>
+     </tr>
+     <tr><td> </td></tr>
+    </tbody></table>
+    <table align="center" cellpadding="0" cellspacing="0" width="540">
+     <tbody><tr><td> </td></tr>
+     <tr>
+      <td>
+       <div align="center" id="TABTPSST" style="display:block;">
+        <img alt="Tropical Pacific Sea Surface Temperatures Animation" src="assets/sstanim.gif"/>
+       </div>
+       <div align="center" id="TABSSTANOMS" style="display:none;">
+        <img alt="Tropical Pacific Sea Surface Temperatures Anomalies Animation" src="assets/sstaanim.gif"/>
+       </div>
+       <div align="center" id="TABEPTDEP" style="display:none;">
+        <img alt="Equatorial Pacific Temperature Depth Anomalies Animation" src="assets/wkxzteq_anm.gif" width="540"/>
+       </div>
+       <div align="center" id="TABOLRANOM" style="display:none;">
+        <img alt="Time longitude section of Anomalous OLR" src="assets/olra-30d.gif"/>
+       </div>
+       <div align="center" id="TAB850WANOM" style="display:none;">
+        <img alt="850 hecto Pascals inds for the last 30 days" src="assets/uv850-30d.gif"/>
+       </div>
+       <div align="center" id="TAB200WANOM" style="display:none;">
+        <img alt="200 hecto Pascals inds for the last 30 days" src="assets/uv200-30d.gif"/>
+       </div>
+       <div align="center" id="TABSSTANOM" style="display:none;">
+        <img alt="Weekly Sea Surface Temperatures anomalies" src="assets/ssta-week.gif"/>
+       </div>
+       <div align="center" id="TABSSTNINOANOM" style="display:none;">
+        <img alt="Time series of weekly sea surface temperatures anomalies for the 4 Niño regions" src="assets/ssta_c.gif"/>
+       </div>
+       <div align="center" id="TABSSTANOM5N5S" style="display:none;">
+        <img alt="Time longitude section of Sea Surface Temperatures Anomalies (5 degrees North to 5 degrees South)" src="assets/ssttlon5_c.gif"/>
+       </div>
+      </td>
+     </tr>
+    </tbody></table>
+   </td>
+  </tr>
+ </tbody></table>
+ <br/><br/>
+      <table align="center" width="95%">
+       <tbody><tr>
+        <td>
+         <ul>
+          <li><font face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/sstanim.shtml"><strong>SST Animation</strong></a> - Tropical Pacific</font></li>
+          <li><font face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/gsstanim.shtml"><strong>SST Animation</strong></a> - Global</font></li>
+          <li><font face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/wkxzteq.shtml"><strong>T-Depth Animation</strong></a> - Equatorial Pacific</font></li>
+         </ul>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <table align="center" border="1" width="100%">
+          <tbody><tr>
+           <td valign="top" width="50%">
+            <p align="center"><font face="verdana,arial" size="3"><strong>Outgoing Longwave Radiation (OLR)</strong></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/polr_c.gif">Pentad mean and anomalous OLR</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/olra_c.gif">Time-longitude section of anomalous OLR</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/olra_last30days-hr.png">Last 30 day average of anomalous OLR</a></font></p>
+
+
+            <p align="center"><font face="verdana,arial" size="3"><strong>850-hPa Zonal Wind</strong></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/u850_c.gif">Time-longitude Section (CORE data)</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/u850a_c.gif">Time-longitude Section (Anomalous)</a></font></p>
+
+<!--            
+            <p><font face="verdana,arial" size="2"><a HREF="/products/analysis_monitoring/enso_update/ugdas_c.gif">Daily time series averaged over 160<sup>o</sup>E-100<sup>o</sup>W, 5<sup>o</sup>N-5<sup>o</sup>S <br>(CDAS data)</a></font></p>
+            <p><font face="verdana,arial" size="2"><a HREF="/products/analysis_monitoring/enso_update/ua850_c.gif">Daily time series for the standard index areas (see Figure T3, CDB)<br>(CDAS data)</a></font></p>
+
+            <p align="center"><font face="verdana,arial" size="3"><strong>Zonal Wind Indices</strong></font></p>
+            <p><font face="verdana,arial" size="2"><a HREF="/products/precip/CWlink/daily_ao_index/zw/zw_850.shtml">850mb</a></font></p>
+            <p><font face="verdana,arial" size="2"><a HREF="/products/precip/CWlink/daily_ao_index/zw/zw_200.shtml">200mb</a></font></p>
+-->
+            <p align="center"><font face="verdana,arial" size="3"><strong>Sea Surface Temperature (SST)</strong></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/sstweek_c.gif">Weekly SST Anomalies</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/ssttlon5_c.gif">Time-longitude section of SST anomalies (5<sup>o</sup>N-5<sup>o</sup>S)</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/ssta_c.gif">Time series of weekly SST anomalies for the 4 Niño regions</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/sst_c.gif">Time series of weekly SST and Climatology for the 4 Niño<br/>regions</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/Monthly_RelSSTA_map-hr.png">Most recent Monthly SST Anomalies</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/rel_nino_month-hr.png">Time series of monthly SST anomalies for the 4 Niño regions</a></font></p>
+
+
+            <p align="center"><font face="verdana,arial" size="3"><strong>Subsurface Tropical Pacific Ocean Analyses</strong></font></p>
+            <p align="center"><font color="#FF0000" face="verdana,arial" size="1">(Click <a href="https://www.cpc.ncep.noaa.gov/products/GODAS/"></a></font><a href="https://www.cpc.ncep.noaa.gov/products/GODAS/"><font color="#FF0000" face="verdana,arial,serif" size="1"><strong>NCEP's Global Ocean Data Assimilation System</strong></font></a><font color="#FF0000" face="verdana,arial,serif" size="1"> for more Information)</font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ocean/weeklyenso_clim_81-10/wkteq_xz.gif">Mean and anomalous equatorial temperatures</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ocean/weeklyenso_clim_81-10/wkd20eq2.gif">Equatorial depth of the 20<sup>o</sup>C isotherm</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ocean/weeklyenso_clim_81-10/wkd20eq2_anm.gif">Anomalous equatorial depth of the 20<sup>o</sup>C isotherm</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ocean/weeklyenso_clim_81-10/wkteq2_anm_55m.gif">Equatorial 55 meter depth temperature anomalies</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ocean/weeklyenso_clim_81-10/wkteq2_anm_105m.gif">Equatorial 105 meter depth temperature anomalies</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ocean/weeklyenso_clim_81-10/wkteq2_anm_155m.gif">Equatorial 155 meter depth temperature anomalies</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ocean/weeklyenso_clim_81-10/wksl_anm.gif">Sea level anomalies</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/heat-last-year-hr.png">Equatorial Upper-Ocean Temperature Anomalies</a></font></p>
+            <p><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/zlon_last-hr.png">Most recent pentad of anomalous equatorial temperatures</a></font></p>
+           </td>
+          </tr>
+         </tbody></table>
+        </td>
+       </tr>
+      </tbody></table>
+      </td></tr><tr>
+       <td>
+        <p align="right"><a href="#list"><font face="verdana,arial,serif" size="2">[Back to the Top]</font></a></p>
+       </td>
+      </tr>
+      <tr>
+       <td><a name="history"></a>
+        <ul>
+         <li type="square"><font face="verdana,arial,serif" size="3"><strong>Historical</strong></font></li>
+        </ul>
+        <table align="center" width="95%">
+         <tbody><tr>
+          <td>
+           <ul>
+            <li><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/">Historical El Nino/ La Nina episodes (1950–present)</a></font></li>
+            <li><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ocean/index/heat_content_index.txt">Equatorial Upper-Ocean Heat Content Anomalies(1979–present)</a></font></li>
+           </ul>
+          </td>
+         </tr>
+        </tbody></table>
+       </td>
+      </tr>
+      <tr>
+       <td><a name="forecast"></a>
+        <ul>
+         <li type="square"><font face="verdana,arial,serif" size="3"><strong>Outlooks</strong></font></li>
+        </ul>
+        <table align="center" width="95%">
+         <tbody><tr>
+          <td>
+           <ul>
+            <li><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/outlook/">Official NOAA CPC ENSO Outlook</a></font></li>
+            <li><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/">Official NOAA CPC ENSO Probabilities</a></font></li>
+            <li><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/">Official NOAA CPC ENSO Strength Probabilities</a></font></li>
+<!--            <li><font face="verdana,arial" size="2"><a href="/products/analysis_monitoring/lanina/ensoforecast.shtml">Seasonal SST Outlook</a></font></li>     -->
+            <li><font face="verdana,arial" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/CFSv2/cfsv2fcst/CFSv2SST8210.html">Seasonal CFSv2 SST Outlook</a></font></li>
+           </ul>
+          </td>
+         </tr>
+        </tbody></table>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p align="right"><a href="#list"><font face="verdana,arial,serif" size="2">[Back to the Top]</font></a></p>
+       </td>
+      </tr>
+      <tr>
+       <td><a name="discussion"></a>
+        <ul>
+         <li type="square"><font face="verdana,arial,serif" size="3"><strong>Expert Discussions/Assessments</strong></font></li>
+        </ul>
+        
+        <table align="center" width="95%">
+         <tbody><tr>
+          <td>
+           <ul>
+            <li><font color="#000000" face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf"><strong>Weekly ENSO Evolution, Status, and Prediction Presentation (PDF)</strong></a>  <a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.adobe.com/products/acrobat/readstep2.html"><img align="middle" alt="Adobe PDF Reader" src="assets/pdf.gif"/></a></font></li>
+            <li><font color="#000000" face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.ppt"><strong>Weekly ENSO Evolution, Status, and Prediction Presentation (powerpoint)</strong></a> <a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.microsoft.com/downloads/details.aspx?FamilyId=428D5727-43AB-4F24-90B7-A94784AF71A4&amp;displaylang=en"><img align="middle" alt="Powerpoint Viewer 2003" src="assets/PP.gif"/></a></font></li>
+            <li><font color="#000000" face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/precip/CWlink/ghazards/ghaz.shtml"><strong>Weekly Global Tropics Benefits/ Hazards Assessment</strong></a></font></li>
+            <li><font face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/">Monthly El Niño/La Niña Diagnostics Discussion</a></font></li>
+            <li><font color="#000000" face="verdana,arial,serif" size="2">Monthly Climate Diagnostics Bulletin: <a href="https://www.cpc.ncep.noaa.gov/products/CDB/"><strong>Current</strong></a>   <a href="https://www.cpc.ncep.noaa.gov/products/CDB/CDB_Archive_html/CDB_archive.shtml">Archive</a></font></li>
+           </ul>
+          </td>
+         </tr>
+        </tbody></table>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p align="right"><a href="#list"><font face="verdana,arial,serif" size="2">[Back to the Top]</font></a></p>
+       </td>
+      </tr>
+      <tr>
+       <td><a name="composite"></a>
+        <ul>
+         <li type="square"><font face="verdana,arial,serif" size="3"><strong>Diagnostic and Attribution Tools</strong></font></li>
+        </ul>
+        <table align="center" width="95%">
+         <tbody><tr>
+          <td>
+           <ul>
+            <li><font face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/precip/CWlink/ENSO/composites/">U.S. Temperature, Precipitation, and Snowfall Impacts based on historical ENSO episodes (seasonal)</a></font></li>
+            <li><font face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/precip/CWlink/ENSO/regressions/">Global Temperature and Precipitation Linear Regressions and Correlations</a> <img alt="" src="assets/new.gif"/></font></li>
+
+           </ul>
+          </td>
+         </tr>
+        </tbody></table>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p align="right"><a href="#list"><font face="verdana,arial,serif" size="2">[Back to the Top]</font></a></p>
+       </td>
+      </tr>
+<!--
+      <tr>
+       <td><a name="link"></a>
+        <ul>
+         <li type="square"><font face="verdana,arial,serif" size="3"><strong>Linkage to Weather</strong></font></li>
+        </ul>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p align="right"><a href="#list"> <font face="verdana,arial,serif" size="2"> [Back to the Top]</font></a></p>
+       </td>
+      </tr>
+-->
+      <tr>
+       <td><a name="educational material"></a>
+        <ul>
+         <li type="square"><font face="verdana,arial,serif" size="3"><strong>Educational Material</strong></font></li>
+        </ul>
+        <table align="center" width="85%">
+         <tbody><tr>
+          <td>
+           <p align="justify"><font face="verdana,arial,serif" size="2">Frequently asked questions area available to help the public better understand the climate system and how climate
+            patterns in far off places affect our weather patterns.</font></p>
+          </td>
+         </tr>
+         <tr><td> </td></tr>
+         <tr>
+          <td>
+           <ul>
+            <li><font color="#000000" face="verdana,arial,serif" size="2"><strong>Fact Sheets</strong></font></li>
+           </ul>
+           <table align="center" width="95%">
+            <tbody><tr>
+             <td>
+              <ul>
+               <li><font color="#000000" face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/prelude_to_ensofaq.shtml"><strong>El Niño/La Niña</strong></a> - Frequently Asked Questions on El Niño/La Niña.</font></li>
+               <li><font color="#000000" face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ensocycle/enso_cycle.shtml"><strong>El Niño/La Niña Cycle (Tutorial)</strong></a> - El Niño/La Niña Tutorial.</font></li>
+               <li><font color="#000000" face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/impacts/warm_impacts.shtml"><strong>El Niño and Climate Impacts</strong></a> - Technical discussion of El Niño's oceanic and atmospheric conditions and their global climate impacts.</font></li>
+               <li><font color="#000000" face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/cold_impacts.shtml"><strong>La Niña and Climate Impacts</strong></a> - Technical discussion of La Niña's oceanic and atmospheric conditions and their global climate impacts.</font></li>
+               <li><font color="#000000" face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/nino_regions.shtml"><strong>SST Niño Regions</strong></a> - Graphical depiction of the regions (i.e. "NINO Boxes") most commonly used in the diagnosis and forecast of El Nino.</font></li>
+               <li><font color="#000000" face="verdana,arial,serif" size="2"><a href="https://www.cpc.ncep.noaa.gov/products/outreach/othermat.shtml"><strong>Other El Niño Links</strong></a> - Links to the most informative El Niño/La Niña links on the web.</font></li>
+              </ul>
+             </td>
+            </tr>
+           </tbody></table>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <ul>
+           <li><p align="justify"><font color="#000000" face="verdana,arial,serif" size="2"><strong>Monographs</strong> - The Office of Global Programs together with the University
+              Consortium on Atmospheric Research in consultation with CPC and others produces a series of monographs written for the layperson called Reports to the Nation on Our Changing
+              Planet. These monographs are used by many science teachers in their earth sciences classes.</font></p></li>
+           </ul>
+           <table align="center" width="95%">
+            <tbody><tr>
+             <td>
+              <ul>
+               <li><font color="#000000" face="verdana,arial,serif" size="2"><a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.atmos.washington.edu/gcg/RTN/rtnt.html"><strong>El Nino and Climate Prediction</strong></a></font></li>
+               <li><font color="#000000" face="verdana,arial,serif" size="2"><a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.atmos.washington.edu/~dennis/rtn.html"><strong>Our Changing Climate (text format)</strong></a></font></li>
+               <li><font color="#000000" face="verdana,arial,serif" size="2"><a href="http://www.oar.noaa.gov/climate/t_ozonelayer.html"><strong>Our Ozone Shield</strong></a></font></li>
+              </ul>
+             </td>
+            </tr>
+           </tbody></table>
+         </td>
+        </tr>
+        </tbody></table>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p align="right"><a href="#list"> <font face="verdana,arial,serif" size="2"> [Back to the Top]</font></a></p>
+       </td>
+      </tr>
+      <tr>
+       <td><a name="references"></a>
+        <ul>
+         <li type="square"><font face="verdana,arial,serif" size="3"><strong>References</strong></font></li>
+        </ul>
+        <table align="center" width="85%">
+         <tbody><tr>
+          <td>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Barnston, A.G., C. F. Ropelewski, 1992: Prediction of ENSO episodes using canonical correlation analysis. J. Climate, 5, 1316-1345.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Barnston, A.G., M. Chelliah and S.B. Goldenberg, 1997: Documentation of a highly ENSO-related SST region in the equatorial Pacific. Atmosphere-Ocean, 35, 367-383.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Barnston, A. G., M. H. Glantz, and Y. He, 1999:  Predictive skill of statistical and dynamical climate models in SST forecasts during the 1997-98 El Nino episode and the 1998 LNa Nina onset.  Bull. Am. Met. Soc., 80, 217-243.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Halpert, M. S. and C. F. Ropelewski, 1992: Surface temperature patterns associated with the Southern Oscillation. J. Climate, 5, 577-593.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Higgins, R.W., Y. Zhou and H.-K. Kim, 2001: Relationships between El Nino-Southern
+              Oscillation and the Arctic Oscillation: A Climate-Weather Link.  NCEP/Climate    Prediction Center ATLAS 8.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Higgins, R. W., V. E. Kousky, H.-K. Kim, W. Shi, and D. Unger, 2002: High frequency and trend adjusted composites of United States temperature and precipitation by ENSO phase, NCEP/Climate Prediction Center ATLAS No. 10, 22 pp.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Hoerling, M. P., and A. Kumar. 1997. Why do North American climate anomalies differ from one El Nino event to another? Geophysical Research Letters, 24 (1 May): 1059-1062.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Hoerling, M. P., and A. Kumar, 1997: Origins of extreme climate states during the 1982-83 ENSO winter. J. Climate, 10, 2859-2870.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Hoerling, M. P., and A. Kumar, 2000: Understanding and predicting extratropical teleconnections related to ENSO. In El Niño and the Southern Oscillation: Multi-scale Variationsnd Global and Regional Impacts, H.F. Diaz and V. Markgraf (Eds.), Cambridge University Press, 57-88.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Hoerling, M. P., A. Kumar, and T. Xu, 2001: Robustness of the nonlinear climate response to ENSO's extreme phases. J. Climate, 14, 1277-1293.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Kousky, V.E., M.T. Kayano, and I.F.A Cavalcanti, 1984:  The Southern Oscillation:
+              Oceanic-atmospheric circulation changes and related rainfall anomalies. Tellus, 36A, 490-504.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Kousky, V. E. 1997. Warm (El Nino) episode conditions return to the tropical Pacific. Mariners Weather Log 41, no.1 (Spring): 4-7.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Kousky, V. E. and R. W. Higgins, 2004: An Alert Classifications System for
+              Monitoring and Assessment of the ENSO Cycle, <em>Wea and Forecasting</em>, <strong>22</strong>, 353-371</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Kumar, A., and M. P. Hoerling, 1997: Interpretation and implications of observed inter-El Niño variability. J. Climate, 10, 83-91.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Kumar, A., and M. P. Hoerling, 1998: Annual cycle of Pacific/North American seasonal predictability associated with different phases of ENSO. J. Climate, 11, 3295-3308.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Kumar, A., A. Barnston, P. Peng, M. P. Hoerling, and L. Goddard, 2000: Changes in the spread of the seasonal mean atmospheric states associated with ENSO. J. Climate, 13, 3139-3151.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Kumar, A., and M. P. Hoerling, 2003: The nature and causes for the delayed atmospheric response to El Niño. J. Climate, 16, 1391-1403.</font></p>
+           <p align="JUSTIFY"><font face="verdaa,arial,serif" size="2">Leetma, Ants. 1989. The interplay of El Nino and La Nina. Oceanus, 32 (Summer) : 30-3434</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Leetmaa, A. 1999:  The first El Niño observed and forecasted from start to finish.  Bull. Am. Met. Soc., 80, 111-112.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Rasmusson, E. M. and T. H. Carpenter, 1982: Variations in tropical sea surface temperature and surface wind fields associated with the Southern Oscillation / El. Nino. Mon. Wea. Rev., 110, 354-384.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Rasmusson, E. M., T. H. Carpenter, 1983: The relationship between eastern equatorial Pacific sea surface temperatures and rainfall over India and Sri Lanka. Mon. Wea. Rev., 111, 517-528.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Rasmusson, E. M., and J. M. Wallace, 1983: Meteorological aspects of El Nino / Southern Oscillation.  Science, 222, 1195-1202.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Rasmusson, E. M. and K. Mo, 1993:  Linkages between 200-mb tropical and extratropical circulation anomalies during the 1986-1989 ENSO cycle.  J. Climate, 6, 595-616.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Ropelewski, C. F., and M. S. Halpert, 1986: North American precipitation and temperature patterns associated with the El Nino/ Southern Oscillation (ENSO). Mon. Wea. Rev., 114, 2352-2362.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Ropelewski, C. F., and M. S. Halpert ,1987: Global and regional scale precipitation patterns associated with the El Nino/ Southern Oscillation. Mon. Wea. Rev., 115, 1606-1626.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Ropelewski, C.F. and P.D. Jones, 1987: An extension of the Tahiti-Darwin Southern Oscillation Index. Mon. Wea. Rev, 115, 2161-2165.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Ropelewski, C. F., and M. S. Halpert, 1989: Precipitation patterns associated with the
+              high index phase of the Southern Oscillation. J. Climate, 2, 268-284.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Ropelewski, C. F., and M. S. Halpert, 1996: Quantifying Southern Oscillation-precipitation relationships. J. Climate, 9, 1043-1059.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Xue, Y. and A. Leetmaa, 2000: Forecast of tropical pacific SST and sea level using a Markov model. accepted by Geophys. Res. Lett.</font></p>
+           <p align="JUSTIFY"><font face="verdana,arial,serif" size="2">Xue, Y., A. Leetmaa, and M. Ji, 2000: ENSO prediction with Markov models: the impact of sea level. J. Climate, 13, 849-871.</font></p><br/>
+          </td>
+         </tr>
+        </tbody></table>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p align="right"><a href="#list"> <font face="verdana,arial,serif" size="2"> [Back to the Top]</font></a></p>
+       </td>
+      </tr>
+     </tbody></table>
+    </td>
+   </tr>
+  </tbody></table>
+
+<!-- End of Content-->
+ <!-- This is the body content file of the current sub-directory. -->
+
+      <table border="0" cellpadding="0" cellspacing="0" width="99%">
+	<tbody>
+		<tr>
+			<td colspan="3"><hr/></td>
+		</tr>
+		<tr valign="top">
+			<td class="gray">
+				<a class="homepagelinks" href="http://www.noaa.gov/"><span class="gray">NOAA/</span></a>
+				<a class="homepagelinks" href="http://www.nws.noaa.gov/"><span class="gray">National Weather Service</span></a><br/>
+				<a class="homepagelinks" href="http://www.ncep.noaa.gov/"><span class="gray">National Centers for Environmental Prediction</span></a><br/>
+				Climate Prediction Center<br/>
+				5830 University Research Court <br/>
+				Riverdale Park, MD 20737 <br/>
+				Page Author:<a class="homepagelinks" href="https://www.cpc.ncep.noaa.gov/comment-form.html"><span class="gray"> Climate Prediction Center Internet Team</span></a><br/>
+				Page last modified: December 12, 2005
+			</td>
+			<td>
+				<a class="homepagelinks" href="http://www.weather.gov/disclaimer.php">
+				<span class="gray">Disclaimer</span></a><br/>
+				<a class="homepagelinks" href="http://www.cio.noaa.gov/Policy_Programs/info_quality.html">
+				<span class="gray">Information Quality</span></a><br/>
+				<a class="homepagelinks" href="http://www.nws.noaa.gov/credits.php">
+				<span class="gray">Credits</span></a><br/>
+				<a class="homepagelinks" href="http://www.nws.noaa.gov/glossary/">
+				<span class="gray">Glossary</span></a><br/>
+			</td>
+			<td align="right"><a class="homepagelinks" href="http://www.weather.gov/privacy.php">
+				<span class="gray">Privacy Policy</span></a><br/>
+				<a class="homepagelinks" href="http://www.rdc.noaa.gov/%7Efoia/">
+				<span class="gray">Freedom of Information Act (FOIA)</span></a><br/>
+				<a class="homepagelinks" href="http://www.nws.noaa.gov/admin.php">
+				<span class="gray">About Us</span></a><br/>
+				<a class="homepagelinks" href="http://www.nws.noaa.gov/careers.php">
+				<span class="gray">Career Opportunities</span></a><br/>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
+      <!-- Use virtual include, because this should be in a common place within your DocumentRoot. -->
+
+      <!--<div id="survey-modal" class="survey-modal">-->
+
+        <!-- Modal content -->
+        <!--<div class="survey-popup">
+          <span class="close">&times;</span>
+
+  				<p>Dear stakeholders,</p>
+  				<p>NWS is working on improving approaches for communication of the NWS climate products. Under this project Climate Prediction Center (CPC) is currently gathering feedback on potential changes to the headlines used in their El NiÃ±o-Southern Oscillation (ENSO) Alert System using <a href="https://www.surveymonkey.com/r/ENSOsurvey" target="_blank">this online survey</a>. Please complete this survey and send it to your partners &mdash; we need as large a sample of NWS stakeholders as possible. The survey will take 15 minutes at maximum of your time.</p>
+  				<p>Please make sure to provide your input by May 19, 2020.</p>
+  				<p>Thank you very much for your help!</p>
+  				<a href="https://www.surveymonkey.com/r/ENSOsurvey" target="_blank" class="survey-btn">Take Survey</a>
+  			</div>
+
+      </div>-->
+
+    </td>
+  </tr>
+</tbody></table>
+
+
+
+</body></html>
