@@ -1,0 +1,27 @@
+body {
+  overflow: visible !important;
+}
+
+a,
+a:visited {
+  text-decoration: underline;
+}
+
+a[href]:after {
+  content: ' (' attr(href) ')';
+}
+
+/* Hide these items in print */
+.usa-header,
+.usa-header-extended,
+.usa-menu-btn,
+.usa-search,
+.block--social-media,
+.container--breadcrumb,
+.webform-ajax-form-wrapper,
+.socialmedia-search-bar,
+.block--related-content,
+.region--content-bottom,
+.usa-footer {
+  display: none;
+}

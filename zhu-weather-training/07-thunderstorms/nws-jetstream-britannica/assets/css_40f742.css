@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Cinzel Regular'), local('Cinzel-Regular'), url(font.ttf) format('truetype');
+}

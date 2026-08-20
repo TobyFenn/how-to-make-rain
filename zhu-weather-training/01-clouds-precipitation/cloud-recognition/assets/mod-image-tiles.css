@@ -1,0 +1,28 @@
+.mod-image-tiles {
+	border-top: 1px dotted #94C6EF;
+	padding: 10px 0px 0px 0px;
+	margin: 5px 0px;
+}
+
+.mod-image-tiles .one-sixth-first {
+	height: 123px;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.mod-image-tiles .one-sixth-first img {
+	width: 128px;
+	height: 96px;
+	border: 1px solid #ddd;
+	margin-bottom: 3px;
+	padding: 3px;
+}
+
+.mod-image-tiles .one-sixth-first a:link {
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+.mod-image-tiles a:link {
+	font-weight: normal;
+}

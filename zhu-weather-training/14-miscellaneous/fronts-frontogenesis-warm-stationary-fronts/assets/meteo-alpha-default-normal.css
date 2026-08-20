@@ -1,0 +1,35 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+
+
+/* precedence: global > default > default-normal */
+
+
+
+#search-block-form .form-text { width: 140px; }
+#search-block-form .form-item {  }
+
+#edit-actions {float:right;text-align:right;}
+
+#search-block-form .container-inline {margin-top:3px; }
+
+h1#page-title			{ width: 600px; }
+
+
+
+#page div.course-title-container		{ left: 20px; position: relative; top: 83px; }
+#page div.course-title-container:hover	{ cursor: hand; cursor: pointer; opacity: .9; }
+
+#page .region-branding .course-title	{ font-size: 18px; }
+#page .region-branding .course-name		{ font-size: 24px; line-height:24px;  }
+
+#page div.course-title-container table	{ border: 0; height: 70px; margin: 0; padding: 0; width: 625px; }
+#page div.course-title-container td		{ border: 0; margin: 0; padding: 0; }
+
+
+.image-right-35			{ border: 1px solid #ccc; float: right; margin: 0px 0px 20px 20px; width: 45%; }
+.image-right-35 img		{ max-width: 100%; }
+
+.image-left-35			{ border: 1px solid #ccc; float: left; margin: 0px 20px 20px 0px; width: 45%; }
+.image-left-35 img		{ max-width: 100%; }

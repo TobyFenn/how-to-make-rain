@@ -1,0 +1,65 @@
+/*
+Back to top button 
+*/
+#back-top {
+	position: fixed;
+	bottom: 10px;
+	margin-left: 20px;
+	z-index:499;
+	/*IE6 hack */
+		 _position: absolute;
+		 _top:expression(documentElement.scrollTop+body.scrollTop);
+		 _margin-top: 500px;
+
+}
+body { 
+	/*IE6 hack */
+		_background: url(null) fixed ;
+}
+#back-top a,  #back-top-prev a{
+	width: 50px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+	
+}
+#back-top a:hover, #back-top-prev a:hover {
+	color: #000;
+}
+/* arrow icon (span tag) */
+#back-top span#button , #back-top-prev span#button-prev{
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin-bottom: 7px;
+	background-color: #ddd; 
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+	background-image: url('up-arrow.png') ;
+	opacity:0.8;
+	filter:alpha(opacity = 80);
+	/* rounded corners */
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span#button, #back-top-prev a:hover span#button-prev {
+	opacity:1;
+	filter:alpha(opacity = 100);
+}
+#edit-scroll-to-top-preview{
+float:right;
+width:100%;
+}

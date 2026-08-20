@@ -1,0 +1,11 @@
+{
+"http://waterdata.usgs.gov/nwisweb/stylesheets/USGS_common.css": "USGS_common.css",
+"http://waterdata.usgs.gov/nwisweb/icons/hazards.jpg": "hazards.jpg",
+"http://waterdata.usgs.gov/nwisweb/stylesheets/USGS_custom.css": "USGS_custom.css",
+"http://waterdata.usgs.gov/nwisweb/stylesheets/nwiswebfluidsmallest.css": "nwiswebfluidsmallest.css",
+"http://waterdata.usgs.gov/nwisweb/stylesheets/images/ui-icons_454545_256x240.png": "ui-icons_454545_256x240.png",
+"http://waterdata.usgs.gov/nwisweb/stylesheets/nwiswebfluid.css": "nwiswebfluid.css",
+"http://waterdata.usgs.gov/nwisweb/stylesheets/nwisweb.css": "nwisweb.css",
+"http://waterdata.usgs.gov/nwisweb/stylesheets/hazards.jpg": "hazards.jpg",
+"http://waterdata.usgs.gov/nwisweb/stylesheets/ui-icons_454545_256x240.png": "ui-icons_454545_256x240.png"
+}

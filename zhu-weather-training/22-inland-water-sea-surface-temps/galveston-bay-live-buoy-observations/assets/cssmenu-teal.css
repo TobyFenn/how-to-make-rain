@@ -1,0 +1,205 @@
+/* Root = Horizontal, Secondary = Vertical */
+
+h1 {
+  font: bold 16px Arial, Helvetica, sans-serif;
+}
+
+p {
+  font: 11px Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+a {
+  color: #53749E;
+  text-decoration: none;
+}
+
+ul#navmenu {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 100%; /*For KHTML*/
+  list-style: none;
+  height: 24px;
+}
+
+ul#navmenu li {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  float: left; /*For Gecko*/
+  display: inline;
+  list-style: none;
+  position: relative;
+  height: 24px;
+}
+
+ul#navmenu ul {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 185px;
+  list-style: none;
+  display: none;
+  position: absolute;
+  top: 26px; /* This parameter sets the gap between main menu and drop down menu. Such as mouseover U.S. Conditions to Home. */
+  left: 0;
+}
+
+ul#navmenu ul:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+
+ul#navmenu ul li {
+  width: 175px;
+  float: left; /*For IE 7 lack of compliance*/
+  display: block !important;
+  display: inline; /*For IE*/
+}
+
+/* Root Menu
+
+  margin:1px;
+  border-bottom-color: #CCCCCC;
+  padding: 0 7px;
+*/
+
+ul#navmenu a {
+  margin:1px;
+  border: 1px solid #F4F4F4;
+  border-bottom-color: #CCCCCC;
+  padding: 0 7px;
+  -webkit-border-top-left-radius: 6px;
+  -khtml-border-radius-topleft: 6px;	
+  -moz-border-radius-topleft: 6px;
+   border-top-left-radius: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -khtml-border-radius-topright: 6px;	
+  -moz-border-radius-topright: 6px;
+   border-top-right-radius: 6px;
+  float: none !important; /*For Opera*/
+  float: left; /*For IE*/
+  display: block;
+  background: url(menubg.png) repeat-x;
+  font-weight: bold;
+  color: #FFFFFF;
+  font: bold 88%/24px Arial, Verdana, Helvetica, sans-serif;
+  text-decoration: none;
+  height: auto !important;
+  height: 1%; /*For IE*/
+}
+
+/* Root Menu Hover Persistence */
+ul#navmenu a:hover,
+ul#navmenu li:hover a,
+ul#navmenu li.iehover a {
+  background: #F3D673;
+  font-weight:bold;
+  color: #000000;
+}
+
+/* 2nd Menu */
+ul#navmenu li:hover li a,
+ul#navmenu li.iehover li a {
+  float: none;
+  background: #F6F6F6;
+  font-weight:normal;
+  color: #000000;
+}
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu li:hover li a:hover,
+ul#navmenu li:hover li:hover a,
+ul#navmenu li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover a {
+  background: #F3D673;
+  font-weight:normal;
+  color: #000000;
+}
+
+/* 3rd Menu */
+ul#navmenu li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li a {
+  background: #F6F6F6;
+  font-weight:normal;
+  color: #000000;
+}
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu li:hover li:hover li a:hover,
+ul#navmenu li:hover li:hover li:hover a,
+ul#navmenu li.iehover li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover a {
+  background: #F3D673;
+  font-weight:normal;
+  color: #000000;
+}
+
+/* 4th Menu */
+ul#navmenu li:hover li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li.iehover li a {
+  background: #F6F6F6;
+  font-weight:normal;
+  color: #000000;
+}
+
+/* 4th Menu Hover */
+ul#navmenu li:hover li:hover li:hover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover li a:hover {
+  background: #F3D673;
+  color: #000000;
+}
+
+ul#navmenu ul ul,
+ul#navmenu ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 173px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu li:hover ul ul,
+ul#navmenu li:hover ul ul ul,
+ul#navmenu li.iehover ul ul,
+ul#navmenu li.iehover ul ul ul {
+  display: none;
+}
+
+ul#navmenu li:hover ul,
+ul#navmenu ul li:hover ul,
+ul#navmenu ul ul li:hover ul,
+ul#navmenu li.iehover ul,
+ul#navmenu ul li.iehover ul,
+ul#navmenu ul ul li.iehover ul {
+  display: block;
+}
+
+/* Style for search box */
+
+#searchBoxDC{margin-left:9px;}
+#searchBoxDC #wuSearchDC {
+height:18px;
+line-height:16px;
+font-size:14px;
+font-family:Arial;
+width:142px;
+padding-left:5px;
+border-top:1px solid #BEBEBE;
+border-right:0;
+border-bottom:1px solid #BEBEBE;
+border-left:1px solid #BEBEBE;
+-webkit-border-bottom-left-radius: 5px;
+-khtml-border-radius-bottomleft: 5px;	
+-moz-border-radius-bottomleft: 5px;
+border-bottom-left-radius: 5px;
+-webkit-border-top-left-radius: 5px;
+-khtml-border-radius-topleft: 5px;	
+-moz-border-radius-topleft: 5px;
+border-top-left-radius: 5px;
+}

@@ -1,0 +1,12 @@
+{
+ "url": "http://waterdata.usgs.gov/tx/nwis/uv/?site_no=295554095093401&PARAmeter_cd=00010,00095,00300,00400,00003,00055,00076,63680",
+ "via": "live",
+ "wayback_url": null,
+ "alternate_url": null,
+ "wayback_raw": null,
+ "final_url": "https://waterdata.usgs.gov/tx/nwis/uv/?site_no=295554095093401&PARAmeter_cd=00010,00095,00300,00400,00003,00055,00076,63680",
+ "kind": "html",
+ "content_type": "text/html; charset=utf-8",
+ "source_file": "source/original.html",
+ "captured": "2026-08-19 06:00 UTC"
+}

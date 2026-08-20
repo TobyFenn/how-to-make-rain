@@ -1,0 +1,926 @@
+/* $Id: orr-responsive.css,v 1 2018/08/31 12:09:53 seumas.gagne Exp $ */
+/**
+	* @file
+	* Layout Styling
+	*
+	* Define CSS classes to style the Office of Response and Restoration web site
+	* 
+*/
+/* hide the mobile specific image gallery query */
+#image-gallery #mobile-image-gallery,
+.node-gallery-images-responsive,
+.views-field-field-responsive-image {
+	display: none;
+}
+@media screen and (max-width:1230px) {
+	/* taxonomy term adjustments */
+	#taxonomy-term .taxonomy-term-name,
+	#taxonomy-term .taxonomy-term-textblock,
+	#image-gallery .taxonomy-term-textblock,
+	#image-gallery .taxonomy-term-name,
+	#image-gallery .field-name-field-term-body,
+	#image-gallery .pane-nodes-images-on-term-v2,
+	#taxonomy-term .pane-taxonomy-term-field-term-image,
+	#taxonomy-term .taxonomy-subterm-list,
+	#related-articles,
+	#taxonomy-term .pane-nodes-weekly-current,
+	#taxonomy-term .pane-orr-weekly-report-archive {
+		margin: 1em;
+		padding: 0;
+	}
+}
+@media screen and (min-width: 1201px) {
+	#block-responsive_menu-toggle {
+		display: none;
+	}
+}
+@media screen and (max-width:1200px) {
+	/* Adjustments at 1200px */
+	/* limit the width of the off canvas menu box */
+	.block-responsive-menu {
+		max-width: 50%;
+		font-size: 100%;
+	}
+	#responsive-banner .banner-subtitle {
+		font-size: 50%;
+		margin: 1%;
+	}
+	/* allow the official government banner to be as wide as it wants */
+	#official-government-site .collapsible,
+	#official-government-site .content,
+	#official-government-site .collapsible-region	{
+	  max-width: 100%;
+	}
+	/* adjust the search bar */
+	.search-form, .form-item {
+		margin: 1% 1% 1% 0;
+	}
+	#block-search-form input {
+		border-style: solid;
+		margin-bottom: 0;
+		max-height: unset;
+		top: initial;
+	}
+	#orr-breadcrumb {
+		padding-left: 1em;
+	}
+	/* adjust the jcarousel */
+	.jcarousel-skin-orr2 .jcarousel-container-horizontal {
+		width: 80%;
+	}
+	/* Adjust the taxonomy index cards */
+	/* this will render them in rows of 2 and keep them centered */
+	#index-taxonomy-cards {
+    max-width: 600px;
+    margin: 0 auto;
+	}
+	/* adjust the incident news box */
+	#featured-news-index {
+		float:none;
+		margin: 0 auto;
+		width: 85%
+	}
+	#more-front-page-news {
+		max-width: 900px;
+		width: 85%;
+		float:none;
+		margin: 3em auto;
+		display: block;
+	}
+	#more-front-page-news li {
+		padding: 1% 0;
+	}
+	/* adjust the WWW map */
+	#orrmap-node #mapd {
+		width: 80%;
+		height: 55em;
+	}
+	#orrmap-node #myLegend,
+	#orrmap-node #zoomto {
+		width: 20%;
+		font-size: 1.2em;
+		line-height: normal;
+	}
+	#orrmap-node #myLegend {
+		height: 32em;
+	}
+	#orrmap-node #zoomto {
+		height: 13.8em;
+	}
+	/* adjust the what we do elements */
+	#what-we-do-title,
+	#what-we-do-title p,
+	#where-we-work h2 {
+		max-width: 85%;
+	}
+	/* Adjustments to the annual report */
+	#views_slideshow_cycle_teaser_section_clone_of_accomplishments_report_nodes_2-default_1 {
+		max-width: 100%;
+	}
+	/* limit width of template placed images and captions */
+	#node .node-image .field-item ,
+	#node .field-item img {
+		max-width: 1024px;
+		height: auto !important;
+	}
+	/* adjustments to the about taxonomy terms */
+	#taxonomy-term-about .pane-taxonomy-term-field-term-body {
+		padding: 1em;
+	}
+	#about-accomplishments .about-accomplishments-cards-inside {
+		max-width: 80%;
+	}
+	/* adjustments to the footer */
+	#block-menu-menu-footer-menu,
+	#block-follow-site,
+	#block-block-12,
+	#block-block-13 {
+		margin: auto 1em;
+	}
+}
+@media screen and (max-width:1120px) {
+	/* adjustments at 1120 pixels */
+	#about-accomplishments .about-accomplishments-cards-inside {
+		max-width: 90%;
+	}
+}
+@media screen and (max-width:1080px) {
+	/* taxonomy term adjustments */
+	#taxonomy-term .taxonomy-term-name,
+	#taxonomy-term .taxonomy-term-textblock,
+	#image-gallery .taxonomy-term-textblock,
+	#image-gallery .taxonomy-term-name,
+	#image-gallery .field-name-field-term-body,
+	#image-gallery .pane-nodes-images-on-term-v2,
+	#taxonomy-term .pane-taxonomy-term-field-term-image,
+	#taxonomy-term .taxonomy-subterm-list,
+	#related-articles,
+	#taxonomy-term .pane-nodes-weekly-current,
+	#taxonomy-term .pane-orr-weekly-report-archive {
+		max-width: 73%;
+	}
+}
+@media screen and (max-width:1060px) {
+	/* Adjustments at 1060px */
+	/* limit image sizes */
+	img {
+		max-width: 1060px;
+	}
+	/* adjust featured stories */
+	#featured-news-index {
+		float: none;
+		width: 100%;
+	}
+	#featured-news-index .views-row-1,
+	#featured-news-index .views-row-2,
+	#featured-news-index .views-row-3,
+	#featured-news-index .views-row-1 img,
+	#featured-news-index .views-row-2 img,
+	#featured-news-index .views-row-3 img,
+	#featured-news-index .view-content,
+	#featured-news-index .field-content
+	{
+		max-width: 100%;
+		max-height: unset;
+	}
+	#featured-news-index .views-row-1 .views-field-title,
+	#featured-news-index .views-row-2 .views-field-title,
+	#featured-news-index .views-row-3 .views-field-title {
+		/* font-size: 2em;
+			padding: 3%;
+		line-height: normal; */
+	}
+	#featured-news-index .views-row-2 .views-field,
+	#featured-news-index .views-row-2 .field-content,
+	#featured-news-index .views-row-3 .views-field,
+	#featured-news-index .views-row-3 .field-content {
+		max-height: 100%;
+	}
+	/* adjust the incident news box */
+	#more-front-page-news .item-list {
+		font-size: 2em;
+	}
+	#more-front-page-news li {
+		padding: 2% 0;
+		line-height: normal;
+	}
+	#more-front-page-news {
+		width: 60%;
+	}
+	/* adjust the panel titles */
+	#more-front-page-news h2,
+	#what-we-do-title h2,
+	#where-we-work h2,
+	#responder-tools-index h2,
+	#dwh-intro-index h2 {
+		font-size: 2em;
+		padding: 0 3%;
+		margin: 0 0 3% 0;
+		width: 40%;
+	}
+	#block-block-13 {
+		width: 65%;
+	}
+	#taxonomy-term-annual-report-v2 .views_slideshow_controls_text_next,
+	#taxonomy-term-annual-report-v2 .vscc_controls_next {
+		right: -1060px;
+	}
+	#taxonomy-term-annual-report-v2 .views-field-title,
+	#taxonomy-term-annual-report-v2 .views-field-body {
+		left: 410px;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	/* limit image sizes */
+	img {
+		max-width: 1024px !important;
+	}
+	/* adjust the pre-footer */
+	#orr-pre-footer-wrapper #block-block-16 {
+		width: 80%;
+		margin: 0 auto;
+	}
+	#orr-pre-footer-wrapper .pre-footer-box {
+		float: none;
+		width: 50%;
+	}
+	#featured-news-index {
+		display: inline;
+	}
+	#featured-news-index img {
+		width: 600px;
+	}
+	#featured-news-index .views-row-1 .views-field-title,
+	#featured-news-index .views-row-2 .views-field-title,
+	#featured-news-index .views-row-3 .views-field-title {
+		font-size: unset;
+	}
+	#featured-news-index {
+		width: 100%;
+	}
+	#featured-news-index .view-featured-news-nodes-v2 {
+		width: 60%;
+		margin: 0 auto;
+	}
+	.view-responder-tools-v2 {
+		width: 85%;
+		margin: 0 auto;
+	}
+	#more-front-page-news h2,
+	#what-we-do-title h2,
+	#where-we-work h2,
+	#responder-tools-index h2,
+	#dwh-intro-index h2,
+	#index-page .row-6 .video-overlay h2 {
+		width: 100%;
+		margin: 0 auto 1em auto;
+		max-width: 75%;
+		text-align: center;
+		font-size: 100%;
+	}
+	#more-front-page-news .item-list {
+		font-size: 1em;
+	}
+	/* taxonomy term adjustments */
+	#taxonomy-term .taxonomy-term-name,
+	#taxonomy-term .taxonomy-term-textblock,
+	#image-gallery .taxonomy-term-textblock,
+	#image-gallery .taxonomy-term-name,
+	#image-gallery .field-name-field-term-body,
+	#image-gallery .pane-nodes-images-on-term-v2,
+	#taxonomy-term .pane-taxonomy-term-field-term-image,
+	#taxonomy-term .taxonomy-subterm-list,
+	#related-articles,
+	#taxonomy-term .pane-nodes-weekly-current,
+	#taxonomy-term .pane-orr-weekly-report-archive {
+		max-width: unset;
+		margin: 1em;
+		float: none;
+		padding: 0;
+	}
+	#orr-breadcrumb .breadcrumb {
+		margin: 0;
+	}
+	#taxonomy-term h3 {
+		margin: 1em 0;
+	}
+	#quick-links h4,
+	#related-articles h4 {
+		font-size: 1em;
+	}
+	#taxonomy-term .row-3 {
+		background-attachment: scroll;
+	}
+	#incident-news-button,
+	#response-tools-button,
+	#events-calendar-button,
+	#research-button {
+		float: none;
+		width: 85%;
+		margin: 1em auto;
+	}
+	/* nodes */
+	.panels-flexible-region-124-row_1 {
+		width: unset;
+	}
+	#node h4 {
+		margin: 1em 0;
+	}
+	#node .node-title,
+	#node .node-textblock,
+	#node .node-subtitle {
+		margin: 1em;
+	}
+	#node .node-image-caption {
+		padding: 1.2em;
+	}
+	
+	#block-menu-menu-footer-menu {
+		margin: auto 1em;
+	}
+	#taxonomy-term-annual-report-v2 .views_slideshow_controls_text_next,
+	#taxonomy-term-annual-report-v2 .vscc_controls_next {
+		right: -1024px;
+	}
+}
+@media screen and (max-width:768px) {
+	/* Adjustments at 768px */
+	/* limit image sizes */
+	img {
+		max-width: 768px !important;
+	}
+	#responsive-banner .banner-text,
+	#responsive-benner .banner-subtitle {
+		margin: 2.5%;
+	}
+	.block-responsive-menu {
+		margin: 0.5%;
+	}
+	#video-text-overlay h1 {
+		font-size: 1.6em;
+	}
+	#video-text-overlay h2 {
+		font-size: 1em;
+	}
+	#featured-news-index .view-featured-news-nodes-v2 {
+		width: 600px;
+		margin: 0 auto;
+	}
+	#more-front-page-news {
+		width: 80%;
+	}
+	
+	#block-menu-menu-footer-menu {
+		margin: auto 1em;
+	}
+	#block-block-13 {
+		width: unset;
+	}
+	#taxonomy-term-annual-report .views_slideshow_controls_text_next,
+	#taxonomy-term-annual-report .vscc_controls_next,
+	#taxonomy-term-annual-report-v2 .views_slideshow_controls_text_next,
+	#taxonomy-term-annual-report-v2 .vscc_controls_next {
+		right: -768px;
+	}
+	#taxonomy-term-annual-report .views-field-title,
+	#taxonomy-term-annual-report .views-field-body,
+	#taxonomy-term-annual-report-v2 .views-field-title,
+	#taxonomy-term-annual-report-v2 .views-field-body {
+		left: 2%;
+		width: 96%;
+	}
+	#taxonomy-term-annual-report-v2 .views-field-title {
+		font-size: 1em;
+		top: 4%;
+	}
+	#taxonomy-term-annual-report-v2 .views-field-body {
+		font-size: .8em;
+		top: 17%;
+	}
+	#taxonomy-term-annual-report-v2 ul {
+		margin: 0 0 0 1.5em;
+		padding: 0;
+	}
+	/* adjustments to the about taxonomy area */
+	#taxonomy-term-about .pane-taxonomy-term-field-term-body {
+		float: left;
+		width: 100%;
+	}
+	#taxonomy-term-about #about-side-menu {
+		float: none;
+		width: unset;
+	}
+	#taxonomy-term-about #about-body-column {
+		width: unset;
+		padding: 0;
+	}
+	#taxonomy-term-about .accomplishment-report-list ul {
+		width: 100%;
+	}
+}
+@media screen and (max-width:620px) {
+	/* Adjustments at 600px */
+	/* limit image sizes */
+	img {
+		max-width: 600px !important;
+	}
+	/* shrink the text on the official government banner to keep it on one line */
+	#official-government-site {
+		/* font-size: 70%; */
+	}
+	/* adjust the video overlay text size */
+	#video-text-overlay h1 {
+		font-size: 1em;
+		margin: 0;
+	}
+	#video-text-overlay h2 {
+		font-size: 0.6em;
+		margin: 0;
+	}
+	/**/
+	#index-page-about-teaser .views-field-field-term-body,
+	#index-mandates-box #mandates-text,
+	#index-tools-products-cards .view-header {
+		padding: 0 1em;
+	}
+	/* Adjust the taxonomy index cards */
+	/* this will render them in rows of 2 and keep them centered */
+	#index-taxonomy-cards {
+    max-width: 300px;
+	}
+		/* adjust the pre-footer */
+	#orr-pre-footer-wrapper #block-block-16 {
+		width: 40%;
+	}
+	#orr-pre-footer-wrapper .pre-footer-box,
+	#orr-pre-footer-wrapper .pre-footer-box.first	{
+		width: 100%;
+	}
+	#featured-news-index .views-field-field-image-1 {
+		margin: 0;
+	}
+	#featured-news-index .views-field-title,
+	#featured-news-index .views-field-body {
+		padding: 0 1em;
+	}
+	/* adjust accomplishment cards on about page */
+	#about-accomplishments .about-accomplishments-card {
+		max-width: unset;
+		width: 100%;
+		margin: 0;
+	}
+	#about-accomplishments .about-accomplishments-cards {
+		margin-bottom: 55em;
+	}
+}
+@media screen and (max-width:414px) {
+	/* Adjustments at 414px */
+	/* limit image sizes */
+	img {
+		max-width: 414px !important;
+	}
+	#image-gallery img {
+		width: 378px;
+	}
+	/* hide old accomplisment reports */
+	.old-accomplishments {
+		display: none;
+	}
+	/* parallax background images changes */
+	#index-page .row-2,
+	#index-page .row-4,
+	#index-page .row-5 {
+		background-attachment: scroll;
+	}
+	.block-responsive-menu {
+		width: 50%;
+	}
+	#responsive-banner img {
+		max-height: 45px;
+	}
+	#responsive-banner .banner-image {
+		margin: 1%;
+	}
+	#responsive-banner .banner-text {
+		font-size: 75%;
+		float: unset;
+		margin: 1%;
+	}
+	.search-form, .form-item {
+		margin: 1% 1% 1% 0;
+	}
+	#block-search-form input {
+		border-style: solid;
+		margin-bottom: 0;
+		max-height: unset;
+		top: initial;
+	}
+	#featured-news-index .view-featured-news-nodes-v2 {
+		width: 100%;
+		margin: 0 auto;
+	}
+	#index-page .panels-flexible-row,
+	#taxonomy-term .panels-flexible-row {
+		margin-top: 0;
+	}
+	#what-we-do-body .views-row {
+		width: unset;
+	}
+	#what-we-do-body .fy {
+		font-size: 50%;
+		padding-bottom: 5%;
+	}
+	.newsletter-button,
+	#dwh-intro-index .dwh-archive-button {
+		width: 80%;
+		text-align: center;
+	}
+	#orrmap-node #mapd {
+		width: 100%;
+		height: 25em;
+		float: none;
+	}
+	#orrmap-node #myLegend,
+	#orrmap-node #zoomto {
+		width: 100%;
+		height: auto;
+		font-size: .8em;
+	}
+	#orrmap-node #myLegend hr {
+		width: 100%;
+		margin: 1%;
+	}
+	#responder-tools-index .views-field-field-short-title {
+		clear: left;
+	}
+	#block-follow-site,
+	#block-block-12 {
+		float: none;
+		margin: 1em;
+	}
+	#block-menu-menu-footer-menu {
+		margin: auto 1em;
+	}
+	#block-menu-menu-footer-menu ul {
+		margin: 1em auto;
+		float: none;
+	}
+	#block-block-12 {
+		text-align: left;
+	}
+	#block-block-15 {
+		padding: 0;
+		clear: none;
+		margin: auto 1em;
+	}
+	/* taxonomy term pages */
+	#incident-news-button,
+	#response-tools-button,
+	#events-calendar-button,
+	#research-button {
+		display: none;
+	}
+	#taxonomy-term .taxonomy-term-name,
+	#taxonomy-term .taxonomy-term-textblock,
+	#quick-links,
+	#taxonomy-term .pane-taxonomy-term-field-term-image,
+	#taxonomy-term .taxonomy-subterm-list,
+	#related-articles {
+		max-width: unset;
+		margin: 1em;
+		float: none;
+		padding: 0;
+	}
+	#orr-breadcrumb .breadcrumb {
+		margin: 0;
+	}
+	#taxonomy-term h3 {
+		margin: 1em 0;
+	}
+	#quick-links h4,
+	#related-articles h4 {
+		font-size: 1em;
+	}
+	#taxonomy-term .row-3 {
+		background-attachment: scroll;
+	}
+	/* nodes */
+	.panels-flexible-region-124-row_1 {
+		width: unset;
+	}
+	#node h4 {
+		margin: 1em 0;
+	}
+	#node .node-title,
+	#node .node-textblock,
+	#node .node-subtitle {
+		margin: 1em;
+	}
+	#node .node-image-caption {
+		padding: 1.2em;
+	}
+	
+	#node .pane-node-field-image-1.node-image,
+	#node .pane-node-field-image-2.node-image,
+	#node .pane-node-field-image-3.node-image,
+	#node .pane-node-field-image-4.node-image,
+	#node .pane-node-field-image-5.node-image {
+		margin: 0 auto;
+		float: none;
+	}
+	#image-gallery .row-1,
+	#image-gallery .row-2,
+	#image-gallery .row-3,
+	#image-gallery .row-4,
+	#image-gallery .row-5 {
+		max-width: unset;
+		margin: 1em;
+		padding: 0;
+	}
+	#image-gallery #desktop-image-gallery,
+	.node-gallery-images-desktop {
+		display: none !important;
+	}
+	.node-gallery-images-responsive {
+		display: inline-block;
+	}
+	#image-gallery #mobile-image-gallery {
+		display: block;
+	}
+	#image-gallery h2 {
+		margin: 0;
+	}
+	#mobile-image-gallery h4 {
+		margin-bottom: 1em;
+	}
+	/* search results page */
+	#orr-search-results {
+		padding: 0;
+	}
+	#orr-search-results .pane-search-result {
+		margin: 1em;
+	}
+	#orr-search-results h2,
+	#orr-search-results ol {
+		margin: 0;
+		padding: 0;
+	}
+	#orr-search-results .search-result h3 {
+		margin-bottom: 0;
+	}
+	/* custom error pages */
+	.section-customerror h1 {
+		max-width: unset;
+		margin: .5em;
+	}
+	#custom-error {
+		max-width: unset;
+		margin: 1em;
+	}
+	/* Style the annual report galleries */
+	.views-field-field-responsive-image {
+		display: inline-block;
+	}
+	.desktop-image {
+		display: none;
+	}
+	#taxonomy-term-annual-report-v2 .views-slideshow-cycle-main-frame {
+		overflow: auto !important;
+	}
+	#taxonomy-term-annual-report .views-slideshow-controls-bottom,
+	#taxonomy-term-annual-report-v2 .views-slideshow-controls-bottom {
+		display: none;
+	}
+	#taxonomy-term-annual-report .views_slideshow_slide_counter,
+	#taxonomy-term-annual-report-v2 .views_slideshow_slide_counter {
+		font-size: .8em;
+		position: absolute;
+		top: 0;
+		right: 0px;
+		color: white;
+		background-color: rgba(0,0,0,0.6);
+		z-index: 49;
+		padding: 4px;
+		border-radius: .0em .0em .0em .5em;
+	}
+	#taxonomy-term-annual-report-v2 .views_slideshow_controls_text_next,
+	#taxonomy-term-annual-report-v2 .vscc_controls_next {
+		right: -414px;
+	}
+	#taxonomy-term-annual-report .panels-flexible-region-90-body_region,
+	#taxonomy-term-annual-report-v2 .panels-flexible-region-90-body_region {
+		width: 100%;
+	}
+	#taxonomy-term-annual-report .views-field-title,
+	#taxonomy-term-annual-report .views-field-body,
+	#taxonomy-term-annual-report-v2 .views-field-title,
+	#taxonomy-term-annual-report-v2 .views-field-body {
+		position: absolute;
+		left: 6%;
+		width: 88%;
+		background-color: rgba(255,255,255,0.8);
+		font-size: 0.8em;
+		line-height: 1.2;
+	}
+	#taxonomy-term-annual-report .views-field-title,
+	#taxonomy-term-annual-report-v2 .views-field-title {
+		top: 35px;
+		font-size: 1em;
+		line-height: unset;
+		font-weight: 800;
+		padding: 10px 10px 5px 10px;
+	}
+	#taxonomy-term-annual-report .views-field-body,
+	#taxonomy-term-annual-report-v2 .views-field-body {
+		top: 104px;
+		font-size: .8em;
+	}
+	#taxonomy-term-annual-report-v2 .views-field-body {
+		padding: 10px;
+	}
+	#taxonomy-term-annual-report .views-field-body ul,
+	#taxonomy-term-annual-report-v2 .views-field-body ul {
+		/* margin: 0 1em; */
+		padding: 0;
+	}
+	#taxonomy-term-annual-report .report-title,
+	#taxonomy-term-annual-report-v2 .report-title {
+		position: relative;
+		top: 0;
+		left: 0;
+		z-index: 48;
+		font-size: 1.4em;
+		font-weight: 800;
+		text-align: center;
+		color: rgba(255,255,255,0.8);
+	}
+	#taxonomy-term-annual-report p,
+	#taxonomy-term-annual-report-v2 p {
+		margin: .2em;
+	}
+	#taxonomy-term-annual-report .pane-term-list .pane-title,
+	#taxonomy-term-annual-report-v2 .pane-term-list .pane-title {
+		float: left;
+		padding: 10px;
+		margin: 0;
+	}
+	#taxonomy-term-annual-report .pane-term-list ol {
+		padding: 0;
+		margin: 0;
+	}
+	#taxonomy-term-annual-report .pane-term-list a,
+	#taxonomy-term-annual-report-v2 .pane-term-list a {
+		color: white;
+	}
+	#taxonomy-term-annual-report .pane-term-list li,
+	#taxonomy-term-annual-report-v2 .pane-term-list li {
+		font-size: 1em;
+		float: left;
+		padding: 10px 20px;
+		margin-right: 2px;
+		background-color: rgba(106, 166, 177, 1);
+		border-radius: .6em .6em 0 0;
+		color: white;
+		list-style-type: none;
+	}
+	/*Adjust the news archive */
+	#news-archive .views-row-odd {
+		margin: 0 2% 6% 0;
+	}
+	#news-archive .views-row-even {
+		margin: 0 0 6% 0;
+	}
+	#news-archive .panels-flexible-region-128-row_1_ {
+		width: unset;
+	}
+	#news-archive .row-1,
+	#news-archive .row-2,
+	#news-archive .row-3,
+	#news-archive .row-4,
+	#news-archive .row-5 {
+		padding: 0;
+	}
+	/* Adjust the Weekly */
+	#taxonomy-term .orr-weekly-thumbnail img {
+		width: 100%;
+		float: none;
+	}
+	#taxonomy-term .view-nodes-weekly-current .orr-weekly-thumbnail,
+	#taxonomy-term .pane-orr-weekly-report-archive .orr-weekly-thumbnail {
+		margin: 4% 0 4% 4%;
+	}
+	#taxonomy-term .view-nodes-weekly-current .views-row,
+	#taxonomy-term .pane-orr-weekly-report-archive .views-row,
+	#taxonomy-term .view-nodes-weekly-current .views-row-even,
+	#taxonomy-term .pane-orr-weekly-report-archive .views-row-even,
+	#taxonomy-term .view-nodes-weekly-current .views-row-odd,
+	#taxonomy-term .pane-orr-weekly-report-archive .views-row-odd {
+		float: none;
+		clear: both;
+		width: unset;
+	}
+	#taxonomy-term .taxonomy-term-textblock {
+		margin: 4%;
+	}
+	/* adjust the footer */
+	#block-block-13 {
+		text-align: left;
+		margin: auto 1em;
+	}
+}
+@media screen and (max-width:411px) {
+	/* limit image sizes */
+	img {
+		max-width: 411px !important;
+	}
+	#image-gallery img
+	/* limit width of off-canvas slide out to reveal subterm handles */
+	.mm-menu_offcanvas {
+		width: 45%;
+	}
+	#taxonomy-term-annual-report-v2 .views_slideshow_controls_text_next,
+	#taxonomy-term-annual-report-v2 .vscc_controls_next {
+		right: -411px;
+	}
+}
+@media screen and (max-width:375px) {
+	/* limit image sizes */
+	img {
+		max-width: 375px !important;
+	}
+	#image-gallery img {
+		width: 340px;
+	}
+	/* limit width of off-canvas slide out to reveal subterm handles */
+	.mm-menu_offcanvas {
+		width: 45%;
+	}
+	/* adjust the video overlay text size */
+	#video-text-overlay h1 {
+		font-size: 0.8em;
+		margin: 0;
+	}
+	#video-text-overlay h2 {
+		font-size: 0.4em;
+		margin: 0;
+	}
+	#taxonomy-term-annual-report-v2 .views_slideshow_controls_text_next,
+	#taxonomy-term-annual-report-v2 .vscc_controls_next {
+		right: -375px;
+	}
+	#taxonomy-term-annual-report-v2 .views-field-body {
+		font-size: .75em;
+		padding: 10px;
+	}
+}
+@media screen and (max-width:360px) {
+	/* limit image sizes */
+	img {
+		max-width: 360px !important;
+	}
+	#image-gallery img {
+		width: 325px;
+	}
+	/* limit width of off-canvas slide out to reveal subterm handles */
+	.mm-menu_offcanvas {
+		width: 45%;
+	}
+	#taxonomy-term-annual-report-v2 .views_slideshow_controls_text_next,
+	#taxonomy-term-annual-report-v2 .vscc_controls_next {
+		right: -360px;
+	}
+}						
+@media screen and (max-width:320px) {
+	/* limit image sizes */
+	img {
+		max-width: 320px !important;
+	}
+	#image-gallery img {
+		width: 285px;
+	}
+	/* limit width of off-canvas slide out to reveal subterm handles */
+	.mm-menu_offcanvas {
+		width: 45%;
+	}
+	/* adjust the video overlay text size */
+	#video-text-overlay h1 {
+		font-size: 0.6em;
+		margin: 0;
+	}
+	#video-text-overlay h2 {
+		font-size: 0.3em;
+		margin: 0;
+	}
+	#taxonomy-term-annual-report-v2 .views_slideshow_controls_text_next,
+	#taxonomy-term-annual-report-v2 .vscc_controls_next {
+		right: -768
+		320px;
+	}
+	#taxonomy-term-annual-report-v2 .views-field-title {
+		font-size: .8em;
+	}
+	#taxonomy-term-annual-report-v2 .views-field-body {
+		font-size: .6em;
+	}
+}			

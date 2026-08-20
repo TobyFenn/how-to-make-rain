@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="18px" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CE62CCF0-1B51-4EC7-BA71-E13D701EBF24@2x</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.689974 0 0 0 0 0.526780 0 0 0 0 0.174353 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-FAA-Homepage-Revision-1-MAR-29" transform="translate(-1366.000000, -101.000000)">
+            <g id="search-copy" transform="translate(0.000000, 66.000000)" filter="url(#filter-1)">
+                <g transform="translate(1367.000000, 36.600000)" id="Group-2" fill-rule="nonzero" stroke="#0079C0" stroke-width="1.809864">
+                    <ellipse id="Oval" cx="5.83333333" cy="5.93055556" rx="5.83333333" ry="5.93055556"></ellipse>
+                    <line x1="10.0543626" y1="10.2219353" x2="14.3569996" y2="14.5962829" id="Line" fill="#D8D8D8" stroke-linecap="square"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

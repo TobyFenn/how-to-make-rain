@@ -1,0 +1,117 @@
+
+
+/*- map.css            2009.05.27 jdr      Cascading Style Sheet
+    DARRP              Ben Shorr, NOAA     J. Daniel Rutz, Genwest Systems, Inc.
+	re-wrote stylesheet for use on response.restoration.noaa.gov - seumas.gagne
+*/
+#orrmap-node label {
+	font-weight: normal;
+	font-size: 75%;
+}
+#orrmap-node .tooltip {
+	background-color: white;
+	padding: 4px;
+}
+#orrmap-node span.lege {
+	/* color: #435077;
+	font-weight: bold; */
+	display: none;
+}
+#orrmap-node #layers {
+	background-color: #d1dfd0;
+	width: 206px;
+	padding: 2px 0px 10px 2px;
+	font-size: .9em;
+	float: left;
+	clear: left;
+}
+#orrmap-node #layers hr {
+	margin-left: 4px;
+	width: 196px;
+	float: left;
+	clear: both;
+}
+#orrmap-node #zoomto {
+	/* background-color:#d1dfd0; */
+	width: 185px;
+	height: 195px;
+	padding: 10px 0px 10px 6px;
+	font-size: .75em;
+	float: left;
+	clear: left;
+	}
+	#orrmap-node #myLegend {
+	/* background-color: #d1dfd0; */
+	position: static;
+	width: 185px;
+	/* height: 340px; /*want zoomto and div to match mapd. zoomto has 20px padding so 555-(195+20)=340*/
+	padding: 0px 6px 0px 6px;
+	font-size: .9em;
+	float: left;
+	clear: left;
+}
+#orrmap-node #myLegend th, #orrmap-node #myLegend tr.single td.column2 {
+	color: #435077;
+	font-weight: 600;
+}
+#orrmap-node #myLegend th.groupheading {
+	text-align: left;
+	background-color:transparent;
+}
+#orrmap-node .nodisplay {
+	display:none;
+}
+#orrmap-node #regionpicker {
+	max-width: 144;
+}
+#orrmap-node #myLegend hr {
+	/* width: 192px;
+		float: left;
+		border: 0;
+		height: 1px;
+		color:blue;
+	background-color:blue; */
+	display: none;
+}
+#orrmap-node #myLegend .pointer {
+	cursor: pointer;
+}
+#orrmap-node #myLegend tr.ingroup td.column1 {
+	width: 40px;
+	padding-left: 5px;
+}
+#orrmap-node #myLegend td.divider {
+    /* font-size: 3px; */
+    height: 4px;
+    background-image: url("/sites/all/modules/wherewework/divider_3x1.png");
+    background-repeat: repeat-x;
+}
+
+#orrmap-node #myLegend > div{
+	clear: both;
+	padding-top: 5px;
+}
+
+#orrmap-node #myLegend input{
+	float: left;
+	margin: .4em;
+}
+
+#orrmap-node #myLegend img{
+	float: left;
+	margin: .4em .5em 2em .5em;
+}
+
+#orrmap-node #mapd {
+	width: 1000px;
+	height: 719px;
+	float: right;
+}
+#orrmap-node #clickLoc {
+	font-size: .9em;
+	float: right;
+	clear: right;
+}
+#orrmap-node #OpenLayers_Map_2_OpenLayers_Container {
+	position: relative !important! ;
+}

@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Isentropic Analysis</title>
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="initial-scale=1.0">
+<!-- STYLES =======================================-->
+  
+  <link rel="stylesheet" type="text/css" media="screen" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="jquery/jquery-ui.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/meted-base.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/module-custom.css">
+  <link rel="stylesheet" type="text/css" media="print" href="css/module-print.css">
+   
+<!-- JS LIBRARIES =================================-->
+  <script type="text/javascript" src="jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="jquery/jquery-plugins.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="modernizr/modernizr.min.js"></script>
+
+<!-- MEDIA PLAYER =================================-->
+  <link rel="stylesheet" type="text/css" media="screen" href="jquery/meted-player/css/meted-player.min.css">
+  <script src="jquery/meted-player/js/meted-player.min.js"></script>
+
+<!-- THIRD-PARTY HANDLERS =========================-->
+  <link rel="stylesheet" type="text/css" media="screen" href="jquery/apps/fancybox/fancybox.min.css">
+  <script type="text/javascript" src="jquery/apps/fancybox/fancybox.min.js"></script>
+  
+  <script type="text/javascript" src="jquery/apps/elevatezoom/elevatezoom.min.js"></script>
+
+<!-- EXTENSION SCRIPTS ============================-->
+  <script type="text/javascript" src="jquery/apps/drag/drag.js"></script>
+  
+  <script type="text/javascript" src="jquery/apps/draw/draw.js"></script>
+  
+  <link rel="stylesheet" type="text/css" media="screen" href="jquery/apps/image-sweep/image-sweep.css">
+  <script type="text/javascript" src="jquery/apps/image-sweep/image-sweep.js"></script>
+
+<!-- PRESET DEFAULTS ==============================-->
+  <script type="text/javascript" src="jquery/defaults.js"></script>
+
+<!-- PRESET OVERRIDES =============================-->
+  <script type="text/javascript">
+	var printVersion = false; // Specify Print View.  [true] for PRINT, or [false] for DYNAMIC content.
+  </script>
+
+<!-- IE SUPPORT ===================================-->
+  <!--[if lte IE 9]>
+    <script type="text/javascript" src="jquery/apps/draw/excanvas.js"></script>
+    <script type="text/javascript" src="ie-support/respond.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="ie-support/ie-support.css" />
+  <![endif]-->
+</head>
+<body>
+
+
+<!-- MAIN WRAPPER =================================-->
+<div id="module-wrapper" class="container">
+
+
+<!-- PAGE HEADER ==================================-->
+<div class="row">
+  <section id="module-topbanner">
+  	<a id="module-title" href="index.htm">Isentropic Analysis</a>
+    <h3 id="module-credit" class="hidden-sm hidden-xs">Produced by The COMET&reg; Program</h3>
+  </section>
+</div>
+
+
+<div class="row">
+
+<!-- SIDEBAR ======================================-->
+<div id="module-sidebar" class="col-md-3">
+	
+    <!-- Collapsible Sidebar Menu -->
+    <div id="toc-panel" class="row col-xs-12">
+    <!-- Table of Contents -->
+    <div id="collapsible-toc">
+      <div class="panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#collapsible-toc" href="#collapse-toc">
+              Navigation Menu <span id="nav-menu-icon" class="glyphicon glyphicon-th-list"></span></a>
+          </h4>
+        </div>
+        <div id="collapse-toc" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <div class="lc-docs-sidebar">
+            	<div class="module-nav">
+				<ul class="nav">
+                	<li><a href="#">Table of Contents</a></li>  
+                </ul>
+                </div>
+                <!--  Table of Contents -->
+                <div id="menu" class="sidebar-toc"> 
+<ul class="nav lc-docs-sidenav" style="display:block;">
+<li><a href="navmenu.php?tab=1&amp;page=1-0-0&amp;type=flash" class="menu_here">Introduction</a></li>
+<li><a href="navmenu.php?tab=1&amp;page=2-0-0&amp;type=flash">Pre-Lab: Understanding Potential Temperature as a Vertical Coordinate</a></li>
+<li><a href="navmenu.php?tab=1&amp;page=3-0-0&amp;type=flash">Pre-Lab: Understanding Potential Temperature and Equivalent Potential Temperature as Airmass Identifiers</a></li>
+<li><a href="navmenu.php?tab=1&amp;page=4-0-0&amp;type=flash">Pre-Lab: Understanding Potential Temperature as a Tool to Diagnose Vertical Motion</a></li>
+<li><a href="navmenu.php?tab=1&amp;page=5-0-0&amp;type=flash">Next Steps: Lab Activity</a></li>
+</ul>
+ </div>
+				<hr>
+              <div class="module-nav">
+              <ul class="nav">
+                <li><a href="index.htm">Home</a></li>
+                <li class="active"><a href="#">Lesson</a></li>
+                <li><a href="print.php">Printable Lesson</a></li>
+<!--                 <li><a href="download.php">Download</a></li>
+                <li><a href="#userQuiz" data-toggle="modal">Quiz</a></li>
+                <li><a href="#userSurvey" data-toggle="modal">User Survey</a></li>
+                <li><a href="media_gallery.php">Media Gallery</a></li> -->
+              </ul> 
+              </div>        		
+  			</div>
+          </div>
+        </div>
+      </div>
+	 </div>
+     </div><!-- Collapsible Sidebar Menu (end) -->
+
+</div>
+
+<!-- PAGE CONTENT =================================-->    
+<div id="module-content" class="col-md-9">
+
+
+<!-- UNIT SELECTOR =================================-->
+<div class="row unit-header"></div>
+<!-- UNIT SELECTOR END =============================-->
+
+
+<h3>Introduction</h3>
+
+<img src="media/graphics/isen_analysis_quotes.jpg" alt="quotes on isentropic analysis from Rossby and HR Byers" class="img-responsive center-block">
+
+<p>Before the switch to pressure coordinates prompted by aviation and WWII in the early 1940s, meteorologists regularly performed isentropic analysis as part of their analysis and diagnosis process.  Isentropic analysis, as described by Rossby and many others, confers certain advantages in the forecasting process.  Some utilities of isentropic analysis are outlined below:</p>
+
+<ul class=""><li>Diagnose and visualize vertical motion - through advection of pressure using system-relative flow</li>
+<li>Diagnose frontal boundaries and airmass types in the horizontal and vertical, and in a conveyor belts framework</li>
+<li>Depict frontogenetical and jet streak circulations</li>
+<li>Depict 3D transport of moisture</li>
+<li>Use isentropic potential vorticity (IPV) to depict the dynamic tropopause and tropopause folds</li>
+<li>Diagnose upper-level and dry static stability</li>
+<li>Diagnose symmetric instabilities</li>
+</ul>
+<p>This lab will focus on the first two utilities, and will link the analyzed airmasses and frontal structures to the more standard way you have viewed weather structures and features in pressure coordinates.</p>
+<div class="stage_nav"><ul class="pager"><li class="previous invisible"></li><li class="next"><a href="navmenu.php?tab=1&amp;page=2-0-0&amp;type=flash">Next &rarr;</a></li></ul></div>
+
+</div>
+<!-- PAGE CONTENT END ===========================-->
+
+
+
+</div>
+
+
+
+
+<!-- FOOTER ======================================-->
+<div id="module-footer" class="row">
+	<div class="col-md-10 col-sm-12">
+        <p class="footer-text">&copy; Copyright 2015, <a href="http://www.ucar.edu/">The University Corporation for Atmospheric Research</a>.<br>
+All Rights Reserved. <a href="http://www.meted.ucar.edu/legal.htm">Legal Notices</a>.</p>
+    </div>
+    <div class="col-md-2 hidden-sm hidden-xs">
+        <ul class="footer-links list-unstyled">
+            <li><a href="https://www.meted.ucar.edu/"><span class="glyphicon glyphicon-link"></span> MetEd Home</a></li>
+            <li><a href="http://comet.ucar.edu"><span class="glyphicon glyphicon-link"></span> COMET Home</a></li>
+        </ul>
+   	</div>
+</div>
+
+
+   
+</div>
+
+
+
+<!-- BACK TO TOP BUTTON ==========================-->
+<p class="back-top"><a href="#top"><span class="glyphicon glyphicon-upload"></span></a></p>
+
+<!-- SIDEBAR MODAL PROMPTS ========================-->
+<!-- Quiz and Survey Prompts -->
+<div id="quiz-prompt" data-item-id="0000"></div>
+
+</body>
+</html>

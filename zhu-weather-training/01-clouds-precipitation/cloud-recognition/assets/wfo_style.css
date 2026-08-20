@@ -1,0 +1,102 @@
+.widget3 {
+        display: none;
+      	padding: 2%;
+	width: 125%;
+	height:100px;
+	margin: 10px 0px 0px 0px;
+        border-bottom: dotted 1px #94c6ef;
+        padding-bottom: 25px;	
+	}
+
+       .widget3 img{
+      		height: 100px;
+      		float: left;
+                margin-left: 3px;
+            margin-right: 10px;
+			}
+		    .widget3Title{
+			text-align: left;
+			text-transform: uppercase;
+			color: #135897;
+			font-weight: bold;
+			font-size: 14px;
+			margin-bottom: 1%;
+			}
+       .widget3TitleText{
+			}
+       .widget3Subtext{
+			color: #545454;
+			}
+       .sitrep {
+            display: none;
+            color: #664d03;
+      		background-color: #fff3cd;
+      		border-color: #ffecb5;
+      		border: 1px solid transparent;
+      		border-radius: .25rem;
+      		padding: 1rem 1rem;
+			width: 400px;
+            height: 100%;
+            margin-bottom: 1rem;
+            margin-left: 1rem; 		
+			}
+
+       .sitrepText{
+			margin-left: 11px;
+			}
+		    .sitrepTitle{
+			text-align: left;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 12px;
+			margin-bottom: 1%;
+			}
+       .sitrepSubtext{
+            font-size: 12px;
+			}
+       /* unvisited link */   	
+	   .widget3 a:link {
+       color: #1763AB;
+       text-decoration: none;
+	   }
+       .sitrep a:link {
+       color: #664d03;
+       text-decoration: none;
+	   }
+
+	   /* visited link */
+	   .widget3 a:visited {
+       color: #1763AB;
+       text-decoration: none;
+	   }
+       .sitrep a:visited {
+       color: #664d03;
+       text-decoration: none;
+	   }
+
+	   /* mouse over link */
+	   .widget3 a:hover {
+       color: orange;
+       }
+       .sitrep a:hover {
+       color: orange;
+       }
+
+	   /* selected link */
+	   .widget3 a:active {
+       color: #1763AB;
+       text-decoration: none;
+	   }
+       .sitrep a:active {
+       color: #664d03;
+       text-decoration: none;
+	   }
+
+       .cycle-slideshow {
+           position: relative;
+       }
+
+       .cycle-slideshow img{
+           height: 225px !important;
+           width: 100% !important;
+       }

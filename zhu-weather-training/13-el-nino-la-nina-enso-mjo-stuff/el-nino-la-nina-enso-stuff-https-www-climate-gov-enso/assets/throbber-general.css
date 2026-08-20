@@ -1,0 +1,26 @@
+:root {
+  --sk-size: 40px;
+  --sk-color: #333;
+}
+
+.ajax-throbber {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+/* Override core throbber */
+.ajax-progress.ajax-progress-fullscreen {
+  position: fixed;
+  z-index: 11000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: visible;
+  width: 2em;
+  height: 2em;
+  margin: auto;
+  background-color: transparent;
+  background-image: none;
+}

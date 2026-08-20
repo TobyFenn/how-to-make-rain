@@ -1,0 +1,189 @@
+.sqs-block[data-definition-name="website.components.archive"] {
+  /*----- Base Styling -----*/
+  /*----- List Layout + Multicolumns -----*/
+  /*----- Index Layout -----*/
+  /*----- Dropdown Layout -----*/
+}
+.sqs-block[data-definition-name="website.components.archive"] .sqs-ui-font-family {
+  font-family: 'squarespace-ui-font', sans-serif;
+  font-style: normal;
+  speak: none;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-group-list,
+.sqs-block[data-definition-name="website.components.archive"] .archive-item-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-group-count::before {
+  content: "(";
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-group-count::after {
+  content: ")";
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-list,
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index {
+  text-align: var(--archive-text-align, left);
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-list .archive-group-list {
+  columns: var(--archive-columns, auto);
+  column-gap: 60px;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index {
+  /*----- Index Layout + Multicolumns -----*/
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index .archive-group-name-link {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  text-decoration: none;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index .archive-item-list {
+  display: block;
+  margin: 1.4em 0 2.8em 0;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index .archive-item {
+  margin: 0 0 0.7em 0;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index .archive-item.archive-item--show-date {
+  margin: 0 0 1.4em 0;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index .archive-item-date-before {
+  display: none;
+  opacity: 0.7;
+  margin-right: 5px;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index .archive-item-link {
+  display: block;
+  margin-right: 5px;
+  color: inherit !important;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index .archive-item-link--untitled::before {
+  content: "Untitled";
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index .archive-item-date-after {
+  display: block;
+  opacity: 0.7;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index .archive-group-list {
+  columns: var(--archive-columns, auto);
+  column-gap: 60px;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index.archive-block-setting-multicolumns .archive-group {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  display: block;
+  overflow: hidden;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index.archive-block-setting-multicolumns .archive-group-name-link {
+  display: block;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index.archive-block-setting-multicolumns .archive-group-name-list {
+  display: inline-block;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index.archive-block-setting-multicolumns .archive-group-name-link,
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-index.archive-block-setting-multicolumns .archive-item-list {
+  min-width: 225px;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-dropdown.archive-block-wrapper {
+  max-width: 300px;
+  background: rgba(110, 110, 110, 0.05);
+  border-radius: 1px;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-dropdown .archive-dropdown-toggle-label {
+  display: block;
+  padding: 12px 18px;
+  font-size: 1em;
+  line-height: 1.6em;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-user-select: none;
+  user-select: none;
+  list-style: none;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-dropdown .archive-dropdown-toggle-label::-webkit-details-marker {
+  display: none;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-dropdown .archive-dropdown-toggle-title {
+  float: left;
+  width: 90%;
+  padding-right: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-dropdown .archive-dropdown-toggle-icon {
+  position: relative;
+  bottom: 1px;
+  float: right;
+  width: 10%;
+  text-align: right;
+  box-sizing: border-box;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-dropdown .archive-dropdown-toggle-icon:before {
+  font-family: 'squarespace-ui-font', sans-serif;
+  font-style: normal;
+  speak: none;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  content: "\e009";
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-dropdown .archive-dropdown-toggle-icon:before {
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-dropdown .archive-dropdown-toggle-icon:before {
+  font-size: 1em;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-dropdown[open] .archive-dropdown-toggle-icon:before {
+  font-family: 'squarespace-ui-font', sans-serif;
+  font-style: normal;
+  speak: none;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  content: "\e006";
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-dropdown[open] .archive-dropdown-toggle-icon:before {
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-dropdown .archive-group-list {
+  padding: 0 18px 12px;
+}
+.sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-dropdown .archive-group-name-link {
+  text-decoration: none;
+}
+@media only screen and (max-width: 400px) {
+  .sqs-block[data-definition-name="website.components.archive"] .archive-block-setting-layout-dropdown.archive-block-wrapper {
+    max-width: none;
+  }
+}
+.sqs-block[data-definition-name="website.components.archive"].sqs-edit-dialog-open .sqs-editing-overlay,
+.sqs-block[data-definition-name="website.components.archive"].sqs-edit-dialog-open .sqs-block-editor-button-container {
+  z-index: 1;
+}
+.sqs-block[data-definition-name="website.components.archive"].sqs-edit-dialog-open .sqs-block-archive-content {
+  position: relative;
+  z-index: 1000;
+}
+.sqs-block[data-definition-name="website.components.archive"].sqs-edit-dialog-open .archive-group-list {
+  pointer-events: none;
+}
+

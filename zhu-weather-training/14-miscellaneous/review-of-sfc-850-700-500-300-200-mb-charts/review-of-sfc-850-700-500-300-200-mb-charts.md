@@ -1,0 +1,358 @@
+---
+title: "Review of Sfc/850/700/500/300-200 mb Charts"
+page_title: "CHART COMPARISON"
+section: "Miscellaneous"
+source_url: "http://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/chart_comparison/chart_comparison.htm"
+captured: "2026-08-19 06:00 UTC"
+via: "live"
+kind: "html"
+pdf: "review-of-sfc-850-700-500-300-200-mb-charts.pdf"
+original: "source/original.html"
+---
+
+# Review of Sfc/850/700/500/300-200 mb Charts
+
+> Source: <http://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/chart_comparison/chart_comparison.htm>  
+> Section: Miscellaneous  
+> Captured: 2026-08-19 06:00 UTC  
+> PDF: [review-of-sfc-850-700-500-300-200-mb-charts.pdf](review-of-sfc-850-700-500-300-200-mb-charts.pdf) · Original HTML: [source/original.html](source/original.html)
+
+---
+
+**Select a tutorial below or scroll down...**- **[Surface Chart](#SURFACE)**
+- **[850 MB Chart](#850)**
+- **[700 MB Chart](#700)**
+- **[500 MB Chart](#500)**
+- **[300 MB Chart](#300)**
+- **[APPROXIMATE PRESSURE/HEIGHT RELATIONSHIP](#COMPARISON)**
+
+
+**THE SURFACE CHART**
+
+**METEOROLOGIST JEFF HABY**
+[theweatherprediction.com](https://theweatherprediction.com/)
+
+
+\*Many more observation sites than on upper air charts
+\*More frequently updated than upper air charts
+\*Isobars are the solid lines (they are NOT height contours)
+\*Unlike the upper air charts, this chart is not at a constant pressure level for each observation of temperature, dewpoint, and wind
+\*Frictional force is significant on this chart. Turns wind about 30 degrees toward low pressure. This causes convergence into low pressure regions. Friction also causes wind to be more variable, especially when winds are below 10 miles per hour.
+\*Strong fronts will cause "kinking" of isobars
+
+**WHAT TO LOOK FOR:**
+(1) Advections: warm air advection, cold air advection, moisture advection
+(2) Fronts: cold fronts, warm fronts, troughs, outflow boundaries, occluded fronts, stationary fronts, drylines
+(3) Pressure: High pressure regions, low pressure regions
+(4) Convergence, divergence, confluence, diffluence
+(5) Temperature and moisture gradients
+(6) Influence of topography upon the weather conditions
+
+**ABOUT THE SURFACE CHART:**
+If forecasting has to be performed from just one chart, many forecasters would choose the surface chart. It has a wealth of observations and it is the weather experienced by humans since it is at the surface. Unlike the upper air charts that only come out twice per day, the surface chart can be updated as much as multi-hourly, hourly or in three-hour increments.
+
+Understanding pressure contour lines (isobars) is the key to interpreting the chart. Without understanding isobars, temperature advection, wind speed/direction and pressure distribution the surface chart can not be comprehended. Upper air charts are at a fixed pressure level; temperature, dewpoints and wind are reported from that pressure level. This is not
+true for the surface chart with the exception of pressure. Temperature, dewpoint and wind information are gathered from observation stations just a few feet above the surface for all elevations. Pressure, however, is normalized so pressures at high elevation stations can be measured against pressures at low elevation stations. All stations, no matter the elevation, are given the station pressure the site would have if it were at sea level. In a place such as New Orleans, the surface pressure will be very close to the station pressure. But in a city like Denver, the station pressure may be 150 millibars less than surface pressure. Once each location has a sea level pressure, they can be compared to each other to determine where relative low and high pressures are distributed across the map.
+
+Another huge difference between surface and upper air charts is the marking of fronts. They are marked on surface charts but not on upper air charts. Temperature advection and height contour kinking must be used to infer upper air fronts. With a large number of reporting stations at the surface, a fairly accurate position of fronts is possible. With far less
+reporting stations on upper level charts it is more difficult to obtain exact frontal position. Besides, there are only two upper air charts per day.
+
+Fronts do not pass a reporting station at all levels in the atmosphere at the same time. The upper level front can pass *BEFORE* or *AFTER* the surface front. If the upper level winds are strong, the upper level front may advect out ahead of the surface front. Friction is strongest at the surface, which can impede surface front movement. In the case of a shallow
+polar front, the surface front will pass before the upper level front (i.e. 850 mb front).
+
+Severe weather becomes more likely if the upper level front moves in before the surface front. Cold air above warm surface air promotes thermodynamic instability. This situation is common with a strong mid-latitude cyclone. Use Skew-T diagrams and the upper level charts to see how a front slopes with height.
+
+Temperature advection and moisture advection are important elements to study on surface charts. This will be examined in detail in the next section on the 850 mb analysis chart. Warm air advection and moisture advection near the surface will cause the low levels of the atmosphere to become increasingly unstable. Air expands and becomes less dense by either warming or adding moisture to the air. If both of these take place at the same time, such as the advection of mT air, the atmosphere will rapidly become unstable. A key word to remember is advection. Just because a mT airmass is in place *DOES NOT* mean the atmosphere is rapidly becoming unstable. The temperature must be increasing rapidly and the dewpoint
+increasing rapidly for the atmosphere to rapidly become unstable. If the morning temperature and dewpoint are 60/47 and the afternoon temperature and dewpoint are 87/70, a large amount of warm air advection (WAA) and moisture advection have taken place throughout the day. If a trigger mechanism is near by, strong storms are very likely. It is likely the
+upper and mid-levels of the atmosphere are not experiencing the same magnitude of WAA and moisture advection. WAA and moisture advection in the low levels will increase instability since the upper levels are at the same temperature or may even be cooling. If a mT airmass extends from the surface to the upper levels of the atmosphere, severe weather is not as
+likely. Look for differential advection for severe weather (mT air in low levels with cT or cP air in midlevels of atmosphere.)
+
+In the low levels, processes of convergence, divergence, confluence, and diffluence should be analyzed. Convergence and confluence in the low levels leads to rising motion while divergence and diffluence to sinking motion. Once air converges at the surface it has no place to go but up. Convergence is stronger winds moving into weaker winds in the same line of
+action. Think of this as cars approaching a tollbooth. The cars are restricted to a straight line of action, the road. The cars have to slow and convergence to pay the toll. After leaving the tollbooth, the cars diverge (increase in speed after leaving the booth). Confluence and diffluence involve winds approaching each other with different angles.
+These terms are shown graphically below.
+
+![](assets/surface.gif)
+
+
+
+
+[**TOP**](review-of-sfc-850-700-500-300-200-mb-charts.md#top)
+
+**THE 850 MB CHART**
+
+**METEOROLOGIST JEFF HABY**
+[theweatherprediction.com](https://theweatherprediction.com/)
+
+
+850 MB chart is good for assessing low level warm air and cold air advection:
+1. Advection is a function of height contour spacing, the temperature gradient, and the angle isotherms cross height contours (*see farther down - paragraph beginning Thermal advection....*)
+2. Low level warm air advection contributes to synoptic scale rising air; Low level cold air advection contributes to
+synoptic scale sinking air. Region of strong thermal gradient gives indication of 850 millibar front and regions of convergence
+
+Look for convergence, divergence, confluence, and diffluence. Air rises due to low level convergence and confluence.
+
+Use dewpoint depression to determine if atmosphere is near saturation or dry at this level.
+
+Determine intensity of highs and lows:
+1. Deep low (surrounded by several height contours)
+2. Deep high (surrounded by several height contours) covering a large spatial area
+3. Disregard highs and lows not surrounded by at least one isohypse
+4. Several highs located near each other indicates one broad area of high pressure and not a scattering of individual highs
+
+For locations close to sea level, the 850 mb chart represents the top (or close to the top) of the planetary boundary layer. In the PBL, friction and turbulent motion eddies are common. The wind blows at a more constant speed and direction above the 850 mb level. In high elevations areas such as the High Plains and Mountainous West, the 850 mb level will be near the surface or even below the surface. The 850 mb chart is used as a proxy for the surface chart at high
+elevation areas while the 700 mb chart is used as a proxy for the 850 mb chart.
+
+The most intense thermal advections will be found in the low levels of the atmosphere. These thermal advections are termed either warm air advection (WAA) or cold air advection (CAA). The two isopleths displayed on the 850 chart are isotherms and height contours. The combination of these two isopleths determines the amount of thermal advection.
+
+Thermal advection is a function of three factors: (1) the temperature gradient, (2) the height contour spacing and (3) the angle the isotherms make with the height contours. The temperature gradient is determined by how close the isotherms are to each other. Closely spaced isotherms increase the rate of thermal advection, especially if the wind is strong and blowing through the thermal gradient. The height contour spacing determines the strength of the wind. Closely spaced height contours will lead to stronger winds and the potential for a higher thermal advection. The third factor is the angle of
+isotherms to height contours. If isotherms are perpendicular to height contours then the advection potential is higher.
+
+Thermal advection is maximized by the combination of:
+1. Closely spaced isotherms
+2. Closely spaced height contours
+3. Isotherms perpendicular to height contours (see image below)
+
+Thermal advection is minimized by the combination of:
+1. Widely spaced isotherms
+2. Widely spaced height contours
+3. Isotherms parallel to height contours (see image below)
+
+![](assets/850.GIF)
+The next stage is to determine whether the advection is cold air or warm air advection. If isotherms are approaching your point of interest that are colder than the temperature at your point of interest, then it is cold air advection. If the isotherms are warmer, then it is warm air advection.
+
+An important parameter to study on the 850 chart is the dewpoint depression. Each reporting station will give a value of the temperature and dewpoint depression in degrees Celsius.
+
+To find the dewpoint, subtract the dewpoint depression from the temperature. The dewpoint is 17 - 25 = -8 degrees C. If the dewpoint depression is small at the surface and 850 mb, then the depth of near saturated conditions extends through the entire PBL, depending on elevation. Some 850 charts will show the temperature and dewpoint (not dewpoint depression). The dewpoint is always less than or equal to the temperature.
+
+There will be a scattering of highs and lows across the 850 chart.The key is to eliminate the highs and lows which are not significant. Lows with several height contours surrounding them are significant while those without contours are not key weather players at the moment or represent only a slight relative minimum of pressure. High pressure covers a larger area than low pressure. At times you may see several high pressure over a broad region. These highs can be grouped together into one high pressure region.
+
+Below is a list of items that can make you a better forecaster:
+
+**WATCH FOR:**
+Watch for return flow from the Gulf of Mexico. Often models have difficulty replacing a dry stable air mass with a warm and humid airmass in a quick time frame. When high pressure moves into the SE US, the clockwise flow will force Gulf air into the US. The same goes for lows transporting moisture out of the Gulf of Mexico. This rapid flux of moisture and warm air advection can bring unexpected precipitation the models did not pick up.
+
+**WATCH FOR:**
+Watch for height falls and height rises. Low pressure tends to develop toward the greater height falls. Height rises indicate low pressure is leaving or a ridge is building.
+
+
+[**TOP**](review-of-sfc-850-700-500-300-200-mb-charts.md#top)
+
+**THE 700 MB CHART**
+
+**METEOROLOGIST JEFF HABY**
+[theweatherprediction.com](https://theweatherprediction.com/)
+
+
+The 700 mb chart is the last of the low level charts. The 500 and 300 mb charts are considered the upper levels of the atmosphere. Many of the same processes analyzed on the 850 chart are also studied on the 700 mb chart. The trough/ridge pattern becomes more defined at the 700 mb levels as compared to lower levels. A trough is simply a southern "bulge" in height contours while a ridge is a northerly displaced "bulge". This "bulge" can be large (such as in association with a mid-latitude cyclone) or small (such as a shortwave).
+
+One of the most common questions from beginning analysts is "What is a shortwave?". First, the height contours "kink" within a shortwave. This kink can be seen as lower heights displaced downwards from the overall height contour pattern. Second, temperature advection often occurs within the short wave. Generally, cold air advection is found to the left of the short wave axis with warm air advection to the right of the trough axis. The trough axis is sometimes portrayed as a dashed line going through the middle of the shortwave. Third, the amplitude of a shortwave is small in comparison to a longwave trough. Below is a 700 mb weather chart showing examples of shortwaves.
+
+![](assets/700.gif)
+
+When examining model data at 700 millibars it is common for them to show upward vertical velocity. A good forecast strategy is to look at the 700 mb forecast panels for the upward vertical velocity distribution, then determine what forces in the atmosphere are causing the upward (or downward) vertical velocities.
+
+**WHAT TO LOOK FOR AT 700 MB:**
+(1) Find areas with low dewpoint depressions. Often this indicates a deep layer of moisture. Use 700 mb chart in combination with sfc and 850 charts to determine depth of moisture.
+
+(2) Determine strength of warm air advection, cold air advection, and moisture advection. Thermal advection is a function of wind speed, wind direction, thermal gradient, and isotherm angle of intersection with height contours.
+
+(3) Determine strength of high pressure/ low pressure. Strong organizing low pressures tilt toward the northwest with height.
+
+(4) Locate shortwaves. Determine if shortwave is barotropic or baroclinic. Baroclinic shortwave is more likely to produce precipitation. Rain and storms are generally on exit sector of shortwave. Compare shortwave with other levels in the atmosphere. Rain is likely to right of shortwave especially if dewpoint depressions are low.
+
+(5) Weather is warmer than normal under ridges and cooler than normal under troughs.
+
+(6) Look for the greatest height falls and height rises; these values give clues to how the trough/ridge pattern will change through time.
+
+(7) 700 mb front is found where height contours kink; kinking height contours may also be a shortwave (especially if thermal advection is present). A short wave can be an upper level front.
+
+
+[**TOP**](review-of-sfc-850-700-500-300-200-mb-charts.md#top)
+
+**THE 500 MB CHART**
+
+**METEOROLOGIST JEFF HABY**
+[theweatherprediction.com](https://theweatherprediction.com/)
+
+
+When forecasters think of the 500-millibar chart one of the top words that comes to their mind is VORTICITY. For operational purposes, vorticity can be thought of simply as a COUNTER-CLOCKWISE or CLOCKWISE spin. You already know that low pressure is associated with rising air and high pressure with sinking air. Similarly, a counterclockwise spin produces POSITIVE VORTICITY while a clockwise spin in the Northern Hemisphere produces NEGATIVE VORTICITY. The three elements that produce vorticity are *SHEAR, CURVATURE, and CORIOLIS*. Let's define each of these terms as they apply to 500 mb vorticity.
+
+**SHEAR**- A change in wind speed over some horizontal distance. Determined at 500 millibars by examining the spacing (and rate of spacing change) of height contours.
+
+**CURVATURE**- A change in wind direction over some horizontal distance. This change will result in either a counter-clockwise or clockwise curvature.
+
+**CORIOLIS (aka EARTH)**- It is the spinning motion created by the Earth's rotation. If you stood on the North Pole, your body would make a complete rotation in 24 hours. If you stood on the equator, your body would not spin (but rather would face straight ahead as the earth turns). Therefore, coriolis is a maximum and increases toward the poles and is a minimum and decreases toward the equator. Coriolis vorticity (also called earth vorticity) is zero at the equator, increases when wind flow is toward the pole and decreases when wind flow is toward the equator.
+
+![](assets/500.gif)
+
+**Absolute vorticity** = *shear* + *curvature* + *f (coriolis)*
+The magnitude and sign of each of these three terms determines the amount of absolute vorticity. Now we need to know how these terms create positive or negative vorticity. This is given below.
+
+**POSITIVE / INCREASING VORTICITY**
+\*Wind speed increasing when moving away from center point of trough. (positive shear vorticity)
+\*A counterclockwise curvature in the wind flow. This occurs in troughs and shortwaves. (positive curvature vorticity)
+\*A south to north movement of air. Coriolis increases (becomes more positive) when moving from the equator toward the poles (increasingly positive earth vorticity).
+
+**NEGATIVE / DECREASING VORTICITY**
+\*Wind speed decreasing when moving away from center point of trough. (negative shear vorticity)
+\*A clockwise curvature in the wind flow. This occurs in ridges. (negative curvature vorticity)
+\*A north to south movement of air. Coriolis decreases (becomes less positive) when moving from the pole to the equator (decreasingly positive earth vorticity).
+
+![](assets/500b.gif)
+
+There are 6 processes that can create vorticity, four are positive (earth vorticity is always positive in magnitude
+(except zero at the equator) but can increase or decrease depending on if the air flow is toward or away from the equator) and two are negative. It reasons that the more terms that are positive, the higher the value of absolute vorticity will be.
+
+The highest values of vorticity are found often just to the south or east of a highly amplified trough. To the right of the trough, winds will be from a southerly direction. This makes the coriolis term increasingly positive. Winds are generally light near the center of a trough with increasing winds away from the base of the trough. This makes the shear term positive. If the trough is highly amplified, this will give a positive curvature vorticity term. To clarify things further, lets look at a paper and pen representation of the 6 contributions to vorticity and these 6 contributions on a 500 mb chart. The term "negative earth vorticity" can be described as positive earth vorticity decreasing with time. The term "positive earth vorticity" can be described as positive earth vorticity increasing with time. Earth vorticity is always positive (with the only exception of being zero at the equator); earth vorticity ranges from zero at the equator to a value equal to the earth's angular momentum at the pole.
+
+Again, vorticity maximums will be located in areas where the most vorticity terms are positive and largely positive in magnitude. When looking at a vorticity plot or a 500 millibar chart you should now know the processes in the atmosphere that are causing the vorticity (shear, curvature, coriolis vorticity (aka earth vorticity)).
+
+The strength of the wind is also very important. All else being equal, stronger winds will produce stronger vorticity in the base of a trough.
+
+The 500 millibars chart is the best for examining the overall trough/ ridge pattern. Underneath troughs, temperatures are
+cooler than normal while under ridges warmer than normal.
+
+**WHAT TO LOOK FOR:**
+(1) This is the best chart to assess the magnitude of vorticity. Vorticity can be generated in three different ways. They
+are:
+a. Curvature vorticity
+b. Shear vorticity
+c. Earth vorticity (Coriolis)
+
+**High vorticity** is an indication of **ageostrophic flow** and **upper level divergence**
+
+(2) This is the best chart in assessing the trough/ ridge pattern . A trough is an indication of cooler weather and possible precipitation while a ridge is an indication of warmer weather and fair conditions. Greatest storminess is found to right of 500 mb trough axis.
+a. Zonal flow - air flow is generally west to east
+b. Meridional flow - highly amplified troughs and ridges
+
+(3) Use height falls and height rises to predict movement of troughs and ridges. Lows tend to develop toward regions with
+the greatest height falls while large height rises indicates a ridge is building into the area.
+
+(4) Temperatures at 500 mb are rarely above 0 degrees Celsius. Temperatures can be above 0 degrees Celsius at 500 mb in a hurricane due to the warm core nature of the storm.
+
+(5) Look for shortwaves within the longwave flow. The atmosphere will be unstable in association with shortwaves (baroclinic instability, ageostrophic flow). *Precipitation is most likely to right of shortwave axis*. The 500 and 700 mb charts are the best to use when locating shortwaves.
+
+[**TOP**](review-of-sfc-850-700-500-300-200-mb-charts.md#top)
+
+**THE 300 / 200 MB CHART**
+
+**METEOROLOGIST JEFF HABY**
+[theweatherprediction.com](https://theweatherprediction.com/)
+
+
+One of a forecaster's first thoughts when confronted with the 300/200 mb chart is the
+jet stream. The jet stream is a high velocity river of air that flows completely around the Earth at the mid-latitudes. During winter, the jet core is located generally closer to 300 millibars since the air is more cold and dense in the vicinity of the jet stream during the cool season. The 200 millibar chart is used for the jet stream in the warm season but either chart in most instances will suffice. Many hot air balloonists have tried to ride this river of air around the world with not much success for most. The river of air is not continuous. Embedded within the jet stream are higher velocity jet streaks. Jet streaks are segments of faster wind speed within the jet stream.
+
+At 300 mb, the air density is much smaller than near the surface. A 100-knot wind at the 200/300 millibar level
+does not feel as strong as a 100 knot wind at the surface. Even though the density is smaller, these air currents
+have the power to drive the movement of storm systems and build troughs and ridges.
+
+One jet streak can turn a beautiful Monday into a severe storm Tuesday, as we will see in an example later. Troughs and ridges are not only carved by warm air and cold air advection but also by the high momentum air of jet streaks.
+A significant jet streak has winds over 100 knots. Look at the 300 mb chart in this section labeled "Time 1".
+A jet streak exists from Colorado to Montana. The highest wind speeds in the jet streak (aka jet core, jet surge)
+are 130 knots (150 miles per hour) in southern Wyoming.
+
+Parcels within the jet streak are diving to the southeast. The air's momentum forces a trough to develop across
+the Central US. In "Time 2", the chart from 12 hours later, the jet streak has moved further to the southeast
+and the associated trough is becoming more amplified. At "time 3" the jet streak has turned the corner and
+is in the base of the trough. The trough is at maximum amplification. The trough will now move to the east
+and eventually to the northeast. It is difficult to determine the four quadrants of a jet streak when one
+"turns the corner". Divergence and rising motion are strongest to the north of the jet axis, such as in
+Tennessee during highly curved jet streaks. RULE OF THUMB: If a jet streak exists on the left side of a
+trough and winds are stronger to the left of the trough (as it is in our example in "Time 1"), the trough
+will become more amplified with time and will dig in a southerly direction. If a jet streak exists on the
+right side of a trough and winds are stronger to the right of the trough, the trough will become less amplified
+with time and "lift out" in a northeasterly direction. If the winds are about the same on each side of the
+trough, it will stay at about the same amplification. This knowledge will make you a better forecaster! A jet streak progression is shown below
+
+![](assets/300_200_chart.jpg)
+
+![](assets/300_200_chart2.jpg)
+
+![](assets/300_200_chart3.jpg)
+
+The jet stream is useful for the prediction of temperature. The jet stream divides colder air to the
+north from warmer air to the south. The transition between temperatures on each side of the jet is very abrupt.
+Heights are higher to the south of the jet and lower to the north. In the upper levels, this creates relatively
+high heights to the south of the jet and relatively low heights to the north. The Pressure Gradient Force flows
+from a southerly to northerly direction. However, the Coriolis force shifts the wind flow to the right of the path of motion. Therefore, the jet stream flows from the west to east. When a trough builds over a region it often
+indicates cooler temperatures due to cloudier weather and northerly winds. A ridge builds by low level (between
+the surface and 700-mb) warm air advection and upper level forcing (negative vorticity). Air in a ridge is
+sinking and is thus expanding and creating higher heights. Therefore, temperatures are warmer than normal in
+a ridge due to warmer temperatures and sunnier weather. This is especially true when a ridge occurs in high
+latitudes. Below is a diagram showing the development of the polar jet and the wind pattern the PGF and
+Coriolis produce.
+
+![](assets/300_200_chart4.jpg)
+
+Certain regions of jet streaks are more favorable for rising or sinking air. Where convergence occurs in the
+upper levels, sinking motion results. Where divergence (evacuation of mass) occurs in the upper levels, rising
+motion result. Convergence and divergence in a jet streak is caused by an imbalance of forces as a parcel accelerates
+into a jet streak then decelerates out of the jet streak. The depiction below shows the balance and
+imbalance of forces in a jet streak. Lets look at each of the 5 numbers and letters.
+
+
+**MOTION WITHIN A JET STREAK**
+
+
+![](assets/300_200_chart5.jpg)
+
+(1) Pressure Gradient Force and Coriolis are in balance. Wind is geostrophic (parallel to height contours)
+
+(2) Parcel enters region of higher wind speed. This increases the Pressure gradient force at the same time the
+Coriolis has not been changed much. Wind will tend to flow toward the longest vector, which is the PGF. This
+causes convergence in the Left Rear Quad (sinking air at letter A) and divergence in the Right Rear Quad (rising
+air at letter D). The tropopause is just above jet stream level. Convergence at the jet stream level forces air
+to sink because the highly stable tropopause prevents air from rising.
+
+(3) The Coriolis once again balances the Pressure Gradient Force.
+
+(4) As a parcel leaves the jet streak it must decelerate. The Pressure Gradient Force weakens at the same time
+the Coriolis has not had time to adjust and decrease. This causes convergence in the Right Front Quad (sinking
+air at letter B) and divergence in the Left Front Quad (rising air at letter C).
+
+(5) Pressure Gradient Force and Coriolis once again balance
+
+This example has been for a jet streak- in a zonal flow. A jet streak in a curved flow, such
+  as the case when a
+  jet streak is in the base of a trough, will have divergence and rising air to the north of the jet and convergence
+  and sinking air to the south of the jet.
+
+  The jet stream is a powerful forecasting tool. Not that it can give exact highs/ lows/ and precipitation chances,
+  but because it gives information such as when to expect the next storm system and whether temperatures will be
+  above or below normal. It gives clues to how the upper levels will promote rising air or sinking air. It gives
+  clues to the character of the next storm system. Jet streaks alone provide much information of how a trough or
+  ridge will develop over the next couple of days.
+
+  WHAT TO LOOK FOR ON 300/250/200 chart:
+
+  (1) Jet stream
+  \*The jet stream is a river of air with segments of higher speed winds embedded within the mean flow
+  \*Areas North of jet stream tend to have cooler than normal temperatures especially in the mid-latitudes
+  \*Areas South of jet stream tend to have warmer than normal temperatures, especially in higher latitudes
+
+  (2) Jet Streaks
+  \*Rising air occurs in the right rear and left front quadrants of jets
+  \*Sinking air occurs in the left rear and right front quadrants of jets
+  \*Rising air occurs north of jet axis if jet is in a highly curved flow
+  \*Winds over 120 miles per hour constitute a significant jet streak
+  \*Upper level divergence enhances rising air, especially if warm air advection is occurring in lower
+  levels of atmosphere
+
+  (3) General trough/ridge pattern
+  \*Momentum of jet stream carves the trough ridge pattern. If the jet stream winds are greater on the LEFT
+  side of a trough, the trough will become more amplified and move further south. If the jet stream winds
+  are greater on the RIGHT side of a trough, the trough will become less amplified with time
+  and move further north
+
+
+  [**TOP**](review-of-sfc-850-700-500-300-200-mb-charts.md#top)
+
+**APPROXIMATE PRESSURE/HEIGHT RELATIONSHIP**
+
+
+
+
+![](assets/pres_height.gif)
+
+[**TOP**](review-of-sfc-850-700-500-300-200-mb-charts.md#top)**

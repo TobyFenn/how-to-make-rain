@@ -1,0 +1,907 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<title>safety_ice</title>
+<meta name="DC.title" content="safety_ice" />
+<meta name="DC.description" content="safety_ice" />
+<meta name="DC.creator" content="US Department of Commerce, NOAA, National Weather Service" />
+<meta name="DC.date.created" scheme="ISO8601" content="January 28th 2025 10:10 PM" />
+<meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" />
+<meta name="DC.keywords" content="safety_ice" />
+<meta name="DC.publisher" content="NOAA's National Weather Service" />
+<meta name="DC.contributor" content="National Weather Service" />
+<meta name="DC.rights" content="/disclaimer.php" />
+<meta name="rating" content="General" />
+<meta name="robots" content="index,follow" />
+
+
+        <link href="/css/weatherstyle.css" rel="stylesheet" type="text/css" />
+        <link href="/css/template.css" rel="stylesheet" type="text/css" />
+        <link href="/css/myfcst.css" rel="stylesheet" type="text/css" />
+        <link href="/css/ForecastSearch.css" rel="stylesheet" type="text/css" />
+        <link href="/css/pointforecast.css" rel="stylesheet" type="text/css" />
+        <link href="/css/jqueryui10_3_1custom/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>        <script type="text/javascript" src="/js/jquery-ui-1.10.3.custom.min.js"></script>        <script type="text/javascript" src="/js/jquery.hoverIntent.minified.js"></script>        <script type="text/javascript" src="/js/ForecastSearch.js"></script>        <script type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&sub-agency=NOAA&yt=true&pga4=G-736JJ6NL0V"></script>        <script type="text/javascript" src="/js/topNavMenu.js"></script>        <script type="text/javascript" src="/js/NidsESRI.js"></script>        <script type="text/javascript" src="/js/nwsexit.js"></script>
+
+
+        <link href="/css/widgets.css" rel="stylesheet" type="text/css" />
+        <link href="/css/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
+        
+        <script type="text/javascript" src="/js/widgets.js"></script>
+        <script type="text/javascript" src="/js/jquery.cycle2.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.colorbox-min.js"></script>
+        <script type="text/javascript" src="/js/nwsexit.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-736JJ6NL0V"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+            gtag('config', 'G-736JJ6NL0V');
+    </script>
+
+    </head>
+
+    <body>
+        
+        <div class="header">
+    <div class="header-content">
+        <a href="https://www.weather.gov" class="header-nws"><img src="/bundles/templating/images/header/header.png" alt="National Weather Service"/></a>
+        <a href="http://www.commerce.gov" class="header-doc"><img src="/bundles/templating/images/header/header_doc.png" alt="United States Department of Commerce"/></a>
+        <a href="http://www.noaa.gov" class="header-noaa" title="National Oceanic and Atmospheric Administration"></a>
+    </div>
+    <div style="clear:both"></div>
+</div>
+<div class="header-shadow">
+    <div class="header-shadow-content"></div>
+</div>
+<script>
+    var domains = {
+        weather: "https://www.weather.gov",
+        forecast: "https://forecast.weather.gov",
+        airquality: "https://airquality.weather.gov",
+        aviation: "https://aviationweather.gov",
+        water: "https://water.weather.gov",
+        graphical: "https://graphical.weather.gov",
+        api: "https://api.weather.gov",
+        radar: "https://radar.weather.gov",
+        esriGeocode: "https://geocode.arcgis.com"
+    }
+</script>
+
+
+        <div class="center">
+
+            <div class="content">
+    <div class="topnav">
+        <ul id="topnav">
+            <li>
+                <script type="text/javascript">
+                    function goBack() {
+                        if (document.referrer.toLowerCase().indexOf("weather.gov") != -1) {
+                            history.back();
+                        } else {
+                            document.location.href = "https://www.weather.gov";
+                        }
+                    }
+                </script>
+                <div class="topMenuNavList home">
+                    <a href="#" onclick="goBack();">HOME</a>
+                </div>
+            </li>
+                            <li>
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/forecastmaps/">FORECAST</a>
+                    </div>
+                                                                        <div style="opacity: 0;" class="sub">
+                                <ul>
+                                                                            <li>
+                                            <a href="https://www.weather.gov">Local</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://digital.weather.gov">Graphical</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://aviationweather.gov">Aviation</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/marine/">Marine</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://water.noaa.gov">Rivers and Lakes</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.nhc.noaa.gov">Hurricanes</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.spc.noaa.gov">Severe Weather</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/fire/">Fire Weather</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://gml.noaa.gov/grad/solcalc/">Sunrise/Sunset</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.cpc.ncep.noaa.gov">Long Range Forecasts</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.cpc.ncep.noaa.gov">Climate Prediction</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.swpc.noaa.gov">Space Weather</a>
+                                        </li>
+                                                                    </ul>
+                            </div>
+                                                            </li>
+                            <li>
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/wrh/climate">PAST WEATHER</a>
+                    </div>
+                                                                        <div style="opacity: 0;" class="sub">
+                                <ul>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/wrh/climate">Past Weather</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://gml.noaa.gov/grad/solcalc/">Astronomical Data</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.climate.gov/maps-data/dataset/past-weather-zip-code-data-table">Certified Weather Data</a>
+                                        </li>
+                                                                    </ul>
+                            </div>
+                                                            </li>
+                            <li>
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/safety/">SAFETY</a>
+                    </div>
+                                                                                </li>
+                            <li>
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/informationcenter">INFORMATION</a>
+                    </div>
+                                                                        <div style="opacity: 0;" class="sub">
+                                <ul>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/wrn/wea">Wireless Emergency Alerts</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/wrn/">Weather-Ready Nation</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/owlie/publication_brochures">Brochures</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/coop/">Cooperative Observers</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/briefing/">Daily Briefing</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/hazstat">Damage/Fatality/Injury Statistics</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="http://mag.ncep.noaa.gov">Forecast Models</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/gis/">GIS Data Portal</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/nwr">NOAA Weather Radio</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/publications/">Publications</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/skywarn/">SKYWARN Storm Spotters</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/stormready">StormReady</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/tsunamiready/">TsunamiReady</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/notification/">Service Change Notices</a>
+                                        </li>
+                                                                    </ul>
+                            </div>
+                                                            </li>
+                            <li>
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/education/">EDUCATION</a>
+                    </div>
+                                                                                </li>
+                            <li>
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/news">NEWS</a>
+                    </div>
+                                                                                </li>
+                            <li>
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/search/">SEARCH</a>
+                    </div>
+                                            <div style="opacity: 0;" class="sub">
+                            <ul class="no-links">
+                            <li><!-- Begin search code -->
+                                <div id="site-search">
+                                    <form method="get" action="https://search.usa.gov/search" style="margin-bottom: 0; margin-top: 0;">
+                                        <input type="hidden" name="v:project" value="firstgov" />
+                                        <label for="query">Search For</label>
+                                        <input type="text" name="query" id="query" size="12" />
+                                        <input type="submit" value="Go" />
+                                        <p>
+                                            <input type="radio" name="affiliate" checked="checked" value="nws.noaa.gov" id="nws" />
+                                            <label for="nws" class="search-scope">NWS</label>
+                                            <input type="radio" name="affiliate" value="noaa.gov" id="noaa" />
+                                            <label for="noaa" class="search-scope">All NOAA</label>
+                                        </p>
+                                    </form>
+                                </div>
+                            </li>
+                            </ul>
+                        </div>
+                                    </li>
+                            <li class="last">
+                    <div class="topMenuNavList section-link">
+                        <a href="https://www.weather.gov/about/">ABOUT</a>
+                    </div>
+                                                                        <div style="opacity: 0;" class="sub">
+                                <ul>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/about/">About NWS</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/organization">Organization</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://sites.google.com/a/noaa.gov/nws-insider/">For NWS Employees</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/ncep/">National Centers</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.noaa.gov/nws-careers">Careers</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/contact">Contact Us</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://forecast.weather.gov/glossary.php">Glossary</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.weather.gov/socialmedia">Social Media</a>
+                                        </li>
+                                                                            <li>
+                                            <a href="https://www.noaa.gov/NWStransformation">NWS Transformation</a>
+                                        </li>
+                                                                    </ul>
+                            </div>
+                                                            </li>
+                    </ul>
+    </div>
+</div>
+
+
+            <div class="center-content">
+
+                <div class="one-sixth-first">
+    <div id="forecast-lookup">
+        <form name="getForecast" id="getForecast" action="https://forecast.weather.gov/zipcity.php" method="get">
+            <label for="inputstring">Local forecast by <br />"City, St" or ZIP code</label>
+            <input id="inputstring" name="inputstring" type="text" value="Enter location ..." onclick="this.value=''" />
+            <input name="btnSearch" id="btnSearch" type="submit" value="Go" />
+            <div id="txtError">
+                <div id="errorNoResults" style="display:none;">Sorry, the location you searched for was not found. Please try another search.</div>
+                <div id="errorMultipleResults" style="display:none">Multiple locations were found. Please select one of the following:</div>
+                <div id="errorChoices" style="display:none"></div>
+                <input id="btnCloseError" type="button" value="Close" style="display:none" />
+            </div>
+            <div id="txtHelp"><a style="text-decoration: underline;" href="javascript:void(window.open('https://www.weather.gov/ForecastSearchHelp.html','locsearchhelp','status=0,toolbar=0,location=0,menubar=0,directories=0,resizable=1,scrollbars=1,height=500,width=530').focus());">Location Help</a></div>
+        </form>
+    </div>
+</div>
+
+                    <div class="five-sixth-last">
+                    <style type="text/css">
+                #topnews.important {
+                    background-color: #d2d2d2;
+                    height: 100%;
+                    margin-bottom: 5px;
+                    position: relative;
+                }
+
+                #topnews .icon {
+                    display: none;
+                }
+
+                #topnews.important .icon {
+                    background-color: #135997;
+                    display: table-cell;
+                    height: 100%;
+                    text-align: center;
+                    vertical-align: middle;
+                    width: 80px;
+                }
+
+                #topnews.important .body {
+                    color: #141414;
+                    display: table-cell;
+                    padding: 10px;
+                }
+            </style>
+            <div id="topnews">
+                <div class="icon"><img src="/bundles/templating/images/top_news/important.png"></div>
+                <div class="body">
+                    <h1 style="font-size: 11pt;">Severe Thunderstorms in the Central Plains and Lower Missouri Valley; Heat Continues in the Southeast and Southwest</h1>
+                    <p>
+                        Severe thunderstorms capable of large hail and damaging wind gusts are forecast to impact the central Plains into the Lower Missouri Valley through this afternoon. Dangerous heat persists across the southern Plains, Southeast U.S. and Puerto Rico this week, and will return to the Southwest today. 
+                                                                            <a href="http://www.wpc.ncep.noaa.gov/discussions/hpcdiscussions.php?disc=pmdspd" target="_blank">Read More &gt;</a>
+                                            </p>
+                </div>
+            </div>
+            </div>
+
+
+                <div class="full-width-border">
+                    <div class="partial-width-borderbottom">
+
+                        <!-- area for the myforecast widget and wwamap data -->
+
+                        <div class="div-full">    
+                        <div class="div-full breadcrumb">
+    <div class="sitename">
+        <p class="sitename-name">Memphis</p>
+        <p class="sitename-class">Center Weather Service Unit</p>
+    </div>
+    <div class="location">
+        <h1 class='location-pagetitle'>safety_ice</h1>
+        <div class='location-breadcrumb'>
+            <a href="https://www.weather.gov">Weather.gov</a>
+                                                &gt; <a href="https://www.weather.gov/zme">Memphis</a>
+                                &gt; safety_ice
+                    </div>
+    </div>
+</div>
+
+                        <div class="div-full">
+    <div class="subMenuNav">
+        <ul id="subMenuNav">
+                            <li>
+                    <div class="subMenuNavList section-link">
+                        <a href="#">Current Hazards</a>
+                    </div>
+                                            <div class="sub">
+                            <ul>
+                                                                    <li>
+                                        <a href="https://aviationweather.gov/gfa/?tab=sigmet&amp;mapLayers=basicMap,firMap,artccHiMap&amp;center=34.082,-90.243&amp;zoom=6.5&amp;autoRefresh=5&amp;sigmetheights=1"> SIGMETs</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://aviationweather.gov/gfa/?tab=gairmet&amp;mapLayers=basicMap,firMap,artccHiMap&amp;center=34.082,-90.243&amp;zoom=6.5&amp;autoRefresh=5&amp;gairmettype=ifr,mtn-obs,llws,sfc-wind,turb-hi,turb-lo,icing&amp;gairmetheights=1"> G-AIRMETs</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://aviationweather.gov/gfa/?tab=cwa&amp;mapLayers=basicMap,firMap,artccHiMap&amp;center=34.082,-90.243&amp;zoom=6.5&amp;autoRefresh=5"> ZME CWA&#039;s</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/zme/mem_aww"> KMEM Airport Weather Warning (AWW)</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/zme/hsv_aww"> KHSV AWW</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/zme/jan_aww"> KJAN AWW</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://aviationweather.gov/gfa/?tab=obs&amp;mapLayers=basicMap,firMap,artccHiMap&amp;center=34.082,-90.243&amp;zoom=6.5&amp;autoRefresh=5&amp;er=1&amp;layers=airep&amp;airepage=2&amp;airepbottom=180"> ZME PIREP reports</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/zse/OLv3?full&amp;lat=35&amp;lon=-90.5&amp;zoom=7&amp;map=topo&amp;p=fcic,ar"> Hazard Map</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.aviationweather.gov/"> Aviation Weather Center</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </li>
+                            <li>
+                    <div class="subMenuNavList section-link">
+                        <a href="#">Current Conditions</a>
+                    </div>
+                                            <div class="sub">
+                            <ul>
+                                                                    <li>
+                                        <a href="satellite"> Satellite</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://aviationweather.gov/gfa/?tab=obs&amp;mapLayers=basicMap,firMap,artccHiMap&amp;layers=airep&amp;center=34.082,-90.243&amp;zoom=6.5&amp;autoRefresh=5&amp;airepage=3"> Pireps</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://rvr.fly.faa.gov/cgi-bin/rvr-status.pl"> FAA Airport RVRs</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/wrh/timeseries?site=KMEM"> MEM Observations</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/wrh/timeseries?site=Kbna"> BNA Observations</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/wrh/timeseries?site=Klit"> LIT Observations</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/wrh/timeseries?site=Kjan"> JAN Observations</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/wrh/timeseries?site=Khsv"> HSV Observations</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/wrh/timeseries?site=Kxna"> XNA Observations</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </li>
+                            <li>
+                    <div class="subMenuNavList section-link">
+                        <a href="#">Radar</a>
+                    </div>
+                                            <div class="sub">
+                            <ul>
+                                                                    <li>
+                                        <a href="/zme/weatherradar?speed=0.4&amp;mins=5&amp;count=10&amp;lt=34.98&amp;ln=-90.5&amp;zm=6.5&amp;rad=1&amp;ltg=0&amp;vis=0&amp;ir=0&amp;fc=0&amp;hover=0&amp;size=0"> Regional Radar</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy04OS44NzMsMzUuMzQ1XSwibG9jYXRpb24iOm51bGwsInpvb20iOjksImZpbHRlciI6IldTUi04OEQiLCJsYXllciI6InNyX2JyZWYiLCJzdGF0aW9uIjoiS05RQSJ9LCJhbmltYXRpbmciOmZhbHNlLCJiYXNlIjoic3RhbmRhcmQiLCJhcnRjYyI6ZmFsc2UsImNvdW50eSI6ZmFsc2UsImN3YSI6ZmFsc2UsInJmYyI6ZmFsc2UsInN0YXRlIjpmYWxzZSwibWVudSI6dHJ1ZSwic2hvcnRGdXNlZE9ubHkiOnRydWUsIm9wYWNpdHkiOnsiYWxlcnRzIjowLjgsImxvY2FsIjowLjYsImxvY2FsU3RhdGlvbnMiOjAuOCwibmF0aW9uYWwiOjAuNn19"> Memphis - NQA</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy04Ni41NjMsMzYuMjQ3XSwiem9vbSI6OSwiZmlsdGVyIjoiV1NSLTg4RCIsImxheWVyIjoiYnJlZl9yYXciLCJzdGF0aW9uIjoiS09IWCIsInRyYW5zcGFyZW50Ijp0cnVlLCJhbGVydHNPdmVybGF5Ijp0cnVlLCJzdGF0aW9uSWNvbnNPdmVybGF5Ijp0cnVlfSwiYmFzZSI6InN0YW5kYXJkIiwiY291bnR5IjpmYWxzZSwiY3dhIjpmYWxzZSwic3RhdGUiOmZhbHNlLCJtZW51Ijp0cnVlLCJzaG9ydEZ1c2VkT25seSI6dHJ1ZX0%3D#/"> Nashville - OHX</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy05Mi4yNjUsMzQuNzYzXSwiem9vbSI6OSwiZmlsdGVyIjoiV1NSLTg4RCIsImxheWVyIjoiYnJlZl9yYXciLCJzdGF0aW9uIjoiS0xaSyIsInRyYW5zcGFyZW50Ijp0cnVlLCJhbGVydHNPdmVybGF5Ijp0cnVlLCJzdGF0aW9uSWNvbnNPdmVybGF5Ijp0cnVlfSwiYmFzZSI6InN0YW5kYXJkIiwiY291bnR5IjpmYWxzZSwiY3dhIjpmYWxzZSwic3RhdGUiOmZhbHNlLCJtZW51Ijp0cnVlLCJzaG9ydEZ1c2VkT25seSI6dHJ1ZX0%3D#/"> Little Rock - LZK</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy04Ni4wODQsMzQuOTMxXSwiem9vbSI6OSwiZmlsdGVyIjoiV1NSLTg4RCIsImxheWVyIjoiYnJlZl9yYXciLCJzdGF0aW9uIjoiS0hUWCIsInRyYW5zcGFyZW50Ijp0cnVlLCJhbGVydHNPdmVybGF5Ijp0cnVlLCJzdGF0aW9uSWNvbnNPdmVybGF5Ijp0cnVlfSwiYmFzZSI6InN0YW5kYXJkIiwiY291bnR5IjpmYWxzZSwiY3dhIjpmYWxzZSwic3RhdGUiOmZhbHNlLCJtZW51Ijp0cnVlLCJzaG9ydEZ1c2VkT25seSI6dHJ1ZX0%3D#/"> Huntsville - HTX</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy05NC4zNjIsMzUuMjldLCJ6b29tIjo5LCJmaWx0ZXIiOiJXU1ItODhEIiwibGF5ZXIiOiJicmVmX3JhdyIsInN0YXRpb24iOiJLU1JYIiwidHJhbnNwYXJlbnQiOnRydWUsImFsZXJ0c092ZXJsYXkiOnRydWUsInN0YXRpb25JY29uc092ZXJsYXkiOnRydWV9LCJiYXNlIjoic3RhbmRhcmQiLCJjb3VudHkiOmZhbHNlLCJjd2EiOmZhbHNlLCJzdGF0ZSI6ZmFsc2UsIm1lbnUiOnRydWUsInNob3J0RnVzZWRPbmx5Ijp0cnVlfQ%3D%3D#/"> Fort Smith - SRX</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy04OC4zMjksMzMuODk3XSwiem9vbSI6OSwiZmlsdGVyIjoiV1NSLTg4RCIsImxheWVyIjoiYnJlZl9yYXciLCJzdGF0aW9uIjoiS0dXWCIsInRyYW5zcGFyZW50Ijp0cnVlLCJhbGVydHNPdmVybGF5Ijp0cnVlLCJzdGF0aW9uSWNvbnNPdmVybGF5Ijp0cnVlfSwiYmFzZSI6InN0YW5kYXJkIiwiY291bnR5IjpmYWxzZSwiY3dhIjpmYWxzZSwic3RhdGUiOmZhbHNlLCJtZW51Ijp0cnVlLCJzaG9ydEZ1c2VkT25seSI6dHJ1ZX0%3D#/"> Columbus AFB</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy05MC4wMTYsMzIuMzU3XSwiem9vbSI6OSwiZmlsdGVyIjoiV1NSLTg4RCIsImxheWVyIjoiYnJlZl9yYXciLCJzdGF0aW9uIjoiS0RHWCIsInRyYW5zcGFyZW50Ijp0cnVlLCJhbGVydHNPdmVybGF5Ijp0cnVlLCJzdGF0aW9uSWNvbnNPdmVybGF5Ijp0cnVlfSwiYmFzZSI6InN0YW5kYXJkIiwiY291bnR5IjpmYWxzZSwiY3dhIjpmYWxzZSwic3RhdGUiOmZhbHNlLCJtZW51Ijp0cnVlLCJzaG9ydEZ1c2VkT25seSI6dHJ1ZX0%3D#/"> Jackson, MS - DGX</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy04OC43NzIsMzcuMDY4XSwiem9vbSI6OSwiZmlsdGVyIjoiV1NSLTg4RCIsImxheWVyIjoiYnJlZl9yYXciLCJzdGF0aW9uIjoiS1BBSCIsInRyYW5zcGFyZW50Ijp0cnVlLCJhbGVydHNPdmVybGF5Ijp0cnVlLCJzdGF0aW9uSWNvbnNPdmVybGF5Ijp0cnVlfSwiYmFzZSI6InN0YW5kYXJkIiwiY291bnR5IjpmYWxzZSwiY3dhIjpmYWxzZSwic3RhdGUiOmZhbHNlLCJtZW51Ijp0cnVlLCJzaG9ydEZ1c2VkT25seSI6dHJ1ZX0%3D#/"> Paducah, KY - PAH</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://radar3pub.ncep.noaa.gov/"> NEXRAD Status</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </li>
+                            <li>
+                    <div class="subMenuNavList section-link">
+                        <a href="#">Forecasts</a>
+                    </div>
+                                            <div class="sub">
+                            <ul>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/images/zme/TRACONBriefing.png"> MEM TRACON Cargo Briefing</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://aviationweather.gov/gfa/?tab=ice&amp;mapLayers=basicMap,firMap,artccHiMap&amp;center=34.082,-90.243&amp;zoom=6.5&amp;autoRefresh=5&amp;layers=gairmet,weather,airep&amp;level=max"> Icing Products</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://aviationweather.gov/gfa/?tab=turb&amp;mapLayers=basicMap,firMap,artccHiMap&amp;center=34.082,-90.243&amp;zoom=6.5&amp;autoRefresh=5&amp;layers=gairmet,weather,airep,sigmet,cwa&amp;level=%3E180"> High Turbulence Products</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://aviationweather.gov/gfa/?tab=turb&amp;mapLayers=basicMap,firMap,artccHiMap&amp;center=34.082,-90.243&amp;zoom=6.5&amp;autoRefresh=5&amp;layers=gairmet,weather,airep,sigmet,cwa&amp;level=%3C180"> Low Turbulence Products</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/zme/sfc_analysis"> WPC Analysis</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.spc.noaa.gov/exper/sref/sref.php?run=latest&amp;id=SREF_PROB_TRW_CALIBRATED_HRLY__"> SREF Guidance</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/zme/tda"> MEM TAF TDA</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/meg/"> Memphis WFO</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="rucwinds?site=mem&amp;height=10&amp;output=barb&amp;table=yes&amp;tailwind=no&amp;runway=00&amp;model=rap&amp;tooltips=on"> MEM RAP Winds</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="rucwinds?site=bna&amp;height=10&amp;output=barb&amp;table=yes&amp;tailwind=no&amp;runway=00&amp;model=rap&amp;tooltips=on"> BNA RAP Winds</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.spc.noaa.gov/exper/href/index.php?model=href&amp;product=cref_members&amp;sector=conus"> SPC HREF Ensemble</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://rapidrefresh.noaa.gov/hrrr/HRRR/Welcome.cgi"> HRRR Guidance</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/zme/model"> Numerical Data</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.swpc.noaa.gov/communities/aviation-community-dashboard"> Space Weather</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </li>
+                            <li>
+                    <div class="subMenuNavList section-link">
+                        <a href="#">Strategic Planning Aids</a>
+                    </div>
+                                            <div class="sub">
+                            <ul>
+                                                                    <li>
+                                        <a href="/zme/predutyweatherbriefing"> Pre-Duty Weather Briefing</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/zme/tcf"> TCF</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.fly.faa.gov/flyfaa/usmap.jsp"> Airport Delays</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.weather.gov/nwsexit.php?site=zme&amp;url=http://www.fly.faa.gov/PLAYBOOK/pbindex.html"> Playbooks</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.fly.faa.gov/ois/?legacy=true"> NAS Status</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.fly.faa.gov/aadc/"> FAA - Airport Demand</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </li>
+                            <li>
+                    <div class="subMenuNavList section-link">
+                        <a href="#">Tactical Planning Aids</a>
+                    </div>
+                                            <div class="sub">
+                            <ul>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/zse/ZSEModelVWP?site=kmem&amp;height=02&amp;output=barb&amp;table=yes&amp;tailwind=no&amp;runway=00&amp;model=multiple&amp;tooltips=on#ZSEcontent"> Low Level Winds - MEM</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/zme/pdwb_mem"> Memphis TRACON Briefing Page</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/zme/pdwb_bna"> Nashville TRACON Briefing Page</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/zme/pdwb_lit"> Little Rock TRACON Briefing Page</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/zme/pdwb_jan"> Jackson TRACON Briefing Page</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/zme/pdwb_fsm"> Ft. Smith TRACON Briefing Page</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/zme/pdwb_rzc"> Fayetteville/NW Arkansas TRACON Briefing Page</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/zme/pdwb_hsv"> Huntsville TRACON Briefing Page</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://aviationweather.gov/api/plot/gate_plot?arpt=KMEM"> MEM Experimental TS Gate Guidance</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/zme/PDWB_sites"> Tower Forecasts with PDWB</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </li>
+                            <li>
+                    <div class="subMenuNavList section-link">
+                        <a href="#">Additional Info</a>
+                    </div>
+                                            <div class="sub">
+                            <ul>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/forecastmaps/"> National Forecast Maps</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/zme/safety"> Aviation Safety</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/zme/aboutus"> About us</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.weather.gov/aviation/cwsu"> Other CWSUs</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/zme/resourcepage"> WFO Resource page</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.spc.noaa.gov/"> Storm Prediction Center</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.nhc.noaa.gov/"> National Hurricane Center</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.wpc.ncep.noaa.gov/"> Weather Prediction Center</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.cpc.ncep.noaa.gov/"> Climate Prediction Center</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://digital.weather.gov/"> NWS EDD</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/zme/page2"> Miscellaneous</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                                    </li>
+                    </ul>
+    </div>
+</div>
+
+                        
+                        
+                        <div class="div-full">
+<div class="cms-content"><p align="center">&nbsp;</p>
+
+<table align="right" border="1" cellpadding="1" cellspacing="1" height="23" width="143">
+	<tbody>
+		<tr>
+			<td><font size="1">Return to <a href="safety">Safety Homepage</a></font></td>
+		</tr>
+	</tbody>
+</table>
+
+<p align="center">&nbsp;</p>
+
+<p align="center"><font size="6"><strong><font color="#ff0000">Icing</font></strong></font></p>
+
+<p align="center">&nbsp;</p>
+
+<table align="center" border="0" cellpadding="1" cellspacing="1" width="800">
+	<tbody>
+		<tr>
+			<td width="400">
+			<p><font size="4"><font size="4">Icing can occur if an airplane passes through a cloud when the air temperature is at or below freezing.&nbsp; This can happen during widespread rain, scattered showers, or even in a thunderstorm.</font></font></p>
+
+			<p><font size="4">&nbsp;</font></p>
+
+			<p><font size="4"><font size="4">This is hazardous to flight because it can increase drag and weight on the aircraft and also decrease lift.&nbsp; All of these effects can degrade the ability of the aircraft to maintain altitude.</font></font></p>
+			</td>
+			<td><font size="4"><img alt="" height="487" src="/images/zme/safety/icing%20diagram.png" width="352" /></font></td>
+		</tr>
+	</tbody>
+</table>
+
+<p align="left">&nbsp;</p>
+
+<p align="center"><strong><font size="5">Common Types of Icing</font></strong></p>
+
+<p align="left">&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1" width="900">
+	<tbody>
+		<tr>
+			<td><font size="4"><strong><font size="5"><img alt="" height="283" src="/images/zme/safety/Rime%20icing.png" width="352" /></font></strong></font></td>
+			<td><font size="4"><strong><font size="4"><strong>Rime Icing</strong> <font size="3">occurs when<strong> </strong>tiny supercooled water droplets freeze onto a surface that is below freezing (typically an airplane wing or pitot tube).&nbsp; This tends to be nuisance rime that becomes a rough surface, although accumulation on the pitot tube can lead to instrument failure.&nbsp; It is the most common type of icing.</font></font></strong></font></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1" width="900">
+	<tbody>
+		<tr>
+			<td><font size="4"><font size="3"><strong><img alt="" height="280" src="/images/zme/safety/Clear%20icing.png" width="350" /></strong></font></font></td>
+			<td><font size="4"><font size="3"><strong><font size="4"><font size="3"><strong>Clear Icing</strong> occurs as a result of Supercooled Large Drops (SLD) in a cloud.&nbsp; These are large raindrops that have cooled to below 0</font></font><font size="4"><font size="3"><font size="3">&ordm;</font>C, but are still liquid.&nbsp; When they come into contact with a solid object (like an airplane wing), they can accumulate rapidly as large sheets of ice.&nbsp; This can be very hazardous because they can disrupt the air flow and reduce lift on an aircraft.&nbsp; More importantly, it can spread beyond the reach of de-icing equipment on the aircraft and can be difficult for a pilot to see.</font></font></strong></font></font></td>
+		</tr>
+	</tbody>
+</table>
+
+<p align="left">&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1" width="900">
+	<tbody>
+		<tr>
+			<td align="left"><strong><font size="4"><img alt="" height="336" src="/images/zme/safety/Mixed%20icing.png" width="350" /></font></strong></td>
+			<td align="center" width="600"><font size="4"><strong>Mixed Icing </strong><font size="3">is when both clear and rime ice occur at the same time.</font><strong> </strong></font></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p align="center"><font size="5"><strong>Other Types of Icing</strong></font></p>
+
+<p align="left">&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1" width="900">
+	<tbody>
+		<tr>
+			<td><img alt="" height="278" src="/images/zme/safety/freezing%20rain.png" width="400" /></td>
+			<td><font size="3"><strong>Freezing Rain</strong>:&nbsp; Icing can also occur when a plane is on or near the ground, as a result of freezing rain.&nbsp; During the winter season, the atmosphere can set up such that a warm layer (about 38&ordm;F/3</font><font size="3"><font size="3">&ordm;</font>C and about 5000ft thick) can ride over top of a shallow cold layer (30</font><font size="3"><font size="3">&ordm;</font>F/-1</font><font size="3"><font size="3">&ordm;</font>C and 3000ft thick) near the ground.&nbsp; This creates a very strong inversion. Ice crystals forming in the upper atmosphere fall through through the warm layer and melt to become liquid.&nbsp; Finally, the liquid falls through the cold temperatures and re-freezes on contact with surfaces on the ground (such as an airplane wing).</font></td>
+		</tr>
+	</tbody>
+</table>
+
+<p align="left">&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1" width="900">
+	<tbody>
+		<tr>
+			<td><iframe allowfullscreen="" frameborder="0" height="180" src="https://www.youtube.com/embed/9Wz108eXHUE?feature=player_embedded" width="320"></iframe></td>
+			<td><font size="3"><strong>High-Altitude Ice Crystals</strong> This rare type of ice can be hazardous if ingested at high altitudes.&nbsp; It usually occurs in or near convective weather, such as thunderstorms, in a tropical environment at high altitudes (FL250-FL350).&nbsp; Unlike supercooled drops or droplets, ice crystals do not accumulate on the airframe.&nbsp; Rather, they can partially melt and stick to relatively warm internal engine surfaces.&nbsp; This can cause engine flameouts, a surge (and subsequent stall), or engine damage.&nbsp; If it occurs, it should be reported as &quot;ice crystal icing&quot;, so as not to be confused with typical ice accumulation. (Video courtesy of </font><font size="3"><a href="https://www.nasa.gov/centers/glenn/aeronautics/frigid_heat.html" target="_blank">NASA Glenn Research Center</a>)</font></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p align="center">&nbsp;<font size="5"><strong>Icing Intensity</strong></font></p>
+
+<p align="center"><font size="4">There are varying intensities of icing.&nbsp; If icing occurs, it should be reported as Trace, Light, Moderate or Severe.</font></p>
+
+<table align="center" border="0" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" valign="top" width="100%"><img alt="ice table" height="470" src="/images/zme/safety/Icetable.jpg" width="900" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p align="center"><font size="4">Here&#39;s a link to a tool that forecasters use to determine icing severity and probability:</font></p>
+
+<p align="center">&nbsp;<a href="https://aviationweather.gov/gfa/?tab=ice&mapLayers=basicMap,firMap,artccHiMap,artccLoMap&center=34.172,-89.87&zoom=6.5&autoRefresh=5&layers=weather"><img alt="" height="478" src="/images/zme/safety-icing.png" width="541" /></a></p>
+
+<p>&nbsp;</p>
+
+<p><font size="4">To avoid areas of icing, look for any reports of icing and AIRMETs on the route of flight before departure.&nbsp; While in flight, listen for hazardous weather messages and other pilot reports of icing. AIRMETs are issued for areas of moderate icing, while SIGMETs are issued for areas of severe icing.</font></p>
+
+<p>&nbsp;</p>
+
+<p align="center">&nbsp;<font size="4"><a href="https://aviationweather.gov/gfa/?mapLayers=basicMap,firMap,artccHiMap,artccLoMap&center=34.172,-89.87&zoom=6.5&autoRefresh=5&layers=airep&aireptype=icing&airepage=2"><img alt="" height="397" src="https://www.weather.gov/images/zme/safety-icing-pirep.png" width="450" /></a></font> <a href="https://aviationweather.gov/gfa/?tab=ice&mapLayers=basicMap,firMap,artccHiMap,artccLoMap&center=34.172,-89.87&zoom=6.5&autoRefresh=5&layers=gairmet"><img alt="" height="398" src="/images/zme/safety-airmet-icing.png" width="450" /></a></p>
+
+<p align="left"><font size="4">For a current display of PIREPs, <a href="https://aviationweather.gov/gfa/?mapLayers=basicMap,firMap,artccHiMap,artccLoMap&center=34.172,-89.87&zoom=6.5&autoRefresh=5&layers=airep&aireptype=icing&airepage=2">click here</a>.</font></p>
+
+<p align="left"><font size="4">For a current display of AIRMETs in effect,&nbsp;<a href="https://aviationweather.gov/gfa/?tab=gairmet&mapLayers=basicMap,firMap,artccHiMap,artccLoMap&center=34.172,-89.87&zoom=6.5&autoRefresh=5&gairmettype=icing&gairmetheights=1">click here</a>. </font></p>
+
+<p>&nbsp;&nbsp;</p>
+
+<table border="1" width="960">
+	<tbody>
+		<tr>
+			<td>
+			<center>
+			<h2><a href="safety_turb" title="Turbulence">Turbulence</a></h2>
+			</center>
+			</td>
+			<td>
+			<center>
+			<h2><a href="safety_ts" title="Thunderstorms">Thunderstorms</a></h2>
+			</center>
+			</td>
+			<td>
+			<center>
+			<h2><a href="safety_ice" title="Icing">Icing</a></h2>
+			</center>
+			</td>
+			<td>
+			<center>
+			<h2><a href="safety_cigvis" title="Ceiling and Visibility">Ceiling and Visibility</a></h2>
+			</center>
+			</td>
+			<td>
+			<center>
+			<h2><a href="safety_llws" title="LLWS">LLWS</a></h2>
+			</center>
+			</td>
+			<td>
+			<center>
+			<h2><a href="safety_da" title="Density Altitude">Density Altitude</a></h2>
+			</center>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
+</div>
+<div style="clear:both"></div>
+                        </div>
+  
+                    </div><!-- end of <div class="partial-width-borderbottom"> -->
+                </div><!-- <div class="full-width-border"> -->
+
+                <div class="partial-width-borderbottom feature-block">
+                    <!-- area for features, frontpage thumbs, and custom page -->
+                    
+                    
+                </div><!-- end of <div class="partial-width-borderbottom feature-block"> -->
+
+                <div class="full-width-first">
+                    <div class="full-width-first communication-links">
+            <div class ="one-sixth-first divs">
+        <div class="myforecast-current">
+            <a style="text-decoration:none;" href="https://www.facebook.com/CWSUMemphis" target="_blank">
+                <img src="/bundles/templating/images/social/facebook.png" width="16" alt="Follow us on Facebook" height="16" />&nbsp;&nbsp;Follow us on Facebook
+            </a>
+        </div>
+    </div>
+        <div class ="one-half-last nopad">
+        <span class="txt-rt myforecast-current">
+            <div class="myforecast-current">
+                <a href="/rss_page.php?site_name=zme" target="_blank" style="text-decoration:none;font-size:11px;">
+                    <img src="/bundles/templating/images/social/rss.png" width="16" height="16" alt="ZME RSS Feed" />&nbsp;&nbsp;ZME RSS Feed
+                </a>
+            </div>
+        </span>
+    </div>
+</div>
+<div style="clear:both;"></div>
+
+
+                </div>
+
+
+                <div style="clear:both;"></div>
+
+            </div><!-- <div class="center-content"> -->
+
+        </div><!-- end of <div class="center"> -->
+
+        <!-- sitemap area -->
+        <div class="footer">
+            
+        </div><!-- end of <div class="footer"> -->
+
+        <!-- legal footer area -->
+        <div class="footer-legal">
+            <div class="footer-legal">
+    <div class="footer-legal-content">
+
+        <div class="one-sixth-first" id="footer_legal_gov">
+            <a href="http://www.usa.gov"><img src="/bundles/templating/images/footer/usa_gov.png" alt="usa.gov" width="110" height="30" /></a>
+        </div>
+
+        <div class="one-half-first" id="footer_legal_info">
+            <p>
+                <a href="http://www.commerce.gov">US Dept of Commerce</a><br />
+                <a href="http://www.noaa.gov">National Oceanic and Atmospheric Administration</a><br />
+                <a href="https://www.weather.gov">National Weather Service</a><br />
+                Memphis<br />                3229 Democrat Road<br />
+                                Memphis, TN 38118
+                <br /><br />
+                <br /><a href="mailto:nws.zme@noaa.gov">Comments? Questions? Please Contact Us.</a>
+            </p>
+        </div>
+
+        <div class="one-third-last" id="footer_required_links">
+            <div class="div-half">
+                <a href="https://www.weather.gov/disclaimer">Disclaimer</a><br />
+                <a href="http://www.cio.noaa.gov/services_programs/info_quality.html">Information Quality</a><br />
+                <a href="https://www.weather.gov/help">Help</a><br />
+                <a href="/glossary">Glossary</a>
+            </div>
+
+            <div class="div-half">
+                <a href="https://www.weather.gov/privacy">Privacy Policy</a><br />
+                <a href="https://www.noaa.gov/foia-freedom-of-information-act">Freedom of Information Act (FOIA)</a><br />
+                <a href="https://www.weather.gov/about">About Us</a><br />
+                <a href="https://www.weather.gov/careers">Career Opportunities</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div><!-- end of <div class="footer-legal"> -->
+
+    </body>
+</html>

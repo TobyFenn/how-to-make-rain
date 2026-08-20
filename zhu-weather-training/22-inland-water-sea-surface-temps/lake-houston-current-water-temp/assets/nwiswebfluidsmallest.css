@@ -1,0 +1,1027 @@
+/* Cascading Stylesheet for NwisWeb pages */
+/* Version: 1.18 */
+/* Colors for various items */
+
+body {
+  background-color : #FFFFFF;
+}
+
+H1 { color: #000080; }
+H2 { color: #000080; }
+H3 { color: #000080; }
+
+.h1 { color: #000080; }
+.h2 { color: #000080; }
+.h3 { color: #000080; }
+
+/* .bannercolor { background: #000080; } */
+/* .bannercolor { background: #416AB1; } */
+.bannercolor { background: #0061A3; }
+
+.term {
+  font-size: 1.1em;
+  font-weight: bolder;
+  }
+
+/* HTML Tag changes */
+H1 {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  }
+
+H2 {
+  margin-top: 0em;
+  margin-bottom: .1em;
+  font-size: 110%;
+  }
+
+H3 {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  }
+
+ADDRESS {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-style: normal;
+  font-size: 70%;
+  font-weight: bold;
+  }
+
+/* New tags */
+
+.h1 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+#  font-family: Helvetica, Arial, sans-serif;
+  font-size: 140%;
+  font-weight: bold;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  }
+
+.h2 {
+  font-size: 140%;
+  font-weight: bold;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  }
+
+.h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 120%;
+  font-weight: bold;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  } 
+
+.notop {margin-top: 0em; }
+
+.indent {
+  margin-left: .25em;
+  margin-right: .25em;
+  margin-top: 0em;
+  text-indent: 1em;
+  }
+
+.blockindent {
+  margin-left: 5mm;
+  margin-top: 0em;
+  }
+
+.description {
+  margin-left: .5em;
+  margin-right: .5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-indent: 1em;
+  }
+
+.grouplabel {
+  margin-top: 0em;
+  margin-bottom: .25em;
+  color: #000080;
+  }
+
+.grouptext {
+  margin-top: 0em;
+  margin-left: .25em;
+  margin-right: .25em;
+  margin-bottom: .75em;
+  text-indent: 1em;
+  }
+
+/* Used on Help Pages */
+
+.helptext {
+  margin-left: 2em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  }
+
+.helpheader {
+  font-size: larger;
+  color: blue;
+  }
+
+.helpurlheader { color: red; }
+
+.helpurls {
+  margin-left: 2em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-family: courier;
+  }
+
+.smline { 
+#  line-height: 95%; 
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 95%;  
+  }
+  
+.p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;  
+  }   
+
+.nospace {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  line-height: 90%;
+  }
+
+#.tableindent {
+#  margin-left: 10mm;
+#  margin-top: 0em;
+#  }
+
+.imgcaption { font-size: 12px; font-weight: bold; color: #FF0000}
+.generic {font-size: 15px; }
+.fine_print {font-size: 12px;}
+
+a.anchor:link {color: blue}        /* unvisited link  */
+a.anchor:visited {color: blue}     /* visited link    */
+a.anchor:hover {color: #ff00ff}    /* mouse over link */
+a.anchor:active {color: #0000ff}   /* selected link   */
+
+/*.highlight1 { background-color: #CCFFFF}*/
+.highlight1 { background-color: #E0F0FF}
+.highlight2 { background-color: #EFEFEF}
+.internal { color: red }
+.test {background-color: #DDDDDD; color: #000000}
+
+/* <noscript> tag replacement                  */
+/* ------------------------------------------- */
+#noScript {
+	padding: .5em;
+	color: #8F0000;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+/* Mobile Detection                            */
+/* ------------------------------------------- */
+#mobileDetection {
+	padding: .5em;
+	background-color: #f8f0db;
+	color: #8F0000;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	font-size: 0.75em;
+	font-weight: 550; 
+}
+
+/* Banner                                      */
+/* ------------------------------------------- */
+.typical_modernization_banner {
+        padding: .5em;
+        margin: 1em 0em 1em 0em;
+        background-color: #f4e3db;
+        color: #000000;
+        font-size: 1.5em;
+        font-weight: bold; 
+        width: 98%;
+        border-left: 7px solid;
+        border-left-color: #d54309;
+}
+
+/* WDFN Next Gen                               */
+/* ------------------------------------------- */
+#wdfn_next_gen {
+        padding: .5em;
+        margin: 1em 0em 1em 0em;
+        background-color: #f4e3db;
+        color: #000000;
+        font-size: 1.25em;
+        font-weight: bold; 
+        width: 98%;
+        display: none;
+        border-left: 7px solid;
+        border-left-color: #d54309;        
+}
+
+/* WDFN Next Gen                               */
+/* ------------------------------------------- */
+#internal_link {
+        padding: .5em;
+        margin: 1em 0em 1em 0em;
+        background-color: #f4e3db;
+        color: #000000;
+        font-size: 1.25em;
+        font-weight: bold; 
+        width: 98%;
+        border-left: 7px solid;
+        border-left-color: #d54309;
+}
+
+/* State Specific Text                         */
+/* ------------------------------------------- */
+.collapse_div {
+        margin: 1em 0em 1em 0em;
+        padding: 0;
+        /* width: 96%; */
+        width: 100%;
+        font-size: 85%;   
+	overflow: auto;        
+}
+.statewide_tx_header_div {
+	margin: 1px;
+	color: #990000;
+	font-weight: bold;
+	font-size: 0.9em;
+	padding: 3px 10px;
+	cursor: pointer;
+	position: relative;
+	background-color: #f8f0db;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#statewide_header_tx {
+	padding: .5em;
+}
+#statewide_tx {
+	padding: 5px 10px;
+	background-color: #fafafa;
+}
+#collapsingIcon {
+        display: inline-block; 
+        margin-bottom: -.15em; 
+}
+.ui-icon {
+    background-image: url(ui-icons_454545_256x240.png) !important;
+}
+
+/* News                                        */
+/* ------------------------------------------- */
+.news_tx_header_div {
+	margin: 1px;
+	color: #990000;
+	font-weight: bold;
+	font-size: 0.9em;
+	padding: 3px 10px;
+	cursor: pointer;
+	position: relative;
+	background-color: #f8f0db;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.news_tx_header_div_expanded {
+	margin: 1px;
+	color: #990000;
+	font-weight: bold;
+	font-size: 0.9em;
+	padding: 3px 10px;
+	cursor: pointer;
+	position: relative;
+	background-color: #f8f0db;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;	
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;	
+	-moz-border-top-left-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+}
+#news_header_tx {
+	padding: .3em;
+}
+#news_tx {
+        margin-top: -.6em; 
+	padding: 1px 1px;
+	background-color: #f8f0db;
+	font-size: 0.9em;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;	
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;	
+	-moz-border-bottom-left-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	
+}
+#collapsingNewsIcon {
+        display: inline-block; 
+        margin-bottom: -.15em; 
+}
+
+/* News Block just below header */
+/* ------------------------------------------- */
+.news {
+  background-color: #DDFFFF;
+  width: 100%;
+}
+
+/* Station Container                           */
+/* ------------------------------------------- */
+.stationContainer {
+        margin-left: 0px;
+        width: 100%;
+}
+.stationContainerHeading {
+        margin-left: 0px;
+}
+.stationContainerSubHeading {
+        margin-left: 0px;
+}
+
+/* Station Specific Text                       */
+/* ------------------------------------------- */
+.station_tx_header_div {
+	margin: 1px;
+	color: #990000;
+	font-weight: bold;
+	font-size: 0.9em;
+	padding: 3px 10px;
+	cursor: pointer;
+	position: relative;
+	background-color: #f8f0db;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#station_header_tx {
+	padding: .3em;
+}
+#station_tx {
+	padding: 5px 10px;
+	background-color: #fafafa;	
+}
+#collapsingStationIcon {
+        display: inline-block; 
+        margin-bottom: -.15em; 
+}
+
+/* Revision Intro Text                         */
+/* ------------------------------------------- */
+.revision_tx_header_div {
+	margin: 1px;
+	color: #990000;
+	font-weight: bold;
+	font-size: 0.9em;
+	padding: 3px 10px;
+	cursor: pointer;
+	position: relative;
+	background-color: #f8f0db;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#revision_header_tx {
+	padding: .3em;
+}
+#revision_tx {
+	padding: 5px 10px;
+	background-color: #fafafa;	
+}
+#collapsingRevisionIcon {
+        display: inline-block; 
+        margin-bottom: -.15em; 
+}
+
+/* Site-level & Time-series Revision Notes     */
+/* ------------------------------------------- */
+.notes {
+        border: 7px double #000080;
+        background-color: #fafafa;	
+}
+.revision_note {
+        padding: .3em;
+}
+
+/* Submit Block */
+/* ------------------------------------------- */
+#submitBlock {
+  margin: 1em;
+  width: 100%;
+}
+
+/* Search Criteria Options                     */
+/* ------------------------------------------- */
+#searchCriteria {
+  margin: 1em;
+  width: 98%;
+  font-size: .9em;
+}
+#searchCriteriaOption {
+}
+#searchCriteriaElement {
+  padding: 1em;
+  margin-top:-1em;  
+}
+
+/* Output Format Options                       */
+/* ------------------------------------------- */
+#outputOptions {
+  margin: 1em;
+  width: 98%;
+  font-size: .9em;
+}
+.radioLine {
+ padding: .1em;
+}
+
+/* Hide certain site output options            */
+/* - Scroll List of sites,                     */
+/* - Save file of selected of sites            */
+/* ------------------------------------------- */
+#div_scroll_list {
+   display: none;
+}
+#div_rdb_station_file {
+   display: none;
+}
+
+/* Site Counts on Intro pages                  */
+/* ------------------------------------------- */
+.siteCounts {
+  display: inline;
+  float: right;
+  margin: 5px; 
+}
+
+/* RT Nav bar - Predefined Displays            */
+/* ------------------------------------------- */
+#rtnavbar { 
+	background-color: #0061A3; 
+	color: #ffffff;
+	font-size: .75em;
+	font: Verdana, Arial, Helvetica, sans-serif;
+	padding: .4em; 
+	float: left;
+} 
+.rtnavbarcol { 
+        display: inline-block;
+        padding: .2em;
+}
+
+/* Statewide Text                              */
+/* ------------------------------------------- */
+#statewide_tx {
+        font-size: .9em;
+}
+
+/* Available data for this site                */
+/* ------------------------------------------- */
+#availableData { 
+	background-color: #0061A3; 
+	color: #ffffff;
+	font-size: .75em;
+	padding: .4em; 
+	text-align: center;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;	
+}
+
+/* Available Parameters for this site          */
+/* ------------------------------------------- */
+#available_parameters_table { 
+        border: 5px double #000080;
+	padding: .1em; 
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;	
+}
+.available_parameters_float1 { 
+        display: inline-block;
+	width: 95%; 	 
+        float: left;	 
+	font-size: 85%;
+}
+.available_parameters_float2 { 
+        display: inline-block;
+	width: 95%;
+        float: left;
+        /* border: 5px double #f5f5f5; */
+	padding: .1em;
+	font-size: 85%;
+}
+.available_parameters_float3 { 
+        display: inline-block;
+	width: 95%;
+        float: left;
+        /* border: 5px double #f5f5f5; */
+	padding: .1em;
+	font-size: 85%;
+}
+
+/* ADR Multi-stat Table                        */
+/* ------------------------------------------- */
+.adr { 
+        display: inline-block;
+        margin-top: 1em; 
+	width: auto;
+        float: left;
+	clear: both;
+	position: relative; 
+	height: 700px;
+	font-size: 9pt;
+}
+.adr_float { 
+        display: inline-block;
+        margin-top: 1em; 
+        float: left;
+        position: relative;
+        height: 700px;
+        font-size: 9pt;
+}
+.adr th {
+        background-color:#F2F2FF;
+}
+.adr_float th {
+        background-color:#F2F2FF;
+}
+
+/* IV Graph                                    */
+/* ------------------------------------------- */
+.iv_graph_float1 { 
+        display: inline-block;
+	width: 95%; 	 
+        float: left;	
+}
+.iv_graph_float2 { 
+        display: inline-block;
+	width: 95%;
+        float: left;
+        /*border: 5px double #f5f5f5;*/
+	padding: .1em;
+	font-size: 85%;
+}
+
+/* Station Table                               */
+/* ------------------------------------------- */
+#stationTable { 
+	padding: .5em; 
+	border: 7px double #000080;
+	margin: .5em;
+	text-align: center;
+	overflow: auto;
+	font-size: .8em;
+}
+/* Hide the filter row in the tablesorter  */
+.tablesorter-jui .tablesorter-filter-row td {
+   display: none;
+}
+
+/* Definition Lists, data term, data definition */
+/* -------------------------------------------  */
+dl { 
+	padding: 0.1em; 
+	text-align: left; 
+} 
+dt { 	 
+	text-align: left; 
+	font-weight: bold; 
+	padding: 0 0 0.1em 0;
+} 
+dd {    
+        display: block;
+	margin: 0 0 0 .1em; 
+	text-align: left; 
+}
+
+/* Hide optional and data columns in stationTable */
+/* -------------------------------------------    */
+th.optional {
+   display: none;
+}
+td.optional {
+   display: none;
+}
+
+th.data {
+   display: none;
+}
+td.data {
+   display: none;
+}
+
+/* Search Criteria Selected Box                */
+/* ------------------------------------------- */
+#searchCriteriaSelectedBox { 
+	padding: .5em; 
+	border: 7px double #000080;
+	margin: 1em;
+}
+
+/* Hide or decrease the size of certain elements 
+when device width has decreased                */
+/* ------------------------------------------- */
+#subtitle { 
+	/* visibility: hidden; */
+	display: none;
+} 
+#usgsccsa { 
+	display: none;
+} 
+#usgssubfooter { 
+	display: none;
+} 
+#usgsfootertext { 
+	display: none;
+} 
+
+/* Testing HTML 5 fluid css with media queries */
+/* All Introductory nwisweb pages uses this    */
+/* ------------------------------------------- */
+.leftsidetext { 
+        display: inline-block;
+	width: 100%; 	 
+        float: left;
+        /* border: 5px double #f5f5f5; */
+	padding: .5em; 	 
+	font-size: 95%;
+}
+.rightsidetext { 
+        display: inline-block;
+	width: 97%; 	
+        float: left;
+        border: 5px double #f5f5f5;
+	padding: .5em; 	 
+	font-size: 95%;
+}
+.bottomtext { 
+        display: inline-block;
+	width: 100%; 	 
+        float:left;
+}
+
+/* Location Map                                       */
+/* -------------------------------------------------- */
+#locationMap { 
+	width: 98%;
+}
+
+/* GW Graph                                           */
+/* -------------------------------------------------- */
+.singleGraph {
+        margin-left: 0;
+        height: 90%;
+        width: 90%;
+        border: 0;
+        -webkit-transform: scale(0.9);  /* Saf3.1+, Chrome */
+        -moz-transform: scale(0.9);     /* FF3.5+          */
+        -ms-transform: scale(0.9);      /* IE9             */
+        -o-transform: scale(0.9);       /* Opera 10.5+     */
+        transform: scale(0.9);
+}  
+#singleGraphContainer {
+        width: 100%;
+}
+
+/* Make img responsive                                */
+/* -------------------------------------------------- */
+.responsiveImg{
+   max-width: 100%;
+   border: 0;
+}
+
+/* WaterWatch Map                                     */
+/* -------------------------------------------------- */
+.wwImg{
+   border: 0;
+}
+
+/* Testing HTML 5 fluid css with media queries        */
+/* Search Criteria screens with 4 columns             */
+/* -------------------------------------------------- */
+
+.firstCol { 
+        display: inline-block;
+	width: 100%; 	 
+        float: left;
+        border: 5px double #f5f5f5; 
+	padding: .5em; 	
+}
+.secondCol { 
+        display: inline-block;
+	width: 100%; 	
+        float: left;
+        border: 5px double #f5f5f5;
+	padding: .5em; 
+}
+.thirdCol { 
+        display: inline-block;
+	width: 100%; 	
+        float: left;
+        border: 5px double #f5f5f5;
+	padding: .5em; 
+}
+.fourthCol { 
+        display: inline-block;
+	width: 100%; 	
+        float: left;
+        border: 5px double #f5f5f5;
+	padding: .5em; 
+}
+
+/* Parameter Columns                           */
+/* ------------------------------------------- */
+.parmCols { 
+        display: inline-block;
+	width: 98%; 
+        float: left;
+	padding: .1em; 	 
+	overflow: hidden;
+	border: 5px double #f5f5f5; 
+}
+
+/* Feedback & Subscribe Forms                  */
+/* ------------------------------------------- */
+#feedbackForm {
+  margin: 1em;
+  width: 98%;
+  font-size: 95%;
+}
+#feedbackFormContainer {
+  width: 98%;
+} 
+#feedbackFormElement {
+  display: block;
+  padding: .2em; 
+  clear: both;
+} 
+#feedbackFormElement label {
+  float: left;
+  padding-right: 6px;
+  font-weight: 500;
+} 
+#feedbackFormElement > input, #feedbackFormElement > select, #feedbackFormElement > textarea {
+  float: right;
+  width: 98%; 
+}
+#subscribeRadio, #unsubscribeRadio  {
+  display: block;
+}
+
+/* NwisWeb Footer divs                */
+/* ---------------------------------- */
+
+.clear {
+        clear: both;
+}
+#usgssubfooter {  
+        width: 100%;
+        clear: left;
+        display: inline;
+        bottom: 0;
+        left: 0;
+	padding: 5px 0;
+	clear: both;  
+	font-size: .9em;
+}
+#leftsubfooter {
+	float: left;
+	width: 100%;
+}
+#rightsubfooter {
+	float: left;
+	width: 100%;
+}
+
+#usgsfooter {  
+        width: 100%;
+        clear:left;
+        display: inline;
+        bottom: 0;
+        left: 0;
+        padding: 5px 0; 
+        clear: both;    
+}
+
+/* Testing HTML 5 button              */
+/* ---------------------------------- */
+/* Prefixes:                          */
+/* webkit: Safari and Chrome          */
+/* moz:    Firefox                    */
+/* o:      Opera                      */
+
+.btn {	
+  display: inline-block;
+  width: 170px; 
+  margin-bottom: .5em;
+  
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  
+  -webkit-box-shadow:
+    0 4px 0 #1a74a1,
+    0 8px 20px rgba(0,0,0,.35);
+  -moz-box-shadow:
+    0 4px 0 #1a74a1,
+    0 8px 20px rgba(0,0,0,.35);
+  box-shadow:
+    0 4px 0 #1a74a1,
+    0 8px 20px rgba(0,0,0,.35);
+
+  -webkit-transition: -webkit-box-shadow .2s ease-in-out;
+  -moz-transition: -moz-box-shadow .2s ease-in-out;
+  -o-transition: -o-box-shadow .2s ease-in-out;
+  transition: box-shadow .2s ease-in-out;        
+}
+
+.btn span {	
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  width: 130px;
+  padding: 10px  20px;
+  font-family: "cooper-black-std-1", "cooper-black-std-2", Helvetica, Arial, sans-serif;
+  line-height: 1;
+  text-shadow: 0 -1px 1px rgba(19,65,88,.8);
+  background: #3194c6;
+  /*font-weight: bold;*/
+  font-weight: 575;     /* 400 is normal, 700 is bold */
+  
+  /* This one is alittle lighter button */
+  /* ---------------------------------  */
+#  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5AA9D1), to(#A3C4D5)); /* gradient from darker to lighter blue */
+#  background-image: -webkit-linear-gradient(top, #5AA9D1 , #A3C4D5  );
+#  background: -moz-linear-gradient(#5AA9D1, #A3C4D5);
+    
+  
+  /* This one is alittle darker button */
+  /* --------------------------------- */
+
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0061A3), to(#A3C4D5)); /* gradient from darker to lighter blue */
+  background-image: -webkit-linear-gradient(top, #0062A3 , #A3C4D5  );
+  background: -moz-linear-gradient(#0061A3, #A3C4D5);
+  background: -ms-linear-gradient(#0061A3, #A3C4D5);  
+  
+  /* Workaround For Gradient - Internet Explorer 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0061A3, endColorstr=#A3C4D5);  
+  /* Workaround For Gradient - Internet Explorer 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0061A3, endColorstr=#A3C4D5)";  
+  
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  
+  -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+  -moz-box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+  box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+  
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  -moz-transition: -moz-transform .2s ease-in-out;
+  -o-transition: -o-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+}
+
+.btn span:hover, .btn span:focus {
+  display: inline-block;  
+  color: white; 
+  
+  /* Switching gradients on hover      */
+  /* --------------------------------- */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#A3C4D5), to(#0061A3)); /* gradient from light to dark blue */
+  background-image: -webkit-linear-gradient(top, #A3C4D5 , #0061A3  );
+  background: -moz-linear-gradient(#A3C4D5, #0061A3);
+  background: -ms-linear-gradient(#A3C4D5, #0061A3);  
+  
+  /* Workaround For Gradient - Internet Explorer 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A3C4D5, endColorstr=#0061A3);  
+  /* Workaround For Gradient - Internet Explorer 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#A3C4D5, endColorstr=#0061A3)";    
+  
+  /*  font-weight: 700; */
+  /*  font-size: 1.04em; */
+
+  /*  opacity: 0.6; */  
+  /* IE Workarounds For Opacity */
+  /* filter: alpha(opacity=60); */                                          /* IE6+ */
+  /* filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60); */        /* IE6+ */
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=60)"; */  /* this works in IE8 only */  
+}
+
+/* Mapper button                                  */
+/* ---------------------------------------------- */
+
+.mapperbtn {	
+  display: inline-block;
+  width: 170px; 
+  height: 72px;
+  
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  
+  -webkit-box-shadow:
+    0 4px 0 #1a74a1,
+    0 8px 20px rgba(0,0,0,.35);
+  -moz-box-shadow:
+    0 4px 0 #1a74a1,
+    0 8px 20px rgba(0,0,0,.35);
+  box-shadow:
+    0 4px 0 #1a74a1,
+    0 8px 20px rgba(0,0,0,.35);
+
+  -webkit-transition: -webkit-box-shadow .2s ease-in-out;
+  -moz-transition: -moz-box-shadow .2s ease-in-out;
+  -o-transition: -o-box-shadow .2s ease-in-out;
+  transition: box-shadow .2s ease-in-out;        
+}
+
+.mapperbtn:hover img {
+        opacity: 0.8;
+       /* IE Workarounds For Opacity */
+       filter: alpha(opacity=80);                                          /* IE6+ */
+       filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);        /* IE6+ */
+       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)";  /* this works in IE8 only */          
+}
+
+/* Help Button */
+/* ---------------------------------------------- */
+.helpBtn {	
+  display: inline-block;
+  width: 8px; 
+  vertical-align: 2px;
+  
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;      
+}
+
+.helpBtn span {	
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  width: 8px;
+  padding: 1px 2px;
+  font-family: "cooper-black-std-1", "cooper-black-std-2", Helvetica, Arial, sans-serif;
+  line-height: 1;
+  text-shadow: 0 -1px 1px rgba(19,65,88,.8);
+  background: #3194c6;
+  font-weight: 500;     /* 400 is normal, 700 is bold */  
+  font-size: .7em;
+
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0061A3), to(#A3C4D5)); /* gradient from darker to lighter blue */
+  background-image: -webkit-linear-gradient(top, #0062A3 , #A3C4D5  );
+  background: -moz-linear-gradient(#0061A3, #A3C4D5);
+  background: -ms-linear-gradient(#0061A3, #A3C4D5);  
+    
+  /* Workaround For Gradient - Internet Explorer 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0061A3, endColorstr=#A3C4D5);  
+  /* Workaround For Gradient - Internet Explorer 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0061A3, endColorstr=#A3C4D5)";  
+  
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.helpBtn:hover {
+  display: inline-block;
+  opacity: 0.6; 
+  color: white; 
+}
+
+.NoteBtn span {	 
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  width: 30px;
+  padding: 1px 2px;
+  font-family: "cooper-black-std-1", "cooper-black-std-2", Helvetica, Arial, sans-serif;
+  line-height: 1;
+  text-shadow: 0 -1px 1px rgba(19,65,88,.8);
+  background: #3194c6;
+  font-weight: 500;     /* 400 is normal, 700 is bold */  
+  font-size: 0.9em;
+
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0061A3), to(#A3C4D5)); /* gradient from darker to lighter blue */
+  background-image: -webkit-linear-gradient(top, #0062A3 , #A3C4D5  );
+  background: -moz-linear-gradient(#0061A3, #A3C4D5);
+  background: -ms-linear-gradient(#0061A3, #A3C4D5);  
+    
+  /* Workaround For Gradient - Internet Explorer 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0061A3, endColorstr=#A3C4D5);  
+  /* Workaround For Gradient - Internet Explorer 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0061A3, endColorstr=#A3C4D5)";  
+  
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}

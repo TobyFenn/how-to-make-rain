@@ -1,0 +1,2176 @@
+html,
+body,
+header,
+.layout-center,
+.layout-3col,
+.layout-3col__full,
+.layout-swap {
+	max-width: none;
+	padding: 0;
+	margin: 0;
+	height: auto;
+}
+.header-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.row-1,
+.row-2,
+.row-3,
+.row-4,
+.row-5,
+.row-6 {
+	width: unset;
+	float: none;
+}
+body {
+	font-family: 'Source Sans 3', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Nunito Sans', sans-serif;
+}
+h1 {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 2.75em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+}
+h2 {
+	color: #003087; /* NOAA Sky */
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 0;
+	margin-right: 0;
+}
+h3 {
+	color: #003087;  /* NOAA Sky */
+	font-weight: light;
+	font-size: 1.17em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+h4 {
+	color: #003087; /* NOAA Sky */
+	font-weight: semibold;
+	font-size: 1em;
+	margin-top: 1.33em;
+	margin-bottom: 1.33em;
+	margin-left: 0;
+	margin-right: 0;
+}
+h5 {
+	color: #003087; /* NOAA Sky */
+	font-weight: normal;
+	font-size: .83em;
+	margin-top: 1.67em;
+	margin-bottom: 1.67em;
+	margin-left: 0;
+	margin-right: 0;
+}
+h6 {
+	color: #003087; /* NOAA Sky */
+	font-weight: semibold;
+	font-size: .67em;
+	margin-top: 2.33em;
+	margin-bottom: 2.33em;
+	margin-left: 0;
+	margin-right: 0;
+}
+/* lighten parts of headers with a span tag */
+.lighten-header {
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: #00559B;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: #00559B;
+}
+td,
+th {
+	padding: 0.5em;
+}
+th {
+	font-weight: bold;
+	background-color: lightgray;
+}
+li {
+	padding: 0.5em 0;
+}
+p {
+	margin: 0 0 1em 0;
+}
+/* adjust positioning of the back-to-top button to avoid collision with the touchpoints survey button */
+#back-top {
+	right: 20px;
+	bottom: 20px;
+}
+.staff-location-table p,
+.no-paragraph-margin-table p {
+	margin: 0;
+}
+ul {
+	margin: 1em 0;
+}
+
+#taxonomy-term .panels-flexible-row {
+	margin: 2em 0;
+	padding: 0;
+}
+#taxonomy-term .panels-flexible-row.row-0,
+#index-page .panels-flexible-row-first {
+	margin: 0;
+}
+
+.serif {
+	font-family: 'Georgia', serif;
+}
+.italic {
+	font-style: italic;
+}
+.bold {
+	font-weight: 600;
+}
+/* Style site-wide vessel names */
+.vessel {
+	font-style: italic;
+}
+/* style the user login page */
+#orr-user-login-page {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#orr-user-login-page .orr-user-login-form {
+	margin: 1em 0;
+}
+/* style the banner */
+header {
+	background-color: white;
+}
+.header__region {
+	background-color: #003087;
+}
+header a {
+	text-decoration: none;
+}
+#responsive-banner {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: .5% 0;
+	font-size: 2em;
+	overflow: hidden;
+}
+#responsive-banner img {
+	max-height: 60px;
+}
+#responsive-banner .banner-image {
+	float: left;
+	margin-top: 1%;
+}
+#responsive-banner .banner-text {
+	margin: 1.5% 1.5% 0.5% 1.5%;
+	color: #003087;
+	font-weight: 600;
+}
+#responsive-banner .banner-subtitle {
+	color: #323C46;
+	float: left;
+	font-size: 70%;
+}
+@media screen and (position: 1px;) {
+	#responsive-banner {
+		display: none;
+	}
+}
+/* position the search box */
+.search-form,
+.form-item {
+	margin: 0;
+}
+#block-search-form {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#block-search-form form {
+	float: right;
+}
+#block-search-form input {
+	background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #323C46;
+	color: #323C46;
+	text-transform: capitalize;
+	margin-top: 6px;
+}
+#block-search-form .form-actions {
+	display: none;
+}
+/* style the alert box */
+#alerts-index {
+	text-align: center;
+	background-color: gold;
+    padding: .5%;
+    margin: 1% auto 0 auto;
+    max-width: 50%;
+}
+#alerts-index .views-field-title {
+	font-size: 1.2em;
+}
+/* style the index page horizontal rules */
+#index-page hr {
+	border: 4px solid #D3D3D3;
+	max-width: 75%;
+	margin: 2em auto;
+}
+/* style the hero video */
+#hero-video video {
+	width: 100%;
+	margin: 0 auto;
+}
+#hero-video {
+	position: relative;
+	margin-bottom: 1em;
+}
+#video-text-overlay {
+	width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 41%;
+    text-align: center;
+}
+#video-text-overlay .bullets h2,
+#taxonomy-term-about .bullets h2 {
+	color: #FFFFFF;
+	letter-spacing: 4px;
+}
+/* style the index page about teaser */
+#index-page-about-teaser {
+	max-width: 800px;
+	margin: 0 auto;
+}
+/* style the mandates text */
+#index-mandates-box {
+	max-width: 800px;
+	margin: 0 auto;
+}
+#index-mandates-box h2 {
+	text-align: center;
+}
+/* style the index taxonomy cards */
+#index-taxonomy-cards {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#index-taxonomy-cards .views-row {
+	float: left;
+}
+#index-taxonomy-cards .index-taxonomy-mandate-cards {
+	width: 275px;
+    height: 430px;
+    padding: 1em;
+    margin: 1em 0.5em 1em 1em;
+	position: relative;
+}
+/* legacy backgroun image classes to be removed after launch*/
+#index-taxonomy-cards #term-id-24 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/default/files/oil-chemical-spill-response-feature-image-main-pass-louisiana-gulf-of-mexico-skimming_290x435_0.jpg);
+}
+#index-taxonomy-cards #term-id-25 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/default/files/oil-chemical-natural-resource-restoration-feature-image-oyster-reefs-credit-tampa-bay-watch_290x435.jpg);
+}
+#index-taxonomy-cards #term-id-26 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/default/files/marine-debris-prevention-and-removal-feature-image-mdmap_290x435.jpg);
+}
+#index-taxonomy-cards #term-id-430 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/default/files/emergency-and-disaster-preparedness-feature-image-hurricane-idalia-satellite-imagery-290x435.png);
+}
+/* background images for index taxonomy cards */
+#index-taxonomy-cards #term-id-24 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all//themes/orr_2/images/oil-chemical-spill-response-feature-image-main-pass-louisiana-gulf-of-mexico-skimming_290x435_0.jpg);
+}
+#index-taxonomy-cards #term-id-25 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all//themes/orr_2/images/oil-chemical-natural-resource-restoration-feature-image-oyster-reefs-credit-tampa-bay-watch_290x435.jpg);
+}
+#index-taxonomy-cards #term-id-26 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all//themes/orr_2/images/marine-debris-prevention-and-removal-feature-image-mdmap_290x435.jpg);
+}
+#index-taxonomy-cards #term-id-430 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/emergency-and-disaster-preparedness-feature-image-hurricane-idalia-satellite-imagery-290x435.png);
+}
+#index-taxonomy-cards .views-field-nothing,
+#index-taxonomy-cards .views-field-nothing h3 {
+	color: #FFFFFF;
+}
+#index-taxonomy-cards .views-field-nothing h3 {
+	text-align: center;
+}
+#index-taxonomy-cards .orr-button-3 {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 1em;
+}
+#index-taxonomy-cards .orr-button-3 {
+	background-color: unset;
+	width: 88%;
+	border: 2px solid #FFFFFF;
+	text-align: center;
+	color: #FFFFFF;
+}
+#index-taxonomy-cards .orr-button-3:hover {
+	background-color: #FFFFFF;
+	border: 2px solid #056FB7;
+	color: #056FB7;
+}
+/* style the front page stories */
+#featured-news-index {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#featured-news-index .featured-news-title-block {
+	text-align: center;
+}
+#featured-news-index a {
+	text-decoration: none;
+}
+#featured-news-index a:hover {
+	text-decoration: underline;
+}
+#featured-news-index .views-row-1 {
+	display: inline-block;
+	margin-bottom: 2em;
+}
+#featured-news-index .views-row-1 .views-field-field-image-1 {
+	float: left;
+	margin-right: 1em;
+}
+#featured-news-index .views-row-1 img {
+	max-width: 600px;
+}
+#featured-news-index ul {
+	list-style-type: none;
+	margin: 1em 0;
+    padding: 0;
+    line-height: .5;
+}
+#featured-news-index li {
+	float: left;
+	margin-right: 1em;
+}
+#featured-news-index .views-row-2 .views-field-body,
+#featured-news-index .views-row-3 .views-field-body,
+#featured-news-index .views-row-4 .views-field-body {
+	display: none;
+}
+#featured-news-index .views-row-2,
+#featured-news-index .views-row-3 {
+	margin-right: 2em;
+}
+#featured-news-index .views-row-2,
+#featured-news-index .views-row-3,
+#featured-news-index .views-row-4 {
+	max-width: 378px;
+	float: left;
+}
+#featured-news-index .view-footer {
+	clear: both;
+}
+#featured-news-index .view-all-news-button {
+	width: fit-content;
+	margin: 0 auto;
+}
+#featured-news-index .orr-button-4 {
+	margin: 2em 0;
+	padding: 6px 20px;
+	background-color: #056FB7;
+	border: 2px solid #056FB7;
+	text-align: center;
+	color: #FFFFFF;
+}
+#featured-news-index .orr-button-4:hover {
+	background-color: #FFFFFF;
+	border: 2px solid #056FB7;
+	color: #056FB7;
+}
+/* style the tools and products box */
+#index-tools-products-cards {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#index-tools-products-cards h2 {
+	text-align: center;
+}
+#index-tools-products-cards .view-header {
+	max-width: 800px;
+	margin: 0 auto;
+}
+#index-tools-products-cards .index-tools-products-card {
+	width: 220px;
+	height: 320px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 2em;
+}
+#index-tools-products-cards a,
+#index-tools-products-cards h3 {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* tool product cards for development */
+#index-tools-products-cards #node-id-5163 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/erma_AdobeStock_443661977.jpeg);
+	background-size: cover;
+}
+#index-tools-products-cards #node-id-5164 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/gnome_2005-tank-barge-DBL.jpg);
+	background-size: cover;
+}
+#index-tools-products-cards #node-id-5165 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/diver_port-arthur-wetland.png);
+	background-size: cover;
+}
+#index-tools-products-cards #node-id-5166 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/cameo_photo_on_fire_barton_01_US_Chemical_Safety_Board.jpg);
+	background-size: cover;
+}
+#index-tools-products-cards #node-id-5167 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/esi_pasted_image.png);
+	background-size: cover;
+}
+#index-tools-products-cards #node-id-5168 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/mdmap_SusanWhite_USFWS.jpg);
+	background-size: cover;
+}
+#index-tools-products-cards #node-id-5169 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/cafe_Brosnan_0.jpg);
+	background-size: cover;
+}
+
+/* tool product cards for production */
+#index-tools-products-cards #node-id-5243 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/erma_AdobeStock_443661977.jpeg);
+	background-size: cover;
+}
+#index-tools-products-cards #node-id-5244 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/gnome_2005-tank-barge-DBL.jpg);
+	background-size: cover;
+}
+#index-tools-products-cards #node-id-5245 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/diver_port-arthur-wetland.png);
+	background-size: cover;
+}
+#index-tools-products-cards #node-id-5246 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/cameo_photo_on_fire_barton_01_US_Chemical_Safety_Board.jpg);
+	background-size: cover;
+}
+#index-tools-products-cards #node-id-5247 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/esi_pasted_image.png);
+	background-size: cover;
+}
+#index-tools-products-cards #node-id-5248 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/mdmap_SusanWhite_USFWS.jpg);
+	background-size: cover;
+}
+#index-tools-products-cards #node-id-5249 {
+	background-image: linear-gradient(180deg, rgba(60, 60, 60, 0.6) 2%, #000000 100%), url(/sites/all/themes/orr_2/images/cafe_Brosnan_0.jpg);
+	background-size: cover;
+}
+
+#index-tools-products-cards .view-footer {
+	clear: both;
+}
+#index-tools-products-cards .view-all-tools-button {
+	width: fit-content;
+	margin: 0 auto;
+}
+#index-tools-products-cards .orr-button-4 {
+	margin: 2em 0;
+	padding: 6px 20px;
+	background-color: #056FB7;
+	border: 2px solid #056FB7;
+	text-align: center;
+	color: #FFFFFF;
+}
+#index-tools-products-cards .orr-button-4:hover {
+	background-color: #FFFFFF;
+	border: 2px solid #056FB7;
+	color: #056FB7;
+}
+/* .more-stories {
+	font-size: 80%;
+	text-transform: uppercase;
+	text-align:right;
+}
+.more-stories a {
+	text-decoration: none;
+}
+.more-stories a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+#incident-news-index {
+	float:right;
+	max-width:22%;
+}
+#incident-news-index .item-list {
+	font-size: 80%;
+}
+#incident-news-index h2 {
+	background-color: black;
+	text-align: left;
+	padding: 0 2%;
+	margin: 0 0 2% 0;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+#incident-news-index h2 a {
+	text-decoration: none;
+	color: white;
+}
+#incident-news-index ul {
+	list-style-type: none;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-padding-start: 0;
+}
+#incident-news-index li {
+	padding: 4% 0;
+}
+#incident-news-index a {
+	text-decoration: none;
+}
+#incident-news-index a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+.more-link a {
+	font-size: 80%;
+	text-transform: uppercase;
+	text-align:right;
+}
+.more-link a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+} */
+/* format the panel titles */
+/* #what-we-do-title h2,
+#where-we-work h2,
+#responder-tools-index h2,
+#dwh-intro-index h2 {
+	width: 22%;
+	background-color: black;
+	color: white;
+	text-align: left;
+	padding: 0 1%;
+	margin: 0 0 2% 0;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+} */
+/* style the what we do panel */
+/* #index-page .row-2 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-ORR-home.jpg);
+	background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#index-page .pane-2,
+#index-page .pane-3,
+#index-page .pane-4,
+#index-page .pane-5 {
+	padding-bottom: 3em;
+}
+#what-we-do-title {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 3em 0 0 0;
+}
+#what-we-do-title .serif {
+	font-size: 2em;
+	line-height: normal;
+}
+#what-we-do-body .views-field-field-year {
+	font-size: 3em;
+	margin: 6%;
+}
+#what-we-do-body {
+	padding-top: 0;
+	padding-bottom: 3em;
+}
+#what-we-do-title p,
+#what-we-do-body {
+	color: white;
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+}
+#what-we-do-body .views-row {
+	padding: 1em;
+	width: 50%;
+	float: left;
+}
+#what-we-do-body .fy {
+	font-size: 50%;
+	padding-bottom: 2%;
+} */
+/* fix a display issues with the where we work map */
+#orrmap-node #mapd svg {
+	max-width: inherit;
+}
+/* style the row holding the tools and products panel */
+#index-page .row-4 {
+    padding-top: 2em;
+    background-color: #F1F3F3;
+}
+#responder-tools-index {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 3em 0;
+	color: white;
+}
+#responder-tools-index h2 a {
+	text-decoration: none;
+	color: white;
+}
+#responder-tools-index .view-responder-tools {
+	margin: 0 auto;
+	max-width: 85%;
+}
+#responder-tools-index .views-field-title {
+	font-size: 1.2em;
+	float: left;
+	margin-right: 1%;
+	padding: 1%;
+}
+#responder-tools-index .views-field-title:hover {
+	background-color: black;
+}
+#responder-tools-index .views-field-title a {
+	text-decoration: none;
+	color: white;
+}
+#responder-tools-index .views-field-field-short-title {
+	padding: 1.2%;
+}
+#responder-tools-index .views-row {
+	padding-bottom: 2%;
+}
+/* style the dwh panel */
+/* #index-page .row-5 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-dwh.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#dwh-intro-index {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 3em 0;
+}
+#dwh-intro-index img {
+	width: 100%;
+}
+#dwh-intro-index .dwh-intro-body {
+	color: white;
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+}
+#dwh-intro-index .dwh-archive-button {
+	width: 20%;
+	margin: 0 auto;
+	padding: 8px;
+	font-weight: bold;
+	background-color: #0085CA;
+}
+#dwh-intro-index .dwh-archive-button a {
+	color: white;
+	text-decoration: none;
+}
+#dwh-intro-index .dwh-archive-button a:hover {
+	text-decoration: underline;
+}
+.newsletter-button {
+	width: 20%;
+	margin: 0 auto;
+	padding: 8px;
+	font-weight: bold;
+	background-color: #0085CA;
+	text-align: center;
+	display: grid;
+}
+.newsletter-button a {
+	color: white;
+	text-decoration: none;
+}
+.newsletter-button a:hover {
+	text-decoration: underline;
+} */
+#orr-search-results {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 3em 0;
+}
+/* style the pre-footer */
+#orr-pre-footer-wrapper #block-block-16,
+#orr-pre-footer-wrapper #block-block-15 {
+	width: 100%;
+}
+#orr-pre-footer-wrapper {
+	background-color: #D5E6ED;
+}
+#orr-pre-footer-wrapper .region-pre-footer {
+	display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+	color: #00559B;
+	padding: 1% 0;
+}
+#orr-pre-footer-wrapper h3 {
+	margin: 0;
+}
+#orr-pre-footer-wrapper h4 {
+	margin: 0.5em 0;
+}
+#orr-pre-footer-wrapper ul,
+#orr-pre-footer-wrapper li {
+	margin: 0 0 0 0.5em;
+	padding: 0;
+}
+#orr-pre-footer-wrapper .pre-footer-box {
+	float: left;
+	padding: 1%;
+	width: 20%;
+}
+#orr-pre-footer-wrapper .pre-footer-box.first {
+	width: 40%;
+}
+#orr-pre-footer-wrapper .orr-button-2 {
+	background-color: unset;
+	width: 100%;
+	margin-top: 0.5em;
+	border: 2px solid #056FB7;
+	text-align: center;
+	color: #056FB7;
+}
+#orr-pre-footer-wrapper .orr-button-2:hover {
+	background-color: #056FB7;
+	color: #FFFFFF;
+}
+/* style the footer */
+#orr-footer-wrapper {
+	background-color: #0a4595;
+}
+footer {
+	max-width: 1200px;
+	padding: 1% 0;
+	margin: 0 auto;
+	color: lightgray;
+}
+footer a,
+footer a:visited {
+	color: white;
+	text-decoration: none;
+}
+.nav-menu__link.is-active, .nav-menu__link--is-active, .menu a.active {
+    color: lightgray;
+}
+footer a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+footer h2 {
+	margin: 0;
+}
+#block-menu-menu-footer-menu ul {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-padding-start: 0;
+	-webkit-padding-end: 0;
+	max-width: 600px;
+	margin: 0;
+	padding-left: 0;
+	float: left;
+}
+#block-menu-menu-footer-menu li {
+	list-style: none inside none;
+}
+#block-menu-menu-footer-menu li a {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#block-follow-site,
+#block-block-13 {
+	max-width: 600px;
+	margin: 0;
+	float: right;
+}
+#block-follow-site .title {
+	font-size: 1.1em;
+	color: white;
+	float: none;
+}
+#block-block-13 {
+	font-size: 80%;
+	clear: right;
+	text-align: right;
+}
+#block-block-12 {
+	clear: left;
+	padding-top: .1em;
+}
+/* style the taxonomy terms */
+#taxonomy-term .row-1,
+#taxonomy-term .row-2,
+#taxonomy-term .row-4,
+#taxonomy-term .row-5,
+#taxonomy-term-about .row-2,
+#taxonomy-term-about .row-3,
+#taxonomy-term-about .row-4 {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#taxonomy-term .row-2 h2,
+#taxonomy-term .row-3 h2,
+#taxonomy-term .row-4 h2,
+#taxonomy-term .row-5 h2 {
+	margin-top: 0;
+}
+#taxonomy-term .row-2 img {
+	width: unset;
+}
+#taxonomy-term .row-3 {
+	width: unset;
+	float: none;
+}
+#taxonomy-term .taxonomy-term-textblock {
+	max-width: 75%;
+	float: left;
+	clear: left;
+	padding-right: 1em;
+}
+#taxonomy-term .taxonomy-subterm-list {
+	margin-top: 1em;
+}
+/* #quick-links, */
+#related-articles {
+	margin: 2em 0;
+	float: left;
+	clear: left;
+}
+#related-articles {
+	max-width: 100%;
+}
+.section-oil-and-chemical-spills .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-oil-chemical-spills.jpg);
+}
+.section-environmental-restoration .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-environmental-assessment-tools.jpg);
+}
+.section-marine-debris .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-marine-debris.jpg);
+}
+.section-multimedia .row-3,
+.section-resources .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-resources.jpg);
+}
+.section-about .row-3 {
+	/* background-image: url(/sites/all/themes/orr_2/images/parallax-about-darrp.jpg); */
+}
+.section-disaster-preparedness .row-3,
+#all-upcoming-events .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-disaster-preparedness.jpg);
+}
+.page-taxonomy-term-79 .row-3,
+.page-taxonomy-term-372 .row-3,
+.page-taxonomy-term-390 .row-3,
+.page-taxonomy-term-79 .row-3,
+.page-taxonomy-term-80 .row-3,
+.page-taxonomy-term-81 .row-3,
+.page-taxonomy-term-82 .row-3,
+.page-taxonomy-term-83 .row-3,
+.page-taxonomy-term-569 .row-3
+{
+	background-image: none;
+	min-height: unset !important;
+}
+.page-taxonomy-term-469 .row-3 {
+	/* background-image: url(/sites/all/themes/orr_2/images/parallax-maps-spatial-data.jpg); */
+}
+.page-taxonomy-term-27 .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-oil-spills.jpg);
+}
+.page-taxonomy-term-28 .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-chemical-spills.jpg);
+}
+.page-taxonomy-term-86 .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-environmental-restoration.jpg);
+}
+.page-taxonomy-term-524 .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-historic-shipwrecks.jpg);
+}
+.page-taxonomy-term-289 .row-3 {
+	/* background-image: url(/sites/all/themes/orr_2/images/parallax-our-history.jpg);
+	min-height: 24em !important; */
+}
+.page-taxonomy-term-347 .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-disaster-preparedness.jpg);
+}
+.page-taxonomy-term-432 .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-training.jpg);
+	background-position: top !important;
+}
+.page-taxonomy-term-31 .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-significant-incidents.jpg);
+}
+.page-taxonomy-term-433 .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-education.jpg);
+	background-position: top !important;
+}
+.page-taxonomy-term-389 .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-about-darrp.jpg);
+	background-position: top !important;
+}
+.page-taxonomy-term-188 .row-3 {
+	background-image: url(/sites/all/themes/orr_2/images/parallax-dwh-explosion.jpg);
+}
+/* style the breadcrumb */
+/* hide the default breadcrumb and display the custom one */
+.breadcrumb {
+	display: none;
+}
+#taxonomy-term .panels-flexible-region-136-row_0,
+.panels-flexible-region-133-row_0 {
+    float: unset;
+	width: unset;
+}
+#orr-breadcrumb {
+	background-color: #f1f2f3;
+}
+#orr-breadcrumb .breadcrumb {
+	display: block;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1em 0;
+}
+#orr-breadcrumb a {
+	color: #A5AAAF;
+}
+#orr-breadcrumb a:hover {
+	text-decoration: none;
+}
+#orr-breadcrumb a:hover {
+	color: #323C46;
+}
+#taxonomy-term .taxonomy-term-image {
+	float: right;
+	clear: right;
+	width: fit-content;
+}
+#taxonomy-term .row-3 {
+	min-height: 25em;
+	background-attachment: fixed;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#taxonomy-term .row-3 {
+	max-width: none;
+	padding: 0;
+	margin: 0;
+}
+#taxonomy-term h3,
+#taxonomy-term h4 {
+	margin: 0;
+	padding: 0;
+	line-height: initial;
+}
+#taxonomy-term h4 {
+	font-size: 1em;
+	/* float: left; */
+}
+#taxonomy-term a {
+	text-decoration: none;
+}
+#taxonomy-term a:hover {
+	text-decoration: underline;
+	font-weight: 600;
+}
+/* styles for newsletter taxonomy terms */
+#taxonomy-term .view-nodes-weekly-current h2,
+#taxonomy-term .view-orr-weekly-report-archive h2 {
+	margin-top: 0;
+}
+.section-orr-weekly-report #taxonomy-term .taxonomy-term-textblock,
+.outreach-campaigns #taxonomy-term .taxonomy-term-textblock {
+	max-width: unset;
+}
+#taxonomy-term .view-nodes-weekly-current .orr-weekly-thumbnail,
+#taxonomy-term .view-orr-weekly-report-archive .orr-weekly-thumbnail,
+#taxonomy-term .view-drc-newsletter-current .orr-weekly-thumbnail,
+#taxonomy-term .view-drc-newsletter-past-issue .orr-weekly-thumbnail,
+#taxonomy-term .view-story-maps .views-field-field-poster-image,
+#taxonomy-term .view-research-profiles .research-profile-thumbnail {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+#taxonomy-term .view-nodes-weekly-current .views-row,
+#taxonomy-term .view-orr-weekly-report-archive .views-row,
+#taxonomy-term .view-drc-newsletter-current .views-row,
+#taxonomy-term .view-drc-newsletter-past-issue .views-row,
+#taxonomy-term .view-story-maps .views-row,
+#news-archive .view-featured-story-archive .views-row,
+#taxonomy-term .view-research-profiles .views-row {
+	width: 66%;
+    margin: 2em auto;
+    clear: both;
+}
+#taxonomy-term .view-orr-weekly-report-archive .view-content h3 {
+	clear: both;
+	font-weight: 900;
+	font-size: 1.8em;
+	color: #006666;
+	text-align: center;
+	margin: 1em 0;
+	padding: .5em 0;
+	background-color: #e7e9d8;
+}
+#taxonomy-term .views-field-field-image-1 .field-content .no-image,
+#taxonomy-term .orr-weekly-thumbnail .no-image {
+	background-color: darkgray;
+	color: white;
+	font-weight: 900;
+	width: 200px;
+	height: 200px;
+    text-align: center;
+	padding: 25%;
+}
+#taxonomy-term .pane-jump-menu-jump-menu-m-menu-weekly-report,
+#taxonomy-term .pane-jump-menu-jump-menu-m-menu-drc-newsletter {
+	clear:both;
+}
+/* style the about taxonomy terms */
+.color-ard {
+	color:#008DA8;
+}
+.color-dpp {
+	color:#DB6015;
+}
+.color-erd {
+	color:#0F1D6F;
+}
+.color-mdp {
+	color:#4B8320;
+}
+#taxonomy-term-about .about-hero-image {
+	background-image: linear-gradient(180deg, rgba(10, 21, 36, 0.2) 0%, #0A1524 99.72%), url(/sites/all/themes/orr_2/images/about-orr-hero-image_1500x1001.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 50vh;
+	position: relative;
+}
+#taxonomy-term-about .about-hero-text {
+	position: absolute;
+	top: 41%;
+	width: 100%;
+	margin: 0 auto;
+}
+#taxonomy-term-about .about-hero-text,
+#taxonomy-term-about .about-hero-text h1 {
+	text-align: center;
+	margin-top: 0;
+}
+#taxonomy-term-about .panels-flexible-region-four_row_layout-center {
+	width: 100%;
+}
+#taxonomy-term-about .panels-flexible-four_row_layout .panels-flexible-row {
+	padding: 0;
+	margin: 0;
+}
+#taxonomy-term-about #about-body-column {
+	width: 75%;
+	padding-right: 1em;
+}
+#taxonomy-term-about #about-side-menu,
+#taxonomy-term #default-taxonomy-term-side-menu {
+	float: right;
+    background-color: #E9F3F6;
+	width: 25%;
+}
+#taxonomy-term-about #about-side-menu .about-side-menu-button,
+#taxonomy-term #default-taxonomy-term-side-menu .default-taxonomy-term-side-menu-button {
+	margin: 1em;
+}
+#taxonomy-term-about #about-side-menu .about-side-menu-button .orr-button-5,
+#taxonomy-term #default-taxonomy-term-side-menu .default-taxonomy-term-side-menu-button .orr-button-5 {
+	width: 100%;
+	margin: 0;
+	padding: 6px 20px;
+	background-color: unset;
+	border: 2px solid #056FB7;
+	text-align: center;
+	color: #056FB7;
+}
+#taxonomy-term-about #about-side-menu .about-side-menu-button .orr-button-5:hover,
+#taxonomy-term #default-taxonomy-term-side-menu .default-taxonomy-term-side-menu-button .orr-button-5:hover {
+	background-color: #003087;
+	border: 2px solid #003087;
+	color: #FFFFFF;
+}
+#taxonomy-term-about .about-blue-box,
+#taxonomy-term .about-blue-box,
+#node .about-blue-box {
+	background-color: #C6E6F0;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+#taxonomy-term-about .about-blue-box p {
+	font-size: 1.2em;
+}
+#taxonomy-term-about details,
+#taxonomy-term details
+ {
+	border-top: #056FB7 solid 1px;
+	margin-bottom: 1em;
+}
+#taxonomy-term-about details.last,
+#taxonomy-term details.last {
+	border-bottom: #056FB7 solid 1px;
+	padding-bottom: 1em;
+}
+#taxonomy-term-about .pane-taxonomy-term-field-term-body hr {
+	border: 4px solid #D3D3D3;
+	max-width: 75%;
+	margin: 2em auto;
+}
+#taxonomy-term-about .accomplishment-report-list ul {
+	width: 70%;
+	list-style: none inside;
+	margin: 0;
+	padding: 0;
+}
+#taxonomy-term-about .accomplishment-report {
+	padding: 1em;
+	border: 1px solid #003087;
+}
+#about-accomplishments {
+	margin-bottom: 1em;
+}
+#about-accomplishments h2 {
+	text-align: center;
+}
+#about-accomplishments .about-accomplishments-intro-text {
+	max-width: 75%;
+	margin: 0 auto;
+}
+#about-accomplishments .about-accomplishments-cards {
+	display: inline-block;
+	height: 22em;
+	background-image: linear-gradient(180deg, rgba(10, 21, 36, 0.2) 0%, #0A1524 99.72%), url(/sites/all/themes/orr_2/images/noaa-marine-debris-monitoring-assessment-project-volunteers-sort-debris_2036x1262.jpg);
+	background-size: cover;
+	margin: 1em 0 3em 0;
+	position: relative;
+}
+#about-accomplishments .about-accomplishments-cards-inside {
+	max-width: 75%;
+	margin: 10em auto;
+}
+#about-accomplishments .about-accomplishments-card {
+	float: left;
+    max-width: 20%;
+	min-height: 14em;
+	text-align: center;
+	color: #056FB7;
+	background-color: #F1F3F3;
+	padding: 1.2em;
+	margin-right: 3.7em;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#about-accomplishments .card-1 {
+	margin: 18% 0;
+}
+#about-accomplishments .card-2 {
+	margin: 26% 0;
+}
+#about-accomplishments .card-3 {
+	margin: 18% 0;
+}
+#about-accomplishments .card-4 {
+	margin: 26% 0;
+}
+#about-accomplishments .about-accomplishments-card.last {
+	margin-right: 0;
+}
+#about-accomplishments .about-accomplishments-card-title {
+	font-size: 200%;
+	margin-bottom: .5em;
+}
+#about-accomplishments .about-accomplishments-card-text {
+	font-size: 120%;
+}
+#taxonomy-term-about #about-body-column .about-bio {
+	display: inline-block;
+    width: 95%;
+}
+#taxonomy-term-about #about-body-column .about-bio-text {
+	float: right;
+	max-width: 74%;
+}
+#taxonomy-term-about #about-body-column .about-bio-image {
+	float: left;
+	margin: 0 1em 1em 0;
+	max-width: 200px;
+	width: 100%;
+}
+#taxonomy-term-about #about-body-column .about-bio-image-caption {
+	text-align: center;
+}
+#taxonomy-term-about #about-body-column .about-bio-image-caption h3 {
+	margin: 0;
+}
+#taxonomy-term-about #management-team-cards {}
+#taxonomy-term-about #management-team-cards .management-team-cards-inside {}
+#taxonomy-term-about #management-team-cards .management-team-card {
+	float: left;
+	padding: 1em;
+	margin: 1em;
+	width: 29%;
+	text-align: center;
+	background-color: #C6E6F0;
+}
+#taxonomy-term-about #management-team-cards .management-team-card-name h3 {
+	margin: 0;
+}
+#taxonomy-term-about .about-division-box,
+#taxonomy-term .about-division-box,
+#node .about-division-box {
+	border: 2px solid #003087;
+	padding: 1em;
+	margin-bottom: 2em;
+}
+#taxonomy-term-about #about-divisions h3 {
+	margin: 0;
+}
+#taxonomy-term-about #about-divisions .about-division-subtitle {
+	font-style: italic;
+	font-weight: bolder;
+}
+#taxonomy-term-about #about-divisions .about-division-body-text {
+	margin-top: 1em;
+}
+#taxonomy-term-about #about-divisions .about-division-body-text a {
+	font-weight: bolder;
+}
+/* styles for tagged content display page */
+#nodes-with-tags h3 {
+	margin-top: 1em;
+}
+#incident-news-button,
+#response-tools-button,
+#events-calendar-button,
+#research-button {
+	width: 22%;
+	background-color: black;
+	float: right;
+	clear: right;
+	text-align: left;
+	padding: 0 1%;
+	margin: 0 0 1% 0;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+#incident-news-button a,
+#response-tools-button a,
+#events-calendar-button a,
+#research-button a {
+	color: white;
+	text-decoration: none;
+}
+#incident-news-button a:hover,
+#response-tools-button a:hover,
+#events-calendar-button a:hover,
+#research-button a:hover {
+	text-decoration: underline;
+}
+#taxonomy-term .jcarousel-skin-orr .jcarousel-item-horizontal {
+    margin: 0;
+}
+#quick-links h4,
+#related-articles h4,
+#nodes-with-tags h4 {
+	margin: 0;
+	font-weight: normal;
+	clear: both;
+}
+#quick-links .view-quick-links {
+	/* max-width: 95%; */
+	margin: 0 auto;
+	padding: 0 0 1% 0;
+}
+#related-articles .views-row {
+	float:left;
+	max-width: 23%;
+	margin-right: 1em;
+}
+#related-articles h4 {
+	font-size: .8em;
+	font-weight: bold;
+	padding: 0 .6em;
+}
+/* style the news archive */
+#news-archive .row-1,
+#news-archive .row-2,
+#news-archive .row-3,
+#news-archive .row-4,
+#news-archive .row-5 {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2em 0;
+}
+#news-archive .views-field-title {
+	font-size: .9em;
+}
+#news-archive .pane-featured-story-archive {
+	margin: 20px;
+}
+#news-archive .views-field-field-image-1 {
+	float: left;
+	margin-right: 6px;
+	margin-bottom: 6px;
+}
+#news-archive .views-field-field-image-1 .field-content .no-image {
+	background-color: darkgray;
+	color: white;
+	font-weight: 900;
+	width: 200px;
+	height: 200px;
+    text-align: center;
+	padding: 25%;
+}
+#news-archive .view-grouping-header,
+#news-archive .view-grouping-content h3 {
+	clear: both;
+}
+#news-archive .view-grouping-header {
+	font-weight: 900;
+	font-size: 1.8em;
+	color: #006666;
+	text-align: center;
+	margin-top: 1em;
+	padding: .5em 0;
+	background-color: #e7e9d8;
+}
+#news-archive .view-grouping-content h3 {
+	margin: 0;
+	padding: .25em;
+	background-color: #e7e9d8;
+}
+#news-archive h4 {
+	margin-top: 0;
+}
+#news-archive td,
+#news-archive th {
+	width: 50%;
+}
+#news-archive-button {
+	width: 150px;
+	margin: 10px;
+	padding: 8px;
+	font-weight: bold;
+	background-color: #236c96;
+	color: white;
+	-moz-box-shadow: 3px 3px 4px lightgray;
+	-webkit-box-shadow: 3px 3px 4px lightgray;
+	box-shadow: 3px 3px 4px lightgray;
+}
+#news-archive-button a {
+	color: white;
+}
+/* Style the scroll anchors */
+#scroll-anchor-menu {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+#scroll-anchor-menu  ul {
+	padding: 0;
+	margin: 0;
+}
+#scroll-anchor-menu li {
+	float: left;
+	list-style-type: none;
+	background-color: #056FB7;
+	font-size: .75em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#scroll-anchor-menu li a {
+	opacity: 1;
+	color: white;
+}
+/* style nodes */
+#node h4 {
+	margin: 1em 0;
+}
+#node .row-1,
+#node .row-2,
+#node .row-3,
+#node .row-4,
+#node .row-5 {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#node .row-3 {
+	background-image: none;
+	min-height: unset !important;
+}
+#node .node-image {
+	float: right;
+	clear: right;
+	margin: 20px 0 0 20px;
+	width: fit-content;
+}
+#node .node-image-left {
+	float: left;
+	clear: left;
+	margin: 20px 0 0 20px;
+	width: fit-content;
+}
+#node .node-image-center {
+	width: min-content;
+	margin: 0 auto;
+}
+#node .node-image-center img {
+	max-width: 1200px;
+}
+#node .node-image .field-item {
+	max-width: min-content;
+}
+#node .pane-node-field-image-1.node-image,
+#node .pane-node-field-image-2.node-image,
+#node .pane-node-field-image-3.node-image,
+#node .pane-node-field-image-4.node-image,
+#node .pane-node-field-image-5.node-image {
+	margin: 1em 0 0 1em;
+	max-width: min-content;
+	max-width: -moz-min-content;
+	max-width: -webkit-min-content;
+	height: auto;
+}
+#node .pane-node-field-image-1 img,
+#node .pane-node-field-image-2 img,
+#node .pane-node-field-image-3 img,
+#node .pane-node-field-image-4 img,
+#node .pane-node-field-image-5 img { 
+	max-width: 1200px;
+	height: auto;
+}
+#node #image-gallery .pane-title,
+#node .pane-node-field-tags .pane-title {
+	text-transform: uppercase;
+	font-size: .8em;
+}
+#node #ms-edge {
+	display: -ms-grid;
+	-ms-grid-columns: min-content;
+}
+#node .node-image-caption {
+	float: right;
+	clear: left;
+	font-size: .8em;
+	font-style: italic;
+}
+#node .node-image-caption-left {
+	float: left;
+	clear: left;
+	font-size: .8em;
+	font-style: italic;
+}
+#node .node-image-caption-center {
+	text-align: center;
+	font-size: .8em;
+	font-style: italic;
+}
+#node .node-subtitle {
+	margin-top: 1.5em;
+	clear: left;
+	font-weight: 600;
+	font-size: 1em;
+	color: #585858;
+}
+#node .pane-node-attachments td {
+	padding: 1.5em;
+}
+#node #image-gallery {
+	width: 100%;
+}
+#node #image-gallery .field-item {
+	float: left;
+	margin: 0 1% 0 0;
+}
+#node .node-gallery-images-desktop,
+#node .pane-node-field-tags {
+	display: inline-block;
+}
+#node .pane-node-updated {
+	font-size: .8em;
+	font-weight: 600;
+	margin: 1em 0;
+}
+/* style the image galleries */
+#image-gallery .row-1,
+#image-gallery .row-2,
+#image-gallery .row-3,
+#image-gallery .row-4,
+#image-gallery .row-5 {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 3em 0;
+}
+#image-gallery .image {
+	float: left;
+	margin: 1% 1% .6% 1%;
+}
+#image-gallery .image-4,
+#image-gallery .image-8,
+#image-gallery .image-12,
+#image-gallery .image-16,
+#image-gallery .image-20,
+#image-gallery .image-24,
+#image-gallery .image-28,
+#image-gallery .image-32,
+#image-gallery .image-36,
+#image-gallery .image-40 {
+	clear: right;
+}
+/* drag the colorbox down and limit the height of the images */
+#colorbox {
+	top: 2% !important;
+	/* max-height: 80%; */
+}
+#cboxContent {
+	/* overflow: scroll !important; */
+}
+#colorbox img
+{
+}
+/* Style photo collections. These are displays of the image nodes in */
+/* the taxonomy term page */
+#orr-photo-collection {
+	margin: 10px 0 10px 30px;
+	/* outline: red solid thick; */
+}
+#orr-photo-collection .row-1,
+#orr-photo-collection .row-2,
+#orr-photo-collection .row-4,
+#orr-photo-collection .row-5 {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#orr-photo-collection .row-2 h2,
+#orr-photo-collection .row-3 h2,
+#orr-photo-collection .row-4 h2,
+#orr-photo-collection .row-5 h2 {
+	margin-top: 0;
+}
+#orr-photo-collection .row-2 img {
+	width: unset;
+}
+#orr-photo-collection .row-3 {
+	width: unset;
+	float: none;
+}
+#orr-photo-collection .views-slideshow-controls-top {
+	position: relative;
+	float: left;
+	clear: left;
+	width: 180px;
+	/* outline: orange solid thick; */
+}
+#orr-photo-collection .views_slideshow_pager_field_item {
+	float: left;
+	padding: 3px 3px 0 3px;
+	margin: 0;
+	opacity: .6;
+	background-color: #435077;
+	/* outline: yellow solid thick; */
+}
+#orr-photo-collection .views_slideshow_pager_field_item .views-row-odd {
+	clear: left;
+	/* outline: green solid thick; */
+}
+#orr-photo-collection .active {
+	opacity: 1;
+}
+#orr-photo-collection .views_slideshow_main {
+	position: relative;
+	/* width: 764px; */
+	float: left;
+	/* outline: blue solid thick; */
+}
+#orr-photo-collection .views-field-field-image-1-2 {
+	position: relative;
+	max-width: 75%;
+	height: auto;
+	float: left;
+	margin: 0em 1.2em .8em 0em;
+	-moz-box-shadow: 3px 3px 4px lightgray;
+	-webkit-box-shadow: 3px 3px 4px lightgray;
+	box-shadow: 3px 3px 4px lightgray;
+	/* outline: indigo solid thick; */
+}
+#orr-photo-collection .views-row {
+	position: relative;
+	width: 990px;
+}
+#orr-photo-collection .views-field-title {
+	position: relative;
+	clear: right;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #435077;
+	/* font-family: verdana,arial,sans-serif; */
+	margin-bottom: 1em;
+	/* outline: violet solid thick; */
+}
+#orr-photo-collection .views-field-body {
+	position: relative;
+	clear: right;
+	font-size: .9em;
+	margin-bottom: .6em;
+	/* outline: red solid thin; */
+}
+#orr-photo-collection .views-field-field-image-credit-value {
+	position: relative;
+	clear: right;
+	font-size: .9em;
+	margin-bottom: .8em;
+}
+#orr-photo-collection .photo-credit-label {
+	position: relative;
+	clear: right;
+	font-size: .9em;
+	font-weight: 600;
+	margin-bottom: .8em;
+}
+#orr-photo-collection .views-field-field-image-1-fid-1 {
+	position: relative;
+	clear: right;
+	margin-bottom: .8em;
+	font-size: .8em;
+	font-weight: 600;
+	/* outline: orange solid thick; */
+}
+#orr-photo-collection .views-slideshow-controls-bottom {
+	display: inline;
+	font-size: .8em;
+	font-weight: 600;
+	/* outline: green solid thin; */
+}
+#orr-photo-collection .views_slideshow_controls_text_previous {
+	margin-right: .1em;
+}
+#orr-photo-collection .views_slideshow_controls_text_pause {
+	margin-right: .1em;
+}
+/* Style the annual report galleries */
+#taxonomy-term-annual-report .panels-flexible-117-inside {
+	background-color: black;
+}
+#taxonomy-term-annual-report .panels-flexible-row {
+	padding: 0;
+}
+#taxonomy-term-annual-report .row-1 {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#taxonomy-term-annual-report .title,
+#taxonomy-term-annual-report .panel-region-separator
+{
+	display: none;
+}
+#taxonomy-term-annual-report .views_slideshow_controls_text {
+	display: inline;
+}
+#taxonomy-term-annual-report .views-slideshow-controls-bottom {
+	position: absolute;
+	top: 300px;
+	z-index: 50;
+}
+#taxonomy-term-annual-report .views-slideshow-controls-bottom img {
+	width: auto;
+	height: auto;
+	max-width: unset;
+}
+#taxonomy-term-annual-report .views-slideshow-controls-bottom a {
+	color: white;
+}
+#taxonomy-term-annual-report .views_slideshow_controls_text_previous,
+#taxonomy-term-annual-report .vscc_controls_previous {
+	font-size: 1.2em;
+	line-height: 1.8em;
+	padding: 0 0.5em;
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	left: 0px;
+	border-radius: .0em .3em .3em .0em;
+}
+#taxonomy-term-annual-report .views_slideshow_controls_text_pause,
+#taxonomy-term-annual-report .vscc_controls_pause {
+	display: none;
+}
+#taxonomy-term-annual-report .views_slideshow_controls_text_next,
+#taxonomy-term-annual-report .vscc_controls_next {
+	font-size: 1.2em;
+	line-height: 1.8em;
+	padding: 0 0.5em;
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	right: -992px;
+	border-radius: .3em .0em .0em .3em;
+}
+#taxonomy-term-annual-report .views_slideshow_slide_counter {
+	font-size: 1em;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: white;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 49;
+	padding: 6px;
+	border-radius: .0em .0em .0em .5em;
+}
+#taxonomy-term-annual-report .panels-flexible-region-90-body_region {
+	width: 100%;
+}
+#taxonomy-term-annual-report .views-field-title,
+#taxonomy-term-annual-report .views-field-body {
+	position: absolute;
+	left: 466px;
+	width: 400px;
+	background-color: rgba(255,255,255,0.8);
+	font-size: 0.8em;
+	line-height: 1.2;
+}
+#taxonomy-term-annual-report .views-field-title {
+	top: 25px;
+	font-size: 1.5em;
+	line-height: 1.4em;
+	font-weight: 800;
+	padding: 20px 20px 10px 20px;
+}
+#taxonomy-term-annual-report .views-field-body {
+	top: 121px;
+	padding: 0 20px 0 20px;
+}
+#taxonomy-term-annual-report .report-title {
+	position: relative;
+	top: -75px;
+	left: 20px;
+	z-index: 48;
+	font-size: 2.2em;
+	font-weight: 800;
+	color: rgba(255,255,255,0.8);
+}
+#taxonomy-term-annual-report .current-chapter {
+	position: absolute;
+	top: 570px;
+	left: 395px;
+	z-index: 47;
+	font-size: 2.2em;
+	font-weight: 800;
+	color: white;
+}
+#taxonomy-term-annual-report .pane-term-list .pane-title {
+	float: left;
+	padding: 10px;
+	margin: 0;
+}
+#taxonomy-term-annual-report .pane-term-list ol {
+	padding: 0;
+	margin: 0;
+}
+#taxonomy-term-annual-report .pane-term-list a {
+	color: white;
+}
+#taxonomy-term-annual-report .pane-term-list li {
+	font-size: 1em;
+	float: left;
+	padding: 10px 20px;
+	margin-right: 2px;
+	background-color: rgba(106, 166, 177, 1);
+	border-radius: .6em .6em 0 0;
+	color: white;
+	list-style-type: none;
+}
+/* Style the annual report galleries version 2 */
+#views_slideshow_cycle_main_clone_of_accomplishments_report_nodes_2-default_1 {
+	max-height: 600px;
+}
+#taxonomy-term-annual-report-v2 li {
+	padding: 0 0.1em 0 0;
+}
+#taxonomy-term-annual-report-v2 .panels-flexible-region-150-row_1 {
+	width: 100%;
+}
+#taxonomy-term-annual-report-v2 .panels-flexible-row {
+	padding: 0;
+}
+#taxonomy-term-annual-report-v2 .row-1 {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#taxonomy-term-annual-report-v2 .title,
+#taxonomy-term-annual-report-v2 .panel-region-separator
+{
+	display: none;
+}
+#taxonomy-term-annual-report-v2 .views_slideshow_controls_text {
+	display: inline;
+}
+#taxonomy-term-annual-report-v2 .views-slideshow-controls-bottom {
+	position: absolute;
+	top: 300px;
+	z-index: 50;
+}
+#taxonomy-term-annual-report-v2 .views-slideshow-controls-bottom img {
+	width: auto;
+	height: auto;
+	max-width: unset;
+}
+#taxonomy-term-annual-report-v2 .views-slideshow-controls-bottom a {
+	color: white;
+}
+#taxonomy-term-annual-report-v2 .views_slideshow_controls_text_previous,
+#taxonomy-term-annual-report-v2 .vscc_controls_previous {
+	font-size: 1.2em;
+	line-height: 1.8em;
+	padding: 0 0.5em;
+	/* background-color: rgba(10, 69, 149, .8); */
+	background-color: #0085CA;
+	position: absolute;
+	left: 0px;
+	border-radius: .0em .3em .3em .0em;
+}
+#taxonomy-term-annual-report-v2 .views_slideshow_controls_text_pause,
+#taxonomy-term-annual-report-v2 .vscc_controls_pause {
+	display: none;
+}
+#taxonomy-term-annual-report-v2 .views_slideshow_controls_text_next,
+#taxonomy-term-annual-report-v2 .vscc_controls_next {
+	font-size: 1.2em;
+	line-height: 1.8em;
+	padding: 0 0.5em;
+	/* background-color: rgba(10, 69, 149, .8); */
+	background-color: #0085CA;
+	position: absolute;
+	right: -1200px;
+	border-radius: .3em .0em .0em .3em;
+}
+#taxonomy-term-annual-report-v2 .views_slideshow_slide_counter {
+	font-size: 1em;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: white;
+	background-color: rgba(10, 69, 149, .8);
+	/* background-color: #0085CA; */
+	z-index: 49;
+	padding: 6px;
+	border-radius: .0em .0em .0em .5em;
+}
+#taxonomy-term-annual-report-v2 .panels-flexible-region-90-body_region {
+	width: 100%;
+}
+#taxonomy-term-annual-report-v2 .views-field-title,
+#taxonomy-term-annual-report-v2 .views-field-body {
+	position: absolute;
+	left: 600px;
+	width: 530px;
+	background-color: rgba(255,255,255,0.8);
+	font-size: 0.9em;
+	line-height: 1.5;
+}
+#taxonomy-term-annual-report-v2 .views-field-title {
+	top: 25px;
+	font-size: 1.5em;
+	font-weight: 800;
+	padding: 20px 20px 0px 20px;
+	border-top: 6px solid #0085CA;
+	color: rgb(10, 69, 149);
+}
+#taxonomy-term-annual-report-v2 .views-field-body {
+	top: 123px;
+	padding: 10px 20px 10px 20px;
+}
+#taxonomy-term-annual-report-v2 .report-title {
+	position: relative;
+	top: -75px;
+	left: 20px;
+	z-index: 48;
+	font-size: 2.2em;
+	font-weight: 800;
+	color: rgba(255,255,255,0.8);
+}
+/* Style the outreach campaign pages */
+.outreach-campaigns #taxonomy-term .field-name-field-gallery-images .field-item {
+	float: left;
+}
+.outreach-campaigns #taxonomy-term .pane-taxonomy-term-field-term-image {
+    float: right;
+	margin: 0 0 1em 1em;
+}
+.outreach-campaigns #taxonomy-term .taxonomy-term-textblock {
+	float: none;
+	clear: none;
+}
+.outreach-campaigns #taxonomy-term .pane-outreach-campaign-being-viewed,
+.outreach-campaigns #taxonomy-term .pane-outreach-campaign-offsite-content {
+	width: 66%;
+	margin: 2em auto;
+}
+.outreach-campaigns #taxonomy-term .pane-outreach-campaign-being-viewed .views-row,
+.outreach-campaigns #taxonomy-term .pane-outreach-campaign-offsite-content .views-row {
+	clear: both;
+}
+.outreach-campaigns #taxonomy-term .pane-outreach-campaign-offsite-content .views-row {
+	margin: 0 0 1em 0;
+}
+.outreach-campaigns #taxonomy-term .orr-weekly-thumbnail,
+.outreach-campaigns #taxonomy-term .views-field-field-image-1 {
+	float: right;
+    margin: 0 0 1em 1em;
+}
+/* Style the sitemap */
+.section-sitemap h1,
+#site-map {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+/* Style the feed aggregator pages */
+.section-aggregator  h1,
+.section-aggregator  #aggregator {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+/* Style the CustomError pages */
+.section-customerror .layout-center {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+/* shutdown banner style */
+#shutdown {
+	background: lightgoldenrodyellow;
+	border: solid 2px black;
+	position: relative;
+	margin: 10px 28px 10px 28px;
+	padding: 8px;
+	width: 912px;
+	font-weight: 600;
+	float: left;
+	z-index: 100;
+}
+/* style the ERMA clickable map */
+#erma-clickable-map {
+	max-width: 450px;
+	margin: 0 auto;
+}
+#erma-clickable-map img {
+	width: 450px;
+	height: 250px;
+}
+/* style the events calendar */
+.section-events .view-calendar {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 2em;
+}
+.section-events h1 {
+	color: #003087;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right:auto;
+}
+.section-events ul {
+	list-style: none;
+}
+.calendar-calendar .month-view .full td.single-day div.monthview {
+	background-color: rgb(10, 69, 149);
+}
+.section-events .field-name-field-registration-link,
+#all-upcoming-events .views-field-field-registration-link {
+	width: fit-content;
+	min-width: 10%;
+	text-align: center;
+	background-color: rgb(10, 69, 149);
+	padding: 1em;
+	margin: 1em 0;
+}
+.section-events .field-name-field-registration-link a,
+#all-upcoming-events .views-field-field-registration-link a,
+.section-events .view-item-calendar a,
+#all-upcoming-events .views-field-field-registration-link {
+	color: white;
+	text-decoration: none;
+}
+.section-events .view-item-calendar a {
+}
+.section-events .calendar-backlinks {
+	font-size: .8em;
+	font-weight: bold;
+	margin-top: 1em;
+}
+.section-events .pane-node-event-calendar-date,
+.section-events .field-name-field-more-information-page,
+.section-events .pane-node-field-registration-link,
+.section-events .calendar-backlinks
+{
+	
+}
+
+#all-upcoming-events {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.node-type-event-calendar .name-block {
+	font-weight: bold;
+	margin-top: 1em;
+}
+.node-type-event-calendar .country {
+	display:none;
+}
+.node-type-event-calendar .pane-node-body {
+	margin: 1em 0;
+}
+.node-type-event-calendar #image-gallery {
+	width: 100%;
+}
+.node-type-event-calendar .field-item {
+	margin: 0 1% 0 0;
+}
+.parallax-content-boxes {
+	max-width: 40%;
+	margin: 1em 0;
+	background-color: rgba(255,255,255,.8);
+	padding: 1em;
+}
+.parallax-content-boxes .views-row {
+	margin: 1em 0;
+}
+.parallax-content-boxes .views-field-event-calendar-date,
+.parallax-content-boxes .views-field-field-address-administrative-area {
+	font-size: .8em;
+}
+#taxonomy-term .parallax-content-region {
+	max-width: 1200px;
+	margin: 1em auto;
+	float: none;
+}
+/* style timelines */
+#orr-timelines .row-1,
+#orr-timelines .row-2,
+#orr-timelines .row-4,
+#orr-timelines .row-5 {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+/* this corrects a deficiency in the timeline module CSS */
+.simple_timeline ul li:nth-child(even) > div .timeline-content {
+	float: left;
+}
+/* Style the more news box */
+#more-front-page-news {
+	float:right;
+	max-width:22%;
+}
+#more-front-page-news .item-list {
+	font-size: 80%;
+}
+#more-front-page-news h2 {
+	background-color: black;
+	text-align: left;
+	padding: 0 2%;
+	margin: 0 0 2% 0;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+#more-front-page-news h2 a {
+	text-decoration: none;
+	color: white;
+}
+#more-front-page-news .views-field-title {
+	font-size: .8em;
+	margin-top: .8em;
+}
+#more-front-page-news a {
+	text-decoration: none;
+}
+#more-front-page-news a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+#news-archive-button {
+	clear: both;
+	margin: 1em auto 1em auto;
+	width: fit-content;
+}
+#news-archive-button h3 {
+	margin: 0;
+}
+/* experimental css for video backgrounding */
+#index-page .video-overlay {
+	position: relative;
+}
+#index-page .row-6 .video-overlay {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 3em 0;
+	height: 100vh;
+}
+#index-page .row-6 .video-overlay h2 {
+	width: 22%;
+	background-color: black;
+	color: white;
+	text-align: left;
+	padding: 0 1%;
+	margin: 0 0 2% 0;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+#index-page .row-6 .video-overlay ul {
+	max-width: 85%;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+#index-page .row-6 .video-overlay a {
+	color: white;
+}
+#index-page .row-6 video {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+}
+/* css for Donna Roberts ESI page */
+.page-node-138 hr {
+	margin-bottom: 8em;
+}

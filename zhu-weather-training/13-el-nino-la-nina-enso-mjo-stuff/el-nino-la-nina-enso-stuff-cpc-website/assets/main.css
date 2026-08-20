@@ -1,0 +1,224 @@
+
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family : arial, helvetica, san-serif;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+	font-size : 1.75rem;
+}
+h3 {
+	font-size : 1.45rem;
+}
+
+/*table {
+  border-collapse: collapse;
+  border: 0;
+}
+*/
+table.main-content {
+  border-collapse: separate;
+  margin: 1rem 0 3rem;
+  padding: 0 2rem;
+  width: 90%;
+  max-width: 1000px;
+}
+
+@media (min-width: 1400px) {
+  table.main-content {
+    width: 75%;
+  }
+}
+
+.breadcrumbs-table {
+  width: 100%;
+}
+
+.breadcrumbs {
+  font-size: 0.75rem;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#menuitem a {
+color: white;
+text-decoration: none;
+}
+
+#menuitem a:visited {
+color: #fff;
+text-decoration: none;
+}
+
+#menuitem a:hover { 
+color : #f0e68c; 
+text-decoration : underline; }
+
+
+#menuitemviv a:link {
+color: blue;
+text-decoration: none;
+}
+
+.white  {
+	font-size : 9pt;
+	color : #fff;
+	font-weight : bold;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.yellow  {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 0.75rem;
+	font-weight : bold;
+	color : #f0e68c;
+}
+
+.special  {
+	font-family : Verdana, Arial, sans-serif;
+	font-size :0.625rem;
+	font-weight : bold;
+      background-color : #ccc;
+}
+
+.small  {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	font-weight : bold;
+}
+
+
+.searchinput, .searchinput SELECT, .searchinput INPUT  {
+	font-size : 8pt;
+}
+
+td  {
+	font-size : 1rem;
+	font-family : arial, helvetica, san-serif;
+}
+
+
+.gray  {
+	font-size : 0.625rem;
+	color : #808080;
+}
+
+.nav  {
+	font-size : 9pt;
+	color : #fff;
+	font-weight : bold;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.viv  {
+	font-size : 9pt;
+	color : #0000ff;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.viv-li  {
+      margin-left : -20px; 
+}
+
+.nav2  {
+	font-size : 8pt;
+	color : #fff;
+	font-weight : bold;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+
+.nwslink  {
+	font-size : 9pt;
+	color: Black;
+	text-decoration: none;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.srhwhite  {
+	font-size : 9pt;
+	text-decoration: none;
+	color : #fff;
+	font-weight : bold;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+/* ----------------------------------------------------------------- */
+/* The following link class (i.e. menu) is for the the menu items    */
+/* ----------------------------------------------------------------- */
+
+a.menu {
+	text-decoration: none;
+  color: #fff;
+}
+
+a.menu:visited {
+  color: #fff;
+	text-decoration: none;
+}
+
+a.menu:hover { 
+color : #f0e68c; 
+text-decoration : underline; 
+}
+/* ----------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------- */
+/* The following link class (i.e. homepagelinks) is for 
+   all the other links on the homepage                               */
+/* ----------------------------------------------------------------- */
+
+a.homepagelinks:link {
+	color: #0000FF;
+	text-decoration: none;
+}
+
+a.homepagelinks:Visited {
+      color: #003399;
+      text-decoration: none;
+}
+
+a.homepagelinks:hover { 
+      color : #FF0000;
+      text-decoration : underline;
+}
+
+/* ----------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------- */
+/* The following link class (i.e. notifications) is for 
+ *    notifications and banners denoting caveats.                    */
+/* ----------------------------------------------------------------- */
+p.experiment{
+	color: #FF0000;
+	position:relative;
+	left:225px;
+/*	text-align: center;*/
+	text-transform: uppercase;
+        font-family : Arial, Helvetica, sans-serif;
+	font-size: 2em;
+}
+
+
+p.FAQ{
+        color: #FF0000;
+        position:relative;
+        left:0px;
+/*      text-align: center;*/
+        text-transform: uppercase;
+        font-family : Arial, Helvetica, sans-serif;
+        font-size: 2em;
+}
